@@ -17,6 +17,7 @@ ET = ZoneInfo("America/New_York")
 SLOTS = {"A": "09:00", "B": "12:00", "C": "15:00", "D": "19:00"}
 PAIRS = [("B", "D"), ("A", "C")]  # pair 0 = the 12 PM / 7 PM baseline from the original brief
 MIN_LEAD = timedelta(minutes=45)
+EPOCH = date(2026, 11, 17)  # first day of the rotation: a 12 PM + 7 PM day
 
 
 class Blocked(Exception):
@@ -28,7 +29,7 @@ def plan(start: date, days: int, after: datetime = None, first_pair=0):
     out = []
     for i in range(days):
         d = start + timedelta(days=i)
-        for s in PAIRS[(i + first_pair) % 2]:
+        for s in PAIRS[((d - EPOCH).days + first_pair) % 2]:  # parity is tied to the calendar, not to the day planning starts
             h, m = map(int, SLOTS[s].split(":"))
             t = datetime(d.year, d.month, d.day, h, m, tzinfo=ET)
             if after is None or t >= after + MIN_LEAD:

@@ -84,3 +84,14 @@ The owner called the Pompeii episode "really bad": not enough character, lightin
 - Running a Space failed twice with: "The invoke operation is disabled because gradio=none is set." So through this connection I can browse and read parameters but not generate. No image, voice or clip was produced through it.
 - Ways forward: the owner turns on "Dynamic Spaces" (and adds the Spaces) at huggingface.co/settings/mcp and reconnects, which may or may not lift the block; or a Hugging Face read token is stored on the cloud environment so the workspace calls the Spaces directly (the Spaces answered from this workspace earlier; only anonymous quota stopped them).
 - Capacity: Hugging Face's docs say PRO's 40 minutes allow up to 600 FLUX.1 schnell images a day, which implies about 75 on the free 5 minutes. Slower, better models, speech and video all draw on the same minutes; their real cost per call is not measured yet.
+
+## Addendum: what Hugging Face would cost for one episode a day
+Nothing has been generated on Hugging Face yet, so these are estimates from published numbers, not measurements.
+- Plans: free = 5 GPU-minutes a day; PRO = $9 a month, 40 minutes a day, then $1 per 10 minutes (official docs). PRO also includes $2 a month of Inference Providers credit.
+- GPU time each Space reserves per call (read from each Space's `app.py`): FLUX.1 schnell 10 s; FLUX.1 Krea 25 s; FLUX.1 Kontext edit 25 s; Qwen-Image and Qwen-Image-Fast 40 s on the double-rate GPU (counts as 80 s); FLUX.2 klein (official Space) 85 s; Z-Image-Turbo and Chatterbox the 60 s default; Wan 2.2 image-to-video about 33 to 48 s for a 3.5 to 5 s clip.
+- Whether quota is charged on the reserved time or the time actually used is not settled: a community answer (Apr 2026) says reserved; there is no staff statement.
+- Assumed episode: 200 image generations including retries (140 scenes on Krea, 60 character-consistent edits on Kontext), 30 Chatterbox calls, 10 clip attempts.
+  - Charged on reserved time: about 120 minutes a day. 80 over the allowance = $8 a day, about $250 a month with the subscription. With the voice made elsewhere: about 90 minutes, about $160 a month.
+  - If only time actually used is charged the bill could be far lower; unknown until measured.
+- Cheaper split for a daily episode: scene images on Cloudflare (200 a day at 1280x720 is about 18,200 neurons; 8,200 over the free 10,000 costs about $0.09 a day, roughly $3 a month), voice on the local model (free) or Gemini TTS (about $0.21 an episode), and Hugging Face PRO only for character edits and a few moving shots (about 32 reserved minutes a day, inside the 40). Roughly $12 to $20 a month.
+- The free plan cannot make a daily episode: 5 minutes is about 12 Krea images.

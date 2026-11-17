@@ -39,7 +39,7 @@ def plan(start: date, days: int, after: datetime = None, first_pair=0):
 
 def assign(c, start: date, after: datetime, days=14, experiment_id=None, shuffle_seed=None):
     """Give every queued publication the next free slot, oldest first. Empty slots stay empty: no filler."""
-    taken = {r["publish_at"] for r in c.execute("SELECT publish_at FROM publications WHERE status IN ('queued','drafted','scheduled','live') AND publish_at IS NOT NULL")}
+    taken = {r["publish_at"] for r in c.execute("SELECT publish_at FROM publications WHERE status IN ('queued','drafted','scheduled','live','failed') AND publish_at IS NOT NULL")}  # a failed upload keeps its slot until it is retried or moved
     free = [p for p in plan(start, days, after) if p["publish_at"] not in taken]
     q = c.execute("SELECT p.id, a.kind, a.episode_id FROM publications p JOIN assets a ON a.id=p.asset_id WHERE p.status='queued' AND p.publish_at IS NULL ORDER BY p.id").fetchall()
     if shuffle_seed is not None:  # random assignment of videos to slots, so a strong video is not always in the same slot

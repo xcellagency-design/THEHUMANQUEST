@@ -16,6 +16,7 @@ Publishing
   uploaded NAME UPLOAD_ID        the video is in the vidIQ library
   drafts                         draft request for every planned video, or the reason it is blocked
   drafted PUB POST_ID            a vidIQ draft exists
+  carried                        drafts and refused uploads from earlier runs, with the arguments to re-send before publishing
   approve PUB...                 the owner approved these publications (records who and when)
   scheduled PUB | live PUB YOUTUBE_ID | failed PUB 'why'
 Measuring
@@ -114,6 +115,14 @@ def main(argv):
     elif cmd == "drafts":
         for r in c.execute("SELECT id FROM publications WHERE status='queued' AND publish_at IS NOT NULL ORDER BY publish_at").fetchall():
             try: print(json.dumps({"pub": r["id"], **schedule.draft_request(c, r["id"])}))
+            except schedule.Blocked as e: print(f"pub {r['id']} BLOCKED: {e}")
+    elif cmd == "carried":  # drafts and refused uploads left by an earlier run: the arguments to re-send with vidiq_social_post_draft_update before publishing
+        for r in c.execute("SELECT p.id, p.status, p.vidiq_post_id, a.kind, a.episode_id FROM publications p JOIN assets a ON a.id=p.asset_id WHERE p.status IN ('drafted','failed') AND p.vidiq_post_id IS NOT NULL ORDER BY p.publish_at").fetchall():
+            try:
+                req = schedule.draft_request(c, r["id"]); pk = os.path.join(db.ROOT, "03_episodes", r["episode_id"], "09_package", "package.json")
+                thumb = json.load(open(pk)).get("long", {}).get("thumbnail_image_id") if r["kind"] == "long" and os.path.exists(pk) else None
+                if thumb: req["destinations"][0]["thumbnailImageId"] = thumb
+                print(json.dumps({"pub": r["id"], "status": r["status"], "postId": r["vidiq_post_id"], "destinations": req["destinations"]}))
             except schedule.Blocked as e: print(f"pub {r['id']} BLOCKED: {e}")
     elif cmd == "drafted": setpub(c, a[0], "drafted", vidiq_post_id=a[1])
     elif cmd == "approve":

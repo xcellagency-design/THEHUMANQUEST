@@ -40,10 +40,15 @@ def assign(c, start: date, after: datetime, days=14, experiment_id=None, shuffle
     """Give every queued publication the next free slot, oldest first. Empty slots stay empty: no filler."""
     taken = {r["publish_at"] for r in c.execute("SELECT publish_at FROM publications WHERE status IN ('queued','drafted','scheduled','live') AND publish_at IS NOT NULL")}
     free = [p for p in plan(start, days, after) if p["publish_at"] not in taken]
-    q = c.execute("SELECT p.id, a.kind FROM publications p JOIN assets a ON a.id=p.asset_id WHERE p.status='queued' AND p.publish_at IS NULL ORDER BY p.id").fetchall()
+    q = c.execute("SELECT p.id, a.kind, a.episode_id FROM publications p JOIN assets a ON a.id=p.asset_id WHERE p.status='queued' AND p.publish_at IS NULL ORDER BY p.id").fetchall()
     if shuffle_seed is not None:  # random assignment of videos to slots, so a strong video is not always in the same slot
         import random
         random.Random(shuffle_seed).shuffle(q)
+    # one episode's videos never run back to back while another episode has something waiting
+    groups = {}
+    for r in q:
+        groups.setdefault(r["episode_id"], []).append(r)
+    q = [g[i] for i in range(max(map(len, groups.values()), default=0)) for g in groups.values() if i < len(g)]
     done = []
     for row, p in zip(q, free):
         c.execute("UPDATE publications SET slot=?, publish_at=?, experiment_id=?, updated_at=? WHERE id=?", (p["slot"], p["publish_at"], experiment_id if row["kind"] == "short" else None, db.now(), row["id"]))

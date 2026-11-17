@@ -66,4 +66,10 @@ def add(c, title, pillar, ratings, source="topic-agent"):
 
 
 def ranked(c, n=10):
-    return c.execute("SELECT id,title,pillar,total,model FROM topics WHERE status='idea' ORDER BY total DESC LIMIT ?", (n,)).fetchall()
+    """Best unproduced ideas that are NOT like what was just made: a different pillar from the last episode,
+    and no title overlap with the last four. Variety is a rule here, not a preference."""
+    recent = c.execute("SELECT t.pillar, e.title FROM episodes e LEFT JOIN topics t ON t.id=e.topic_id ORDER BY e.created_at DESC, e.id DESC LIMIT 4").fetchall()
+    last_pillar = recent[0]["pillar"] if recent else None
+    rows = c.execute("SELECT id,title,pillar,total,model FROM topics WHERE status='idea' ORDER BY total DESC, id").fetchall()
+    ok = [r for r in rows if r["pillar"] != last_pillar and all(similarity(r["title"], x["title"]) < 0.25 for x in recent)]
+    return ok[:n]

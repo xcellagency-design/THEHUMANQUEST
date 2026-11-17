@@ -77,3 +77,10 @@ The owner called the Pompeii episode "really bad": not enough character, lightin
 - https://oakgen.ai/youtube-summaries/how-to-create-stylized-stickman-animations-with-free-ai-tools-nv8Hv6BFAWM
 - https://www.foximusic.com/blog/copyright-free-music-youtube-audio-library-guide/
 - https://code.claude.com/docs/en/cloud-environments
+
+## Addendum, same day: Hugging Face connector connected
+- Account: free plan (not PRO), so 5 GPU-minutes a day.
+- The connector lists the Spaces it can use: image generation (Qwen-Image, Qwen-Image-Fast, FLUX.1 schnell, FLUX.1 Krea), image editing from a reference picture (FLUX.1 Kontext, FLUX.2 klein edit, Qwen-Image-Edit), background removal, Chatterbox speech (300 characters a call, optional reference voice), Wan 2.2 image-to-video and first/last-frame video.
+- Running a Space failed twice with: "The invoke operation is disabled because gradio=none is set." So through this connection I can browse and read parameters but not generate. No image, voice or clip was produced through it.
+- Ways forward: the owner turns on "Dynamic Spaces" (and adds the Spaces) at huggingface.co/settings/mcp and reconnects, which may or may not lift the block; or a Hugging Face read token is stored on the cloud environment so the workspace calls the Spaces directly (the Spaces answered from this workspace earlier; only anonymous quota stopped them).
+- Capacity: Hugging Face's docs say PRO's 40 minutes allow up to 600 FLUX.1 schnell images a day, which implies about 75 on the free 5 minutes. Slower, better models, speech and video all draw on the same minutes; their real cost per call is not measured yet.

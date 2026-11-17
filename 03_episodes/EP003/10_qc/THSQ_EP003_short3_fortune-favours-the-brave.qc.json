@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_EP003_short3_fortune-favours-the-brave.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 23.766667,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 23.766667,
+  "a_dur": 23.765,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -17.2,
+  "true_peak": -1.4,
+  "speech": {
+   "similarity": 0.988,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.179,
+   "caption_drift_p90": 0.486,
+   "heard": "down the coast people are tying pillows to their heads with strips of cloth thats not a joke pliny wrote it down out at sea the commander of the roman fleet has launched his warships to rescue people from the shore he is plinys uncle ash falls on the decks hotter and thicker the closer they get he could turn back he says fortune favors the brave he lands down the coast by tomorrow he will be dead on that beach"
+  }
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_EP003_short1_election-ads.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 19.5,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 19.5,
+  "a_dur": 19.498,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -17.1,
+  "true_peak": -1.5,
+  "speech": {
+   "similarity": 0.942,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.165,
+   "caption_drift_p90": 0.413,
+   "heard": "the walls are covered in writing a lot of it is election ads one says all the worshipers of isis are voting for hell via sabbathis another says all the deadbeats are asking for vatia vatia probably didnt pay for that one and somebody has scratched a complaint i admire you wall for not having collapsed under so much tedious scribbling"
+  }
+ }
+}

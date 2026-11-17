@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_EP003_short2_the-stadium-ban.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 15.366667,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 15.366667,
+  "a_dur": 15.36,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -16.9,
+  "true_peak": -1.5,
+  "speech": {
+   "similarity": 0.947,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.225,
+   "caption_drift_p90": 0.458,
+   "heard": "down the road is the amphitheater it holds 20 000 people thats more than live here 20 years ago a bloody brawl broke out in the stands against fans from the next town rome shut the arena for 10 years so yes this town got a stadium ban"
+  }
+ }
+}

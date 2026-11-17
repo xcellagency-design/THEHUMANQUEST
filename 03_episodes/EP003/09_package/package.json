@@ -1,0 +1,416 @@
+{
+ "episode": "EP003",
+ "title": "You Wake Up in Pompeii. Would You Get Out in Time?",
+ "topic_id": 4,
+ "facts": [
+  {
+   "claim": "Eruption in AD 79; about seven hours pass between dawn and the start at about 1 pm",
+   "units": "0,1,42",
+   "source": "https://igppweb.ucsd.edu/~gabi/sio15/lectures/volcanoes/pliny.html",
+   "status": "qualified",
+   "note": "Pliny: 'About one in the afternoon'. Seven hours is arithmetic from a dawn start.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "The majority of the people of Pompeii and Herculaneum survived; about 1,150 bodies have been found at Pompeii",
+   "units": "3,88,93",
+   "source": "https://www.livescience.com/64854-where-pompeii-refugees-fled.html",
+   "status": "verified",
+   "note": "Live Science on Tuck: 'the majority of them survived'. Atlas Obscura: about 1,150 bodies discovered. Wikipedia mirror: 1,044 casts plus about 100.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Those who stayed in Pompeii until the morning surges died; timing of leaving is the main difference visible in the evidence",
+   "units": "2,4,90",
+   "source": "https://www.historyrevealed.com/period/roman/pompeii-facts-vesuvius-volcano-ash-eruption-ancient-romans-archaeology",
+   "status": "qualified",
+   "note": "History Revealed: 'Anyone who hadn't left Pompeii by that point would have had no hope of survival.' The general claim is an inference and is worded as one.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "The lead character, the bakery job and the escape route are invented",
+   "units": "6,7,15,18,68,69,72",
+   "source": "https://www.historyrevealed.com/period/roman/pompeii-facts-vesuvius-volcano-ash-eruption-ancient-romans-archaeology",
+   "status": "qualified",
+   "note": "Labelled as invented in line 7. Lines 68-69 are illustrations.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "The date (24 August or late October) is disputed",
+   "units": "12",
+   "source": "https://www.nationalgeographic.com/history/article/mount-vesuvius-eruption-pompeii",
+   "status": "verified",
+   "note": "National Geographic: the park now defends 24 August; a 2018 charcoal inscription dated 17 October (archaeology.org) suggested 24 October. The script names no month.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Pompeii had roughly 10,000-15,000 people and a port",
+   "units": "13",
+   "source": "https://www.historyrevealed.com/period/roman/pompeii-facts-vesuvius-volcano-ash-eruption-ancient-romans-archaeology",
+   "status": "verified",
+   "note": "Port: WA Museum.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Pompeian wine amphorae are found in Gaul, Spain and Carthage; garum jars as far as Gaul",
+   "units": "14",
+   "source": "https://museum.wa.gov.au/pompeii2010/daily-life/business/",
+   "status": "verified",
+   "note": "",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Bakeries were a daily stop; about 35 found; many had their own mills",
+   "units": "15,16",
+   "source": "https://historyandarchaeologyonline.com/baking-and-bakeries-in-pompeii",
+   "status": "qualified",
+   "note": "Another source (My Modern Met) says more than 40. WA Museum: 'many bakeries contained mills'.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Mills were basalt lava millstones driven by donkeys; loaves were stamped with the bakery mark",
+   "units": "17,19",
+   "source": "https://historyandarchaeologyonline.com/baking-and-bakeries-in-pompeii",
+   "status": "verified",
+   "note": "",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Most homes had no sewer connection and waste went into the street; stepping stones let people cross; gaps let cart wheels pass",
+   "units": "20,21,22,23,24",
+   "source": "https://mymodernmet.com/pompeii-roads",
+   "status": "verified",
+   "note": "",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Election notices: 'All the worshippers of Isis call for Cn. Helvius Sabinus as aedile'; 'All the deadbeats and Macerius ask for Vatia as aedile'",
+   "units": "25,26,27",
+   "source": "https://www.worldhistory.org/article/467/pompeii-graffiti-signs--electoral-notices",
+   "status": "verified",
+   "note": "Reported, not quoted in full. 'Probably didn't pay' is a joke marked with 'probably'.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Graffito: 'I admire you, wall, for not having collapsed at having to carry the tedious scribblings of so many writers'",
+   "units": "28",
+   "source": "https://www.worldhistory.org/article/467/pompeii-graffiti-signs--electoral-notices",
+   "status": "qualified",
+   "note": "Shortened in narration and introduced as something scratched on a wall, not as an exact quote. On screen the wording is the source's.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Tenement flats had no kitchen or a dangerous one; 158 snack bars identified; L-shaped counters with sunken jars; meals to go for a few sestertii",
+   "units": "29,30,31,32",
+   "source": "https://daily.jstor.org/everyone-in-pompeii-got-takeout-too",
+   "status": "verified",
+   "note": "",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Amphitheatre held up to 20,000; a bloody brawl with people from Nuceria in AD 59; the Senate closed the arena for ten years",
+   "units": "33,34,35",
+   "source": "https://pompeiisites.org/en/archaeological-site/amphitheater/",
+   "status": "verified",
+   "note": "The park's page adds that the ban was lifted in 62. 'More than live here' compares 20,000 with 10,000-15,000.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Major earthquake in AD 62, damage still unrepaired in 79; small tremors for four days before; Pliny: tremors were frequent in Campania",
+   "units": "36,37,38",
+   "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD",
+   "status": "verified",
+   "note": "Pliny letter (UCSD translation): 'We had earth tremors for several days.'",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Fertile volcanic soil; nobody recognised the mountain as a danger; last eruption was roughly 1600 BC",
+   "units": "39,40",
+   "source": "https://www.historyrevealed.com/period/roman/pompeii-facts-vesuvius-volcano-ash-eruption-ancient-romans-archaeology",
+   "status": "qualified",
+   "note": "'So long ago that nobody here knows what it is' is the wording used.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Pliny the Younger watched from Misenum; cloud 'more like an umbrella pine than any other tree'",
+   "units": "43,44,45",
+   "source": "https://igppweb.ucsd.edu/~gabi/sio15/lectures/volcanoes/pliny.html",
+   "status": "verified",
+   "note": "",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Column height estimated at 15-30 km (33 km in one figure); ejection rate about 1.5 million tons per second",
+   "units": "46,47",
+   "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD",
+   "status": "qualified",
+   "note": "Both introduced as estimates.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Pumice fell on Pompeii for about 18 hours; about 2.8 m of pumice and ash accumulated",
+   "units": "48,49,50,61,62,63",
+   "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD",
+   "status": "verified",
+   "note": "History Revealed: 'Over about 18 hours pumice stones rained down'.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Nobody understood what was happening when the plume appeared",
+   "units": "51,52,53,54,55",
+   "source": "https://www.historyrevealed.com/period/roman/pompeii-facts-vesuvius-volcano-ash-eruption-ancient-romans-archaeology",
+   "status": "qualified",
+   "note": "The two options are a framing, not a record of choices.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "At Stabiae Pliny the Elder's party 'tied pillows over their heads with cloths'",
+   "units": "56",
+   "source": "https://igppweb.ucsd.edu/~gabi/sio15/lectures/volcanoes/pliny.html",
+   "status": "verified",
+   "note": "",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Pliny the Elder commanded the fleet at Misenum, launched the large galleys; ash fell 'hotter and thicker as the ships approached the coast'; 'Fortune favours the brave'; he landed at Stabiae and died on the shore",
+   "units": "57,58,59,60",
+   "source": "https://igppweb.ucsd.edu/~gabi/sio15/lectures/volcanoes/pliny.html",
+   "status": "verified",
+   "note": "",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "38% of the 1,044 Pompeii victims were found in the ash-fall deposits, mostly indoors; rooms under collapsed roofs",
+   "units": "64,65,66",
+   "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD",
+   "status": "verified",
+   "note": "",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Pliny: 'blacker and denser than any night'; people 'calling for their parents, their children, or their wives'; some 'prayed for death'",
+   "units": "67,70,71",
+   "source": "https://igppweb.ucsd.edu/~gabi/sio15/lectures/volcanoes/pliny.html",
+   "status": "verified",
+   "note": "",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "The column collapsed on the second morning; surges at about 200 mph and about 300 C",
+   "units": "73,74,75,76",
+   "source": "https://www.historyrevealed.com/period/roman/pompeii-facts-vesuvius-volcano-ash-eruption-ancient-romans-archaeology",
+   "status": "qualified",
+   "note": "Mastrolorenzo et al. 2010 (via Wikipedia mirror): about 300 C at Pompeii. Speed from one source.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Herculaneum was hit first, early on day two; about 300 bodies found in arched vaults in 1980",
+   "units": "77,78,79",
+   "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD",
+   "status": "verified",
+   "note": "",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "The most damaging current reached Pompeii shortly after 7 am on the second day; anyone still there had no hope",
+   "units": "80,81",
+   "source": "https://www.nationalgeographic.com/history/article/mount-vesuvius-eruption-pompeii",
+   "status": "verified",
+   "note": "Second half: History Revealed.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Cause of death is disputed: asphyxiation (Scarpati, 2024-25) or heat (Mastrolorenzo, 2010)",
+   "units": "82",
+   "source": "https://www.nationalgeographic.com/history/article/mount-vesuvius-eruption-pompeii",
+   "status": "verified",
+   "note": "Heat study via the Wikipedia mirror.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Pliny: 'everything had changed and was buried deep in ash like snow'",
+   "units": "83",
+   "source": "https://igppweb.ucsd.edu/~gabi/sio15/lectures/volcanoes/pliny.html",
+   "status": "verified",
+   "note": "",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Buried under metres of ash and pumice; site rediscovered in 1748",
+   "units": "84,85",
+   "source": "https://www.historyrevealed.com/period/roman/pompeii-facts-vesuvius-volcano-ash-eruption-ancient-romans-archaeology",
+   "status": "verified",
+   "note": "",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Voids left by bodies in the compacted ash were filled with plaster",
+   "units": "86,87",
+   "source": "https://assets.atlasobscura.com/places/plaster-citizens-of-pompeii",
+   "status": "verified",
+   "note": "",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Part of the city remains unexcavated",
+   "units": "88",
+   "source": "https://assets.atlasobscura.com/places/plaster-citizens-of-pompeii",
+   "status": "verified",
+   "note": "Atlas Obscura: about three-quarters excavated; History Revealed: about a third still buried.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Pompeii and Herculaneum held 15,000-20,000 people; the eruption killed nearly 2,000",
+   "units": "92,93,94,95",
+   "source": "https://www.livescience.com/64854-where-pompeii-refugees-fled.html",
+   "status": "verified",
+   "note": "",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Steven Tuck traced distinctive family names to Cumae, Naples, Ostia and Puteoli; most refugees stayed on the southern Italian coast; he says the study 'drastically undercounts' them",
+   "units": "96,97,98,99,101,102",
+   "source": "https://www.livescience.com/64854-where-pompeii-refugees-fled.html",
+   "status": "verified",
+   "note": "",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Emperor Titus funded building in refugee towns with money from victims who died without heirs",
+   "units": "100",
+   "source": "https://www.livescience.com/64854-where-pompeii-refugees-fled.html",
+   "status": "verified",
+   "note": "",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "About 80 loaves were found abandoned in an oven at the bakery of Modestus",
+   "units": "103,104,105,106",
+   "source": "https://historyandarchaeologyonline.com/baking-and-bakeries-in-pompeii",
+   "status": "verified",
+   "note": "What happened to that baker is unknown; the script says so.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Maps and the eruption cloud on screen are sketches, not to scale",
+   "units": "42,43,44,57,77,97",
+   "source": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD",
+   "status": "qualified",
+   "note": "Positions around the bay are approximate.",
+   "checked": "2026-11-17"
+  }
+ ],
+ "long": {
+  "file": "out/THSQ_EP003_pompeii-get-out-in-time.mp4",
+  "title": "You Wake Up in Pompeii. Would You Get Out in Time?",
+  "description": "You wake up in Pompeii on the last normal morning, and we follow one day hour by hour: the bakery, the street, the snack bars, then the eruption and the one decision that mattered.\n\nThe lead character is invented. The town, the timeline and the figures are from the sources listed below; where scholars disagree (the date, the cause of death) the video says so. This is history, told as a story. Drawn by code, narrated by a synthetic voice.\n\nChapters\n0:00 You wake up in Pompeii\n0:25 Your quest log\n0:35 First light: the town\n1:11 The street\n1:28 The writing on the walls\n1:47 Lunch: 158 snack bars\n2:03 The amphitheatre and the stadium ban\n2:18 The ground shakes\n2:42 About 1 pm: the eruption\n3:07 The sun goes out\n3:30 The fleet commander\n3:53 The long night\n4:34 What \"in time\" means\n5:00 The surge reaches Pompeii\n5:12 Buried\n5:44 The hidden quest: the survivors\n6:32 The bread\n\nSources\nPliny the Younger, the two letters to Tacitus (English translation, UC San Diego): https://igppweb.ucsd.edu/~gabi/sio15/lectures/volcanoes/pliny.html\nLive Science, Mount Vesuvius Didn't Kill Everyone in Pompeii. Where Did the Survivors Go? (on Steven Tuck's study): https://www.livescience.com/64854-where-pompeii-refugees-fled.html\nHistory Revealed, How and when was Pompeii destroyed?: https://www.historyrevealed.com/period/roman/pompeii-facts-vesuvius-volcano-ash-eruption-ancient-romans-archaeology\nNational Geographic, on the eruption of Mount Vesuvius and Pompeii: https://www.nationalgeographic.com/history/article/mount-vesuvius-eruption-pompeii\nWestern Australian Museum, Daily Life in Pompeii: Business: https://museum.wa.gov.au/pompeii2010/daily-life/business/\nHistory and Archaeology Online, Baking and Bakeries in Pompeii: https://historyandarchaeologyonline.com/baking-and-bakeries-in-pompeii\nMy Modern Met, Pompeii's Ancient Roads Had Raised Crosswalks: https://mymodernmet.com/pompeii-roads\nWorld History Encyclopedia, Pompeii: Graffiti, Signs and Electoral Notices: https://www.worldhistory.org/article/467/pompeii-graffiti-signs--electoral-notices\nJSTOR Daily, Everyone in Pompeii Got Takeout, Too: https://daily.jstor.org/everyone-in-pompeii-got-takeout-too\nArchaeological Park of Pompeii, Amphitheatre: https://pompeiisites.org/en/archaeological-site/amphitheater/\nWikipedia, Eruption of Mount Vesuvius in 79 AD (for the studies it cites: Sigurdsson et al. 1982, Zanella et al. 2007, Mastrolorenzo et al. 2010): https://en.wikipedia.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD\nAtlas Obscura, Plaster Citizens of Pompeii: https://assets.atlasobscura.com/places/plaster-citizens-of-pompeii\nMaps and the eruption cloud are sketches, not to scale.\n\n#history #pompeii #ancientrome #vesuvius",
+  "tags": [
+   "pompeii",
+   "vesuvius",
+   "ancient rome",
+   "history",
+   "roman history",
+   "pompeii eruption",
+   "pliny the younger",
+   "herculaneum",
+   "daily life in ancient rome",
+   "The Human Side Quest"
+  ],
+  "thumbnail_file": "03_episodes/EP003/09_package/THSQ_EP003_thumbnail.png",
+  "thumbnail_image_id": "da89b9d3-334f-42df-93a3-9a4e1bae1859"
+ },
+ "shorts": [
+  {
+   "file": "out/shorts/THSQ_EP003_short1_election-ads.mp4",
+   "units": [
+    25,
+    28
+   ],
+   "title": "Pompeii's Walls Were Covered in Election Ads #shorts",
+   "description": "Pompeii's walls carry painted election notices and scratched complaints. One notice says all the worshippers of Isis back Helvius Sabinus; another says all the deadbeats ask for Vatia.\n\nFull episode on the channel.\n\n#shorts #history #pompeii #ancientrome",
+   "tags": [
+    "pompeii",
+    "vesuvius",
+    "ancient rome",
+    "history",
+    "roman history",
+    "pompeii graffiti",
+    "roman elections"
+   ]
+  },
+  {
+   "file": "out/shorts/THSQ_EP003_short2_the-stadium-ban.mp4",
+   "units": [
+    33,
+    35
+   ],
+   "title": "Pompeii Got a 10-Year Stadium Ban #shorts",
+   "description": "Pompeii's amphitheatre held up to 20,000 people. After a bloody brawl with visitors from Nuceria in AD 59, the Roman Senate closed it for ten years.\n\nFull episode on the channel.\n\n#shorts #history #pompeii #ancientrome",
+   "tags": [
+    "pompeii",
+    "vesuvius",
+    "ancient rome",
+    "history",
+    "roman history",
+    "pompeii amphitheatre",
+    "gladiators"
+   ]
+  },
+  {
+   "file": "out/shorts/THSQ_EP003_short3_fortune-favours-the-brave.mp4",
+   "units": [
+    56,
+    60
+   ],
+   "title": "The Fleet Commander Who Sailed Toward Vesuvius #shorts",
+   "description": "Pliny the Elder commanded the Roman fleet at Misenum and launched his ships to rescue people from the coast under Vesuvius. He landed at Stabiae and died on the shore the next morning; his nephew wrote it down.\n\nFull episode on the channel.\n\n#shorts #history #pompeii #ancientrome",
+   "tags": [
+    "pompeii",
+    "vesuvius",
+    "ancient rome",
+    "history",
+    "roman history",
+    "pliny the elder",
+    "pliny the younger",
+    "roman navy"
+   ]
+  },
+  {
+   "file": "out/shorts/THSQ_EP003_short4_not-lava.mp4",
+   "units": [
+    73,
+    81
+   ],
+   "title": "What Actually Killed Pompeii Wasn't Lava #shorts",
+   "description": "On the second morning the eruption column collapsed and sent surges of hot gas and ash down the mountain. Herculaneum was hit first; a surge reached Pompeii shortly after 7 am.\n\nFull episode on the channel.\n\n#shorts #history #pompeii #ancientrome",
+   "tags": [
+    "pompeii",
+    "vesuvius",
+    "ancient rome",
+    "history",
+    "roman history",
+    "pyroclastic surge",
+    "herculaneum",
+    "volcano"
+   ]
+  },
+  {
+   "file": "out/shorts/THSQ_EP003_short5_they-didnt-all-die.mp4",
+   "units": [
+    92,
+    99
+   ],
+   "title": "Most People in Pompeii Got Out Alive #shorts",
+   "description": "About 2,000 people are thought to have died in Pompeii and Herculaneum, out of 15,000 to 20,000. Historian Steven Tuck traced survivors' family names to Naples, Cumae, Puteoli and Ostia.\n\nFull episode on the channel.\n\n#shorts #history #pompeii #ancientrome",
+   "tags": [
+    "pompeii",
+    "vesuvius",
+    "ancient rome",
+    "history",
+    "roman history",
+    "pompeii survivors",
+    "herculaneum"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_EP003_short4_not-lava.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 32.766667,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 32.766667,
+  "a_dur": 32.746,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -17.1,
+  "true_peak": -1.1,
+  "speech": {
+   "similarity": 0.99,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.195,
+   "caption_drift_p90": 0.5,
+   "heard": "quest 3 get out in time here is what in time means all night that column of ash has been holding itself up around dawn it collapses what comes down the mountain isnt lava its a cloud of gas and ash at around 300 degrees moving at something like 200 miles an hour the first surges hit herculaneum the next town along the bay about 300 people are sheltering in the stone vaults by its beach they are found in 1980 shortly after 7 in the morning a surge reaches pompeii anyone still inside the walls has no chance"
+  }
+ }
+}

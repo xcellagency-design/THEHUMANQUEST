@@ -538,3 +538,160 @@ def questlog(s, rows, shown=4, done=0, hidden=None, x=1040, y=170, z=1.36):
         sz = 52*z
         while sz > 30 and s.tw(rows[i], sz) > 470*z: sz -= 3
         s.text(x+104*z, yy-4, rows[i], sz, INK if i >= done else (120, 110, 98), "lm")
+
+# ================= EP003 kit: Pompeii, AD 79 (new methods only) =================
+TERRA = (196, 96, 70); OCHRE = (226, 186, 110); RWALL = (238, 222, 192); TILE = (200, 106, 76); LAVA = (104, 100, 106); ASHC = (168, 164, 160)
+PUM = (218, 214, 204); SEA = (98, 152, 182); VINE = (126, 164, 108); DARK = (34, 32, 40); BURNT = (62, 52, 48)
+
+@_kit
+def rhouse(s, x, y, w=420, h=360, col=RWALL, band=TERRA, door=True, shop=False, upper=True, roof=True):
+    """Roman street front: plaster wall with a coloured lower band, tiled roof edge, door or open shop, small high windows. (x, y) = bottom left."""
+    s.rect(x, y-h, x+w, y, col, INK, 6); s.rect(x+3, y-h*.34, x+w-3, y-3, band, None); s.line([(x, y-h*.34), (x+w, y-h*.34)], 4)
+    if roof:
+        s.poly([(x-16, y-h), (x+w+16, y-h), (x+w+2, y-h-36), (x-2, y-h-36)], TILE, INK, 6)
+        for i in range(int(w/38)): s.line([(x+12+i*38, y-h-31), (x+8+i*38, y-h-5)], 3, (150, 72, 52))
+    if shop: s.rect(x+w*.1, y-h*.52, x+w*.9, y, (64, 50, 42), INK, 5); s.rect(x+w*.1-8, y-h*.52-16, x+w*.9+8, y-h*.52, WOOD, INK, 4)
+    elif door: dw = w*.2; s.rect(x+w*.5-dw/2, y-h*.5, x+w*.5+dw/2, y, (92, 66, 46), INK, 5, 4); s.ell(x+w*.5+dw*.2, y-h*.26, x+w*.5+dw*.2+12, y-h*.26+12, BRASS, INK, 3)
+    if upper:
+        for q in (.2, .8): s.rect(x+w*q-22, y-h*.84, x+w*q+22, y-h*.68, (64, 50, 42), INK, 4)
+
+@_kit
+def puff(s, blobs, col=ASHC, o=INK, w=6):
+    """A cartoon cloud from circles [(x, y, r), ...]: outlined as one shape, with no lines inside."""
+    if o:
+        for x, y, r in blobs: s.ell(x-r-w, y-r-w, x+r+w, y+r+w, o, None)
+    for x, y, r in blobs: s.ell(x-r, y-r, x+r, y+r, col, None)
+
+@_kit
+def vesuvius(s, cx, by, w=900, h=420, col=VINE, rows=True, peak=True):
+    top = [(cx-w*.5, by), (cx-w*.14, by-h*.92), (cx-w*.05, by-h), (cx+w*.06, by-h*.97), (cx+w*.16, by-h*.9), (cx+w*.5, by)] if peak else [(cx-w*.5, by), (cx-w*.16, by-h*.8), (cx-w*.06, by-h*.72), (cx+w*.05, by-h*.76), (cx+w*.17, by-h*.8), (cx+w*.5, by)]
+    s.poly(top, col, INK, 7)
+    if rows:
+        for i in range(1, 5):
+            q = i/5; yy = by-h*q*.8; half = w*.5*(1-q*.82)
+            for j in range(int(half*2/46)): xx = cx-half+20+j*46; s.line([(xx, yy+12), (xx+8, yy-6)], 4, (88, 128, 76))
+    return (cx-w*.04, by-h*(1 if peak else .76))
+
+@_kit
+def plume(s, cx, by, hgt=500, spread=600, t=0.0, col=ASHC, grow=1.0, o=INK):
+    """Eruption column shaped like an umbrella pine: a trunk from (cx, by) and a flat spreading top. t animates the billow; grow 0..1 raises it."""
+    hg = hgt*max(0.02, grow); blobs = []; n = max(2, int(hg/46))
+    for i in range(n):
+        q = i/max(1, n-1); r = 40+q*46+8*math.sin(t*3+i*1.7); blobs.append((cx+10*math.sin(t*2+i), by-q*hg, r))
+    sp = spread*max(0, (grow-.55)/.45)
+    if sp > 10:
+        m = int(sp/70)+2
+        for i in range(m):
+            q = i/(m-1)-.5; blobs.append((cx+q*sp, by-hg-20+abs(q)*46+6*math.sin(t*2.5+i), 78-abs(q)*34+8*math.sin(t*3+i*2)))
+            blobs.append((cx+q*sp*.8, by-hg-90+abs(q)*30, 66-abs(q)*26))
+    s.puff(blobs, col, o)
+
+@_kit
+def stones(s, n=40, t=0.0, y1=H, k=1.0, col=PUM, x0=0, x1=W, seed=0):
+    """Falling pumice. t is time in seconds."""
+    for i in range(n):
+        j = i+seed*31; sp = 420+(j*53) % 260; x = x0+(j*211+(j*j*7) % 97) % (x1-x0); y = ((j*173) % 1000)/1000*y1+t*sp; y = y % y1; r = (6+(j*29) % 9)*k
+        s.ell(x-r, y-r*.8, x+r, y+r*.8, col, INK, max(2, 3*k))
+
+@_kit
+def mill(s, x, y, k=1.0):
+    """Donkey mill: lava-stone hourglass on a round base, wooden beam through the waist. (x, y) = floor centre."""
+    s.rect(x-120*k, y-40*k, x+120*k, y, (150, 146, 150), INK, 6*k, 8*k)
+    s.poly([(x-70*k, y-40*k), (x-34*k, y-150*k), (x+34*k, y-150*k), (x+70*k, y-40*k)], LAVA, INK, 6*k)
+    s.poly([(x-34*k, y-150*k), (x-84*k, y-290*k), (x+84*k, y-290*k), (x+34*k, y-150*k)], (124, 120, 126), INK, 6*k)
+    s.rect(x-250*k, y-166*k, x+250*k, y-138*k, WOOD, INK, 5*k, 6*k); s.rect(x-40*k, y-176*k, x+40*k, y-128*k, WOOD, INK, 5*k, 4*k)
+    for dx in (-40, 0, 40): s.ell(x+dx*k-7*k, y-250*k, x+dx*k+7*k, y-236*k, (84, 80, 86), None)
+
+@_kit
+def donkey(s, x, y, k=1.0, flip=False, c=(150, 138, 128), step=0.0):
+    d = -1 if flip else 1; sw = 14*k*math.sin(step)
+    for i, dx in enumerate((-60, -34, 34, 60)): s.line([(x+d*dx*k, y-70*k), (x+d*dx*k+(sw if i % 2 else -sw), y)], 12*k)
+    s.ell(x-92*k, y-150*k, x+92*k, y-60*k, c, INK, 6*k)
+    hx = x+d*116*k; s.poly([(x+d*60*k, y-140*k), (hx-d*10*k, y-196*k), (hx+d*30*k, y-176*k), (x+d*84*k, y-96*k)], c, INK, 6*k)
+    s.ell(hx-44*k, y-222*k, hx+52*k, y-150*k, c, INK, 6*k) if not flip else s.ell(hx-52*k, y-222*k, hx+44*k, y-150*k, c, INK, 6*k)
+    for e in (-12, 16): s.poly([(hx+(e-10)*k, y-214*k), (hx+e*k-d*6*k, y-282*k), (hx+(e+12)*k, y-216*k)], c, INK, 5*k)
+    s.ell(hx+d*16*k-6*k, y-198*k, hx+d*16*k+6*k, y-186*k, INK, None); s.ell(hx+d*30*k-16*k, y-180*k, hx+d*30*k+16*k, y-156*k, (214, 204, 196), INK, 4*k)
+    s.line([(x-d*90*k, y-120*k), (x-d*112*k, y-60*k)], 7*k); s.ell(x-d*112*k-9*k, y-64*k, x-d*112*k+9*k, y-40*k, INK, None)
+
+@_kit
+def oven(s, x, y, k=1.0, glow=1.0):
+    """Brick bread oven. (x, y) = floor centre."""
+    s.rect(x-230*k, y-150*k, x+230*k, y, (176, 120, 96), INK, 7*k, 6*k)
+    s.d.pieslice([(x-210*k)*S, (y-420*k)*S, (x+210*k)*S, (y+120*k)*S], 180, 360, fill=TERRA, outline=INK, width=int(7*k*S)); s.rect(x-208*k, y-154*k, x+208*k, y-146*k, (176, 120, 96), None)
+    for r in range(4):
+        yy = y-190*k-r*46*k; hw = math.sqrt(max(0, 1-((yy-(y-150*k))/(270*k))**2))*200*k
+        s.line([(x-hw, yy), (x+hw, yy)], 3*k, (150, 70, 52))
+    s.d.pieslice([(x-96*k)*S, (y-280*k)*S, (x+96*k)*S, (y-30*k)*S], 180, 360, fill=(48, 34, 30), outline=INK, width=int(6*k*S)); s.rect(x-96*k, y-158*k, x+96*k, y-150*k, (48, 34, 30), None)
+    if glow > 0:
+        f = 1+.08*math.sin(glow*11); s.poly([(x-60*k, y-152*k), (x-40*k, y-206*k*f), (x-14*k, y-176*k), (x+4*k, y-236*k*f), (x+26*k, y-180*k), (x+48*k, y-210*k*f), (x+62*k, y-152*k)], (240, 130, 50), None)
+        s.poly([(x-30*k, y-152*k), (x-12*k, y-188*k*f), (x+6*k, y-166*k), (x+24*k, y-190*k*f), (x+34*k, y-152*k)], MARI, None)
+
+@_kit
+def rloaf(s, x, y, k=1.0, burnt=False):
+    """Round Roman loaf scored into wedges, seen from slightly above. (x, y) = centre."""
+    c = BURNT if burnt else (226, 168, 92); l = (30, 24, 22) if burnt else (150, 96, 50)
+    s.ell(x-60*k, y-34*k, x+60*k, y+40*k, c, INK, max(3, 5*k))
+    for a in range(0, 180, 45):
+        ca, sa = math.cos(math.radians(a)), math.sin(math.radians(a)); s.line([(x-52*k*ca, y+2*k-30*k*sa), (x+52*k*ca, y+2*k+30*k*sa)], max(2, 3*k), l)
+    s.ell(x-9*k, y-5*k, x+9*k, y+9*k, l, None)
+
+@_kit
+def barcounter(s, x, y, w=560, h=200, jars=3):
+    """Street-bar counter with jars sunk in the top. (x, y) = bottom left of the front."""
+    s.rect(x, y-h, x+w, y, OCHRE, INK, 7, 4)
+    for i in range(3):
+        cx = x+w*(i+.5)/3; s.poly([(cx, y-h*.82), (cx+w*.1, y-h*.5), (cx, y-h*.18), (cx-w*.1, y-h*.5)], TERRA if i % 2 == 0 else (90, 130, 110), INK, 4)
+    s.poly([(x-14, y-h), (x+w+14, y-h), (x+w+44, y-h-56), (x+16, y-h-56)], (204, 200, 196), INK, 6)
+    for i in range(jars):
+        cx = x+30+(w-10)*(i+.5)/jars; s.ell(cx-52, y-h-48, cx+52, y-h-10, (150, 96, 70), INK, 5); s.ell(cx-36, y-h-40, cx+36, y-h-18, (52, 38, 34), None)
+
+@_kit
+def amphora(s, x, y, k=1.0, c=(196, 132, 96)):
+    s.poly([(x-20*k, y-200*k), (x+20*k, y-200*k), (x+16*k, y-168*k), (x+50*k, y-120*k), (x+40*k, y-50*k), (x, y), (x-40*k, y-50*k), (x-50*k, y-120*k), (x-16*k, y-168*k)], c, INK, 5*k)
+    s.rect(x-26*k, y-212*k, x+26*k, y-196*k, c, INK, 4*k, 4*k)
+    for d in (-1, 1): s.line([(x+d*18*k, y-190*k), (x+d*48*k, y-176*k), (x+d*44*k, y-134*k)], 7*k)
+
+@_kit
+def arena(s, cx, cy, w=1200, h=520):
+    s.ell(cx-w/2, cy-h/2, cx+w/2, cy+h/2, (214, 204, 190), INK, 8)
+    for q in (.86, .72, .58): s.ell(cx-w/2*q, cy-h/2*q, cx+w/2*q, cy+h/2*q, None, (150, 140, 128), 4)
+    s.ell(cx-w*.2, cy-h*.2, cx+w*.2, cy+h*.2, SAND, INK, 6)
+    for i in range(22):
+        a = math.radians(8+i*7.8); x = cx-w/2*math.cos(a)*.99; y = cy+h/2*math.sin(a)*.93
+        s.d.pieslice([(x-16)*S, (y+6)*S, (x+16)*S, (y+62)*S], 180, 360, fill=(70, 58, 50), outline=INK, width=3*S)
+
+@_kit
+def galley(s, x, y, w=520, flip=False, sail=WHITE, bob=0.0):
+    d = -1 if flip else 1; y = y+6*math.sin(bob); P = lambda px, py: (x+d*px, y+py)
+    for i in range(7): s.line([P(-w*.3+i*w*.09, -10), P(-w*.36+i*w*.09, 62+8*math.sin(bob*2+i))], 5)
+    s.poly([P(-w*.46, -60), P(w*.4, -60), P(w*.56, -30), P(w*.4, -14), P(w*.3, 14), P(-w*.36, 14), P(-w*.5, -30)], WOOD, INK, 6)
+    s.line([P(-w*.46, -60), P(-w*.56, -120), P(-w*.48, -150)], 9); s.line([P(0, -60), P(0, -300)], 9, (90, 70, 54))
+    s.poly([P(-w*.24, -290), P(w*.24, -290), P(w*.2, -120), P(-w*.2, -120)], sail, INK, 6); s.line([P(-w*.26, -292), P(w*.26, -292)], 8, (90, 70, 54))
+    ex, ey = P(w*.36, -40); s.ell(ex-12, ey-10, ex+12, ey+10, WHITE, INK, 3); s.ell(ex-4, ey-4, ex+4, ey+4, INK, None)
+
+@_kit
+def cart(s, x, y, k=1.0, c=WOOD, turn=0.0):
+    s.rect(x-110*k, y-150*k, x+110*k, y-70*k, c, INK, 6*k, 6*k); s.line([(x+110*k, y-90*k), (x+230*k, y-110*k)], 9*k, (90, 70, 54))
+    for dx in (-60, 60):
+        cx = x+dx*k; s.ell(cx-62*k, y-124*k, cx+62*k, y, (120, 96, 76), INK, 7*k); s.ell(cx-14*k, y-76*k, cx+14*k, y-48*k, INK, None)
+        for a in range(0, 180, 45):
+            ca, sa = math.cos(math.radians(a)+turn), math.sin(math.radians(a)+turn); s.line([(cx-54*k*ca, y-62*k-54*k*sa), (cx+54*k*ca, y-62*k+54*k*sa)], 4*k)
+
+@_kit
+def pillow(s, f, c=WHITE):
+    """A pillow tied on the head with a strip of cloth (takes a fig dict)."""
+    u = f["u"]; x, y = f["head"]; lw = max(4, u*.07)
+    s.line([(x-.5*u, y+.1*u), (x-.36*u, y+1.02*u), (x+.36*u, y+1.02*u), (x+.5*u, y+.1*u)], lw, (170, 150, 130))
+    s.rect(x-.74*u, y-.36*u, x+.74*u, y+.14*u, c, INK, lw, .2*u); s.line([(x-.3*u, y-.2*u), (x+.3*u, y-.2*u)], max(2, lw*.5), (190, 186, 180))
+
+@_kit
+def castfig(s, x, y, k=1.0, plaster=True):
+    """A lying human shape: a hollow in ash (plaster=False, dashed outline) or its plaster cast. (x, y) = centre of the body."""
+    body = [(x-150*k, y), (x-40*k, y-26*k), (x+90*k, y-18*k), (x+170*k, y+6*k), (x+90*k, y+30*k), (x-40*k, y+34*k)]
+    if plaster:
+        s.poly(body, (240, 236, 226), INK, 5*k); s.ell(x-214*k, y-34*k, x-146*k, y+30*k, (240, 236, 226), INK, 5*k); s.line([(x-60*k, y-10*k), (x-130*k, y-52*k), (x-190*k, y-46*k)], 16*k, INK, False); s.line([(x-60*k, y-10*k), (x-130*k, y-52*k), (x-190*k, y-46*k)], 9*k, (240, 236, 226), False)
+    else:
+        pts = body+[body[0]]
+        for a, b in zip(pts, pts[1:]):
+            for q in (0, .5): s.line([(a[0]+(b[0]-a[0])*q, a[1]+(b[1]-a[1])*q), (a[0]+(b[0]-a[0])*(q+.3), a[1]+(b[1]-a[1])*(q+.3))], 5*k, (90, 84, 80), False)
+        s.d.arc([(x-214*k)*S, (y-34*k)*S, (x-146*k)*S, (y+30*k)*S], 20, 340, fill=(90, 84, 80), width=int(5*k*S))

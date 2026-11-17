@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_EP003_short5_they-didnt-all-die.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 32.233333,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 32.233333,
+  "a_dur": 32.213,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -17.2,
+  "true_peak": -1.4,
+  "speech": {
+   "similarity": 0.927,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.219,
+   "caption_drift_p90": 0.499,
+   "heard": "for a long time the story of pompeii ended right there everybody died they didnt pompeii and herculaneum together held 15 to 20 000 people the eruption is thought to have killed about 2 000 of them so where did everyone else go a historian named stephen tuck went looking he took family names that were distinctive to the two towns and searched for them in other places after the eruption he found them in naples in poutioli in ostia mostly along the same stretch of coast and he says his count is far too low"
+  }
+ }
+}

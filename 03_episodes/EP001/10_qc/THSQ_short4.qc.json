@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_short4_paid-in-beer.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 33.766667,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 33.766667,
+  "a_dur": 33.749,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -16.7,
+  "true_peak": -1.5,
+  "speech": {
+   "similarity": 0.908,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.235,
+   "caption_drift_p90": 0.519,
+   "heard": "so what does all this pay not coins coins wont exist for almost 2 000 years youre paid in food the standard ration for a labor in this era was 10 loaves of bread and a measure of beer per day beer here is a staple food not a party bread molds are the most common pottery in the whole city beer jars come second and theres meat hawass estimates 21 cattle and 23 sheep arrived every single day lainer thinks most of it was served at big feast either way youre eating beef for a farm kid thats a feast quest 2 complete you earned your bread literally"
+  }
+ }
+}

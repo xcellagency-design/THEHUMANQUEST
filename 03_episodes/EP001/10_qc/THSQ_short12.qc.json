@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_short12_you-are-17-in-2560-bc.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 18.633333,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 18.633333,
+  "a_dur": 18.624,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -16.8,
+  "true_peak": -1.3,
+  "speech": {
+   "similarity": 0.983,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.165,
+   "caption_drift_p90": 0.534,
+   "heard": "its about 2560 bc youre 17 you farm barley in a village on the nile you are made up everything that happens to you is in the evidence heres your quest log one get to giza two earn your bread three get home in one piece theres a fourth quest hidden at the end almost nobody sees it coming"
+  }
+ }
+}

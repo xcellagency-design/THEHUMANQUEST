@@ -1,0 +1,31 @@
+{
+ "file": "THSQ_short2_the-wet-sand-trick.mp4",
+ "kind": "short",
+ "status": "warn",
+ "fail": [],
+ "warn": [
+  "2 spoken word(s) after the script ends (next line leaking in)"
+ ],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 26.566667,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 26.566667,
+  "a_dur": 26.56,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -16.4,
+  "true_peak": -1.4,
+  "speech": {
+   "similarity": 0.976,
+   "extra_words_at_end": 2,
+   "caption_drift_median": 0.166,
+   "caption_drift_p90": 0.374,
+   "heard": "and you have rope a wooden sledge and your crew plus one trick somebody walks in front and pours water on the sand it looks like a ritual its physics in 2014 physicists in amsterdam tested it damned sand is about twice as stiff as dry sand the sledge stops digging in and the force you need drops by half a later egyptian tomb painting shows exactly that a man at the front of a sledge pouring water half the effort still a truck the best"
+  }
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_short3_the-oldest-timesheet.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 34.833333,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 34.833333,
+  "a_dur": 34.816,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -16.7,
+  "true_peak": -1.4,
+  "speech": {
+   "similarity": 0.92,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.177,
+   "caption_drift_p90": 0.42,
+   "heard": "we know because one of your co workers kept a logboat his name was meira he ran a boat crew of about 40 men in 2013 his diary turned up at an ancient harbor on the red sea its the oldest inscribed papyrus ever found and it is gloriously boring load stone sail to the pyramid sleep there sail back repeat two or three round trips every 10 days about 200 blocks a month he never once says the pyramid is amazing he calls it by its name horizon of kufu and goes back for more rocks its a timesheet it just happens to be four and a half thousand years old"
+  }
+ }
+}

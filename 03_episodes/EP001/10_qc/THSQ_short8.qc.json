@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_short8_the-lost-city.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 25.5,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 25.5,
+  "a_dur": 25.493,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -16.7,
+  "true_peak": -1.1,
+  "speech": {
+   "similarity": 0.962,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.185,
+   "caption_drift_p90": 0.446,
+   "heard": "you expect a camp you get a city archaeologists call it the lost city of the pyramid builders the crown built it for exactly one job there are royal grain silos there are bakeries by the dozen you sleep in a long hall shoulder to shoulder with 40 or 50 other men about 20 000 people may live here counting the bakers the brewers and the scribes not 100 000 and only about half of them ever touch a stone"
+  }
+ }
+}

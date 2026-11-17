@@ -1,0 +1,31 @@
+{
+ "file": "THSQ_short5_healthcare-in-2560-bc.mp4",
+ "kind": "short",
+ "status": "warn",
+ "fail": [],
+ "warn": [
+  "4 spoken word(s) after the script ends (next line leaking in)"
+ ],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 29.5,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 29.5,
+  "a_dur": 29.482,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -16.7,
+  "true_peak": -1.4,
+  "speech": {
+   "similarity": 0.92,
+   "extra_words_at_end": 4,
+   "caption_drift_median": 0.171,
+   "caption_drift_p90": 0.405,
+   "heard": "because the builders bones were found too and bones keep receipts worn down spines worn out joints arms and legs that had snapped but heres the twist most of those breaks had healed straight somebody set them with a splint a few skeletons even show amputations the patients survive so when a block rolls onto your leg and one day something will you arent left in the sand someone carries you out someone sets the bone and you keep getting your bread four and a half thousand years ago you had workplace health care its still"
+  }
+ }
+}

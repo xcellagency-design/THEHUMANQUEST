@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_short10_team-drunkards.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 15.633333,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 15.633333,
+  "a_dur": 15.616,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -16.7,
+  "true_peak": -1.4,
+  "speech": {
+   "similarity": 0.92,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.256,
+   "caption_drift_p90": 0.482,
+   "heard": "then you get your team crews had names and they painted them on the blocks one was the friends of khufu a few kings later another was the drunkards of minh kauray picture a company softball team except the season lasts for months and the ball weighs two and a half tons"
+  }
+ }
+}

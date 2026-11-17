@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+*.mp4
+*.wav
+*.onnx
+*.bin
+*.qc.wav
+/out
+/out/
+/work/
+engine/models

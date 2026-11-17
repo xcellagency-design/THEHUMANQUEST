@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_short1_the-pyramid-lie.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 22.1,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 22.1,
+  "a_dur": 22.08,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -16.4,
+  "true_peak": -1.5,
+  "speech": {
+   "similarity": 0.938,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.176,
+   "caption_drift_p90": 0.468,
+   "heard": "you were told slaves built the pyramids whips chains 100 000 prisoners in the sand that picture comes from a greek writer who showed up 2 000 years late the people who actually built it left a diary a payroll and their own skeletons and their story is stranger they were paid in beer they couldnt say no and one crew called itself the drunkards so lets make you one of them"
+  }
+ }
+}

@@ -94,3 +94,14 @@ def test_qc_real_short():
     if not os.path.exists(f): pytest.skip("render not present")
     r = qc.check(f, "short")
     assert r["status"] in ("pass", "warn") and r["measured"]["width"] == 1080 and not r["fail"]
+
+
+def test_long_episode_is_planned_before_its_shorts(c):
+    for i, kind in enumerate(["short", "short", "long", "short"], 1):
+        c.execute("INSERT INTO assets(id,episode_id,kind,name) VALUES(?,?,?,?)", (i, "EP009", kind, f"v{i}"))
+        c.execute("INSERT INTO publications(id,asset_id,status) VALUES(?,?,'queued')", (i, i))
+    c.commit()
+    for seed in range(5):
+        c.execute("UPDATE publications SET publish_at=NULL, slot=NULL"); c.commit()
+        done, _ = schedule.assign(c, date(2026, 11, 19), datetime(2026, 11, 18, 0, 0, tzinfo=schedule.ET), shuffle_seed=seed)
+        assert min(done, key=lambda x: x[2])[0] == 3  # the long video holds the earliest slot of the batch

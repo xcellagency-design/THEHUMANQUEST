@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_EP002_short1_gone-in-2-days.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 37.366667,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 37.366667,
+  "a_dur": 37.354,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -17.0,
+  "true_peak": -1.4,
+  "speech": {
+   "similarity": 0.887,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.23,
+   "caption_drift_p90": 0.515,
+   "heard": "monday october 28 the dow falls nearly 13 in one day now look at margin u you own 10 000 of stock with 1 000 of your own a 13 drop is 1 300 your 1 000 is gone so as 300 you never had the broker doesnt wait for you to feel better he sends a margin call pay up today or he sells your shares you cant pay he sells so does every other broker in the city at the same moment into the same falling market thats tuesday october 29 16 million shares down nearly 12 more margin you was finished out in two days"
+  }
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "file": "THSQ_EP002_1929-thousand-dollars.mp4",
+ "kind": "long",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 433.1,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30.0,
+  "v_dur": 433.1,
+  "a_dur": 433.095,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -17.1,
+  "true_peak": -1.1
+ }
+}

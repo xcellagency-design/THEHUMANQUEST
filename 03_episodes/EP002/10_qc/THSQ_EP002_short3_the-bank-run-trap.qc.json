@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_EP002_short3_the-bank-run-trap.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 16.766667,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 16.766667,
+  "a_dur": 16.746,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -17.2,
+  "true_peak": -1.5,
+  "speech": {
+   "similarity": 1.0,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.17,
+   "caption_drift_p90": 0.386,
+   "heard": "then you hear a rumor about your own bank you go down at lunch theres already a line around the block this is the trap if you wait calmly you might lose everything if you run you help break the bank and theres no insurance if the bank dies you join a different line for whatever is left"
+  }
+ }
+}

@@ -1,0 +1,238 @@
+still,start_s,hold_s,line,narration
+0,0.0,1.512,0,"It's September, nineteen twenty-nine. You have one thousand dollars."
+1,1.512,1.262,0,"It's September, nineteen twenty-nine. You have one thousand dollars."
+2,2.773,1.262,0,"It's September, nineteen twenty-nine. You have one thousand dollars."
+3,4.035,1.6,1,That's about eight months' pay. It took you four years to save.
+4,5.635,1.6,1,That's about eight months' pay. It took you four years to save.
+5,7.234,2.19,2,It can vanish in two days. It can shrink to a hundred and ten dollars. Or it can quietly buy more than it does today.
+6,9.424,2.19,2,It can vanish in two days. It can shrink to a hundred and ten dollars. Or it can quietly buy more than it does today.
+7,11.614,2.19,2,It can vanish in two days. It can shrink to a hundred and ten dollars. Or it can quietly buy more than it does today.
+8,13.804,1.081,3,The difference is where you put it this week.
+9,14.885,1.081,3,The difference is where you put it this week.
+10,15.966,2.01,4,"So let's put it in four places at once, and see which you survives."
+11,17.976,2.01,4,"So let's put it in four places at once, and see which you survives."
+12,19.985,1.318,5,You're twenty-four. You're a clerk in New York City.
+13,21.303,1.318,5,You're twenty-four. You're a clerk in New York City.
+14,22.621,2.064,6,You are made up. The numbers aren't.
+15,24.685,1.832,7,Here's your quest log. One: pick a home for your thousand dollars.
+16,26.517,1.832,7,Here's your quest log. One: pick a home for your thousand dollars.
+17,28.349,1.446,8,Two: get through October.
+18,29.795,2.222,9,Three: still have it in nineteen thirty-three.
+19,32.017,2.564,10,There's a fourth quest hidden at the end. It's the reason you've never had to think about any of this.
+20,34.581,2.564,10,There's a fourth quest hidden at the end. It's the reason you've never had to think about any of this.
+21,37.145,1.959,11,"First, the mood. The stock market has been climbing for eight years."
+22,39.104,1.959,11,"First, the mood. The stock market has been climbing for eight years."
+23,41.063,2.195,12,"In nineteen twenty-one, the Dow Jones average stood at sixty-three. This month it touches three hundred and eighty-one."
+24,43.258,2.195,12,"In nineteen twenty-one, the Dow Jones average stood at sixty-three. This month it touches three hundred and eighty-one."
+25,45.453,2.195,12,"In nineteen twenty-one, the Dow Jones average stood at sixty-three. This month it touches three hundred and eighty-one."
+26,47.648,1.486,13,Six times higher. Everyone you know has a story about a guy who got rich.
+27,49.134,1.486,13,Six times higher. Everyone you know has a story about a guy who got rich.
+28,50.62,1.486,13,Six times higher. Everyone you know has a story about a guy who got rich.
+29,52.105,2.19,14,Almost nobody you know is that guy. Only about one and a half million Americans even have an account with a broker.
+30,54.295,2.19,14,Almost nobody you know is that guy. Only about one and a half million Americans even have an account with a broker.
+31,56.485,2.19,14,Almost nobody you know is that guy. Only about one and a half million Americans even have an account with a broker.
+32,58.675,1.731,15,But the ones who do are loud.
+33,60.407,1.206,16,So. Four doors.
+34,61.613,1.463,17,Door one. The broker. You buy stocks on margin.
+35,63.076,1.463,17,Door one. The broker. You buy stocks on margin.
+36,64.539,2.209,18,"Margin means you put down a slice of the price, and the broker lends you the rest."
+37,66.747,2.209,18,"Margin means you put down a slice of the price, and the broker lends you the rest."
+38,68.956,2.222,19,That slice can be as little as ten percent.
+39,71.178,3.525,20,So your thousand dollars buys ten thousand dollars of stock.
+40,74.703,1.912,21,"If prices rise ten percent, you've doubled your money. This is the part the loud guys talk about."
+41,76.615,1.912,21,"If prices rise ten percent, you've doubled your money. This is the part the loud guys talk about."
+42,78.527,1.912,21,"If prices rise ten percent, you've doubled your money. This is the part the loud guys talk about."
+43,80.439,1.661,22,The stock everybody wants is Radio. That's R C A.
+44,82.1,1.661,22,The stock everybody wants is Radio. That's R C A.
+45,83.762,2.146,23,"In March, a pool of insiders spent a week pushing Radio's price up. Then they sold everything. That was legal."
+46,85.908,2.146,23,"In March, a pool of insiders spent a week pushing Radio's price up. Then they sold everything. That was legal."
+47,88.055,2.146,23,"In March, a pool of insiders spent a week pushing Radio's price up. Then they sold everything. That was legal."
+48,90.201,1.682,24,"Door two. Same broker, no loan. A thousand dollars of stock, bought and paid for."
+49,91.883,1.682,24,"Door two. Same broker, no loan. A thousand dollars of stock, bought and paid for."
+50,93.565,1.682,24,"Door two. Same broker, no loan. A thousand dollars of stock, bought and paid for."
+51,95.248,1.27,25,"Door three. The bank on the corner. Marble columns, brass rails, and it pays you interest."
+52,96.518,1.27,25,"Door three. The bank on the corner. Marble columns, brass rails, and it pays you interest."
+53,97.788,1.27,25,"Door three. The bank on the corner. Marble columns, brass rails, and it pays you interest."
+54,99.058,1.27,25,"Door three. The bank on the corner. Marble columns, brass rails, and it pays you interest."
+55,100.328,0.922,26,"Door four. The mattress. No interest, no risk, no respect."
+56,101.25,0.922,26,"Door four. The mattress. No interest, no risk, no respect."
+57,102.172,0.922,26,"Door four. The mattress. No interest, no risk, no respect."
+58,103.094,0.922,26,"Door four. The mattress. No interest, no risk, no respect."
+59,104.015,1.915,27,Your coworkers think door four is for people who are afraid of money.
+60,105.931,1.915,27,Your coworkers think door four is for people who are afraid of money.
+61,107.846,1.485,28,"So we'll make four of you, and send one through each door."
+62,109.331,1.485,28,"So we'll make four of you, and send one through each door."
+63,110.817,1.748,29,"Quest one, complete."
+64,112.565,1.71,30,September third. The Dow closes at three eighty-one. Nobody rings a bell at the top.
+65,114.274,1.71,30,September third. The Dow closes at three eighty-one. Nobody rings a bell at the top.
+66,115.984,1.71,30,September third. The Dow closes at three eighty-one. Nobody rings a bell at the top.
+67,117.693,1.86,31,"Through September, prices slide about ten percent. Then they bounce."
+68,119.553,1.86,31,"Through September, prices slide about ten percent. Then they bounce."
+69,121.413,2.205,32,"In mid-October, a famous Yale economist says stock prices have reached what looks like a permanently high plateau."
+70,123.618,2.205,32,"In mid-October, a famous Yale economist says stock prices have reached what looks like a permanently high plateau."
+71,125.823,2.205,32,"In mid-October, a famous Yale economist says stock prices have reached what looks like a permanently high plateau."
+72,128.028,2.624,33,He is about to become famous for a different reason.
+73,130.652,1.736,34,"Thursday, October twenty-fourth. Nearly thirteen million shares change hands. A record."
+74,132.388,1.736,34,"Thursday, October twenty-fourth. Nearly thirteen million shares change hands. A record."
+75,134.123,1.736,34,"Thursday, October twenty-fourth. Nearly thirteen million shares change hands. A record."
+76,135.859,1.468,35,"The big bankers step in and buy shares in public, to show everyone it's fine."
+77,137.327,1.468,35,"The big bankers step in and buy shares in public, to show everyone it's fine."
+78,138.796,1.468,35,"The big bankers step in and buy shares in public, to show everyone it's fine."
+79,140.264,1.462,36,It holds for a weekend.
+80,141.726,1.611,37,"Monday, October twenty-eighth. The Dow falls nearly thirteen percent. In one day."
+81,143.338,1.611,37,"Monday, October twenty-eighth. The Dow falls nearly thirteen percent. In one day."
+82,144.949,1.611,37,"Monday, October twenty-eighth. The Dow falls nearly thirteen percent. In one day."
+83,146.56,2.643,38,"Now look at margin you. You owned ten thousand dollars of stock, with one thousand of your own."
+84,149.203,2.643,38,"Now look at margin you. You owned ten thousand dollars of stock, with one thousand of your own."
+85,151.846,2.108,39,A thirteen percent drop is thirteen hundred dollars. Your thousand is gone. So is three hundred you never had.
+86,153.955,2.108,39,A thirteen percent drop is thirteen hundred dollars. Your thousand is gone. So is three hundred you never had.
+87,156.063,2.108,39,A thirteen percent drop is thirteen hundred dollars. Your thousand is gone. So is three hundred you never had.
+88,158.172,2.044,40,"The broker doesn't wait for you to feel better. He sends a margin call. Pay up today, or he sells your shares."
+89,160.216,2.044,40,"The broker doesn't wait for you to feel better. He sends a margin call. Pay up today, or he sells your shares."
+90,162.26,2.044,40,"The broker doesn't wait for you to feel better. He sends a margin call. Pay up today, or he sells your shares."
+91,164.305,1.612,41,"You can't pay. He sells. So does every other broker in the city, at the same moment, into the same falling market."
+92,165.917,1.612,41,"You can't pay. He sells. So does every other broker in the city, at the same moment, into the same falling market."
+93,167.529,1.612,41,"You can't pay. He sells. So does every other broker in the city, at the same moment, into the same falling market."
+94,169.141,1.612,41,"You can't pay. He sells. So does every other broker in the city, at the same moment, into the same falling market."
+95,170.753,1.788,42,"That's Tuesday, October twenty-ninth. Sixteen million shares. Down nearly twelve percent more."
+96,172.541,1.788,42,"That's Tuesday, October twenty-ninth. Sixteen million shares. Down nearly twelve percent more."
+97,174.329,1.788,42,"That's Tuesday, October twenty-ninth. Sixteen million shares. Down nearly twelve percent more."
+98,176.116,1.265,43,Margin you is finished. Out in two days.
+99,177.382,1.265,43,Margin you is finished. Out in two days.
+100,178.647,3.887,44,"To be fair, by nineteen twenty-nine many brokers wanted a lot more than ten percent down. Those customers lasted a little longer."
+101,182.534,3.887,44,"To be fair, by nineteen twenty-nine many brokers wanted a lot more than ten percent down. Those customers lasted a little longer."
+102,186.421,1.573,45,"Stock you is bruised, but alive. No loan, no call. You still own every share."
+103,187.994,1.573,45,"Stock you is bruised, but alive. No loan, no call. You still own every share."
+104,189.567,1.573,45,"Stock you is bruised, but alive. No loan, no call. You still own every share."
+105,191.139,2.519,46,By mid-November the market is down almost half. Your thousand is about five hundred.
+106,193.658,2.519,46,By mid-November the market is down almost half. Your thousand is about five hundred.
+107,196.177,1.961,47,"Bank you and mattress you read about it in the paper, and feel very clever."
+108,198.138,1.961,47,"Bank you and mattress you read about it in the paper, and feel very clever."
+109,200.099,2.554,48,"Quest two, complete. Three of you left."
+110,202.653,2.019,49,Here's what nobody tells stock you. The crash isn't the bad part. The bad part is the next three years.
+111,204.672,2.019,49,Here's what nobody tells stock you. The crash isn't the bad part. The bad part is the next three years.
+112,206.691,2.019,49,Here's what nobody tells stock you. The crash isn't the bad part. The bad part is the next three years.
+113,208.71,2.009,50,The market doesn't fall off a cliff and stop. It falls down a staircase.
+114,210.719,2.009,50,The market doesn't fall off a cliff and stop. It falls down a staircase.
+115,212.728,1.399,51,Every rally looks like the bottom. None of them is.
+116,214.127,1.399,51,Every rally looks like the bottom. None of them is.
+117,215.527,2.673,52,"The real bottom comes on July eighth, nineteen thirty-two. The Dow closes at forty-one."
+118,218.199,2.673,52,"The real bottom comes on July eighth, nineteen thirty-two. The Dow closes at forty-one."
+119,220.872,2.005,53,That's eighty-nine percent below the peak.
+120,222.877,1.842,54,Your thousand dollars of stock is now worth about a hundred and ten.
+121,224.72,1.842,54,Your thousand dollars of stock is now worth about a hundred and ten.
+122,226.562,1.354,55,"You didn't borrow. You didn't panic. You did everything right, and you kept eleven cents on the dollar."
+123,227.916,1.354,55,"You didn't borrow. You didn't panic. You did everything right, and you kept eleven cents on the dollar."
+124,229.27,1.354,55,"You didn't borrow. You didn't panic. You did everything right, and you kept eleven cents on the dollar."
+125,230.624,1.354,55,"You didn't borrow. You didn't panic. You did everything right, and you kept eleven cents on the dollar."
+126,231.978,1.017,56,"Now, bank you. Still feeling clever?"
+127,232.996,1.017,56,"Now, bank you. Still feeling clever?"
+128,234.013,1.319,57,A bank doesn't keep your money in a box with your name on it. It lends it out.
+129,235.332,1.319,57,A bank doesn't keep your money in a box with your name on it. It lends it out.
+130,236.651,1.319,57,A bank doesn't keep your money in a box with your name on it. It lends it out.
+131,237.97,2.004,58,"That works, as long as everyone doesn't ask for their money on the same morning."
+132,239.974,2.004,58,"That works, as long as everyone doesn't ask for their money on the same morning."
+133,241.978,1.911,59,"In nineteen thirty, thirteen hundred and fifty banks shut their doors."
+134,243.89,1.911,59,"In nineteen thirty, thirteen hundred and fifty banks shut their doors."
+135,245.801,2.113,60,"One of them is in your city. It's called the Bank of United States. Despite the name, it's an ordinary bank."
+136,247.914,2.113,60,"One of them is in your city. It's called the Bank of United States. Despite the name, it's an ordinary bank."
+137,250.028,2.113,60,"One of them is in your city. It's called the Bank of United States. Despite the name, it's an ordinary bank."
+138,252.141,2.603,61,Two hundred million dollars in deposits. The biggest bank failure the country has ever seen.
+139,254.744,2.603,61,Two hundred million dollars in deposits. The biggest bank failure the country has ever seen.
+140,257.348,1.905,62,Then you hear a rumor about your own bank. You go down at lunch. There's already a line around the block.
+141,259.253,1.905,62,Then you hear a rumor about your own bank. You go down at lunch. There's already a line around the block.
+142,261.158,1.905,62,Then you hear a rumor about your own bank. You go down at lunch. There's already a line around the block.
+143,263.064,1.857,63,"This is the trap. If you wait calmly, you might lose everything. If you run, you help break the bank."
+144,264.92,1.857,63,"This is the trap. If you wait calmly, you might lose everything. If you run, you help break the bank."
+145,266.777,1.857,63,"This is the trap. If you wait calmly, you might lose everything. If you run, you help break the bank."
+146,268.633,1.678,64,"And there's no insurance. If the bank dies, you join a different line, for whatever is left."
+147,270.312,1.678,64,"And there's no insurance. If the bank dies, you join a different line, for whatever is left."
+148,271.99,1.678,64,"And there's no insurance. If the bank dies, you join a different line, for whatever is left."
+149,273.669,1.867,65,Nineteen thirty-one. About twenty-three hundred more banks go under.
+150,275.536,1.867,65,Nineteen thirty-one. About twenty-three hundred more banks go under.
+151,277.403,3.136,66,"By nineteen thirty-three, the count passes nine thousand."
+152,280.54,1.495,67,Depositors lose about one point three billion dollars.
+153,282.034,1.495,67,Depositors lose about one point three billion dollars.
+154,283.529,1.586,68,"So bank you is a gamble, on a bank you can't see inside."
+155,285.115,1.586,68,"So bank you is a gamble, on a bank you can't see inside."
+156,286.701,0.845,69,And mattress you? The coward?
+157,287.547,0.845,69,And mattress you? The coward?
+158,288.392,1.454,70,Something strange is happening to the cash under the bed.
+159,289.846,1.454,70,Something strange is happening to the cash under the bed.
+160,291.301,1.406,71,Prices are falling. Not stock prices. All prices. Rent. Shoes. Bread.
+161,292.707,1.406,71,Prices are falling. Not stock prices. All prices. Rent. Shoes. Bread.
+162,294.113,1.406,71,Prices are falling. Not stock prices. All prices. Rent. Shoes. Bread.
+163,295.519,2.735,72,"Between nineteen thirty and nineteen thirty-three, average prices drop by nearly thirty percent."
+164,298.253,2.735,72,"Between nineteen thirty and nineteen thirty-three, average prices drop by nearly thirty percent."
+165,300.988,2.541,73,So a dollar buys more every month. Your thousand dollars now shops like fourteen hundred.
+166,303.529,2.541,73,So a dollar buys more every month. Your thousand dollars now shops like fourteen hundred.
+167,306.069,1.788,74,"You took no risk, earned no interest, and came out ahead of everyone."
+168,307.858,1.788,74,"You took no risk, earned no interest, and came out ahead of everyone."
+169,309.646,2.225,75,"There is a catch. By nineteen thirty-three, one worker in four has no job."
+170,311.871,2.225,75,"There is a catch. By nineteen thirty-three, one worker in four has no job."
+171,314.096,1.197,76,"If you're one of them, the mattress isn't a strategy. It's groceries."
+172,315.294,1.197,76,"If you're one of them, the mattress isn't a strategy. It's groceries."
+173,316.491,1.197,76,"If you're one of them, the mattress isn't a strategy. It's groceries."
+174,317.689,1.427,77,And there was a fifth door that nobody at your office mentioned. The post office.
+175,319.116,1.427,77,And there was a fifth door that nobody at your office mentioned. The post office.
+176,320.543,1.427,77,And there was a fifth door that nobody at your office mentioned. The post office.
+177,321.971,2.123,78,"The Post Office takes savings. Two percent interest, run by the government, up to twenty-five hundred dollars."
+178,324.093,2.123,78,"The Post Office takes savings. Two percent interest, run by the government, up to twenty-five hundred dollars."
+179,326.216,2.123,78,"The Post Office takes savings. Two percent interest, run by the government, up to twenty-five hundred dollars."
+180,328.339,2.206,79,"By nineteen thirty-three, five times as many people are using it as before."
+181,330.545,2.206,79,"By nineteen thirty-three, five times as many people are using it as before."
+182,332.751,1.201,80,"Quest three, complete. Scoreboard."
+183,333.952,1.201,80,"Quest three, complete. Scoreboard."
+184,335.152,2.208,81,"Margin you: zero, in two days."
+185,337.36,2.349,82,Stock you: about a hundred and ten dollars.
+186,339.709,3.725,83,"Bank you: somewhere between a thousand and nothing, depending on a rumor."
+187,343.434,3.614,84,Mattress you: a thousand dollars that buys like fourteen hundred.
+188,347.048,2.67,85,"Post office you: a thousand, plus interest."
+189,349.718,0.789,86,Now the hidden one.
+190,350.507,0.789,86,Now the hidden one.
+191,351.296,2.146,87,"March, nineteen thirty-three. The banking system has collapsed. The new president closes every bank in the country."
+192,353.442,2.146,87,"March, nineteen thirty-three. The banking system has collapsed. The new president closes every bank in the country."
+193,355.588,2.146,87,"March, nineteen thirty-three. The banking system has collapsed. The new president closes every bank in the country."
+194,357.734,1.544,88,They call it a bank holiday. Nobody is on holiday.
+195,359.279,1.544,88,They call it a bank holiday. Nobody is on holiday.
+196,360.823,1.744,89,"That June, he signs a law that creates something new. The Federal Deposit Insurance Corporation. The F D I C."
+197,362.567,1.744,89,"That June, he signs a law that creates something new. The Federal Deposit Insurance Corporation. The F D I C."
+198,364.311,1.744,89,"That June, he signs a law that creates something new. The Federal Deposit Insurance Corporation. The F D I C."
+199,366.055,1.744,89,"That June, he signs a law that creates something new. The Federal Deposit Insurance Corporation. The F D I C."
+200,367.799,2.339,90,"From January first, nineteen thirty-four, if your bank fails, you get your money back. Up to twenty-five hundred dollars."
+201,370.138,2.339,90,"From January first, nineteen thirty-four, if your bank fails, you get your money back. Up to twenty-five hundred dollars."
+202,372.476,2.339,90,"From January first, nineteen thirty-four, if your bank fails, you get your money back. Up to twenty-five hundred dollars."
+203,374.815,0.939,91,Your thousand is covered. All of it.
+204,375.753,0.939,91,Your thousand is covered. All of it.
+205,376.692,2.861,92,Think about what that does to the line around the block.
+206,379.553,1.971,93,"If your money is safe either way, there's no reason to run. And if nobody runs, the bank doesn't break."
+207,381.524,1.971,93,"If your money is safe either way, there's no reason to run. And if nobody runs, the bank doesn't break."
+208,383.496,1.971,93,"If your money is safe either way, there's no reason to run. And if nobody runs, the bank doesn't break."
+209,385.467,1.408,94,The rumor stops working.
+210,386.875,1.072,95,That's the fourth quest. Trust a bank again. And you didn't complete it. The rules did.
+211,387.946,1.072,95,That's the fourth quest. Trust a bank again. And you didn't complete it. The rules did.
+212,389.018,1.072,95,That's the fourth quest. Trust a bank again. And you didn't complete it. The rules did.
+213,390.09,1.072,95,That's the fourth quest. Trust a bank again. And you didn't complete it. The rules did.
+214,391.161,1.107,96,As for stock you. Say you held those shares and never looked.
+215,392.269,1.107,96,As for stock you. Say you held those shares and never looked.
+216,393.376,1.107,96,As for stock you. Say you held those shares and never looked.
+217,394.483,2.876,97,"The Dow gets back to its nineteen twenty-nine high on November twenty-third, nineteen fifty-four."
+218,397.359,2.876,97,"The Dow gets back to its nineteen twenty-nine high on November twenty-third, nineteen fifty-four."
+219,400.235,1.052,98,Twenty-five years. You were twenty-four. Now you're forty-nine.
+220,401.287,1.052,98,Twenty-five years. You were twenty-four. Now you're forty-nine.
+221,402.339,1.052,98,Twenty-five years. You were twenty-four. Now you're forty-nine.
+222,403.391,2.247,99,"That's counting price alone, not dividends. It's still a long time to be right."
+223,405.638,2.247,99,"That's counting price alone, not dividends. It's still a long time to be right."
+224,407.885,3.355,100,"So what was the smart move in September, nineteen twenty-nine?"
+225,411.24,1.96,101,"With hindsight, the boring one. And nobody at the time could have proved it."
+226,413.199,1.96,101,"With hindsight, the boring one. And nobody at the time could have proved it."
+227,415.159,1.676,102,The economist had a plateau. The bankers had a plan. The guy at the office had a tip.
+228,416.836,1.676,102,The economist had a plateau. The bankers had a plan. The guy at the office had a tip.
+229,418.512,1.676,102,The economist had a plateau. The bankers had a plan. The guy at the office had a tip.
+230,420.188,1.114,103,You had a thousand dollars and four doors.
+231,421.303,1.114,103,You had a thousand dollars and four doors.
+232,422.417,1.769,104,"Next time you walk into an American bank, look for a small sign by the door. F D I C."
+233,424.186,1.769,104,"Next time you walk into an American bank, look for a small sign by the door. F D I C."
+234,425.955,1.769,104,"Next time you walk into an American bank, look for a small sign by the door. F D I C."
+235,427.724,2.319,105,It's there because of the line around the block.
+236,430.044,3.064,106,Quest complete.

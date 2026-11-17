@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_EP002_short2_not-the-bad-part.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 29.766667,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 29.766667,
+  "a_dur": 29.76,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -17.0,
+  "true_peak": -1.3,
+  "speech": {
+   "similarity": 0.978,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.214,
+   "caption_drift_p90": 0.5,
+   "heard": "heres what nobody tells stock you the crash isnt the bad part the bad part is the next three years the market doesnt fall off a cliff and stop it falls down a staircase every rally looks like the bottom none of them is the real bottom comes on july 8 1932 the dow closes at 41 thats 89 below the peak your 1000 of stock is now worth about 110 you didnt borrow you didnt panic you did everything right and you kept 0 11 on the dollar"
+  }
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_EP002_short4_the-mattress-won.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 23.4,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 23.4,
+  "a_dur": 23.381,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -17.1,
+  "true_peak": -1.4,
+  "speech": {
+   "similarity": 0.937,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.217,
+   "caption_drift_p90": 0.564,
+   "heard": "and mattress you the coward something strange is happening to the cash under the bed prices are falling not stock prices all prices rent shoes bread between 1930 and 1933 average prices dropped by nearly 30 percent so a dollar buys more every month your thousand dollars now shops like 1400 you took no risk or no interest and came out ahead of everyone"
+  }
+ }
+}

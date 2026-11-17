@@ -1,0 +1,382 @@
+{
+ "episode": "EP002",
+ "title": "You Have $1,000 in 1929. What Happens Next?",
+ "topic_id": 2,
+ "facts": [
+  {
+   "claim": "Average American earned about $1,425 a year, so $1,000 is about eight months' pay",
+   "units": "1",
+   "source": "https://ebsco.com/research-starters/history/stock-market-crash-1929",
+   "status": "qualified",
+   "note": "Arithmetic on a reported average income.",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Dow rose from 63 in August 1921 to 381 in September 1929, about sixfold",
+   "units": "11,12,13",
+   "source": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+   "status": "verified",
+   "note": "",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "About 1.5 million Americans had an account with a broker in 1929, in a population of about 120 million (roughly 1 in 80)",
+   "units": "14",
+   "source": "https://novelinvestor.com/notes/the-great-crash-1929-by-john-kenneth-galbraith/",
+   "status": "verified",
+   "note": "Run B, 17 Nov 2026: v2 said 'own any stock at all'. The figure is brokerage customers (Galbraith, citing the Senate count of member-firm accounts), so line 14 was reworded to 'have an account with a broker'. 1 in 80 is arithmetic. UT Austin course text gives the same 1.5 million.",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Buyers on margin typically put about 10% down and borrowed the rest",
+   "units": "18,19,20,21",
+   "source": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+   "status": "verified",
+   "note": "The doubling and $10,000 lines are arithmetic on 10% margin.",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Many brokers required 40-50% margin by mid-1929",
+   "units": "44",
+   "source": "https://novelinvestor.com/notes/the-great-crash-1929-by-john-kenneth-galbraith/",
+   "status": "verified",
+   "note": "Galbraith notes: 'Most brokers required cash of 45% to 50% of the value of the stocks in 1929'. Second source: ryanoconnellfinance.com/1929-stock-market-crash/.",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "In March 1929 a pool with insider participation pushed RCA ('Radio') stock up over about a week, then sold; pools were not illegal until the Securities Exchange Act of 1934",
+   "units": "22,23",
+   "source": "https://archive.nyu.edu/bitstream/2451/26529/2/FIN-04-022.pdf",
+   "status": "verified",
+   "note": "Run B: the v2 wording 'up by almost half in ten days' could not be confirmed (one secondary source; other accounts give roughly 90 to 109). The number was removed and line 23 reworded. NYU paper: pool formed 7 Mar 1929, 'substantial insider participation'. Also https://en.wikipedia.org/wiki/Pool_operation (12 Mar 1929, seven days) and https://sechistorical.org/museum/galleries/kennedy/lastDays_c.php (drove up the price, took gains). The on-screen chart is labelled a sketch, not to scale.",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Dow peak close 381.17 on 3 September 1929",
+   "units": "30",
+   "source": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+   "status": "verified",
+   "note": "",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Prices fell about 10% in September then rose about 8% by mid-October",
+   "units": "31",
+   "source": "https://billofrightsinstitute.org/essays/the-crash-of-1929/",
+   "status": "verified",
+   "note": "",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Irving Fisher (Yale) said in mid-October 1929 that stock prices had reached what looks like a permanently high plateau",
+   "units": "32,33",
+   "source": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+   "status": "qualified",
+   "note": "Source confirms the Fisher statement, NYT 16 Oct 1929; wording is the widely quoted phrase, used as paraphrase not as a quotation.",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Black Thursday 24 Oct 1929: record 12.9 million shares",
+   "units": "34",
+   "source": "https://history.com/news/what-caused-the-stock-market-crash-of-1929",
+   "status": "verified",
+   "note": "",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Bankers bought shares publicly to steady the market; the effort failed",
+   "units": "35,36",
+   "source": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+   "status": "verified",
+   "note": "",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Black Monday 28 Oct: Dow fell nearly 13%",
+   "units": "37,39",
+   "source": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+   "status": "verified",
+   "note": "The $1,300 line is arithmetic.",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Black Tuesday 29 Oct: about 16 million shares, Dow down nearly 12%",
+   "units": "42",
+   "source": "https://history.com/articles/what-caused-the-stock-market-crash-of-1929",
+   "status": "verified",
+   "note": "Percent fall from Federal Reserve History.",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Margin calls forced sales as prices fell",
+   "units": "40,41",
+   "source": "https://embed.la.utexas.edu/his-315l-external/?p=480",
+   "status": "verified",
+   "note": "",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "By mid-November 1929 the Dow was down almost 50%",
+   "units": "46",
+   "source": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+   "status": "verified",
+   "note": "",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Recovery looked imminent to contemporaries in 1930; the decline continued to 1932",
+   "units": "50,51",
+   "source": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+   "status": "qualified",
+   "note": "'Every rally' is a characterisation.",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Dow bottomed 8 July 1932 at 41.22, 89% below the peak",
+   "units": "52,53,54,55,82",
+   "source": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+   "status": "verified",
+   "note": "$110 is arithmetic on the index, price only.",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "1,350 banks suspended in 1930",
+   "units": "59",
+   "source": "https://www-s.fdic.gov/resources/publications/first-fifty-years/book/first-fifty-chapter3.pdf",
+   "status": "verified",
+   "note": "FDIC, The First Fifty Years.",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Bank of United States failed 11 Dec 1930 with about $200 million in deposits, then the largest US bank failure",
+   "units": "60,61",
+   "source": "https://historycrunch.com/?p=14474",
+   "status": "verified",
+   "note": "historycrunch: 11 Dec 1930, about $200 million, 'then the largest bank failure in United States history', 'an ordinary commercial bank'. Federal Reserve History (banking-panics-1930-31) confirms 11 Dec 1930, New York City.",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "No federal deposit insurance before 1934; runs converted deposits to cash",
+   "units": "57,58,62,63,64,92,105",
+   "source": "https://www.fdic.gov/resources/publications/brief-history-of-deposit-insurance/book/brief-history-deposit-insurance-3.pdf",
+   "status": "qualified",
+   "note": "The lunch-hour scene is an invented illustration of a documented pattern.",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "About 2,300 banks suspended in 1931",
+   "units": "65",
+   "source": "https://www-s.fdic.gov/resources/publications/first-fifty-years/book/first-fifty-chapter3.pdf",
+   "status": "verified",
+   "note": "",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "About 9,000 banks suspended operations 1930-1933",
+   "units": "66",
+   "source": "https://www.fdic.gov/90years",
+   "status": "verified",
+   "note": "FDIC First Fifty Years table 3-1 sums to 9,096 for 1930-33. On screen each icon stands for about 225 failed banks (6, then 16, then 40 icons): arithmetic.",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Depositors lost about $1.3 billion, 1929-1933",
+   "units": "67",
+   "source": "https://webarchive.library.unt.edu/eot2008/20090513012935/https:/www.fdic.gov/about/learn/learning/when/1930s.html",
+   "status": "verified",
+   "note": "",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Average prices fell by nearly 30% from 1930 to early 1933",
+   "units": "71,72,73,84",
+   "source": "https://www.federalreservehistory.org/essays/great-depression",
+   "status": "verified",
+   "note": "$1,400 is arithmetic: 1000 / 0.7.",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Unemployment reached about 25% by 1933",
+   "units": "75",
+   "source": "https://embed.la.utexas.edu/his-315l-external/?p=480",
+   "status": "verified",
+   "note": "",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Postal Savings: 2% interest, $2,500 cap, depositors quintupled to 2.3 million by 1933",
+   "units": "78,79",
+   "source": "https://cato.org/blog/postal-savings-third-class-remedy",
+   "status": "verified",
+   "note": "",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "National bank holiday, March 1933",
+   "units": "87,88",
+   "source": "https://www.federalreservehistory.org/essays/great-depression",
+   "status": "verified",
+   "note": "",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Banking Act signed 16 June 1933 created the FDIC; insurance from 1 Jan 1934 at $2,500",
+   "units": "89,90,91",
+   "source": "https://webarchive.library.unt.edu/eot2008/20090513012935/https:/www.fdic.gov/about/learn/learning/when/1930s.html",
+   "status": "verified",
+   "note": "",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Deposit insurance removes the incentive to run",
+   "units": "93,94",
+   "source": "https://www.fdic.gov/resources/publications/brief-history-of-deposit-insurance/book/brief-history-deposit-insurance-1.pdf",
+   "status": "qualified",
+   "note": "Standard explanation; stated as mechanism.",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Dow regained its 1929 high on 23 November 1954",
+   "units": "97,98,99",
+   "source": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+   "status": "verified",
+   "note": "Federal Reserve History says November 1954; 23 November 1954 is the standard date of the first close above 381.17.",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Insured banks display the FDIC sign",
+   "units": "104",
+   "source": "https://www.fdic.gov/90years",
+   "status": "qualified",
+   "note": "FDIC page shows the plaque and seal; 'by the door' is typical, not universal.",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "Charts drawn on screen (Dow 1921-29, autumn 1929, 1929-32, 1929-54) are sketches of the index's shape; only the labelled figures (63, 381, 41, the dates and the percentages) are claims",
+   "units": "11,12,30,31,37,46,51,52,97,99",
+   "source": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+   "status": "qualified",
+   "note": "Intermediate points follow well-known year-end and turning-point levels but are not narrated or labelled.",
+   "checked_run_b": "2026-11-17"
+  },
+  {
+   "claim": "The on-screen document is titled Banking Act of 1933 and dated 16 June 1933",
+   "units": "89",
+   "source": "https://www-s.fdic.gov/resources/publications/first-fifty-years/book/first-fifty-chapter3.pdf",
+   "status": "verified",
+   "note": "'President Roosevelt signed the measure, known as the Banking Act of 1933, into law on June 16, 1933.' The president is drawn as a generic figure, not a likeness.",
+   "checked_run_b": "2026-11-17"
+  }
+ ],
+ "long": {
+  "file": "out/THSQ_EP002_1929-thousand-dollars.mp4",
+  "title": "You Have $1,000 in 1929. What Happens Next?",
+  "description": "It's September 1929 and you have $1,000. We send four versions of you through four doors (stocks on margin, stocks paid in full, a bank, a mattress) and follow each one to 1933 with the real numbers.\n\nYou are made up; the figures are sourced below. This is history, not financial advice. Drawn by code, narrated by a synthetic voice.\n\nChapters\n0:00 September 1929\n0:24 Your quest log\n0:37 The mood on Wall Street\n1:00 Four doors\n1:52 October 1929\n2:21 Margin you\n3:22 Stock you and the staircase\n3:51 Bank you and the line around the block\n4:46 Mattress you\n5:17 The fifth door\n5:32 Scoreboard, 1933\n5:49 The hidden quest\n6:31 Twenty-five years\n6:47 The smart move\n\nSources\nFederal Reserve History, Stock Market Crash of 1929: https://www.federalreservehistory.org/essays/stock-market-crash-of-1929\nFederal Reserve History, The Great Depression: https://www.federalreservehistory.org/essays/great-depression\nFederal Reserve History, Banking Panics of 1930-31: https://www.federalreservehistory.org/essays/banking-panics-1930-31\nFDIC, The First Fifty Years, chapter 3: https://www-s.fdic.gov/resources/publications/first-fifty-years/book/first-fifty-chapter3.pdf\nUSPS, Postal Savings System: https://about.usps.com/who/profile/history/pdf/postal-savings-system.pdf\nJ. K. Galbraith, The Great Crash 1929 (broker accounts and margin requirements)\nThe charts are sketches of the Dow's shape; the labelled figures are the sourced ones.\n\n#history #1929 #greatdepression #stockmarket",
+  "tags": [
+   "1929 stock market crash",
+   "great depression",
+   "history",
+   "wall street crash",
+   "economic history",
+   "black tuesday",
+   "buying on margin",
+   "bank runs",
+   "FDIC",
+   "The Human Side Quest"
+  ]
+ },
+ "shorts": [
+  {
+   "file": "out/shorts/THSQ_EP002_short1_gone-in-2-days.mp4",
+   "units": [
+    37,
+    43
+   ],
+   "title": "$1,000 on Margin in 1929: Gone in 2 Days #shorts",
+   "description": "On 28 October 1929 the Dow fell nearly 13 percent in one day. If you had bought $10,000 of stock with $1,000 of your own and a broker's loan, that day took all of it and more.\n\nFull episode on the channel.\n\n#shorts #history #1929 #greatdepression",
+   "tags": [
+    "1929 stock market crash",
+    "great depression",
+    "history",
+    "wall street crash",
+    "economic history",
+    "black tuesday",
+    "buying on margin",
+    "margin call"
+   ]
+  },
+  {
+   "file": "out/shorts/THSQ_EP002_short2_not-the-bad-part.mp4",
+   "units": [
+    49,
+    55
+   ],
+   "title": "The 1929 Crash Wasn't the Bad Part #shorts",
+   "description": "The Dow did not stop falling in 1929. It went down in steps until 8 July 1932, when it closed at 41, 89 percent below its peak.\n\nFull episode on the channel.\n\n#shorts #history #1929 #greatdepression",
+   "tags": [
+    "1929 stock market crash",
+    "great depression",
+    "history",
+    "wall street crash",
+    "economic history",
+    "dow jones 1932",
+    "bear market"
+   ]
+  },
+  {
+   "file": "out/shorts/THSQ_EP002_short3_the-bank-run-trap.mp4",
+   "units": [
+    62,
+    64
+   ],
+   "title": "The Bank Run Trap of 1930 #shorts",
+   "description": "Before deposit insurance, a rumor about your bank left two bad choices: wait and risk losing everything, or join the line and help break the bank. About 9,000 US banks suspended operations between 1930 and 1933.\n\nFull episode on the channel.\n\n#shorts #history #1929 #greatdepression",
+   "tags": [
+    "1929 stock market crash",
+    "great depression",
+    "history",
+    "wall street crash",
+    "economic history",
+    "bank runs",
+    "bank failures 1930"
+   ]
+  },
+  {
+   "file": "out/shorts/THSQ_EP002_short4_the-mattress-won.mp4",
+   "units": [
+    69,
+    74
+   ],
+   "title": "Why Cash Under a Mattress Won the Great Depression #shorts",
+   "description": "Between 1930 and 1933 average prices in the US fell by nearly 30 percent, so cash that earned nothing bought more every month. The catch: by 1933 one worker in four had no job.\n\nFull episode on the channel.\n\n#shorts #history #1929 #greatdepression",
+   "tags": [
+    "1929 stock market crash",
+    "great depression",
+    "history",
+    "wall street crash",
+    "economic history",
+    "deflation",
+    "cash under the mattress"
+   ]
+  },
+  {
+   "file": "out/shorts/THSQ_EP002_short5_every-bank-closed.mp4",
+   "units": [
+    87,
+    91
+   ],
+   "title": "The Month Every Bank in America Closed #shorts",
+   "description": "In March 1933 the new president closed every bank in the United States. That June a law created the FDIC, and from 1 January 1934 deposits were insured up to $2,500.\n\nFull episode on the channel.\n\n#shorts #history #1929 #greatdepression",
+   "tags": [
+    "1929 stock market crash",
+    "great depression",
+    "history",
+    "wall street crash",
+    "economic history",
+    "FDIC",
+    "bank holiday 1933",
+    "deposit insurance"
+   ]
+  }
+ ]
+}

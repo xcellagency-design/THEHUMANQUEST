@@ -159,7 +159,7 @@ class C:
             shp, hd = hands[i]; s.line([T(*shp), T(*hd)], lw); hx, hy = T(*hd); s.ell(hx-.12*u, hy-.12*u, hx+.12*u, hy+.12*u, PAPER, INK, max(3, lw*0.7))
         arm(0)
         # torso
-        tc = {"sid": MARI, "modern": MARI, "extra": GREY, "boss": TEAL, "scribe": GREY, "greek": WHITE, "sci": WHITE, "chain": (190, 150, 140)}.get(who, GREY)
+        tc = {"sid": MARI, "modern": MARI, "extra": GREY, "boss": TEAL, "scribe": GREY, "greek": WHITE, "sci": WHITE, "chain": (190, 150, 140)}.get(who, TORSO2.get(who, GREY))
         a0, a1 = T(hip[0], hip[1]-0.1*u), T(sh[0]*0.9, sh[1]+0.05*u)
         s.line([a0, a1], 0.86*u+lw*2, INK); s.line([a0, a1], 0.86*u, tc)
         if who in ("sid", "extra", "boss", "scribe", "chain"):
@@ -198,3 +198,343 @@ class C:
         arm(1)
         if o.get("staff"): hx, hy = T(*hands[1][1]); s.line([(hx, hy-0.9*u), (hx, y)], lw*1.2, EARTH)
         return {"hand": T(*hands[1][1]), "hand0": T(*hands[0][1]), "head": T(hc[0], hc[1]-hh/2), "u": u}
+
+# ================= EP002 kit: New York, 1929 (new methods only; nothing above is changed) =================
+CONC = (214, 206, 196); BRICK = (188, 108, 84); GREEN = (140, 178, 128); DGREEN = (86, 132, 96); BRASS = (214, 170, 80)
+WOOD = (150, 108, 74); WALL = (244, 226, 196); MARBLE = (236, 232, 224); CREAM = (250, 240, 214); SLATE = (104, 112, 136)
+TORSO2 = {"broker": NAVY, "banker": (88, 84, 96), "teal": TEAL, "brown": EARTH, "rose": PINK, "blue": WATER, "green": GREEN, "red": RED, "slate": SLATE}
+import random as _rnd
+
+def _kit(f): setattr(C, f.__name__, f); return f
+
+@_kit
+def person(s, x, y, h=300, pose="stand", ex="n", coat="slate", hat=None, tie=None, flip=False, hc=None, **o):
+    """A 1929 extra: plain figure in a coloured coat (a TORSO2 key), optional hat and tie. Returns the fig dict."""
+    f = s.fig(x, y, h, pose, ex, coat, flip, **o); u = f["u"]; hx, hy = f["head"]
+    if tie and not o.get("rot"):
+        nx, ny = hx, hy+1.16*u
+        s.poly([(nx-.1*u, ny), (nx+.1*u, ny), (nx+.07*u, ny+.46*u), (nx, ny+.6*u), (nx-.07*u, ny+.46*u)], tie, INK, max(3, u*.04))
+    if hat and not o.get("rot"): s.hat(f, hat, hc or {"fedora": (96, 88, 84), "top": INK, "cap": EARTH, "bowler": (70, 64, 60), "cloche": RED}.get(hat, INK))
+    return f
+
+@_kit
+def hat(s, f, kind="fedora", c=(96, 88, 84)):
+    u = f["u"]; x, y = f["head"]; lw = max(4, u*0.075)
+    if kind == "fedora":
+        s.poly([(x-.5*u, y+.06*u), (x-.42*u, y-.4*u), (x-.08*u, y-.33*u), (x+.3*u, y-.42*u), (x+.5*u, y+.06*u)], c, INK, lw)
+        s.line([(x-.5*u, y+.0*u), (x+.5*u, y+.0*u)], lw*2, INK); s.line([(x-.86*u, y+.1*u), (x+.86*u, y+.1*u)], lw*1.6, INK)
+    elif kind == "top":
+        s.rect(x-.48*u, y-.82*u, x+.48*u, y+.08*u, c, INK, lw); s.line([(x-.47*u, y-.08*u), (x+.47*u, y-.08*u)], lw*2, RED); s.line([(x-.84*u, y+.1*u), (x+.84*u, y+.1*u)], lw*1.6, INK)
+    elif kind == "cap":
+        s.d.pieslice([(x-.62*u)*S, (y-.42*u)*S, (x+.62*u)*S, (y+.5*u)*S], 180, 360, fill=c, outline=INK, width=int(lw*S)); s.line([(x-.62*u, y+.05*u), (x+.95*u, y+.08*u)], lw*1.5, INK)
+    elif kind == "bowler":
+        s.d.pieslice([(x-.56*u)*S, (y-.6*u)*S, (x+.56*u)*S, (y+.6*u)*S], 180, 360, fill=c, outline=INK, width=int(lw*S)); s.line([(x-.8*u, y+.04*u), (x+.8*u, y+.04*u)], lw*1.6, INK)
+    elif kind == "cloche":
+        s.d.pieslice([(x-.66*u)*S, (y-.5*u)*S, (x+.66*u)*S, (y+.7*u)*S], 180, 360, fill=c, outline=INK, width=int(lw*S)); s.line([(x-.66*u, y+.1*u), (x+.66*u, y+.1*u)], lw*1.3, INK)
+
+@_kit
+def glasses(s, f):
+    u = f["u"]; x, y = f["head"]; cy = y+.45*u
+    for dx in (-.14, .34): s.ell(x+(dx-.19)*u, cy-.17*u, x+(dx+.19)*u, cy+.17*u, None, INK, max(3, u*.05))
+    s.line([(x+.05*u, cy), (x+.15*u, cy)], max(3, u*.05))
+
+@_kit
+def skyline(s, hz, seed=3, c=(170, 178, 200), lit=(250, 236, 180), x0=0, x1=W, hmin=120, hmax=420, o=INK, win=True, dens=.6):
+    r = _rnd.Random(seed); x = x0
+    while x < x1:
+        w = min(r.randint(96, 190), x1-x); h = r.randint(hmin, hmax); t = r.random()
+        if w < 40: break
+        if t < .3: s.rect(x+w*.3, hz-h-46, x+w*.7, hz-h+6, c, o, 5); s.line([(x+w*.5, hz-h-46), (x+w*.5, hz-h-96)], 5, o or INK)
+        elif t < .45: s.poly([(x+w*.2, hz-h+4), (x+w*.5, hz-h-70), (x+w*.8, hz-h+4)], c, o, 5)
+        s.rect(x, hz-h, x+w, hz+4, c, o, 5)
+        if win:
+            for wy in range(int(hz-h+24), int(hz-34), 46):
+                for wx in range(int(x+18), int(x+w-30), 36):
+                    if r.random() < dens: s.rect(wx, wy, wx+16, wy+26, lit, None)
+        x += w-5
+
+@_kit
+def bankfront(s, x, y, w=560, h=420, name="BANK", closed=False, f=MARBLE, size=None, door=(90, 64, 44)):
+    """Classical bank: steps, four columns, pediment, name on the frieze. (x, y) = left end of the ground line."""
+    s.rect(x-34, y-22, x+w+34, y, CONC, INK, 6); s.rect(x-16, y-44, x+w+16, y-22, CONC, INK, 6)
+    top = y-44-h; s.rect(x, top+h*.3, x+w, y-44, f, INK, 7)
+    dw = w*.2; s.rect(x+w/2-dw/2, y-44-h*.44, x+w/2+dw/2, y-44, door, INK, 6, 6); s.line([(x+w/2, y-44-h*.44), (x+w/2, y-44)], 4)
+    for q in (.09, .31, .69, .91):
+        cx = x+w*q; s.rect(cx-w*.036, top+h*.33, cx+w*.036, y-62, WHITE, INK, 6)
+        for dx in (-.014, .014): s.line([(cx+w*dx, top+h*.37), (cx+w*dx, y-70)], 3, (190, 186, 178))
+        s.rect(cx-w*.054, top+h*.3, cx+w*.054, top+h*.345, WHITE, INK, 5); s.rect(cx-w*.054, y-66, cx+w*.054, y-44, WHITE, INK, 5)
+    s.rect(x-22, top+h*.15, x+w+22, top+h*.3, f, INK, 7)
+    s.poly([(x-36, top+h*.15), (x+w/2, top-h*.08), (x+w+36, top+h*.15)], f, INK, 7)
+    sz = size or min(h*.105, (w-30)/max(4, len(name))*1.75); s.text(x+w/2, top+h*.222, name, sz)
+    if closed:
+        s.rect(x+w/2-dw*1.1, y-44-h*.33, x+w/2+dw*1.1, y-44-h*.17, PAPER, INK, 5, 6); s.text(x+w/2, y-44-h*.255, "CLOSED", h*.1, RED)
+    return (x+w/2, y-44)
+
+@_kit
+def shopfront(s, x, y, w=480, h=380, name="BROKER", f=BRICK, awn=TEAL, glass=SKY):
+    s.rect(x, y-h, x+w, y, f, INK, 7); s.rect(x+w*.08, y-h*.62, x+w*.56, y-h*.14, glass, INK, 6)
+    s.rect(x+w*.66, y-h*.62, x+w*.9, y, (90, 64, 44), INK, 6, 4); s.ell(x+w*.84, y-h*.3, x+w*.87, y-h*.26, BRASS, INK, 3)
+    s.rect(x+w*.06, y-h*.92, x+w*.94, y-h*.72, PAPER, INK, 6, 8); s.text(x+w/2, y-h*.825, name, min(h*.13, (w*.84)/max(4, len(name))*1.7))
+    n = 7
+    for i in range(n):
+        xa = x-10+(w+20)*i/n; xb = x-10+(w+20)*(i+1)/n
+        s.poly([(xa, y-h*.7), (xb, y-h*.7), (xb, y-h*.6), ((xa+xb)/2, y-h*.56), (xa, y-h*.6)], awn if i % 2 == 0 else PAPER, INK, 4)
+
+@_kit
+def door(s, x, y, w=250, h=440, n="1", col=TEAL, name=None, open=0.0, dim=False):
+    """Numbered door. (x, y) = bottom centre. open 0..1 swings it; dim greys it out."""
+    fc = (218, 212, 204) if dim else col; fr = (150, 144, 136) if dim else WOOD
+    s.rect(x-w/2-18, y-h-18, x+w/2+18, y, fr, INK, 7, 6); s.rect(x-w/2, y-h, x+w/2, y, (48, 40, 36), INK, 5)
+    dw = w*(1-0.72*open)
+    s.rect(x-w/2, y-h, x-w/2+dw, y, fc, INK, 6)
+    if dw > w*.5:
+        for yy0, yy1 in ((.92, .56), (.46, .08)): s.rect(x-w/2+dw*.14, y-h*yy0, x-w/2+dw*.86, y-h*yy1, None, INK, 4, 4)
+    s.ell(x-w/2+dw*.8-11, y-h*.5-11, x-w/2+dw*.8+11, y-h*.5+11, BRASS, INK, 4)
+    s.ell(x-58, y-h-150, x+58, y-h-34, PAPER if not dim else (232, 226, 216), INK, 7); s.text(x, y-h-96, str(n), 84, INK if not dim else (150, 144, 136))
+    if name:
+        tw = s.tw(name, 50)+44; s.rect(x-tw/2, y+26, x+tw/2, y+96, PAPER if not dim else (236, 230, 220), INK, 5, 12); s.text(x, y+58, name, 50, INK if not dim else (150, 144, 136))
+
+@_kit
+def bill(s, x, y, k=1.0, c=GREEN, t="$"):
+    s.rect(x-80*k, y-38*k, x+80*k, y+38*k, c, INK, max(3, 5*k), 6*k); s.rect(x-66*k, y-26*k, x+66*k, y+26*k, None, DGREEN, max(2, 3*k), 4*k)
+    s.ell(x-22*k, y-22*k, x+22*k, y+22*k, CREAM, INK, max(2, 3*k)); s.text(x, y-2*k, t, 38*k)
+
+@_kit
+def cash(s, x, y, n=6, k=1.0, c=GREEN):
+    """A stack of n notes standing on y, centred on x. Returns the y of the top."""
+    n = max(0, int(n))
+    for i in range(n):
+        yy = y-i*13*k
+        s.rect(x-80*k, yy-16*k, x+80*k, yy, c, INK, max(3, 4*k), 3*k)
+    if n:
+        yy = y-(n-1)*13*k-16*k
+        s.poly([(x-80*k, yy), (x-56*k, yy-30*k), (x+104*k, yy-30*k), (x+80*k, yy)], c, INK, max(3, 4*k)); s.text(x+12*k, yy-16*k, "$", 26*k)
+        s.rect(x-14*k, y-(n-1)*13*k-16*k, x+14*k, y, PAPER, INK, max(2, 3*k))
+    return y-n*13*k-30*k
+
+@_kit
+def coin(s, x, y, r=40, t="$", c=MARI):
+    s.ell(x-r, y-r, x+r, y+r, c, INK, max(3, r*.14)); s.ell(x-r*.74, y-r*.74, x+r*.74, y+r*.74, None, (190, 140, 40), max(2, r*.07)); s.text(x, y-r*.06, t, r*1.1)
+
+@_kit
+def moneybag(s, x, y, k=1.0, c=(196, 170, 120)):
+    s.ell(x-70*k, y-130*k, x+70*k, y, c, INK, 6*k); s.poly([(x-30*k, y-124*k), (x-44*k, y-176*k), (x+44*k, y-176*k), (x+30*k, y-124*k)], c, INK, 6*k)
+    s.line([(x-34*k, y-128*k), (x+34*k, y-128*k)], 7*k, EARTH); s.text(x, y-64*k, "$", 72*k)
+
+@_kit
+def bed(s, x, y, w=620, lift=0.0, cashn=0, k=1.0):
+    """Iron bed seen from the side. (x, y) = floor under the left leg. lift raises the mattress corner; cashn notes hide under it."""
+    h = 150*k
+    for xx in (x, x+w): s.line([(xx, y), (xx, y-h-(150*k if xx == x else 60*k))], 12*k, (70, 64, 60))
+    s.line([(x, y-h-150*k), (x, y-h-150*k)], 22*k, (70, 64, 60))
+    s.rect(x, y-h, x+w, y-h+26*k, (120, 108, 100), INK, 5)
+    if cashn:
+        for i in range(cashn): s.bill(x+w*.3+i*74*k, y-h-14*k-(i % 2)*10*k, .62*k)
+    my = y-h-lift*90*k
+    s.poly([(x+8, y-h-70*k), (x+w-8, my-70*k), (x+w-8, my), (x+8, y-h)], (236, 222, 214), INK, 6)
+    for i in range(1, 9):
+        q = i/9; s.line([(x+8+(w-16)*q, y-h-70*k+(my-y+h)*q+6), (x+8+(w-16)*q, y-h+(my-y+h)*q-6)], 4, (150, 170, 200))
+    s.rect(x+20, y-h-118*k, x+190*k, y-h-66*k, WHITE, INK, 5, 20*k)
+    return (x+w*.5, y-h-70*k)
+
+@_kit
+def tickerm(s, x, y, k=1.0, tape=260, wav=0.0):
+    """Stock ticker under a glass dome on a stand. (x, y) = floor. tape = length of paper spilling out."""
+    s.rect(x-16*k, y-210*k, x+16*k, y, WOOD, INK, 5); s.rect(x-70*k, y-18*k, x+70*k, y, WOOD, INK, 5, 6); s.rect(x-64*k, y-236*k, x+64*k, y-206*k, WOOD, INK, 5, 6)
+    s.d.pieslice([(x-56*k)*S, (y-356*k)*S, (x+56*k)*S, (y-116*k)*S], 180, 360, fill=(226, 240, 240), outline=INK, width=int(5*S))
+    s.ell(x-26*k, y-300*k, x+26*k, y-248*k, BRASS, INK, 4); s.rect(x-40*k, y-250*k, x+40*k, y-236*k, (70, 64, 60), INK, 3)
+    if tape > 0:
+        pts = [(x+40*k, y-262*k)]; n = 14
+        for i in range(1, n+1):
+            q = i/n; pts.append((x+40*k+tape*q, y-262*k+(250*k)*q*q+math.sin(q*9+wav)*10*k))
+        s.line(pts, 15*k, INK); s.line(pts, 10*k, PAPER)
+    return (x+40*k+tape, y-12*k)
+
+@_kit
+def chartbox(s, x0, y0, x1, y1, title=None, f=WHITE, grid=4, ylab=None):
+    s.rect(x0, y0, x1, y1, f, INK, 7, 14)
+    for i in range(1, grid): yy = y0+(y1-y0)*i/grid; s.line([(x0+28, yy), (x1-28, yy)], 3, (222, 214, 200))
+    s.line([(x0+40, y0+30), (x0+40, y1-40), (x1-30, y1-40)], 6)
+    if title: s.text((x0+x1)/2, y0-46, title, 60)
+    return (x0+40, y0+50, x1-50, y1-40)
+
+@_kit
+def plot(s, box, pts, prog=1.0, c=RED, w=12, dot=True, fill=None):
+    """Draw a polyline of normalised (x 0..1, y 0..1 up) points inside box, up to prog 0..1 along x. Returns the tip (x, y)."""
+    bx0, by0, bx1, by1 = box; P = lambda p: (bx0+(bx1-bx0)*p[0], by1-(by1-by0)*p[1])
+    xm = pts[0][0]+(pts[-1][0]-pts[0][0])*max(0.0, min(1.0, prog)); out = [pts[0]]
+    for a, b in zip(pts, pts[1:]):
+        if b[0] <= xm: out.append(b)
+        elif a[0] < xm:
+            q = (xm-a[0])/(b[0]-a[0]); out.append((xm, a[1]+(b[1]-a[1])*q)); break
+        else: break
+    px = [P(p) for p in out]
+    if fill and len(px) > 1: s.poly(px+[(px[-1][0], by1), (px[0][0], by1)], fill, None)
+    if len(px) > 1: s.line(px, w+6, INK); s.line(px, w, c)
+    if dot: tx, ty = px[-1]; s.ell(tx-w*1.3, ty-w*1.3, tx+w*1.3, ty+w*1.3, c, INK, 5)
+    return px[-1]
+
+@_kit
+def newspaper(s, x, y, k=1.0, head="STOCKS CRASH", sub=None):
+    s.rect(x-210*k, y-150*k, x+210*k, y+150*k, CREAM, INK, 6*k, 4)
+    s.text(x, y-112*k, "THE DAILY LEDGER", 30*k); s.line([(x-190*k, y-88*k), (x+190*k, y-88*k)], 4*k)
+    s.text(x, y-40*k, head, min(70*k, 380*k/max(4, len(head))*1.9), INK)
+    s.line([(x-190*k, y+8*k), (x+190*k, y+8*k)], 3*k)
+    for col in range(3):
+        cx = x-190*k+col*132*k
+        for i in range(5): s.line([(cx, y+34*k+i*22*k), (cx+110*k-(i % 3)*14*k, y+34*k+i*22*k)], 3*k, (150, 140, 128))
+    if sub: s.text(x, y+20*k, sub, 24*k)
+
+@_kit
+def desk(s, x, y, w=520, h=150, c=WOOD):
+    s.rect(x, y-h, x+w, y-h+26, c, INK, 6, 4); s.rect(x+14, y-h+26, x+w*.34, y, c, INK, 6); s.rect(x+w-40, y-h+26, x+w-16, y, c, INK, 6)
+    for i in range(3): yy = y-h+40+i*36; s.rect(x+26, yy, x+w*.34-12, yy+28, None, INK, 4); s.ell(x+w*.17-6, yy+8, x+w*.17+6, yy+20, BRASS, INK, 3)
+
+@_kit
+def typewriter(s, x, y, k=1.0):
+    s.rect(x-90*k, y-60*k, x+90*k, y, (70, 64, 60), INK, 5*k, 10*k); s.rect(x-110*k, y-86*k, x+110*k, y-60*k, (96, 88, 84), INK, 5*k, 8*k)
+    s.rect(x-60*k, y-150*k, x+60*k, y-84*k, WHITE, INK, 4*k)
+    for i in range(3): s.line([(x-44*k, y-136*k+i*16*k), (x+40*k-(i % 2)*20*k, y-136*k+i*16*k)], 3*k, (150, 150, 150))
+    for r in range(2):
+        for i in range(6): s.ell(x-70*k+i*26*k+r*8*k, y-46*k+r*20*k, x-54*k+i*26*k+r*8*k, y-30*k+r*20*k, PAPER, INK, 2*k)
+
+@_kit
+def phone(s, x, y, k=1.0, ring=0.0):
+    """Candlestick telephone standing on y. ring > 0 draws shake lines."""
+    s.ell(x-50*k, y-24*k, x+50*k, y+4*k, (60, 56, 54), INK, 5*k); s.rect(x-9*k, y-170*k, x+9*k, y-14*k, (60, 56, 54), INK, 4*k)
+    s.ell(x-30*k, y-214*k, x+30*k, y-160*k, (60, 56, 54), INK, 5*k); s.ell(x-14*k, y-200*k, x+14*k, y-174*k, (120, 112, 106), INK, 3*k)
+    s.line([(x+9*k, y-120*k), (x+52*k, y-120*k)], 6*k); s.poly([(x+44*k, y-150*k), (x+74*k, y-160*k), (x+74*k, y-70*k), (x+44*k, y-90*k)], (60, 56, 54), INK, 4*k)
+    if ring:
+        for i, a in enumerate((-150, -120, -60, -30)):
+            r0 = 70*k; r1 = (96+18*math.sin(ring*20+i))*k; ca, sa = math.cos(math.radians(a)), math.sin(math.radians(a))
+            s.line([(x+r0*ca, y-190*k+r0*sa), (x+r1*ca, y-190*k+r1*sa)], 8*k, RED)
+
+@_kit
+def radio(s, x, y, k=1.0):
+    """Cathedral radio set standing on y."""
+    s.d.pieslice([(x-120*k)*S, (y-330*k)*S, (x+120*k)*S, (y-90*k)*S], 180, 360, fill=WOOD, outline=INK, width=int(7*k*S))
+    s.rect(x-120*k, y-212*k, x+120*k, y, WOOD, INK, 7*k); s.rect(x-116*k, y-216*k, x+116*k, y-200*k, WOOD, None)
+    s.ell(x-70*k, y-290*k, x+70*k, y-150*k, (226, 200, 150), INK, 6*k)
+    for i in range(-2, 3): s.line([(x+i*24*k, y-276*k+abs(i)*14*k), (x+i*24*k, y-164*k-abs(i)*14*k)], 5*k, (120, 84, 58))
+    s.rect(x-60*k, y-124*k, x+60*k, y-84*k, CREAM, INK, 4*k, 6*k)
+    for dx in (-70, 0, 70): s.ell(x+(dx-17)*k, y-62*k, x+(dx+17)*k, y-28*k, (60, 56, 54), INK, 4*k)
+
+@_kit
+def cert(s, x, y, k=1.0, t="STOCK", c=CREAM, seal=RED):
+    s.rect(x-150*k, y-100*k, x+150*k, y+100*k, c, INK, 6*k, 4); s.rect(x-134*k, y-84*k, x+134*k, y+84*k, None, DGREEN, 4*k, 4)
+    s.text(x, y-44*k, t, min(56*k, 250*k/max(3, len(t))*1.9), DGREEN)
+    for i in range(3): s.line([(x-100*k, y+2*k+i*22*k), (x+50*k-(i % 2)*30*k, y+2*k+i*22*k)], 3*k, (150, 140, 128))
+    s.ell(x+70*k, y+16*k, x+122*k, y+68*k, seal, INK, 4*k)
+
+@_kit
+def calpage(s, x, y, k=1.0, top="OCT", big="24", sub=None, c=RED):
+    """Tear-off calendar page centred on (x, y)."""
+    s.rect(x-130*k, y-160*k, x+130*k, y+160*k, WHITE, INK, 7*k, 12*k); s.rect(x-130*k, y-160*k, x+130*k, y-84*k, c, INK, 7*k, 12*k)
+    s.text(x, y-124*k, top, 58*k, PAPER); s.text(x, y+18*k if sub else y+34*k, big, (150 if len(str(big)) < 3 else 104)*k)
+    if sub: s.text(x, y+122*k, sub, 44*k)
+    for dx in (-70, 70): s.ell(x+(dx-12)*k, y-178*k, x+(dx+12)*k, y-150*k, (70, 64, 60), INK, 3*k)
+
+@_kit
+def pricetag(s, x, y, k=1.0, t="$5", c=CREAM, tc=INK):
+    s.poly([(x-110*k, y), (x-60*k, y-52*k), (x+110*k, y-52*k), (x+110*k, y+52*k), (x-60*k, y+52*k)], c, INK, 6*k)
+    s.ell(x-82*k, y-10*k, x-62*k, y+10*k, WHITE, INK, 3*k); s.text(x+26*k, y-4*k, t, min(64*k, 150*k/max(2, len(t))*1.9), tc)
+
+@_kit
+def shoe(s, x, y, k=1.0, c=(120, 84, 58)):
+    s.poly([(x-90*k, y), (x-90*k, y-84*k), (x-34*k, y-84*k), (x-20*k, y-44*k), (x+70*k, y-34*k), (x+100*k, y-10*k), (x+100*k, y)], c, INK, 6*k)
+    s.rect(x-94*k, y-4*k, x+104*k, y+12*k, (60, 56, 54), INK, 4*k); s.rect(x-94*k, y+8*k, x-56*k, y+26*k, (60, 56, 54), INK, 4*k)
+    for i in range(3): s.line([(x-26*k+i*16*k, y-56*k+i*4*k), (x-12*k+i*16*k, y-70*k+i*4*k)], 4*k, PAPER)
+
+@_kit
+def keyp(s, x, y, k=1.0, c=BRASS):
+    s.ell(x-90*k, y-44*k, x-10*k, y+44*k, c, INK, 6*k); s.ell(x-66*k, y-18*k, x-34*k, y+18*k, PAPER, INK, 4*k)
+    s.rect(x-14*k, y-12*k, x+100*k, y+12*k, c, INK, 5*k)
+    for dx in (56, 84): s.rect(x+dx*k, y+10*k, x+(dx+16)*k, y+40*k, c, INK, 4*k)
+
+@_kit
+def megaphone(s, x, y, k=1.0, flip=False, c=RED):
+    d = -1 if flip else 1
+    s.poly([(x, y-18*k), (x+d*120*k, y-70*k), (x+d*120*k, y+70*k), (x, y+18*k)], c, INK, 6*k); s.rect(min(x, x-d*34*k), y-18*k, max(x, x-d*34*k), y+18*k, (70, 64, 60), INK, 4*k)
+    for i, a in enumerate((-34, 0, 34)):
+        ca, sa = math.cos(math.radians(a)), math.sin(math.radians(a)); s.line([(x+d*(150*k)*ca, y+150*k*sa), (x+d*(210*k)*ca, y+210*k*sa)], 10*k, INK)
+
+@_kit
+def bubble(s, x, y, t, size=60, tail=(-60, 90), c=INK, f=WHITE, pad=34):
+    """Speech bubble centred on (x, y) with its tail pointing by the offset tail."""
+    w = s.tw(t, size)+pad*2; n = t.count("\n")+1; h = size*1.2*n+pad*1.3
+    tx, ty = x+tail[0], y+h/2+tail[1]
+    s.poly([(x+tail[0]*.2-26, y+h/2-8), (tx, ty), (x+tail[0]*.2+26, y+h/2-8)], f, INK, 6)
+    s.rect(x-w/2, y-h/2, x+w/2, y+h/2, f, INK, 6, 26); s.rect(x+tail[0]*.2-22, y+h/2-12, x+tail[0]*.2+22, y+h/2-3, f, None)
+    s.text(x, y-4, t, size, c)
+
+@_kit
+def plaque(s, x, y, k=1.0, t="FDIC", sub=None, c=BRASS):
+    s.rect(x-150*k, y-80*k, x+150*k, y+80*k, c, INK, 7*k, 10*k); s.rect(x-134*k, y-64*k, x+134*k, y+64*k, None, (150, 110, 40), 4*k, 6*k)
+    s.text(x, y-(18*k if sub else 2*k), t, 84*k); 
+    if sub: s.text(x, y+40*k, sub, 28*k)
+    for dx, dy in ((-136, -66), (136, -66), (-136, 66), (136, 66)): s.ell(x+dx*k-6*k, y+dy*k-6*k, x+dx*k+6*k, y+dy*k+6*k, (150, 110, 40), INK, 2*k)
+
+@_kit
+def flag(s, x, y, h=300, k=1.0, wav=0.0):
+    s.line([(x, y), (x, y-h)], 9*k, (90, 84, 80)); s.ell(x-10*k, y-h-16*k, x+10*k, y-h+4*k, BRASS, INK, 3*k)
+    fw, fh = 150*k, 90*k; top = y-h+8*k
+    for i in range(7):
+        yy = top+fh*i/7; off = math.sin(wav+i*.5)*5*k
+        s.poly([(x+4, yy), (x+fw+off, yy+off*.4), (x+fw+off, yy+fh/7+off*.4), (x+4, yy+fh/7)], RED if i % 2 == 0 else WHITE, None)
+    s.rect(x+4, top, x+fw*.42, top+fh*.56, NAVY, None); s.poly([(x+4, top), (x+fw, top), (x+fw, top+fh), (x+4, top+fh)], None, INK, 4*k)
+
+@_kit
+def bell(s, x, y, k=1.0, c=BRASS, swing=0.0):
+    a = swing*22; ca, sa = math.cos(math.radians(a)), math.sin(math.radians(a))
+    R = lambda px, py: (x+px*ca-py*sa, y+px*sa+py*ca)
+    s.poly([R(-34*k, 0), R(-50*k, 110*k), R(-78*k, 150*k), R(78*k, 150*k), R(50*k, 110*k), R(34*k, 0)], c, INK, 6*k)
+    cx, cy = R(0, 166*k); s.ell(cx-20*k, cy-20*k, cx+20*k, cy+20*k, (150, 110, 40), INK, 4*k); s.ell(x-16*k, y-22*k, x+16*k, y+8*k, c, INK, 5*k)
+
+@_kit
+def house(s, x, y, k=1.0, c=PINK):
+    s.rect(x-90*k, y-110*k, x+90*k, y, c, INK, 6*k); s.poly([(x-110*k, y-110*k), (x, y-190*k), (x+110*k, y-110*k)], BRICK, INK, 6*k)
+    s.rect(x-22*k, y-66*k, x+22*k, y, (90, 64, 44), INK, 4*k); s.rect(x+38*k, y-84*k, x+72*k, y-50*k, SKY, INK, 4*k)
+
+@_kit
+def factory(s, x, y, k=1.0, c=(196, 178, 160)):
+    s.rect(x-120*k, y-90*k, x+120*k, y, c, INK, 6*k)
+    for i in range(3): s.poly([(x-120*k+i*80*k, y-90*k), (x-120*k+i*80*k, y-140*k), (x-40*k+i*80*k, y-90*k)], c, INK, 6*k)
+    s.rect(x+70*k, y-220*k, x+104*k, y-90*k, BRICK, INK, 6*k)
+    for i in range(3): s.rect(x-100*k+i*66*k, y-60*k, x-66*k+i*66*k, y-26*k, SKY, INK, 4*k)
+
+@_kit
+def vault(s, x, y, r=200):
+    s.rect(x-r*1.25, y-r*1.25, x+r*1.25, y+r*1.25, (150, 156, 170), INK, 8, 12); s.ell(x-r, y-r, x+r, y+r, (190, 196, 208), INK, 8)
+    s.ell(x-r*.72, y-r*.72, x+r*.72, y+r*.72, None, INK, 5)
+    for a in range(0, 360, 60):
+        ca, sa = math.cos(math.radians(a)), math.sin(math.radians(a)); s.line([(x+r*.16*ca, y+r*.16*sa), (x+r*.5*ca, y+r*.5*sa)], 12, (90, 96, 110))
+    s.ell(x-r*.18, y-r*.18, x+r*.18, y+r*.18, BRASS, INK, 6)
+    for dy in (-.6, .6): s.rect(x-r*1.34, y+r*dy-22, x-r*1.1, y+r*dy+22, (90, 96, 110), INK, 5, 4)
+
+@_kit
+def shield(s, x, y, k=1.0, c=TEAL, t=None):
+    s.poly([(x-90*k, y-100*k), (x, y-130*k), (x+90*k, y-100*k), (x+84*k, y+10*k), (x, y+120*k), (x-84*k, y+10*k)], c, INK, 7*k)
+    if t: s.text(x, y-14*k, t, 60*k, PAPER)
+    else: s.line([(x-40*k, y-10*k), (x-8*k, y+30*k), (x+46*k, y-50*k)], 16*k, PAPER)
+
+@_kit
+def umbrella(s, x, y, k=1.0, c=RED):
+    s.line([(x, y), (x, y-220*k)], 8*k, (90, 84, 80)); s.d.pieslice([(x-150*k)*S, (y-330*k)*S, (x+150*k)*S, (y-110*k)*S], 180, 360, fill=c, outline=INK, width=int(6*k*S))
+    for dx in (-75, 0, 75): s.line([(x+dx*k, y-220*k), (x, y-328*k)], 4*k)
+
+@_kit
+def questlog(s, rows, shown=4, done=0, hidden=None, x=1040, y=170, z=1.36):
+    """The quest-log panel with this episode's own rows (rows = three objectives; hidden = the fourth once revealed)."""
+    rows = list(rows)[:3]+[hidden or "? ? ?"]
+    s.rect(x, y, x+610*z, y+(150+shown*92)*z, PAPER, INK, 8, 26)
+    s.marker(x+62*z, y+70*z, 24*z); s.text(x+110*z, y+66*z, "QUEST LOG", 70*z, INK, "lm")
+    s.line([(x+30*z, y+125*z), (x+580*z, y+125*z)], 6)
+    for i in range(shown):
+        yy = y+(180+i*92)*z
+        s.rect(x+34*z, yy-24*z, x+82*z, yy+24*z, WHITE, INK, 6, 8)
+        if i < done: s.tick(x+58*z, yy, 18*z)
+        if i == 3 and not hidden:
+            s.rect(x+44*z, yy-8*z, x+72*z, yy+16*z, INK, None, 0, 4); s.d.arc([(x+48*z)*S, (yy-24*z)*S, (x+68*z)*S, (yy+4*z)*S], 180, 360, fill=INK, width=6*S)
+        sz = 52*z
+        while sz > 30 and s.tw(rows[i], sz) > 470*z: sz -= 3
+        s.text(x+104*z, yy-4, rows[i], sz, INK if i >= done else (120, 110, 98), "lm")

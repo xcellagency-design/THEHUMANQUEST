@@ -49,6 +49,9 @@ def assign(c, start: date, after: datetime, days=14, experiment_id=None, shuffle
     groups = {}
     for r in q:
         groups.setdefault(r["episode_id"], []).append(r)
+    # the long episode goes out before the Shorts cut from it, so "full episode on the channel" is true when a Short says it
+    for g in groups.values():
+        g.sort(key=lambda r: r["kind"] != "long")
     q = [g[i] for i in range(max(map(len, groups.values()), default=0)) for g in groups.values() if i < len(g)]
     done = []
     for row, p in zip(q, free):

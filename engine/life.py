@@ -107,3 +107,10 @@ def fig(s, x, y, h=300, pose="stand", ex="n", who="sid", flip=False, rot=0, sit=
         w = h*0.42; s.da.ellipse([(x-w)*S, (y-14)*S, (x+w)*S, (y+22)*S], fill=(40, 30, 20, 46))
     return _fig(s, x, y, h*br if rot == 0 else h, pose, ex, who, flip, rot, sit, **o)
 C.fig = fig
+
+_questlog = C.questlog
+def questlog(s, rows, shown=4, done=0, hidden=None, x=1040, y=170, z=1.36):
+    x = min(x, 990)
+    if _new(("Q",)): x = x+(1-ease(T.LT/0.32))*950
+    _questlog(s, rows, shown, done, hidden, x, y, z)
+C.questlog = questlog

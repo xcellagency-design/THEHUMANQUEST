@@ -84,7 +84,7 @@ If there is no approved-quality script in `03_episodes/` waiting to be built, do
 ## Standing facts
 
 - Slots (Eastern): 9:00 AM, 12:00 PM, 3:00 PM, 7:00 PM. Days alternate between 12+7 and 9+3. Long episodes take a slot like any other video but are not part of the timing test. `plan` gives a long episode the earliest slot of its batch, so its Shorts never go out before it.
-- Episodes so far (for rule 10): EP001 pyramid builders, Egypt, 2560 BC, daily-life pillar. EP002 $1,000 in 1929, New York, 1929-1934, money pillar. EP003 a day in Pompeii, Roman Italy, AD 79, point-of-view pillar.
+- Episodes so far (for rule 10): EP001 pyramid builders, Egypt, 2560 BC, daily-life pillar. EP002 $1,000 in 1929, New York, 1929-1934, money pillar. EP003 a day in Pompeii, Roman Italy, AD 79, point-of-view pillar. EP004 (script and fact table ready in `03_episodes/EP004/`, not built yet) wages after the Black Death, England, 1349-1381, money pillar.
 - Build time on the 2-core runner: narration about 7 minutes, motion render about 8, encode about 8, Shorts 1 minute. If only drawings changed, re-run render.py, assemble.py, render2.py and the ffmpeg line from `build.py` by hand and skip tts.py.
 - Voice: Kokoro `am_michael`, speed 1.22. Loudness target -16 LUFS, true peak under -1 dB. Check names before the long render: transcribe `work/EPnnn/voice.wav` with faster-whisper as soon as assemble.py has run. A name the recogniser does not give back was usually said wrong (17 Nov 2026: Herculaneum and Ostia; fixed by writing Her-cue-lay-nee-um and Oss-tee-ah in the narration and restoring the spelling in `CAPTION_FIX`).
 - Palette, Sid's design and the quest-log device are in `docs/launch_plan.md`, section C.

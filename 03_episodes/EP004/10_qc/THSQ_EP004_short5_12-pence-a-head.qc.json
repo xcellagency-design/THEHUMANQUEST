@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_EP004_short5_12-pence-a-head.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 29.733333,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 29.733333,
+  "a_dur": 29.717,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -17.3,
+  "true_peak": -1.5,
+  "speech": {
+   "similarity": 0.972,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.133,
+   "caption_drift_p90": 0.326,
+   "heard": "1380 a poll tax 12 pence from everyone over 15 rich or poor the next summer essex and kent rise and the rebels reach london at mile end they face the king richard ii and demand an end to serfdom one account of their demands adds an end to the wage limits he agrees charters go out the next day the mayor of london stabs their leader watt tyler by july the charters are revoked by november at least 1500 people have been executed or killed in battle"
+  }
+ }
+}

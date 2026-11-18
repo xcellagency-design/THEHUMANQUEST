@@ -1,0 +1,479 @@
+{
+ "episode": "EP004",
+ "title": "You Survived the Black Death. Now Ask for a Raise.",
+ "topic_id": 7,
+ "facts": [
+  {
+   "claim": "England, 1349: mortality in the Black Death. Commonly quoted range 40-60%; estimates opened run from about 20% (Russell) to 62.5% (Benedictow)",
+   "units": "0,24,89",
+   "source": "https://en.wikipedia.org/wiki/Black_Death_in_England",
+   "status": "qualified",
+   "note": "Wikipedia, Black Death in England: 'commonly accepted range is 40-60%'; Russell 23.6% then 20%; Ziegler a third; Goldberg 45%; Benedictow 62.5%, not widely accepted. Routt (EH.net) gives a range from 5% upward. The village is invented; 'about half' sits inside the quoted range and line 24 says the toll is disputed.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Labour became scarce and workers could ask for more; landlords could not ignore the market",
+   "units": "1,2",
+   "source": "https://bbcbreakingnews.pages.dev/history/british/middle_ages/blacksocial_01.shtml",
+   "status": "verified",
+   "note": "Ibeji, BBC History: 'Skilled manpower was so short that no landlord could afford to ignore the strictures of the market.' London Museum: 'workers could charge more for their labour'. Page read on a mirror; the original is bbc.co.uk/history/british/middle_ages/blacksocial_01.shtml: link that one in the description. London Museum page: https://londonmuseum.org.uk/collections/london-stories/how-peasants-revolt-rocked-medieval-london.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "June 1349: the Ordinance of Labourers orders wages back to the level of 1346 and no more",
+   "units": "3,51,53",
+   "source": "https://avalon.law.yale.edu/medieval/statlab.asp",
+   "status": "verified",
+   "note": "Avalon Project text (titled Statute of Laborers 1351 but addressed to the archbishop: it is the 1349 Ordinance): pay fixed at the rate of the 20th year of Edward III or the five or six common years before. Exact words: 'in the twentieth year of our reign of England, or the five or six common years next preceding'; 'able bodied and below the age of sixty years'. Bailey 2025: Ordinance issued 18 June 1349, Statute at the Parliament of February 1351. Plague in the north over summer 1349 (Wikipedia, Black Death in England).",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "The lead character (a 22-year-old ploughman on a southern English manor), his illness and his conversation with the bailiff are invented; the script says so",
+   "units": "5,6,25,31,37,45",
+   "source": "none: invented, stated in the narration",
+   "status": "qualified",
+   "note": "Device of the show. Line 6 states it. The description must repeat it.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Famuli (ploughmen, carters, herdsmen) were hired on terms of up to a year and paid mostly in grain liveries plus a cash stipend; cash was about 20% of pay; total pay 19-29 shillings a year from the 1270s to the 1370s",
+   "units": "13,14,94",
+   "source": "https://www.lse.ac.uk/asset-library/information/wp360.pdf",
+   "status": "qualified",
+   "note": "Claridge, Delabastita and Gibbs, LSE Economic History Working Paper 360 (Sept 2023): 'long terms of often up to a year'; cash rose 'from about 20% to 35%'; 'remained broadly fixed between 19 s. and 29 s.' 'Five shillings... ten' is a range, not a quoted figure: 20% of 19-29s is about 4-6s; at Meopham (Goose) ploughmen had 11s 6d in 1348-49 and 9s to 9s 6d in 1352-53. The character is invented and so is his being hired by the year; the paper says 'often up to a year'.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "12 pence = 1 shilling; 20 shillings = 1 pound",
+   "units": "15",
+   "source": "https://www.nottingham.ac.uk/manuscriptsandspecialcollections/researchguidance/weightsandmeasures/money.aspx",
+   "status": "verified",
+   "note": "University of Nottingham Manuscripts and Special Collections: 'One pound was divided into 20 shillings. One shilling was divided into 12 pennies.' A mark was 13s 4d, so half a mark is 6s 8d.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Britain in the early fourteenth century was heavily populated relative to land",
+   "units": "12",
+   "source": "https://bbcbreakingnews.pages.dev/history/british/middle_ages/blacksocial_01.shtml",
+   "status": "qualified",
+   "note": "Ibeji: 'Britain in the early fourteenth century was horrendously overpopulated.' One historian's judgement, attributed as such. 'Not enough land' is the plain meaning of that judgement.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Villeins (serfs) owed two or three days' work a week on the lord's demesne, usually could not legally leave, paid a fine when a daughter married outside the estate, and the heir paid to inherit",
+   "units": "16,17,18",
+   "source": "https://www.worldhistory.org/Serf",
+   "status": "qualified",
+   "note": "World History Encyclopedia, Serf: 'work on the demesne land of their lord for two or three days each week'; 'Usually, serfs could not legally leave the estate'; 'a fine for the daughter of a serf marrying a person from outside the estate'; 'inheritance tax paid by the serf's heir'. General medieval description, not specific to one English manor. 'Many of your neighbours' is deliberately vague: no share is given.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "The plague reached England in June 1348: a seaman arrived at Melcombe (Weymouth), Dorset, from Gascony; other chronicles name Bristol or Southampton",
+   "units": "19,20",
+   "source": "https://en.wikipedia.org/wiki/Black_Death_in_England",
+   "status": "verified",
+   "note": "Wikipedia, Black Death in England, citing the Grey Friars' Chronicle: ship came 'shortly before the Feast of St. John the Baptist on 24 June 1348'; the sailor brought 'the seeds of the terrible pestilence'. Knighton (Cheyney translation) has it coming in from Southampton.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "London reached by November 1348; the north in summer 1349; about 500 days to cross the country",
+   "units": "21,22",
+   "source": "https://en.wikipedia.org/wiki/Black_Death_in_England",
+   "status": "verified",
+   "note": "Wikipedia: London 'possibly as early as 29 September, and certainly by November'; York May 1349, north over summer 1349; 'about 500 days'.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Knighton: few kept their beds more than two or three days",
+   "units": "23",
+   "source": "https://sites.uwm.edu/carlin/?p=887",
+   "status": "verified",
+   "note": "Knighton, trans. Cheyney (Readings in English History, 1908), on Martha Carlin's UWM page: 'there were few who kept their beds more than three days, or two days, or half a day'.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Warboys, Huntingdonshire, 1349: Ramsey Abbey's list of 22 tenants too sick to work; three-quarters back within a month; Henry Broun missed one week; up to a year and a day of sick leave was allowed; the list names survivors",
+   "units": "26,27,28,29,30",
+   "source": "https://dur.ac.uk/departments/academic/history/news/what-a-list-of-black-death-survivors-reveals-about-the-way-people-recovered-from-plague/",
+   "status": "verified",
+   "note": "Durham University news on Brown, Owen and Sloane: illnesses began between end of April and start of August 1349; 'three-quarters of people returned to work in under a month'; Henry Broun one week; John Derworth and Agnes Mold nine weeks; entitled to 'a year and a day'. 'It doesn't count the ones who never came back' is the plain reading of a list of survivors' absences.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Knighton: sheep and cattle wandered through fields and crops with no one to drive them; a horse worth 40s sold for 6s 8d; crops perished for want of gatherers; such a lack of servants that no one knew what to do",
+   "units": "32,33,34,35,36",
+   "source": "https://sites.uwm.edu/carlin/?p=887",
+   "status": "verified",
+   "note": "Knighton, trans. Cheyney: 'Sheep and cattle went wandering over fields and through crops, and there was no one to go and drive or gather them'; 'a horse, which before was worth 40 s., for 6 s. 8 d.'; 'many crops perished in the fields for want of some one to gather them'; 'such a lack of servants that no one knew what he ought to do'. Second translation (Hughes ed., elfinspell): 'half a mark'.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Knighton: in the following autumn no one could get a reaper for less than 8d with his food",
+   "units": "39,40,63",
+   "source": "https://sites.uwm.edu/carlin/?p=887",
+   "status": "verified",
+   "note": "Both translations opened agree on the reaper (8d with food). They disagree on the mower (12d in Cheyney, 10d in Hughes), so the mower is not used. Knighton does not say 'a day', and the script does not either.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Average day labourer's wage in the manor-account sample: 0.13s in 1349, 0.25s in 1350",
+   "units": "41,93",
+   "source": "https://www.lse.ac.uk/asset-library/information/wp360.pdf",
+   "status": "verified",
+   "note": "Claridge, Delabastita and Gibbs: 'In 1349, the average wage of a day labourer was 0.13 s.; by 1350 it had climbed to 0.25 s.' 0.13s = 1.56d, 0.25s = 3d (arithmetic). A rise of 92%: 'nearly doubled'.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Fornham All Saints, Suffolk, 1348-49: more than half the reaping at the old 3d an acre, the rest at 5d; the reaper also got more and larger tips in cash and perquisites in kind",
+   "units": "42",
+   "source": "https://eh.net/encyclopedia/the-economic-impact-of-the-black-death/",
+   "status": "verified",
+   "note": "Routt, EH.net Encyclopedia (2008): the tips belong to the same 1348-49 harvest and are a supplement to the wage, not a recorded evasion of the later statute, so they sit with the Suffolk line. 5d was 'an increase of 67 percent'; 'more and larger tips in cash and perquisites in kind to supplement the wage'.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "After the plague peasants moved more freely for better terms; Knighton says lords remitted rents lest tenants leave",
+   "units": "43,44",
+   "source": "https://elfinspell.com/ChaucerEngland2a.html",
+   "status": "verified",
+   "note": "Knighton in Hughes (ed.), Illustrations of Chaucer's England: lords 'remitted the payment of their rents, lest the tenants should go away'. Routt: 'the Black Death nonetheless fostered far greater rural mobility'.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Meopham, Kent: cash stipends rose about 10% in the plague year, most for ploughmen and the carter; food liveries rose about 30% in 1348-50; the account roll attributes the rise to 'the heavy mortality of that year'",
+   "units": "46,47,48,49",
+   "source": "https://kentarchaeology.org.uk/journal/92/wage-labour-kentish-manor-meopham-1307-75",
+   "status": "verified",
+   "note": "Nigel Goose, 'Wage Labour on a Kentish Manor: Meopham, 1307-75', Archaeologia Cantiana 92. The roll's explanation is attached to the cash stipends, so the narration gives it before the food line. The manor is not named in the narration; name it on screen and in the description.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Ordinance of Labourers, 1349: the able-bodied under 60 without their own living must serve whoever requires them; prison for refusing or leaving before the term; no alms to able-bodied beggars",
+   "units": "52,54,55",
+   "source": "https://avalon.law.yale.edu/medieval/statlab.asp",
+   "status": "verified",
+   "note": "Avalon text of the Ordinance. The Ordinance singles out the lack of ploughmen and such labourers. One Wikipedia summary read back as 'under 68'; the text and the HHU summary say 60.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Knighton: labourers 'so arrogant and hostile that they paid no heed to the King's mandate'",
+   "units": "56",
+   "source": "https://elfinspell.com/ChaucerEngland2a.html",
+   "status": "verified",
+   "note": "Knighton in Hughes (ed.). Paraphrased closely in narration with 'command' for 'mandate'.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Statute of Labourers, 1351, made in Parliament; preamble complains servants withdraw to serve great men unless they get double or treble their old pay",
+   "units": "57,58",
+   "source": "https://sourcebooks.web.fordham.edu/seth/statute-labourers.asp",
+   "status": "verified",
+   "note": "Fordham Internet History Sourcebook text (from White and Notestein, Source Problems in English History, 1915). Ibeji: 'promulgated through Parliament as the Statute of Labourers in 1351'. Re-opened in run B, 18 Nov 2026: rates, penalties and the quoted words read again on the page.",
+   "checked": "2026-11-18"
+  },
+  {
+   "claim": "Statute rates: haymaking 1d a day; mowers 5d an acre or 5d a day; reapers 2d in the first week of August and 3d in the second; threshing a quarter of wheat or rye 2.5d; master carpenter 3d; master freestone mason 4d; 'without meat or drink, or other courtesy'",
+   "units": "59,60,61,62,63,64",
+   "source": "https://sourcebooks.web.fordham.edu/seth/statute-labourers.asp",
+   "status": "verified",
+   "note": "Same text on Fordham and on the Warwick history module page; the Hughes volume (elfinspell) gives the same rates. History Hit gives different, uncited caps (carpenters 4d, masons 5d): not used. Re-opened in run B, 18 Nov 2026: rates, penalties and the quoted words read again on the page.",
+   "checked": "2026-11-18"
+  },
+  {
+   "claim": "Statute: servants hired by the whole year or other usual terms, not by the day; tools carried openly to market towns and hiring in a common place, not privately; servants sworn twice a year; stocks to be made in every town; stocks three days or more for refusers; forty days' prison, then a quarter of a year, for those convicted of breaking the oath",
+   "units": "65,66,67,68,69",
+   "source": "https://sourcebooks.web.fordham.edu/seth/statute-labourers.asp",
+   "status": "verified",
+   "note": "Fordham text: 'by a whole year, or by other usual terms, and not by the day'; 'openly in their hands to the merchant-towns'; 'in a common place and not privy'; 'sworn two times in the year'; whoever comes 'against his oath' has 'imprisonment of forty days', then 'a quarter of a year'; those who 'refuse to take such oath' go in the stocks 'by three days or more'; 'stocks be made in every town'. Checked a second time for exact words. HHU summary: ploughmen hired by the year. 'Three months' = a quarter of a year. The reapers' 3d runs from the second week 'till the end of August'. The same text sends excess pay to the tax collectors 'in alleviation of the towns'. Re-opened in run B, 18 Nov 2026: rates, penalties and the quoted words read again on the page.",
+   "checked": "2026-11-18"
+  },
+  {
+   "claim": "Justices of Labourers enforced the laws; fines were set against local tax liability, which gave communities an incentive to prosecute; at Colchester in 1352 they raised 84 pounds 7s 7d",
+   "units": "70,71,72,73",
+   "source": "https://ueaeprints.uea.ac.uk/95111/1/Bailey_2025_TheEconomicHistoryReview.pdf",
+   "status": "verified",
+   "note": "Mark Bailey, 'The implementation of national labour legislation in England after the Black Death, 1349-1400', Economic History Review 78 (2025): '£84 7 s. 7 d. in fines from offenders against the statute'. 84x240 + 7x12 + 7 = 20,251 pence. The widely repeated figure of 7,556 people fined in Essex was not found in any source opened and is not used. Re-opened in run B, 18 Nov 2026: the sentences and footnote 25 read again.",
+   "checked": "2026-11-18"
+  },
+  {
+   "claim": "The legislation had a short period of success in the early 1350s",
+   "units": "74",
+   "source": "https://ueaeprints.uea.ac.uk/95111/1/Bailey_2025_TheEconomicHistoryReview.pdf",
+   "status": "verified",
+   "note": "Bailey 2025: 'enjoyed a short period of success'. Routt: in England the law 'did slow wage increases for a time'. Goose: 'enforced with some vigour in the early 1350s'. Re-opened in run B, 18 Nov 2026: the sentences and footnote 25 read again.",
+   "checked": "2026-11-18"
+  },
+  {
+   "claim": "Meopham: by 1352-53 ploughmen's stipends had fallen back to 9s 6d and 9s; in the roll a carter's wage is amended from 11s to 9s 6d, which the author suggests may indicate attempts to evade the legislation",
+   "units": "75,76,77,116,117",
+   "source": "https://kentarchaeology.org.uk/journal/92/wage-labour-kentish-manor-meopham-1307-75",
+   "status": "qualified",
+   "note": "Goose: 'the ploughmen's money wage had fallen back to 9s. 6d. and 9s. 0d.'; the food increases were not all maintained. Cash sums 'crossed out and lowered (e.g., a carter's wage amended from 11s. to 9s. 6d.)'. Goose: 'methods of deception were being used by the manorial authorities to avoid the restrictive wage legislation' (offered as a possibility). Two readings are given in narration. 'Somebody thought he was worth it' is comment: someone did write 11s.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Ways round the cap: tips and perquisites; at St Edmund's the abbot paid more frequent seasonal rewards and grain stipends in wheat, 'no doubt' circumventing the limits",
+   "units": "78,79,80",
+   "source": "https://eh.net/encyclopedia/the-economic-impact-of-the-black-death/",
+   "status": "qualified",
+   "note": "Routt. The circumvention is the historian's inference ('no doubt'), not a recorded motive. 'A raise you can eat' is comment.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Manor courts rarely enforced the labour laws: seven of eight manors studied (578 courts) recorded no presentments; royal courts were the main means of enforcement",
+   "units": "81",
+   "source": "https://ueaeprints.uea.ac.uk/95111/1/Bailey_2025_TheEconomicHistoryReview.pdf",
+   "status": "verified",
+   "note": "Bailey 2025. Bailey 2023 (Continuity and Change 38): application in manor courts 'piecemeal and abortive'. Re-opened in run B, 18 Nov 2026: the sentences and footnote 25 read again.",
+   "checked": "2026-11-18"
+  },
+  {
+   "claim": "Plague returned in 1361-62 and killed around 20% of the population",
+   "units": "82",
+   "source": "https://en.wikipedia.org/wiki/Black_Death_in_England",
+   "status": "qualified",
+   "note": "Wikipedia, Black Death in England, citing Gottfried. One estimate; narration says 'by one estimate'.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "The legislation was 'doomed once plague returned again in 1361/2'; nominal wage rates rose by over half between the early 1340s and early 1370s",
+   "units": "83",
+   "source": "https://ueaeprints.uea.ac.uk/95111/1/Bailey_2025_TheEconomicHistoryReview.pdf",
+   "status": "verified",
+   "note": "Bailey 2025: carpenter's day rate 3d to 4.3d; thatcher and mate 3.5d to 5.7d. Re-opened in run B, 18 Nov 2026: the sentences and footnote 25 read again.",
+   "checked": "2026-11-18"
+  },
+  {
+   "claim": "Sumptuary statute of 1363: grooms, servants of lords and artificers to be served flesh or fish once a day; repealed the following year",
+   "units": "84",
+   "source": "https://blogs.loc.gov/law/2011/10/sumptuous-sumptuary-laws/",
+   "status": "verified",
+   "note": "Library of Congress, In Custodia Legis (Feikert-Ahalt, 2011), quoting 37 Edw. III. The clothing clause for ploughmen ('blanket and russet') was found only on a page with no citation and is not used.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Langland's Piers Plowman mocks labourers who reject day-old vegetables, bacon and cheap ale and want fresh meat, fish and fine ale",
+   "units": "85",
+   "source": "https://theconversation.com/know-your-place-poetry-after-the-black-death-reflected-fear-of-social-change-139703",
+   "status": "verified",
+   "note": "The Conversation, 'Know your place: poetry after the Black Death reflected fear of social change'. Dyer's study of harvest workers (abstract on medievalists.net) supports the shift from bread to meat and ale.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Post-plague inflation: more coin per head; prices did not subside in England until the mid-1370s; cash wages often bought no more, and often less, than before",
+   "units": "86,87,89,90,91",
+   "source": "https://eh.net/encyclopedia/the-economic-impact-of-the-black-death/",
+   "status": "verified",
+   "note": "Routt: inflation 'did not subside in England until the mid-1370s'; 'the general inflation of the quarter-century following the plague'. Wikipedia, Statute of Labourers: 'immediately after the Black Death, real wages did not rise'.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "The Ordinance singles out the shortage of ploughmen",
+   "units": "94",
+   "source": "https://avalon.law.yale.edu/medieval/statlab.asp",
+   "status": "verified",
+   "note": "Avalon text, checked a second time for the exact words: 'the lack especially of ploughmen and such labourers'.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Famuli pay largely stagnant until 1380; 41s by the 1420s and 56s by the 1430s; a rise 'delayed' until about three decades after the plague",
+   "units": "95,96,97,98",
+   "source": "https://www.lse.ac.uk/asset-library/information/wp360.pdf",
+   "status": "verified",
+   "note": "Claridge, Delabastita and Gibbs: 'remained largely stagnant until 1380'; 'reaching an average of 41 s. by the 1420s' and 'even 56 s. by the 1430s'. Also 'doubling from 25 s. to 50 s. per year, on average, by the 1430s': 'roughly doubled'. The figures are averages across the paper's manors (narration: 'on average'); the paper says both two and three decades for the delay, and 1349 to 1380 is 31 years. The authors say their findings generally support the golden-age idea, substantially delayed: narration attributes it to them. 'Golden age': Routt says the century and a half after the plague 'has been labeled a golden age'.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "The authors' explanation: better outside options (cheap land, day work), grain prices falling and steadying so in-kind pay mattered less, and enforcement collapsing as employers broke the rules",
+   "units": "99,100,101,114",
+   "source": "https://www.lse.ac.uk/asset-library/information/wp360.pdf",
+   "status": "verified",
+   "note": "Same paper. The paper names the legislation as one of several interacting factors, effective in the short term and not in the medium term; hence 'part of the reason'. Summary of a working paper; the published version is in Explorations in Economic History (2024).",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "1380 poll tax: 12 pence on each person over 15, flat rate",
+   "units": "102,103",
+   "source": "https://en.wikipedia.org/wiki/Peasants%27_Revolt",
+   "status": "verified",
+   "note": "Wikipedia, Peasants' Revolt: 'flat-rate basis of 12 pence on each person over 15'. World History Encyclopedia: three groats, three times the earlier taxes.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "1381: revolt begins in Essex and Kent in late May; rebels enter London; at Mile End (14 June) they demand the abolition of serfdom; rebel demands included repeal of the wage limits; Richard II issues charters; at Smithfield (15 June) the mayor, William Walworth, stabs Wat Tyler",
+   "units": "104,105,106",
+   "source": "https://en.wikipedia.org/wiki/Peasants%27_Revolt",
+   "status": "verified",
+   "note": "Wikipedia, Peasants' Revolt: 'the abolition of serfdom and unfree tenure'; charters; 'Walworth responded by stabbing Tyler'. World History Encyclopedia, Cartwright (https://www.worldhistory.org/Peasants'_Revolt/): demands included 'Repeal of post-Black Death wage limits'; Mayor William Walworth. The wage-limit demand is in that one account only and is not in Wikipedia's list of the Mile End demands, so the narration says 'one account'.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Charters revoked 2 July 1381; by November at least 1,500 people executed or killed in battle",
+   "units": "107",
+   "source": "https://en.wikipedia.org/wiki/Peasants%27_Revolt",
+   "status": "verified",
+   "note": "Wikipedia, Peasants' Revolt.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "After 1381: no further poll tax (not for 600 years); wage limits less strictly enforced; rural wages kept rising; serfdom declined, primarily for economic reasons",
+   "units": "108,109,112",
+   "source": "https://en.wikipedia.org/wiki/Peasants%27_Revolt",
+   "status": "qualified",
+   "note": "Wikipedia: 'The institution of serfdom declined after 1381, but primarily for economic rather than political reasons'; 'Rural wages continued to increase'. Wikipedia: 'There were no further attempts by Parliament to impose a poll tax'. The London Museum page (https://londonmuseum.org.uk/collections/london-stories/how-peasants-revolt-rocked-medieval-london) says no poll tax 'for 600 years'; a second reader doubted that and it is NOT used. 'Some of what they wanted happens anyway' is a summary; the lord-next-door sentence is an illustration of the economic argument (Knighton on rents, Routt on mobility).",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Statute of Cambridge 1388 set new maximum wage rates well above pre-Black Death levels",
+   "units": "110",
+   "source": "https://www.lse.ac.uk/asset-library/information/wp360.pdf",
+   "status": "verified",
+   "note": "Claridge, Delabastita and Gibbs: 'established new levels for maximum wage rates which were well above pre-Black Death levels'. These are still caps, not an end to caps; in November 1381 the Commons stood behind the labour laws (Wikipedia). Hence 'gives ground on pay'.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "Serfdom 'withered away during the fifteenth century'",
+   "units": "111",
+   "source": "https://cambridge.org/core/books/decline-of-serfdom-in-late-medieval-england/chronology-of-the-decline-of-serfdom/8C3A6B2935B46CE5B7EA393CE8A1FCD1",
+   "status": "qualified",
+   "note": "Bailey, The Decline of Serfdom in Late Medieval England, chapter summary on Cambridge Core. Wikipedia says 'virtually extinct' by about 1400: the dates differ between sources, so the narration says 'over the next century'.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "The Statute of Labourers was repealed by the Statute Law Revision Act 1863",
+   "units": "115",
+   "source": "https://en.wikipedia.org/wiki/Statute_of_Labourers_1351",
+   "status": "verified",
+   "note": "Wikipedia, Statute of Labourers 1351.",
+   "checked": "2026-11-17"
+  },
+  {
+   "claim": "On screen only: a thatcher and mate's day rate rose from 3.5d to 5.7d between the early 1340s and the early 1370s",
+   "units": "83",
+   "source": "https://ueaeprints.uea.ac.uk/95111/1/Bailey_2025_TheEconomicHistoryReview.pdf",
+   "status": "verified",
+   "note": "Bailey 2025, footnote 25, read in run B on 18 Nov 2026: 'A carpenter's day rate rose from 3 d. to 4.3 d., and a thatcher and mate from 3.5 d. to 5.7 d.' The carpenter (up 43%) is not shown, because the banner says 'more than half'.",
+   "checked": "2026-11-18"
+  },
+  {
+   "claim": "On screen only: the chart of a ploughman's yearly pay is a sketch through the study's averages (about 25s flat to 1380, 41s by the 1420s, 56s by the 1430s)",
+   "units": "96,97,114",
+   "source": "https://www.lse.ac.uk/asset-library/information/wp360.pdf",
+   "status": "qualified",
+   "note": "The points between the labelled figures are drawn by eye. The chart says so on screen.",
+   "checked": "2026-11-17"
+  }
+ ],
+ "long": {
+  "file": "out/THSQ_EP004_black-death-ask-for-a-raise.mp4",
+  "title": "You Survived the Black Death. Now Ask for a Raise.",
+  "description": "It's 1349, about half your village is dead, and for the first time your boss needs you more than you need him. We follow one ploughman from the plague to the Statute of Labourers and the revolt of 1381, with the real wages, laws and fines, to see who actually got paid.\n\nThe ploughman is invented. The wages, laws, fines and quotations are from the sources listed below; where historians disagree (the death toll, why serfdom ended) the video says so. This is history, told as a story. Drawn by code, narrated by a synthetic voice.\n\nChapters\n0:00 England, 1349\n0:22 Your quest log\n0:31 Before the plague\n1:08 The plague arrives\n1:38 The sick list\n2:06 The world after\n2:26 Quest two: get a raise\n3:17 The king's order\n3:48 The Statute of Labourers\n4:47 New judges, and the clever part\n5:06 The crossed-out wage\n5:46 The plague returns\n6:19 The hidden quest: who really got paid\n7:20 1381\n7:52 What happened anyway\n8:18 Outlast them\n\nPlaces named on screen: Warboys (Huntingdonshire, Ramsey Abbey's list), Fornham All Saints (Suffolk), Meopham (Kent), Bury St Edmunds abbey, Colchester.\n\nSources\nWikipedia, Black Death in England (for the chronicles and estimates it cites): https://en.wikipedia.org/wiki/Black_Death_in_England\nMike Ibeji, Black Death: The lasting impact, BBC History: https://www.bbc.co.uk/history/british/middle_ages/blacksocial_01.shtml\nYale Avalon Project, the Ordinance of Labourers, 1349: https://avalon.law.yale.edu/medieval/statlab.asp\nClaridge, Delabastita and Gibbs, LSE Economic History Working Paper 360 (2023): https://www.lse.ac.uk/asset-library/information/wp360.pdf\nUniversity of Nottingham, Manuscripts and Special Collections: money: https://www.nottingham.ac.uk/manuscriptsandspecialcollections/researchguidance/weightsandmeasures/money.aspx\nWorld History Encyclopedia, Serf: https://www.worldhistory.org/Serf\nKnighton's chronicle, Cheyney translation (Martha Carlin, University of Wisconsin-Milwaukee): https://sites.uwm.edu/carlin/?p=887\nDurham University, What a list of Black Death survivors reveals: https://dur.ac.uk/departments/academic/history/news/what-a-list-of-black-death-survivors-reveals-about-the-way-people-recovered-from-plague/\nDavid Routt, The Economic Impact of the Black Death, EH.net Encyclopedia: https://eh.net/encyclopedia/the-economic-impact-of-the-black-death/\nKnighton in Hughes (ed.), Illustrations of Chaucer's England: https://elfinspell.com/ChaucerEngland2a.html\nNigel Goose, Wage Labour on a Kentish Manor: Meopham, 1307-75, Archaeologia Cantiana 92: https://kentarchaeology.org.uk/journal/92/wage-labour-kentish-manor-meopham-1307-75\nFordham Internet History Sourcebook, the Statute of Labourers, 1351: https://sourcebooks.web.fordham.edu/seth/statute-labourers.asp\nMark Bailey, The implementation of national labour legislation in England after the Black Death, 1349-1400, Economic History Review 78 (2025): https://ueaeprints.uea.ac.uk/95111/1/Bailey_2025_TheEconomicHistoryReview.pdf\nLibrary of Congress, In Custodia Legis: Sumptuous Sumptuary Laws: https://blogs.loc.gov/law/2011/10/sumptuous-sumptuary-laws/\nThe Conversation, Know your place: poetry after the Black Death: https://theconversation.com/know-your-place-poetry-after-the-black-death-reflected-fear-of-social-change-139703\nWikipedia, Peasants' Revolt: https://en.wikipedia.org/wiki/Peasants%27_Revolt\nMark Bailey, The Decline of Serfdom in Late Medieval England (Cambridge Core chapter summary): https://cambridge.org/core/books/decline-of-serfdom-in-late-medieval-england/chronology-of-the-decline-of-serfdom/8C3A6B2935B46CE5B7EA393CE8A1FCD1\nWikipedia, Statute of Labourers 1351: https://en.wikipedia.org/wiki/Statute_of_Labourers_1351\nThe maps are sketches, not to scale. The chart of a ploughman's pay is a sketch through the averages in the LSE paper; the labelled figures are the sourced ones.\n\n#history #blackdeath #medieval #medievalengland",
+  "tags": [
+   "black death",
+   "medieval england",
+   "history",
+   "statute of labourers",
+   "medieval history",
+   "peasants revolt 1381",
+   "medieval wages",
+   "economic history",
+   "wat tyler",
+   "The Human Side Quest"
+  ],
+  "thumbnail_image_id": "9904944e-0a17-446c-a8e8-a695cda831aa"
+ },
+ "shorts": [
+  {
+   "file": "out/shorts/THSQ_EP004_short1_the-king-banned-your-raise.mp4",
+   "units": [
+    0,
+    4
+   ],
+   "title": "It's 1349. The King Just Banned Your Raise #shorts",
+   "description": "After the Black Death, workers in England could ask for more pay. In June 1349 the king's Ordinance of Labourers ordered wages back to what was usual in 1346.\n\nFull episode on the channel.\n\n#shorts #history #blackdeath #medieval",
+   "tags": [
+    "black death",
+    "medieval england",
+    "history",
+    "statute of labourers",
+    "medieval history",
+    "ordinance of labourers",
+    "1349"
+   ]
+  },
+  {
+   "file": "out/shorts/THSQ_EP004_short2_the-plague-sick-list.mp4",
+   "units": [
+    26,
+    30
+   ],
+   "title": "A Sick List From the Black Death: 22 Names #shorts",
+   "description": "At Warboys in Huntingdonshire, Ramsey Abbey's monks listed 22 tenants too sick to work in 1349 and how long each was gone. Three in four were back within a month, but it is a list of survivors.\n\nFull episode on the channel.\n\n#shorts #history #blackdeath #medieval",
+   "tags": [
+    "black death",
+    "medieval england",
+    "history",
+    "statute of labourers",
+    "medieval history",
+    "plague survivors",
+    "warboys"
+   ]
+  },
+  {
+   "file": "out/shorts/THSQ_EP004_short3_the-1351-pay-cap.mp4",
+   "units": [
+    58,
+    64
+   ],
+   "title": "The 1351 Law That Set Your Maximum Pay #shorts",
+   "description": "England's Statute of Labourers named the most each job could be paid: a penny a day for haymaking, threepence for a master carpenter, twopence a day for reaping in the first week of August. Extras were banned too.\n\nFull episode on the channel.\n\n#shorts #history #blackdeath #medieval",
+   "tags": [
+    "black death",
+    "medieval england",
+    "history",
+    "statute of labourers",
+    "medieval history",
+    "wage cap",
+    "1351"
+   ]
+  },
+  {
+   "file": "out/shorts/THSQ_EP004_short4_a-law-about-dinner.mp4",
+   "units": [
+    84,
+    85
+   ],
+   "title": "England Passed a Law About Servants' Dinner #shorts",
+   "description": "A law of 1363 said servants were to be served meat or fish only once a day; it was repealed the next year. The poet William Langland complained that labourers now wanted fresh meat and fish.\n\nFull episode on the channel.\n\n#shorts #history #blackdeath #medieval",
+   "tags": [
+    "black death",
+    "medieval england",
+    "history",
+    "statute of labourers",
+    "medieval history",
+    "sumptuary law",
+    "william langland",
+    "piers plowman"
+   ]
+  },
+  {
+   "file": "out/shorts/THSQ_EP004_short5_12-pence-a-head.mp4",
+   "units": [
+    103,
+    107
+   ],
+   "title": "12 Pence a Head: The Tax Before the 1381 Revolt #shorts",
+   "description": "In 1380 England set a poll tax of 12 pence on everyone over 15, rich or poor. The next summer Essex and Kent rose, the rebels reached London, and by November at least 1,500 people had been executed or killed.\n\nFull episode on the channel.\n\n#shorts #history #medieval #peasantsrevolt",
+   "tags": [
+    "black death",
+    "medieval england",
+    "history",
+    "statute of labourers",
+    "medieval history",
+    "peasants revolt 1381",
+    "wat tyler",
+    "poll tax"
+   ]
+  }
+ ]
+}

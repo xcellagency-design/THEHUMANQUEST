@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_EP004_short4_a-law-about-dinner.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 17.5,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 17.466667,
+  "a_dur": 17.5,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -15.9,
+  "true_peak": -1.5,
+  "speech": {
+   "similarity": 0.949,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.234,
+   "caption_drift_p90": 0.456,
+   "heard": "parliament even tries to control dinner a law of 1363 says servants are to be served meat or fish only once a day its repealed the next year the poet william langland grumbles that laborers now turn down day old vegetables and cheap ale they want fresh meat and fish"
+  }
+ }
+}

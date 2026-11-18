@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_EP004_short3_the-1351-pay-cap.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 31.166667,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 31.166667,
+  "a_dur": 31.146,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -17.1,
+  "true_peak": -1.4,
+  "speech": {
+   "similarity": 0.899,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.167,
+   "caption_drift_p90": 0.402,
+   "heard": "the statute of laborers it complains that servants wont work unless they get double or triple the old wage then it names the prices haymaking a penny a day mowing five pints an acre or five pints a day threshing a quarter of wheat two pints hay penny a master carpenter three pints a day a master mason four and reaping knightons reaper wanted eight pints in his food the law says two pints a day three from the second week of august no extras the statute says without meat or drink or other courtesy"
+  }
+ }
+}

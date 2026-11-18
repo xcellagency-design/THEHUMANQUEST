@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_EP004_short2_the-plague-sick-list.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 24.666667,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 24.666667,
+  "a_dur": 24.661,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -17.0,
+  "true_peak": -1.5,
+  "speech": {
+   "similarity": 0.958,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.265,
+   "caption_drift_p90": 1.101,
+   "heard": "heres something the story usually skips some people recovered on a manor in huntingtonshire the monks kept a list of tenants too sick to work in the spring and summer of 1349 twenty two names and how long each was gone three out of four were back at work inside a month the rules allowed up to a year and a day off sick henry brown took one week its a list of survivors it doesnt count the ones who never came back"
+  }
+ }
+}

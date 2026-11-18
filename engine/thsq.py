@@ -695,3 +695,288 @@ def castfig(s, x, y, k=1.0, plaster=True):
         for a, b in zip(pts, pts[1:]):
             for q in (0, .5): s.line([(a[0]+(b[0]-a[0])*q, a[1]+(b[1]-a[1])*q), (a[0]+(b[0]-a[0])*(q+.3), a[1]+(b[1]-a[1])*(q+.3))], 5*k, (90, 84, 80), False)
         s.d.arc([(x-214*k)*S, (y-34*k)*S, (x-146*k)*S, (y+30*k)*S], 20, 340, fill=(90, 84, 80), width=int(5*k*S))
+
+# ================= EP004 kit: England, 1349-1381 (new methods only) =================
+THATCH = (212, 178, 98); DAUB = (238, 226, 202); TIMBER = (98, 72, 52); GRASS = (150, 188, 118); DGRASS = (112, 152, 96); SOIL = (156, 116, 84)
+WHEATC = (228, 196, 100); SILVER = (208, 212, 218); PARCH = (240, 224, 182); FLINT = (192, 188, 180); WOOL = (244, 240, 230); OXC = (176, 124, 88); GLASSD = (70, 80, 110)
+
+@_kit
+def cottage(s, x, y, w=300, h=170, lit=True, dead=False):
+    """Wattle-and-daub cottage with a timber frame and a thatched roof. (x, y) = bottom left. dead: dark door and window, faded thatch. Returns the ridge."""
+    wall = DAUB if not dead else (214, 208, 196); th = THATCH if not dead else (176, 162, 126)
+    s.rect(x, y-h, x+w, y, wall, INK, 6)
+    for q in (.33, .66): s.line([(x+w*q, y-h), (x+w*q, y)], 7, TIMBER)
+    s.line([(x, y-h*.5), (x+w, y-h*.5)], 7, TIMBER); s.line([(x+w*.66, y-h), (x+w, y-h*.5)], 6, TIMBER)
+    s.rect(x+w*.4, y-h*.62, x+w*.58, y, (70, 52, 40) if not dead else (40, 34, 32), INK, 5, 4)
+    s.rect(x+w*.74, y-h*.42, x+w*.9, y-h*.16, (250, 214, 130) if (lit and not dead) else (60, 54, 52), INK, 4)
+    s.poly([(x-26, y-h+8), (x+w*.16, y-h-h*.78), (x+w*.84, y-h-h*.78), (x+w+26, y-h+8)], th, INK, 6)
+    for i in range(1, 7): s.line([(x-26+(w+52)*i/7, y-h+2), (x+w*.16+(w*.68)*i/7, y-h-h*.72)], 3, (170, 138, 70) if not dead else (140, 128, 100))
+    return (x+w*.5, y-h-h*.78)
+
+@_kit
+def church(s, x, y, k=1.0, col=FLINT):
+    """Parish church: nave, square tower with battlements, short spire and cross. (x, y) = bottom left of the tower."""
+    s.rect(x+120*k, y-170*k, x+420*k, y, col, INK, 6*k); s.poly([(x+108*k, y-170*k), (x+270*k, y-272*k), (x+432*k, y-170*k)], (160, 108, 88), INK, 6*k)
+    for i in range(3):
+        cx = x+190*k+i*90*k; s.ell(cx-16*k, y-142*k, cx+16*k, y-102*k, GLASSD, INK, 4*k); s.rect(cx-16*k, y-122*k, cx+16*k, y-50*k, GLASSD, INK, 4*k); s.rect(cx-12*k, y-126*k, cx+12*k, y-110*k, GLASSD, None)
+    s.poly([(x+18*k, y-316*k), (x+65*k, y-420*k), (x+112*k, y-316*k)], (160, 108, 88), INK, 6*k)
+    s.rect(x, y-300*k, x+130*k, y, col, INK, 6*k)
+    for i in range(4): s.rect(x-3*k+i*37*k, y-324*k, x+19*k+i*37*k, y-298*k, col, INK, 5*k)
+    s.line([(x+65*k, y-420*k), (x+65*k, y-474*k)], 6*k); s.line([(x+47*k, y-452*k), (x+83*k, y-452*k)], 6*k)
+    s.ell(x+45*k, y-92*k, x+85*k, y-52*k, (70, 52, 40), INK, 5*k); s.rect(x+45*k, y-72*k, x+85*k, y, (70, 52, 40), INK, 5*k); s.rect(x+49*k, y-76*k, x+81*k, y-60*k, (70, 52, 40), None)
+    s.rect(x+50*k, y-230*k, x+80*k, y-180*k, GLASSD, INK, 4*k)
+
+@_kit
+def manor(s, x, y, w=620, h=300, col=FLINT):
+    """Stone manor hall: tiled roof, chimney, buttresses, tall windows, arched door. (x, y) = bottom left. Returns the door's foot."""
+    s.rect(x+w*.3, y-h-h*.74, x+w*.38, y-h-h*.2, col, INK, 6)
+    s.poly([(x-20, y-h), (x+w*.08, y-h-h*.5), (x+w*.92, y-h-h*.5), (x+w+20, y-h)], (166, 98, 78), INK, 7)
+    for i in range(1, 12): s.line([(x-20+(w+40)*i/12, y-h-4), (x+w*.08+w*.84*i/12, y-h-h*.46)], 3, (130, 74, 58))
+    s.rect(x, y-h, x+w, y, col, INK, 7)
+    for q in (.05, .5, .95): s.poly([(x+w*q-24, y), (x+w*q-14, y-h*.8), (x+w*q+14, y-h*.8), (x+w*q+24, y)], (172, 168, 160), INK, 5)
+    for q in (.17, .33, .64):
+        cx = x+w*q; s.ell(cx-24, y-h*.72-24, cx+24, y-h*.72+24, GLASSD, INK, 5); s.rect(cx-24, y-h*.72, cx+24, y-h*.3, GLASSD, INK, 5); s.rect(cx-19, y-h*.72-4, cx+19, y-h*.72+14, GLASSD, None); s.line([(cx, y-h*.72-20), (cx, y-h*.3)], 4)
+    dx = x+w*.8; s.ell(dx-46, y-h*.5-46, dx+46, y-h*.5+46, (84, 60, 46), INK, 6); s.rect(dx-46, y-h*.5, dx+46, y, (84, 60, 46), INK, 6); s.rect(dx-41, y-h*.5-6, dx+41, y-h*.5+20, (84, 60, 46), None); s.line([(dx, y-h*.5-42), (dx, y)], 4)
+    return (dx, y)
+
+@_kit
+def strips(s, y0, y1=H, n=9, vx=W/2, cols=((176, 200, 120), (212, 194, 112), (166, 128, 94)), x0=-400, x1=W+400, o=True, squeeze=.12):
+    """Open-field strips running from the bottom edge towards a vanishing point on the horizon line y0."""
+    for i in range(n):
+        xa = x0+(x1-x0)*i/n; xb = x0+(x1-x0)*(i+1)/n
+        s.poly([(vx+(xa-vx)*squeeze, y0), (vx+(xb-vx)*squeeze, y0), (xb, y1), (xa, y1)], cols[i % len(cols)], INK if o else None, 4)
+
+@_kit
+def ox(s, x, y, k=1.0, flip=False, c=OXC, step=0.0):
+    d = -1 if flip else 1; sw = 12*k*math.sin(step)
+    for i, dx in enumerate((-74, -48, 44, 70)): s.line([(x+d*dx*k, y-80*k), (x+d*dx*k+(sw if i % 2 else -sw), y)], 14*k)
+    s.ell(x-112*k, y-176*k, x+104*k, y-62*k, c, INK, 6*k); hx = x+d*128*k
+    for e in (-1, 1):
+        pts = [(hx+e*28*k, y-180*k), (hx+e*54*k, y-200*k), (hx+e*68*k, y-236*k)]; s.line(pts, 15*k, INK, False); s.line(pts, 8*k, (240, 232, 212), False)
+    s.ell(hx-52*k, y-192*k, hx+52*k, y-100*k, c, INK, 6*k); s.ell(hx+d*22*k-24*k, y-140*k, hx+d*22*k+24*k, y-102*k, (228, 198, 172), INK, 4*k)
+    s.ell(hx+d*2*k-6*k, y-164*k, hx+d*2*k+6*k, y-152*k, INK, None); s.line([(x-d*108*k, y-150*k), (x-d*128*k, y-78*k)], 7*k)
+
+@_kit
+def plough(s, x, y, k=1.0, flip=False):
+    """Wooden plough. (x, y) = where the share meets the soil; the beam runs forward (to the right unless flip). Returns (handle tip, beam tip)."""
+    d = -1 if flip else 1
+    s.line([(x-d*40*k, y-36*k), (x+d*250*k, y-96*k)], 13*k, TIMBER); s.line([(x+d*70*k, y-62*k), (x+d*62*k, y+4*k)], 8*k, (120, 124, 132))
+    s.poly([(x-d*30*k, y-50*k), (x+d*56*k, y+10*k), (x-d*40*k, y+6*k)], (120, 124, 132), INK, 5*k)
+    s.line([(x-d*36*k, y-30*k), (x-d*150*k, y-170*k)], 11*k, TIMBER); s.line([(x-d*16*k, y-44*k), (x-d*112*k, y-176*k)], 9*k, TIMBER)
+    return (x-d*150*k, y-170*k), (x+d*250*k, y-96*k)
+
+@_kit
+def scythe(s, x, y, k=1.0, a=0.0, flip=False):
+    """Scythe; (x, y) = middle of the handle; a rotates it (degrees)."""
+    d = -1 if flip else 1; ca, sa = math.cos(math.radians(a)), math.sin(math.radians(a)); R = lambda px, py: (x+d*(px*ca-py*sa), y+px*sa+py*ca)
+    s.line([R(-20*k, -150*k), R(20*k, 170*k)], 9*k, TIMBER); s.line([R(-4*k, 0), R(-40*k, 14*k)], 8*k, TIMBER)
+    pts = [R(20*k, 170*k), R(90*k, 190*k), R(170*k, 176*k), R(230*k, 140*k)]; s.line(pts, 15*k, INK); s.line(pts, 8*k, SILVER)
+
+@_kit
+def sickle(s, x, y, k=1.0, flip=False):
+    """Sickle; (x, y) = bottom of the handle."""
+    d = -1 if flip else 1; cx, cy = x+d*62*k, y-84*k
+    pts = [(cx+d*58*k*math.cos(math.radians(t)), cy-58*k*math.sin(math.radians(t))) for t in range(200, -70, -20)]
+    s.line([(x, y), (x+d*8*k, y-64*k)], 12*k, TIMBER); s.line(pts, 14*k, INK); s.line(pts, 7*k, SILVER)
+
+@_kit
+def sheaf(s, x, y, k=1.0):
+    s.poly([(x-34*k, y), (x-16*k, y-86*k), (x-52*k, y-170*k), (x+52*k, y-170*k), (x+16*k, y-86*k), (x+34*k, y)], WHEATC, INK, 5*k)
+    for dx in (-30, -10, 10, 30): s.line([(x+dx*.4*k, y-92*k), (x+dx*1.3*k, y-164*k)], 3*k, (176, 140, 60))
+    s.line([(x-18*k, y-86*k), (x+18*k, y-86*k)], 9*k, TIMBER)
+
+@_kit
+def wheat(s, x0, x1, y, h=120, t=0.0, gap=22, col=WHEATC, droop=0.0, seed=0):
+    """A row of standing wheat on the line y. t sways it; droop 0..1 bends and greys it (a crop left in the field)."""
+    c2 = tuple(int(a+(b-a)*droop) for a, b in zip(col, (150, 140, 120))); i = 0; x = x0; st = (170, 138, 60) if droop < .5 else (120, 112, 96)
+    while x <= x1:
+        hh = h*(.86+.28*((i*37+seed*11) % 10)/10); sw = 10*math.sin(t*2+i*.7)+droop*46*(1 if i % 2 else -1); tip = (x+sw, y-hh*(1-.4*droop))
+        s.line([(x, y), (x+sw*.4, y-hh*.55), tip], 5, st, False); s.ell(tip[0]-7, tip[1]-22, tip[0]+7, tip[1]+10, c2, INK, 3); x += gap; i += 1
+
+@_kit
+def roll(s, x0, y0, x1, y1, curl=34, col=PARCH):
+    """A parchment roll hanging open, with a curled rod top and bottom. Returns the writing area (x0, y0, x1, y1)."""
+    s.rect(x0, y0, x1, y1, col, INK, 7)
+    for yy in (y0, y1): s.rect(x0-22, yy-curl, x1+22, yy+curl, (226, 206, 160), INK, 7, curl); s.line([(x0+10, yy-curl*.3), (x1-10, yy-curl*.3)], 3, (190, 168, 120))
+    return (x0+50, y0+curl+20, x1-50, y1-curl-20)
+
+@_kit
+def stocks(s, x, y, k=1.0, open=0.0):
+    """Wooden stocks. (x, y) = ground centre. open 0..1 lifts the top board."""
+    for dx in (-190, 190): s.rect(x+dx*k-16*k, y-240*k, x+dx*k+16*k, y, TIMBER, INK, 6*k)
+    s.rect(x-210*k, y-130*k, x+210*k, y-60*k, WOOD, INK, 6*k, 6*k); top = y-200*k-open*70*k
+    s.rect(x-210*k, top, x+210*k, top+70*k, WOOD, INK, 6*k, 6*k)
+    if open < .1:
+        for dx in (-90, 90): s.ell(x+dx*k-30*k, y-160*k, x+dx*k+30*k, y-100*k, (60, 46, 38), INK, 5*k)
+    s.ell(x+170*k, y-150*k, x+192*k, y-108*k, (70, 64, 60), INK, 3*k)
+
+@_kit
+def penny(s, x, y, r=30, c=SILVER):
+    """A silver penny with the long cross."""
+    s.ell(x-r, y-r, x+r, y+r, c, INK, max(3, r*.14))
+    s.line([(x-r*.6, y), (x+r*.6, y)], max(2, r*.12), (130, 136, 146), False); s.line([(x, y-r*.6), (x, y+r*.6)], max(2, r*.12), (130, 136, 146), False)
+
+@_kit
+def halfpenny(s, x, y, r=30):
+    s.d.pieslice([(x-r)*S, (y-r)*S, (x+r)*S, (y+r)*S], 90, 270, fill=SILVER, outline=INK, width=int(max(3, r*.14)*S)); s.line([(x-r*.6, y), (x, y)], max(2, r*.12), (130, 136, 146), False)
+
+@_kit
+def pennies(s, x, y, n, r=24, per=10, gap=None):
+    """n pennies laid out in rows of `per` from the top left (x, y). Returns the y under the last row."""
+    g = gap or r*2.3
+    for i in range(int(n)): s.penny(x+(i % per)*g, y+(i//per)*g, r)
+    return y+((max(1, int(n))-1)//per+1)*g
+
+@_kit
+def cog(s, x, y, w=560, flip=False, sail=(238, 226, 200), bob=0.0, furl=0.0):
+    """Single-masted medieval cog with a stern castle. (x, y) = waterline centre. furl 0..1 gathers the sail up."""
+    d = -1 if flip else 1; y = y+7*math.sin(bob); P = lambda px, py: (x+d*px, y+py)
+    s.line([P(0, -70), P(0, -410)], 11, TIMBER); sh = 240*(1-.82*furl)
+    s.poly([P(-w*.3, -386), P(w*.3, -386), P(w*.27, -386+sh), P(-w*.27, -386+sh)], sail, INK, 6); s.line([P(-w*.33, -388), P(w*.33, -388)], 9, TIMBER)
+    if furl < .5: s.line([P(0, -380), P(0, -386+sh)], 4, (200, 180, 150))
+    s.poly([P(-w*.5, -90), P(w*.5, -90), P(w*.38, 20), P(-w*.34, 20)], WOOD, INK, 7)
+    for j in (1, 2): s.line([P(-w*.46+j*10, -90+j*36), P(w*.46-j*14, -90+j*36)], 4, TIMBER)
+    xa, xb = sorted((P(-w*.52, 0)[0], P(-w*.3, 0)[0])); s.rect(xa, y-152, xb, y-90, WOOD, INK, 6)
+    for i in range(3): s.rect(xa+i*(xb-xa)/3+4, y-174, xa+(i+1)*(xb-xa)/3-6, y-152, WOOD, INK, 5)
+    s.line([P(w*.5, -90), P(w*.62, -140)], 9, TIMBER); s.poly([P(0, -410), P(64, -428), P(0, -448)], RED, INK, 4)
+
+@_kit
+def pennon(s, x, y, h=420, t=None, c=RED, w=300, wav=0.0, size=44):
+    """A banner on a pole planted at (x, y). t = the words on the cloth."""
+    s.line([(x, y), (x, y-h)], 10, TIMBER); top = y-h+10; bh = 140 if t and "\n" in t else 96; off = 8*math.sin(wav)
+    s.poly([(x+5, top), (x+w, top+off), (x+w-30, top+bh/2+off), (x+w, top+bh+off), (x+5, top+bh)], c, INK, 6)
+    if t: s.text(x+w*.47, top+bh/2+off*.5-3, t, size, PAPER)
+
+@_kit
+def crown(s, f, c=MARI):
+    """A crown on a fig's head (takes a fig dict)."""
+    u = f["u"]; x, y = f["head"]; lw = max(4, u*.07)
+    s.poly([(x-.5*u, y+.08*u), (x-.58*u, y-.42*u), (x-.28*u, y-.16*u), (x, y-.52*u), (x+.28*u, y-.16*u), (x+.58*u, y-.42*u), (x+.5*u, y+.08*u)], c, INK, lw)
+    for dx, dy in ((-.58, -.42), (0, -.52), (.58, -.42)): s.ell(x+dx*u-.08*u, y+dy*u-.1*u, x+dx*u+.08*u, y+dy*u+.06*u, RED, INK, max(2, lw*.5))
+
+@_kit
+def hood(s, f, c=EARTH, flip=False):
+    """A medieval hood over a fig's head: covers the crown and falls down the back of the neck (takes a fig dict)."""
+    u = f["u"]; x, y = f["head"]; lw = max(4, u*.07); d = -1 if flip else 1
+    s.poly([(x-d*.5*u, y+1.06*u), (x-d*.74*u, y+.5*u), (x-d*.66*u, y-.1*u), (x-d*.2*u, y-.3*u), (x+d*.44*u, y-.2*u), (x+d*.68*u, y+.16*u), (x-d*.3*u, y+.14*u), (x-d*.42*u, y+.5*u)], c, INK, lw)
+
+@_kit
+def coif(s, f, c=WHITE):
+    """A plain linen cap (clerks, justices)."""
+    u = f["u"]; x, y = f["head"]; lw = max(4, u*.07)
+    s.d.pieslice([(x-.66*u)*S, (y-.36*u)*S, (x+.66*u)*S, (y+.64*u)*S], 180, 360, fill=c, outline=INK, width=int(lw*S)); s.line([(x-.66*u, y+.14*u), (x+.66*u, y+.14*u)], lw)
+
+@_kit
+def tonsure(s, f, c=(120, 84, 58)):
+    """A monk's ring of hair."""
+    u = f["u"]; x, y = f["head"]; lw = max(4, u*.07); s.line([(x-.6*u, y+.34*u), (x-.56*u, y+.03*u), (x+.56*u, y+.03*u), (x+.6*u, y+.34*u)], lw*2.4, c, False)
+
+@_kit
+def strawhat(s, f, c=THATCH):
+    u = f["u"]; x, y = f["head"]; lw = max(4, u*.07)
+    s.d.pieslice([(x-.5*u)*S, (y-.44*u)*S, (x+.5*u)*S, (y+.4*u)*S], 180, 360, fill=c, outline=INK, width=int(lw*S)); s.line([(x-.96*u, y+.02*u), (x+.96*u, y+.02*u)], lw*2.4, INK, False); s.line([(x-.9*u, y+.02*u), (x+.9*u, y+.02*u)], lw*1.2, c, False)
+
+@_kit
+def sheep(s, x, y, k=1.0, flip=False, step=0.0):
+    d = -1 if flip else 1; sw = 8*k*math.sin(step)
+    for i, dx in enumerate((-34, -14, 18, 38)): s.line([(x+d*dx*k, y-40*k), (x+d*dx*k+(sw if i % 2 else -sw), y)], 9*k)
+    s.puff([(x-36*k, y-74*k, 34*k), (x, y-86*k, 40*k), (x+36*k, y-74*k, 34*k), (x-18*k, y-56*k, 32*k), (x+20*k, y-56*k, 32*k)], WOOL, INK, 5*k)
+    hx = x+d*70*k; s.ell(hx-24*k, y-104*k, hx+24*k, y-52*k, (70, 64, 60), INK, 4*k); s.ell(hx+d*6*k-4*k, y-86*k, hx+d*6*k+4*k, y-78*k, PAPER, None)
+
+@_kit
+def horse(s, x, y, k=1.0, flip=False, c=(150, 104, 72), step=0.0):
+    d = -1 if flip else 1; sw = 12*k*math.sin(step); dk = (70, 52, 40)
+    for i, dx in enumerate((-80, -54, 54, 80)): s.line([(x+d*dx*k, y-110*k), (x+d*dx*k+(sw if i % 2 else -sw), y)], 13*k)
+    s.line([(x-d*112*k, y-170*k), (x-d*150*k, y-90*k)], 12*k, dk)
+    s.poly([(x+d*60*k, y-180*k), (x+d*124*k, y-296*k), (x+d*176*k, y-270*k), (x+d*110*k, y-120*k)], c, INK, 6*k)
+    s.ell(x-116*k, y-200*k, x+110*k, y-96*k, c, INK, 6*k); hx = x+d*172*k
+    s.poly([(hx-d*30*k, y-316*k), (hx-d*22*k, y-358*k), (hx-d*4*k, y-318*k)], c, INK, 5*k)
+    s.poly([(hx-d*44*k, y-320*k), (hx+d*10*k, y-316*k), (hx+d*72*k, y-232*k), (hx+d*44*k, y-210*k), (hx-d*30*k, y-262*k)], c, INK, 6*k)
+    s.ell(hx-6*k, y-292*k, hx+6*k, y-280*k, INK, None); s.line([(x+d*78*k, y-200*k), (x+d*124*k, y-296*k)], 14*k, dk)
+
+@_kit
+def grave(s, x, y, k=1.0):
+    s.ell(x-70*k, y-26*k, x+70*k, y+22*k, SOIL, INK, 5*k); s.line([(x, y-10*k), (x, y-130*k)], 11*k, TIMBER); s.line([(x-34*k, y-92*k), (x+34*k, y-92*k)], 11*k, TIMBER)
+
+@_kit
+def sack(s, x, y, k=1.0, c=(214, 190, 140), t=None):
+    s.poly([(x-56*k, y), (x-66*k, y-90*k), (x-30*k, y-140*k), (x+30*k, y-140*k), (x+66*k, y-90*k), (x+56*k, y)], c, INK, 6*k)
+    s.poly([(x-30*k, y-140*k), (x-40*k, y-176*k), (x+40*k, y-176*k), (x+30*k, y-140*k)], c, INK, 5*k); s.line([(x-32*k, y-142*k), (x+32*k, y-142*k)], 7*k, TIMBER)
+    if t: s.text(x, y-66*k, t, 34*k, (120, 96, 60))
+
+@_kit
+def charter(s, x, y, k=1.0, t="CHARTER", lines=4, seal=RED, stamp=None):
+    """A sealed charter centred on (x, y). stamp = a word struck across it in red."""
+    s.rect(x-170*k, y-120*k, x+170*k, y+120*k, PARCH, INK, 6*k, 4)
+    s.text(x, y-78*k, t, min(52*k, 300*k/max(4, len(t))*1.9))
+    for i in range(lines): s.line([(x-130*k, y-30*k+i*26*k), (x+130*k-(i % 2)*40*k, y-30*k+i*26*k)], 4*k, (150, 130, 96))
+    s.line([(x+70*k, y+110*k), (x+90*k, y+170*k)], 9*k, (150, 60, 50)); s.ell(x+56*k, y+140*k, x+124*k, y+208*k, seal, INK, 5*k)
+    if stamp: s.rect(x-150*k, y-36*k, x+150*k, y+44*k, PARCH, RED, 9*k, 8*k); s.text(x, y+2*k, stamp, 60*k, RED)
+
+@_kit
+def citywall(s, y, x0=0, x1=W, h=260, gate=None, col=FLINT):
+    """A battlemented town wall standing on y. gate = x of a gatehouse with two towers."""
+    s.rect(x0, y-h, x1, y, col, INK, 7); xx = x0
+    while xx < x1: s.rect(xx, y-h-34, xx+44, y-h, col, INK, 5); xx += 88
+    for r in range(1, 4):
+        for i in range(int((x1-x0)/140)+1): s.line([(x0+i*140+(r % 2)*70, y-h+r*h/4-18), (x0+i*140+(r % 2)*70+60, y-h+r*h/4-18)], 3, (160, 156, 148), False)
+    if gate is not None:
+        for dx in (-150, 150):
+            s.rect(gate+dx-64, y-h-150, gate+dx+64, y, col, INK, 7)
+            for i in range(3): s.rect(gate+dx-64+i*46, y-h-184, gate+dx-64+i*46+36, y-h-150, col, INK, 5)
+            s.rect(gate+dx-10, y-h-90, gate+dx+10, y-h-30, (60, 54, 52), INK, 4)
+        s.ell(gate-86, y-h*.72-70, gate+86, y-h*.72+70, (64, 50, 42), INK, 7); s.rect(gate-86, y-h*.72, gate+86, y, (64, 50, 42), INK, 7); s.rect(gate-80, y-h*.72-8, gate+80, y-h*.72+30, (64, 50, 42), None)
+
+@_kit
+def pitchfork(s, x, y, k=1.0, a=0.0):
+    ca, sa = math.cos(math.radians(a)), math.sin(math.radians(a)); R = lambda px, py: (x+px*ca-py*sa, y+px*sa+py*ca)
+    s.line([R(0, 0), R(0, -300*k)], 9*k, TIMBER); s.line([R(-26*k, -300*k), R(26*k, -300*k)], 7*k, (90, 84, 80))
+    for dx in (-26, 0, 26): s.line([R(dx*k, -300*k), R(dx*k, -372*k)], 7*k, (90, 84, 80))
+
+@_kit
+def tree(s, x, y, k=1.0, col=DGRASS):
+    s.rect(x-12*k, y-110*k, x+12*k, y, TIMBER, INK, 5*k); s.puff([(x-50*k, y-150*k, 54*k), (x+50*k, y-150*k, 54*k), (x, y-210*k, 66*k), (x, y-140*k, 50*k)], col, INK, 5*k)
+
+@_kit
+def hedge(s, y, x0=0, x1=W, r=34, col=DGRASS):
+    s.puff([(x, y-r*.5+8*math.sin(x*.05), r+8*math.sin(x*.11)) for x in range(int(x0), int(x1)+1, int(r*1.3))], col, INK, 5)
+
+@_kit
+def gaol(s, x, y, w=420, h=520, n=5):
+    """Prison bars in a stone frame. (x, y) = bottom centre. Draw the prisoner first, then this over them."""
+    s.rect(x-w/2-30, y-h-30, x+w/2+30, y+12, None, (130, 126, 122), 34, 10); s.rect(x-w/2-44, y-h-44, x+w/2+44, y+26, None, INK, 6, 14)
+    for i in range(n): xx = x-w/2+w*(i+.5)/n; s.line([(xx, y-h), (xx, y)], 18, INK, False); s.line([(xx, y-h), (xx, y)], 10, (124, 128, 136), False)
+    for q in (.3, .72): s.line([(x-w/2, y-h*q), (x+w/2, y-h*q)], 18, INK, False); s.line([(x-w/2, y-h*q), (x+w/2, y-h*q)], 10, (124, 128, 136), False)
+
+BRITAIN = [(410, 60), (440, 150), (470, 230), (505, 290), (525, 340), (515, 380), (500, 396), (540, 420), (556, 470), (536, 500), (562, 506), (600, 495), (645, 510), (660, 560), (640, 620), (612, 665), (586, 690), (546, 700), (590, 714), (626, 720), (616, 755), (570, 776), (520, 790), (450, 796), (410, 790), (360, 806), (320, 805), (296, 800), (250, 810), (216, 840), (170, 830), (110, 852), (62, 876), (50, 860), (110, 816), (166, 780), (200, 746), (250, 740), (300, 726), (326, 700), (336, 676), (300, 690), (250, 700), (200, 690), (150, 696), (110, 680), (150, 650), (186, 600), (180, 556), (130, 546), (170, 520), (160, 496), (216, 500), (266, 496), (280, 470), (286, 430), (300, 390), (266, 370), (256, 320), (286, 280), (320, 266), (270, 256), (220, 250), (216, 200), (250, 140), (270, 80), (300, 30), (350, 10), (400, 20)]
+PLACES = {"DORSET": (320, 803), "LONDON": (535, 703), "BRISTOL": (322, 702), "SOUTHAMPTON": (404, 786), "YORK": (470, 345), "WARBOYS": (540, 590), "FORNHAM": (604, 606), "MEOPHAM": (566, 724), "COLCHESTER": (606, 660), "ESSEX": (584, 674), "KENT": (590, 742), "NORTH": (430, 200)}
+
+@_kit
+def britain(s, ox=520, oy=40, k=1.1, col=(214, 226, 180)):
+    """Sketch outline of Britain (not to scale). Returns a dict of named places in screen coordinates."""
+    s.poly([(ox+x*k, oy+y*k) for x, y in BRITAIN], col, INK, 7)
+    return {n: (ox+x*k, oy+y*k) for n, (x, y) in PLACES.items()}
+
+@_kit
+def fishp(s, x, y, k=1.0, c=(150, 176, 190)):
+    s.poly([(x+70*k, y), (x+110*k, y-34*k), (x+110*k, y+34*k)], c, INK, 5*k); s.ell(x-90*k, y-36*k, x+80*k, y+36*k, c, INK, 5*k); s.ell(x-66*k, y-12*k, x-54*k, y, INK, None)
+    s.line([(x-30*k, y-26*k), (x-20*k, y), (x-30*k, y+26*k)], 4*k, (110, 136, 150))
+
+@_kit
+def ham(s, x, y, k=1.0):
+    s.ell(x-80*k, y-56*k, x+50*k, y+50*k, (196, 110, 90), INK, 6*k); s.ell(x-50*k, y-30*k, x+10*k, y+22*k, (226, 150, 130), None)
+    s.line([(x+40*k, y-10*k), (x+110*k, y-40*k)], 22*k, INK, False); s.line([(x+40*k, y-10*k), (x+110*k, y-40*k)], 13*k, (244, 238, 224), False)
+
+@_kit
+def cabbage(s, x, y, k=1.0, old=True):
+    c = (150, 160, 110) if old else (140, 190, 120); s.ell(x-56*k, y-50*k, x+56*k, y+46*k, c, INK, 5*k)
+    for a in (-30, 30, 90): s.line([(x, y+40*k), (x+44*k*math.sin(math.radians(a)), y-30*k)], 4*k, (104, 120, 80))
+
+@_kit
+def jug(s, x, y, k=1.0, c=(170, 120, 90)):
+    s.poly([(x-40*k, y), (x-52*k, y-70*k), (x-30*k, y-130*k), (x+30*k, y-130*k), (x+52*k, y-70*k), (x+40*k, y)], c, INK, 6*k); s.rect(x-34*k, y-150*k, x+34*k, y-126*k, c, INK, 5*k, 6*k)
+    s.d.arc([(x+30*k)*S, (y-116*k)*S, (x+92*k)*S, (y-40*k)*S], 270, 90, fill=INK, width=int(8*k*S))
+
+@_kit
+def bowl(s, x, y, k=1.0, c=WOOD):
+    s.d.pieslice([(x-80*k)*S, (y-70*k)*S, (x+80*k)*S, (y+70*k)*S], 0, 180, fill=c, outline=INK, width=int(6*k*S)); s.line([(x-80*k, y), (x+80*k, y)], 6*k)

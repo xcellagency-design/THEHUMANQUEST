@@ -542,5 +542,21 @@
   "status": "verified",
   "note": "NatGeo A: 'the strait that Charles V would later name for Magellan'. NatGeo B's title: 'Magellan got the credit, but this man was first to sail around the world'.",
   "checked": "2026-11-20"
+ },
+ {
+  "claim": "On screen only: the survivor tally counts 12 crew seized at Cape Verde (18 + about 55 + 12 + 4 or 5 = 89 or 90)",
+  "units": "105,106",
+  "source": "https://artsandculture.google.com/story/magellan-s-expedition-and-elcano-s-first-circumnavigation-of-the-globe-fundacion-elkano/-gVBFYTKUG3YLg",
+  "status": "qualified",
+  "note": "Fundacion Elkano, opened 21 Nov 2026: '12 of their crew as well as a Malukan were captured'. Pigafetta (Stanley) says the boat was detained 'with thirteen men'. The narration says thirteen men in the boat; the tally panel says 'CREW SEIZED AT CAPE VERDE: 12' and is headed 'BY ONE TALLY'. No source opened says when those men came home.",
+  "added_runB": true
+ },
+ {
+  "claim": "On screen only: maps, the route line, the strait diagram, the Cebu and Mactan diagram and the top-down view of the world are sketches, not to scale; date chips without a day are derived from the dated rows on either side",
+  "units": "",
+  "source": "https://static-prod.lib.princeton.edu/visual_materials/maps/websites/pacific/magellan/magellan.html",
+  "status": "qualified",
+  "note": "Each map carries 'SKETCH MAP, NOT TO SCALE'. Coastlines are modern and rough. The route is drawn through the places named in the table, with nothing claimed between them. Chips such as '1520', 'OCT-NOV 1520', 'LATE 1521', 'EARLY 1522' and '1522' are kept vague where the table has no date. Flags are plain pennants (red for the fleet, green for the Portuguese): a drawing convention, not heraldry. Magellan, Elcano and Pigafetta are drawn as invented figures, not portraits. The illustration of 'under two thirds Spaniards' colours 19 of 30 figures.",
+  "added_runB": true
  }
 ]

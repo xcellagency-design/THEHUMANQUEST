@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_EP005_short5_magellan-didnt-finish-it.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 22.333333,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 22.333333,
+  "a_dur": 22.315,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -16.9,
+  "true_peak": -1.4,
+  "speech": {
+   "similarity": 0.96,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.177,
+   "caption_drift_p90": 0.537,
+   "heard": "magellan gets his name on the straight and most of the credit he never went around the world he never meant to quest for complete you signed on for two years and a spice run you came home in three from the wrong direction with a day missing and the next time someone says magellan sailed around the world youll know who finished it 18 men most of them sick led by a pardon mutineer"
+  }
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_EP005_short3_the-midnight-mutiny.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 25.6,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 25.6,
+  "a_dur": 25.6,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -17.0,
+  "true_peak": -1.1,
+  "speech": {
+   "similarity": 0.987,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.168,
+   "caption_drift_p90": 0.486,
+   "heard": "within days at midnight the spanish captains mutiny your ship is one of the ones that turns nobody asks you magellan wins the accounts differ on the details in one common version your captain is killed in the fighting and another is executed a nobleman who helped lead it is left on the shore with a priest when the fleet sails other mutineers are pardoned one of them is an officer named juan cebestion elcano remember that name"
+  }
+ }
+}

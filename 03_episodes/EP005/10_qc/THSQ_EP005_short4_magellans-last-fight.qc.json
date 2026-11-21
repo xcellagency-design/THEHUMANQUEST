@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_EP005_short4_magellans-last-fight.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 22.166667,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 22.166667,
+  "a_dur": 22.165,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -17.1,
+  "true_peak": -1.4,
+  "speech": {
+   "similarity": 0.915,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.169,
+   "caption_drift_p90": 0.318,
+   "heard": "on nearby macton a chief named lapulapu refuses to obey the king of spain magellan decides to make him his own men advise against it on the 27th of april 60 men go over in boats 49 wade in up to their thighs pigafeta counts more than 1 500 wading magellan is killed in the shallows pigafeta counts eight of the crew dead with him"
+  }
+ }
+}

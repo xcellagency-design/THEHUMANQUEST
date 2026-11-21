@@ -1,0 +1,546 @@
+[
+ {
+  "claim": "On the Pacific crossing the crew ate the ox hides from the main yard, soaked four or five days in the sea and put on the embers",
+  "units": "0,44",
+  "source": "https://archive.org/stream/philippineisland33blai/philippineisland33blai_djvu.txt",
+  "status": "verified",
+  "note": "Pigafetta, Robertson translation: 'we also ate some ox hides that covered the top of the main yard'; 'We left them in the sea for four or five days, and then placed them for a few moments on top of the embers'. Same sentences in the American University excerpt (https://edspace.american.edu/justinjacobs/wp-content/uploads/sites/986/2024/01/First-Voyage-around-the-World.pdf). Stanley 1874 (https://dn720004.ca.archive.org/0/items/firstvoyageround00piga/firstvoyageround00piga_hocr.html): 'the ox hides which were under the main-yard'. Line 0 says 'part of the ship', not 'rigging'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Rats sold for half a ducat each and could not be had",
+  "units": "1,45",
+  "source": "https://archive.org/stream/philippineisland33blai/philippineisland33blai_djvu.txt",
+  "status": "verified",
+  "note": "Robertson: 'Rats were sold for one-half ducado apiece, and even then we could not get them.' AU excerpt: 'one-half ducat apiece, if only one could get them'. Stanley prints 'half-a-crown each'; a footnote there gives the Milan edition's 'mezzo-ducato'. Script uses ducat.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Five ships left Spain; the Victoria alone completed the voyage, with 18 men",
+  "units": "2,3,102",
+  "source": "https://static-prod.lib.princeton.edu/visual_materials/maps/websites/pacific/magellan/magellan.html",
+  "status": "verified",
+  "note": "Princeton University Library: 'Five ships (Trinidad, San Antonio, Concepcion, Victoria, Santiago), 237 men'; 'Victoria, with a ... crew of eighteen survivors, reached Sanlucar de Barrameda'. National Geographic (https://www.nationalgeographic.com/history/history-magazine/article/240-men-started-magellan-voyage-around-world-only-18-finished-it): 'crew of 18, including Pigafetta'. Line 2 says 'finishes' because the San Antonio also reached Spain (row on the San Antonio).",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The fleet left Seville on 10 August 1519; Antonio Pigafetta sailed with it and wrote the account; he was one of the 18",
+  "units": "4,5",
+  "source": "https://archive.org/stream/philippineisland33blai/philippineisland33blai_djvu.txt",
+  "status": "verified",
+  "note": "Pigafetta: 'On Monday morning, August x, St. Lawrence's day' (Seville). NatGeo A: 'crew of 18, including Pigafetta'. Victoria crew list (https://wikiwand.com/en/articles/Victoria_(ship)) records him as 'Supernumerary'. The sailor 'you' is invented and line 5 says so. Keep the weekday off screen: the translation prints 'Monday' for 10 August, which does not fit its own 'Tuesday' for 20 September.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Circumnavigation was not the plan",
+  "units": "9,73,111",
+  "source": "https://artsandculture.google.com/story/-gVBFYTKUG3YLg",
+  "status": "verified",
+  "note": "Fundacion Elkano on Google Arts & Culture: 'The expedition, driven by Magellan, had not set out to travel all the way around the world'; it 'set sail in search of a new route to the Maluku Islands'. NatGeo B (https://www.nationalgeographic.com/history/history-magazine/article/this-man-was-actually-first-to-sail-around-the-world): 'The mission's objective was not the circumnavigation of the globe.' Linda Hall Library (https://www.lindahall.org/about/news/scientist-of-the-day/ferdinand-magellan/): 'Magellan never circumnavigated the world, which was not his intention anyway.'",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Cloves came from the Moluccas (Spice Islands); in 1521 a quintal (100 lb) cost a little over half a ducat there and was worth 42 ducats in Seville",
+  "units": "10,11,12",
+  "source": "https://www.nationalgeographic.com/history/history-magazine/article/this-man-was-actually-first-to-sail-around-the-world",
+  "status": "qualified",
+  "note": "NatGeo B: 'cloves, the aromatic buds of a myrtle tree native to the Moluccas'; 'In 1521 a Spanish quintal (100 pounds) of cloves cost a little over half a ducat in the Moluccas.' 'In Seville the same quintal was worth a whopping 42 ducats.' One magazine article, which gives no source for the two prices: qualified. Script says 'about half a ducat'. Script line 12 says 'By one account'. The prices are dated 1521.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "A rat on the Pacific cost about what 100 lb of cloves cost in the Moluccas",
+  "units": "45",
+  "source": "https://www.nationalgeographic.com/history/history-magazine/article/this-man-was-actually-first-to-sail-around-the-world",
+  "status": "qualified",
+  "note": "A comparison built from two sources: Pigafetta's half ducat a rat (row 2) and NatGeo B's 'a little over half a ducat' a quintal. Script says 'about the price'. On screen, show both figures with their sources, not an equals sign.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Spain wanted a westward route to the Spice Islands; that was Magellan's plan",
+  "units": "13",
+  "source": "https://www.nationalgeographic.com/history/history-magazine/article/this-man-was-actually-first-to-sail-around-the-world",
+  "status": "verified",
+  "note": "NatGeo B: 'Magellan's plan was to find Spain a westward route to the Spice Islands.' Princeton: 'sought a commercial route to the Spice Islands by sailing westward around South America'. NatGeo A: 'not driven by geographic curiosity, but by trade and Spain's struggle to surpass Portugal'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Magellan was Portuguese; the king of Portugal turned him down and he went to the king of Spain",
+  "units": "14",
+  "source": "https://static-prod.lib.princeton.edu/visual_materials/maps/websites/pacific/magellan/magellan.html",
+  "status": "verified",
+  "note": "Princeton: 'For various reasons, mostly personal, King Manuel rebuffed Magellan'. Ohio State Origins (https://origins.osu.edu/milestones/magellan-circumnavigation-earth): 'Unable to convince the Portuguese ... turned to the new king of Spain, Charles I'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Recruiting was hard: high risk, low pay, mistrust of a Portuguese captain; foreigners were allowed to join",
+  "units": "15,16",
+  "source": "https://artsandculture.google.com/story/mwWxSslkdNZbDg",
+  "status": "verified",
+  "note": "Google Arts & Culture, 'The Longest Journey: Setting Sail' (Spanish state archives): 'he struggled to find men'; 'The substantial risks, low pay, and mistrust of Magellan as a Portuguese captain were contributing factors'; 'foreigners were allowed to join the crew'. Script: 'mistrust of a Portuguese captain', the source's own phrase.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Under two thirds of the crew were Spaniards",
+  "units": "16",
+  "source": "https://www.nationalgeographic.com/history/history-magazine/article/240-men-started-magellan-voyage-around-world-only-18-finished-it",
+  "status": "verified",
+  "note": "NatGeo A: 'Under two-thirds of the crew were Spaniards; of the foreigners, 24 were Portuguese and 27 were Italian.'",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The voyage was expected to last two years",
+  "units": "17,69,113",
+  "source": "https://artsandculture.google.com/story/mwWxSslkdNZbDg",
+  "status": "verified",
+  "note": "Setting Sail: the voyage 'was expected to last two years'. Princeton: 'He claimed it would take only two years to make the journey and return to Spain'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The Victoria carried 45 men at departure; she was 18 to 21 m long",
+  "units": "18",
+  "source": "https://artsandculture.google.com/story/mwWxSslkdNZbDg",
+  "status": "qualified",
+  "note": "Setting Sail gives the crew list by ship: '... San Antonio, 57; Concepcion, 44; Victoria, 45; and Santiago, 31'. The Victoria article (https://wikiwand.com/en/articles/Victoria_(ship)) says 'an initial crew of about 42' and 'Length 18 to 21 m (59 to 69 ft)'. Script: 'forty-five men on the crew list', 'sixty-odd feet'. Length rests on Wikipedia alone: qualified.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The fleet left Sanlucar on 20 September 1519 with about 240 men; counts range from 237 to 270",
+  "units": "19,20,102",
+  "source": "https://archive.org/stream/philippineisland33blai/philippineisland33blai_djvu.txt",
+  "status": "qualified",
+  "note": "Pigafetta: 'We left that village, by name San Luchar, on Tuesday, September xx'; 'we were two hundred and thirty-seven men'. Setting Sail: '234 crewmembers were specified ... 239 are listed'; 'somewhere in region of 245'. NatGeo A 240, NatGeo B 250, Linda Hall 'perhaps 260', Britannica and Ohio State 'about 270'. The script gives the range in line 20.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The fleet entered the bay of Rio de Janeiro on 13 December 1519",
+  "units": "22",
+  "source": "https://www.britannica.com/biography/Ferdinand-Magellan/Discovery-of-the-Strait-of-Magellan",
+  "status": "verified",
+  "note": "Britannica: 'entered the bay of Rio de Janeiro on December 13'. Princeton: 'finding anchorage in Rio de Janeiro on December 13, 1519'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The Rio de la Plata was probed and was not the passage",
+  "units": "23",
+  "source": "https://www.britannica.com/biography/Ferdinand-Magellan/Discovery-of-the-Strait-of-Magellan",
+  "status": "verified",
+  "note": "Britannica: 'vainly probed the estuary'. Princeton: 'The Rio de la Plata offered hope but proved to be too shallow'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The fleet reached Port St Julian on 31 March 1520 and wintered there about five months, leaving on 24 August",
+  "units": "24,30,32",
+  "source": "https://www.britannica.com/biography/Ferdinand-Magellan/Discovery-of-the-Strait-of-Magellan",
+  "status": "verified",
+  "note": "Britannica: 'On March 31, 1520, he reached Port Saint Julian'; 'on August 24, 1520, the fleet left Saint Julian'. Pigafetta: 'we remained about five months'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Spanish captains mutinied at midnight within days of arrival",
+  "units": "25",
+  "source": "https://www.britannica.com/biography/Ferdinand-Magellan/Discovery-of-the-Strait-of-Magellan",
+  "status": "qualified",
+  "note": "Britannica: 'on Easter day at midnight Spanish captains led a serious mutiny'. Princeton: 'midnight mutiny on April 2'. The two disagree on the day, so the script says 'within days, at midnight' and does not say Easter.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The Victoria was one of the mutinous ships; her captain Mendoza was killed in the fighting; Quesada was executed; Cartagena and a priest were left ashore",
+  "units": "26,27,28",
+  "source": "https://static-prod.lib.princeton.edu/visual_materials/maps/websites/pacific/magellan/magellan.html",
+  "status": "qualified",
+  "note": "Princeton: 'Luis de Mendoza, the captain of Victoria, was killed in the fighting'; 'Gaspar de Quesada, the captain of Concepcion, was executed'; Cartagena and a priest 'were left marooned on the coast when the fleet left'. NatGeo A: 'the rebellious captains of the Victoria and the Concepcion'. Pigafetta's own account differs between translations (Robertson has Quesada banished with the priest; Stanley has him beheaded), and Britannica and Ohio State give shorter versions. The script follows Princeton and names no one but 'a nobleman' (NatGeo A calls Cartagena a nobleman). 'Nobody asks you' is the invented sailor. Script line 27 says the accounts differ and gives this as 'one common version'. NatGeo A: 'One of the leaders of the revolt was the demoted and resentful Juan de Cartagena', a nobleman forced on Magellan as second-in-command.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Other mutineers were pardoned, including the officer Juan Sebastian Elcano",
+  "units": "29,78,115",
+  "source": "https://www.nationalgeographic.com/history/history-magazine/article/240-men-started-magellan-voyage-around-world-only-18-finished-it",
+  "status": "verified",
+  "note": "NatGeo A: 'other mutineers were pardoned, including one of the officers, Juan Sebastian Elcano.' NatGeo B: 'He refrained from executing Elcano, and instead stripped him of his post.' Script says 'Other mutineers', not 'the rest'. Line 115: 'Eighteen men, most of them sick' is Pigafetta's 'only eighteen, and these for the most part sick' (arrival row).",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Pigafetta describes a man in Patagonia so tall that the sailors reached only to his waist",
+  "units": "30",
+  "source": "https://archive.org/stream/philippineisland33blai/philippineisland33blai_djvu.txt",
+  "status": "qualified",
+  "note": "Robertson: 'He was so tall that we reached only to his waist'. Stanley: 'the tallest of us only came up to his waist'. It is Pigafetta's claim; the script says 'His measurement, not ours'. Do not draw a giant as fact: draw Pigafetta's page.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The Santiago was wrecked in a storm while scouting south; her crew survived",
+  "units": "31",
+  "source": "https://static-prod.lib.princeton.edu/visual_materials/maps/websites/pacific/magellan/magellan.html",
+  "status": "verified",
+  "note": "Princeton: 'The Santiago was sent to do some southerly scouting and was wrecked in a powerful storm, yet all of its crew survived'. Ohio State: 'ran aground while on a scouting mission to the south'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "On 21 October 1520 the fleet rounded the Cape of the Virgins and entered the strait",
+  "units": "32,33",
+  "source": "https://www.britannica.com/biography/Ferdinand-Magellan/Discovery-of-the-Strait-of-Magellan",
+  "status": "verified",
+  "note": "Britannica: 'On October 21, 1520, he rounded the Cape of the Virgins' and 'entered the passage that proved to be the strait of his seeking'. NatGeo A and Princeton give the same date.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The passage took 38 days and is more than 300 miles long, with storms and currents",
+  "units": "34",
+  "source": "https://static-prod.lib.princeton.edu/visual_materials/maps/websites/pacific/magellan/magellan.html",
+  "status": "verified",
+  "note": "Princeton: 'After thirty-eight days'; 'Navigating its 350 miles'. EBSCO (https://www.ebsco.com/research-starters/history/ferdinand-magellan-expedition): 'Thirty-eight days were spent traversing the 320 miles'. History.com: 38 days. Linda Hall says 37. NatGeo A: 'buffeted by storms and currents'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Tierra del Fuego was named for the fires lit on the southern shore by the people living there",
+  "units": "35",
+  "source": "https://www.nationalgeographic.com/history/history-magazine/article/240-men-started-magellan-voyage-around-world-only-18-finished-it",
+  "status": "verified",
+  "note": "NatGeo A: 'The commander named an archipelago they saw on the south side Tierra del Fuego (land of fire) in reference to the many bonfires lit there by its indigenous hunter-gatherer peoples'. One source; the script does not say 'at night'. Script does not say who named it.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The San Antonio disappeared in the strait, was believed lost, and had deserted for Spain",
+  "units": "36",
+  "source": "https://www.nationalgeographic.com/history/history-magazine/article/240-men-started-magellan-voyage-around-world-only-18-finished-it",
+  "status": "verified",
+  "note": "NatGeo A: 'Pigafetta records it had been believed lost; in fact, it had deserted and was returning to Spain.' Britannica: 'The San Antonio having deserted'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Three ships came out into the ocean on 28 November 1520; Magellan reportedly wept",
+  "units": "37",
+  "source": "https://www.britannica.com/biography/Ferdinand-Magellan/Discovery-of-the-Strait-of-Magellan",
+  "status": "qualified",
+  "note": "Britannica: 'only three of his ships reached the western end of the passage'; 'the iron-willed admiral reportedly broke down and cried with joy'. Pigafetta: 'Wednesday, November 28, 1520, we debouched from that strait'. The weeping is 'reportedly' in one source: the script says 'they say'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Magellan called the ocean Pacific for its calm",
+  "units": "40",
+  "source": "https://static-prod.lib.princeton.edu/visual_materials/maps/websites/pacific/magellan/magellan.html",
+  "status": "verified",
+  "note": "Princeton: 'an ocean Magellan called pacific for its mildness'. Ohio State: 'Magellan christened it the Pacific Ocean'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Three months and twenty days without fresh food (Pigafetta)",
+  "units": "41",
+  "source": "https://archive.org/stream/philippineisland33blai/philippineisland33blai_djvu.txt",
+  "status": "verified",
+  "note": "Robertson: 'We were three months and twenty days without getting any kind of fresh food.' Modern counts of the crossing to Guam: 98 days (Princeton), 99 (Britannica, History.com). The script attributes the figure to Pigafetta. 28 November to 6 March is 98 days, so the script says 'more than three months' and gives Pigafetta's figure as his.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Biscuit turned to powder, with worms, stinking of rat urine; yellow putrid water; sawdust",
+  "units": "42,43,44",
+  "source": "https://archive.org/stream/philippineisland33blai/philippineisland33blai_djvu.txt",
+  "status": "verified",
+  "note": "Robertson: 'powder of biscuits swarming with worms ... It stank strongly of the urine of rats'; 'We drank yellow water that had been putrid for many days'; 'often we ate sawdust from boards'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Gums swelled so that men could not eat; 19 died by Pigafetta's count; other accounts say about 30",
+  "units": "46,47",
+  "source": "https://archive.org/stream/philippineisland33blai/philippineisland33blai_djvu.txt",
+  "status": "verified",
+  "note": "Robertson: 'The gums of both the lower and upper teeth of some of our men swelled'; 'Nineteen men died from that sickness, and the giant together with an Indian from the country of Verzin'. Princeton: 'carried off about thirty of the men'. Ohio State: 'Twenty-nine sailors died'. Pigafetta adds two more deaths to the nineteen: 'the giant together with an Indian from the country of Verzin'. Script: 'Nineteen of the crew'. 'Could not eat' was not in the wording read, so the script says only that gums swelled.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Pigafetta wrote that he believed no such voyage would be made again; about 4,000 leagues",
+  "units": "48,52",
+  "source": "https://archive.org/stream/philippineisland33blai/philippineisland33blai_djvu.txt",
+  "status": "verified",
+  "note": "Robertson: 'We sailed about four thousand leguas during those three months and twenty days'; 'Of a verity I believe no such voyage will ever be made [again].' Paraphrased in the script, not quoted.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Land on 6 March 1521; islanders took the small boat tied to the flagship's stern; the fleet named the islands the Ladrones (thieves)",
+  "units": "49,50",
+  "source": "https://archive.org/stream/philippineisland33blai/philippineisland33blai_djvu.txt",
+  "status": "verified",
+  "note": "Robertson: 'we discovered on Wednesday, March 6, a small island'; 'the natives very deftly stole from us the small boat that was fastened to the poop of the flagship'; 'we called those three islands the islands of Ladroni [i.e., of thieves]'. Line 51 is a joke, not a claim about the record. Britannica: 'fresh food for the first time in 99 days' at this landfall. Line 51 is a joke marked by 'probably'; it makes no claim about the record.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The fleet reached the Philippines on 16 March 1521; the name came later",
+  "units": "54",
+  "source": "https://static-prod.lib.princeton.edu/visual_materials/maps/websites/pacific/magellan/magellan.html",
+  "status": "verified",
+  "note": "Princeton: 'reaching Homonhom Island at the edge of the Philippine archipelago on March 16'. NatGeo A: 'an archipelago (later christened the Philippines by another Spanish explorer)'. Ten days after 6 March.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The rulers of Cebu converted to Christianity",
+  "units": "55",
+  "source": "https://www.nationalgeographic.com/history/history-magazine/article/240-men-started-magellan-voyage-around-world-only-18-finished-it",
+  "status": "verified",
+  "note": "NatGeo A: 'then converted the rulers of Cebu Island to Christianity'. 'Fresh food' rests on Britannica's 'fresh food for the first time in 99 days' (at Guam) and NatGeo A's 'restocked the ships'. Fresh food is now at line 49 (Guam), where Britannica puts it.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "In the Philippines Magellan strayed from the purpose of the voyage",
+  "units": "56",
+  "source": "https://artsandculture.google.com/story/vgWRaRrYa4jHFg",
+  "status": "qualified",
+  "note": "Google Arts & Culture, 'The Longest Voyage: The Destination': Magellan was 'straying from the main objective of the trip'. A judgement by the archive's curators; the script's wording is ours.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Lapulapu, a chief of Mactan, refused to obey the king of Spain; Magellan attacked against his men's advice",
+  "units": "57,58",
+  "source": "https://archive.org/stream/philippineisland33blai/philippineisland33blai_djvu.txt",
+  "status": "verified",
+  "note": "Robertson: 'Cilapulapu, who refused to obey the king of Spagnia'. Princeton: 'against the advice of his own men to engage in a needless battle'. NatGeo A: 'the chieftain known traditionally as Lapulapu'. Britannica: 'the people of nearby Mactan Island'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "27 April 1521: 60 men went; 49 waded in up to their thighs; more than 1,500 islanders by Pigafetta's count",
+  "units": "59,60",
+  "source": "https://archive.org/stream/philippineisland33blai/philippineisland33blai_djvu.txt",
+  "status": "verified",
+  "note": "Robertson: 'That battle was fought on Saturday, April twenty-seven, 1521'; 'forty-nine of us leaped into the water up to our thighs'; 'more than one thousand five hundred persons'. Stanley: 'We were forty-nine in number, the other eleven remained in charge of the boats'. NatGeo A: 'Magellan led 60 men'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Magellan was killed in shallow water; eight of the crew died with him",
+  "units": "61",
+  "source": "https://archive.org/stream/philippineisland33blai/philippineisland33blai_djvu.txt",
+  "status": "verified",
+  "note": "Robertson: 'Eight of our men were killed with him in that battle' (and four Christian converts). Princeton: 'offshore, in water up to his knees'. Ohio State says seven. Script attributes the eight to Pigafetta.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Pigafetta called Magellan 'our mirror, our light, our comfort, and our true guide'",
+  "units": "62",
+  "source": "https://archive.org/stream/philippineisland33blai/philippineisland33blai_djvu.txt",
+  "status": "verified",
+  "note": "Robertson translation, verbatim (nine words).",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "1 May 1521: the king of Cebu invited the commanders to a banquet; about two dozen went ashore and were killed",
+  "units": "63,64",
+  "source": "https://archive.org/stream/philippineisland33blai/philippineisland33blai_djvu.txt",
+  "status": "verified",
+  "note": "Robertson: 'On Wednesday morning, the first of May, the Christian king sent word to the commanders'; 'Twenty-four men went ashore'. Stanley: 'The commanders went with twenty-four others'. NatGeo B: 'They were killed while they ate.' NatGeo A: the king would 'kill 26 of them'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "About a hundred men were left; too few for three ships, so the Concepcion was emptied and burned",
+  "units": "65,66,67",
+  "source": "https://dn720004.ca.archive.org/0/items/firstvoyageround00piga/firstvoyageround00piga_hocr.html",
+  "status": "verified",
+  "note": "NatGeo B: 'After the slaughter, only about a hundred crew were left.' Pigafetta (Stanley): 'seeing that our crews were too much reduced in number ... we burned the Conception after transporting into the other two all that it contained that was serviceable'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The two ships reached Tidore in the Moluccas on 8 November 1521",
+  "units": "68,69",
+  "source": "https://static-prod.lib.princeton.edu/visual_materials/maps/websites/pacific/magellan/magellan.html",
+  "status": "verified",
+  "note": "Princeton: 'lead Victoria and Trinidad to Tidore in the Moluccas on November 8, 1521'. Six months after 1 May; two years and seven weeks after 20 September 1519.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The sailors were entitled to a share of the cargo and sold their capes, shoes and shirts",
+  "units": "70",
+  "source": "https://www.nationalgeographic.com/history/history-magazine/article/this-man-was-actually-first-to-sail-around-the-world",
+  "status": "qualified",
+  "note": "NatGeo B: 'Entitled to 20 percent of the cargo, the sailors had a clear incentive to fill the hold with valuable cloves'; 'selling their capes, shoes, and even their shirts to make room'. One article, no source given for the 20 percent: the script says 'a share'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "While loading, the Trinidad sprang a serious leak; the ships separated; the Trinidad was to go east",
+  "units": "74,75",
+  "source": "https://www.nationalgeographic.com/history/history-magazine/article/this-man-was-actually-first-to-sail-around-the-world",
+  "status": "verified",
+  "note": "NatGeo B: 'While the two ships were being loaded ... the Trinidad sprang a serious leak'; 'The Victoria would head west toward Africa, while the Trinidad, following repair, would strike east to Panama.' Pigafetta (Stanley): 'she was leaking very much in the hold'. NatGeo A: 'the flagship, the Trinidad'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The Trinidad turned back and was captured by the Portuguese; four or five of her men returned to Europe",
+  "units": "76,105",
+  "source": "https://www.ebsco.com/research-starters/history/ferdinand-magellan-expedition",
+  "status": "qualified",
+  "note": "EBSCO: 'The Trinidad attempted to sail to Panama but was eventually captured by the Portuguese.' NatGeo B: 'turned back to the Spice Islands, and was eventually destroyed.' Wikipedia infobox (https://wikiwand.com/en/Magellan_expedition): '4 (or 5) from Trinidad returned in Europe after hard labor in East Indies'. The count rests on Wikipedia alone. Script: 'By one count'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The Victoria went west across the Indian Ocean and round the Cape; Elcano was her captain; that decision made the circumnavigation",
+  "units": "77,78,79",
+  "source": "https://artsandculture.google.com/story/-gVBFYTKUG3YLg",
+  "status": "verified",
+  "note": "Fundacion Elkano: 'It was this decision by Elcano that led to the first circumnavigation of the globe.' NatGeo B: 'steering the frail Victoria across the Indian Ocean and around Africa's Cape of Good Hope'. Ohio State: 'Elcano was elected captain of the remaining ship Victoria'. Script line 79 says 'the way Elcano picks', since the Trinidad tried the other way.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The Victoria left Tidore on 21 December 1521 with 47 Europeans and 13 islanders",
+  "units": "80,98",
+  "source": "https://dn720004.ca.archive.org/0/items/firstvoyageround00piga/firstvoyageround00piga_hocr.html",
+  "status": "verified",
+  "note": "Stanley: 'Saturday, the 21st December'; 'we were forty-seven Europeans and thirteen Indians'. NatGeo B: 'with 60 men on board, 13 of them indigenous islanders from the Moluccas'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The Victoria kept far from the coast to avoid capture by the Portuguese; months without landfall",
+  "units": "81,82",
+  "source": "https://artsandculture.google.com/story/-gVBFYTKUG3YLg",
+  "status": "verified",
+  "note": "Fundacion Elkano: 'From the moment they left Timor, they sailed far from the coast to avoid capture by the Portuguese.' NatGeo B: 'For months, without making landfall'; 'always under threat of Portuguese capture'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Many of the crew wanted to land at Portuguese Mozambique; the ship went on",
+  "units": "83",
+  "source": "https://www.nationalgeographic.com/history/history-magazine/article/this-man-was-actually-first-to-sail-around-the-world",
+  "status": "verified",
+  "note": "NatGeo B quoting Pigafetta: 'Many would have liked to land at a place belonging to the Portuguese called Mozambique'. The ship's next stop in every source is the Cape Verde Islands. Script: 'Many of the men'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The ship lay off the Cape of Good Hope for weeks (nine in one translation, seven in another) and rounded it in May 1522",
+  "units": "84,85",
+  "source": "https://dn720004.ca.archive.org/0/items/firstvoyageround00piga/firstvoyageround00piga_hocr.html",
+  "status": "verified",
+  "note": "Stanley: 'we remained off that cape for nine weeks'. Skelton's translation in American Heritage (https://www.americanheritage.com/node/52442?issue=52429): 'We remained near this Cape for seven weeks'. Fundacion Elkano: 'On May 19, 1522, they rounded the Cape of Good Hope.' The script gives the month only: the day was read in one source and not checked against Pigafetta's own date.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Twenty-one men died in the two months after the Cape",
+  "units": "86",
+  "source": "https://dn720004.ca.archive.org/0/items/firstvoyageround00piga/firstvoyageround00piga_hocr.html",
+  "status": "verified",
+  "note": "Stanley: 'in this short time we lost twenty-one men' (the two months of sailing north-west after the Cape). American Heritage: 'twenty-one of our men died'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Near starvation, Elcano stopped at the Portuguese Cape Verde Islands",
+  "units": "87",
+  "source": "https://www.nationalgeographic.com/history/history-magazine/article/this-man-was-actually-first-to-sail-around-the-world",
+  "status": "verified",
+  "note": "NatGeo B: 'After rounding the Cape of Good Hope, the crew nearly starved to death', 'forcing Elcano to stop in the Cape Verde Islands'. The month is not given in the script.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The men sent ashore were told to ask the day; the Portuguese said Thursday; on the ship it was Wednesday; the crew were amazed",
+  "units": "88,89,90,91",
+  "source": "https://webspace.science.uu.nl/~gent0113/idl/idl_discovery.htm",
+  "status": "verified",
+  "note": "Pigafetta as quoted by Utrecht University's date-line page: 'we charged our men in the boat that, when they were ashore, they should ask what day it was'; 'They were answered that to the Portuguese it was Thursday, at which they were much amazed, for to us it was Wednesday'. Same passage in Stanley and in American Heritage.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Pigafetta's explanation: they had always sailed west and returned to the same place as the sun, a difference of twenty-four hours",
+  "units": "91,92,114",
+  "source": "https://webspace.science.uu.nl/~gent0113/idl/idl_discovery.htm",
+  "status": "qualified",
+  "note": "Pigafetta (Utrecht page): 'we had always made our voyage westward and had returned to the same place of departure as the sun'. Stanley: 'we must have gained twenty-four hours'. Ohio State: 'a day behind in their reckoning'. 'One sunrise fewer than Spain' is our restatement of that, not a quotation. Script line 91: 'Later, Pigafetta writes down the reason'. The fragments read do not show when or from whom he had the explanation, so the script does not say he worked it out on the spot. Read the whole sentence in run B.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "As far as is known, no crew had lost a day this way before",
+  "units": "93",
+  "source": "https://webspace.science.uu.nl/~gent0113/idl/idl_discovery.htm",
+  "status": "qualified",
+  "note": "Utrecht page: Peter Martyr (Eden's 1555 translation) says 'they founde when they were returned to Spayne, that they had loste one day'. Princeton lists 'First circumnavigation of the world'; Ohio State: 'the first recorded trip around the globe'. 'No ship had lost a day before' is an inference from those two facts. Script hedges with 'As far as anyone knows'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The boat was detained at Cape Verde with thirteen men; the ship sailed at once",
+  "units": "94,95",
+  "source": "https://dn720004.ca.archive.org/0/items/firstvoyageround00piga/firstvoyageround00piga_hocr.html",
+  "status": "verified",
+  "note": "Stanley: 'was detained, with thirteen men who were in it'; 'we at once set sail'. Fundacion Elkano: '12 of their crew as well as a Malukan were captured'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The Victoria entered the bay of Sanlucar on Saturday 6 September 1522, kept afloat by the pumps",
+  "units": "96",
+  "source": "https://dn720004.ca.archive.org/0/items/firstvoyageround00piga/firstvoyageround00piga_hocr.html",
+  "status": "verified",
+  "note": "Stanley: 'on Saturday the 6th of September of the year 1522, we entered the bay of San Lucar'. NatGeo B: 'the Victoria's hull was so rotten that it could only stay afloat by continually operating the pumps'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Three years less two weeks",
+  "units": "97,114",
+  "source": "https://dn720004.ca.archive.org/0/items/firstvoyageround00piga/firstvoyageround00piga_hocr.html",
+  "status": "verified",
+  "note": "Arithmetic: 20 September 1519 to 6 September 1522.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Of sixty who left the Moluccas, eighteen remained, most of them sick",
+  "units": "98",
+  "source": "https://dn720004.ca.archive.org/0/items/firstvoyageround00piga/firstvoyageround00piga_hocr.html",
+  "status": "verified",
+  "note": "Stanley: 'of sixty men who composed our crew when we left Maluco, we were reduced to only eighteen, and these for the most part sick'. Not all the missing were dead: thirteen were held at Cape Verde. Script line 98 says 'eighteen of the crew', because the sixty included thirteen islanders, some of whom also arrived (next row).",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Three or four Moluccans were also aboard on arrival",
+  "units": "99",
+  "source": "https://artsandculture.google.com/story/-gVBFYTKUG3YLg",
+  "status": "qualified",
+  "note": "Fundacion Elkano: 'the 18 surviving crew members and three Malukans reached Sanlucar'. EBSCO: 'eighteen Europeans and four Malays'. History.com: 'Elcano and 21 other passengers'. The script says the sources differ.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Monday 8 September: anchored at Seville and fired all the artillery; Tuesday: walked in shirts and barefoot, each with a taper, to two shrines",
+  "units": "100,101",
+  "source": "https://dn720004.ca.archive.org/0/items/firstvoyageround00piga/firstvoyageround00piga_hocr.html",
+  "status": "verified",
+  "note": "Stanley: 'Monday the 8th of September, we cast anchor near the mole of Seville, and discharged all the artillery'; 'Tuesday, we all went in shirts and barefoot, with a taper in our hands' to 'the shrine of St. Maria of Victory, and of St. Maria de Antigua'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Roughly one man in thirteen finished on the Victoria",
+  "units": "102",
+  "source": "https://www.nationalgeographic.com/history/history-magazine/article/240-men-started-magellan-voyage-around-world-only-18-finished-it",
+  "status": "qualified",
+  "note": "Arithmetic: 18 of about 240 is 1 in 13.3; of 237, 1 in 13.2; of 270, 1 in 15. 'Roughly'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The San Antonio reached Seville in May 1521 with about 55 men",
+  "units": "103,104",
+  "source": "https://artsandculture.google.com/story/-gVBFYTKUG3YLg",
+  "status": "qualified",
+  "note": "Fundacion Elkano: 'It arrived back in Seville in May 1521'. Wikipedia infobox (https://wikiwand.com/en/Magellan_expedition): '55 returned with the San Antonio in 1521'. The headcount rests on Wikipedia alone. May 1521 is six months before Tidore. Script: 'By one count'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The men taken at Cape Verde and the Trinidad's four or five are counted among the survivors; about ninety in all outlived the voyage",
+  "units": "105,106",
+  "source": "https://wikiwand.com/en/Magellan_expedition",
+  "status": "qualified",
+  "note": "Wikipedia infobox, 'Survivors': '18 arrived with Elcano, 12 were captured by the Portuguese in Cape Verde, 55 returned with the San Antonio in 1521, 4 (or 5) from Trinidad'. Sum 89 or 90. One tertiary source and our addition; no source opened says when the Cape Verde men came home, so the script does not say. Script says 'outlived the voyage', not 'saw Spain again', and 'Eighteen of them brought the ship in', not that only eighteen went round.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The Victoria brought 381 sacks of cloves, about 26 tons, worth more than the cost of the five-ship fleet; the voyage was profitable",
+  "units": "107,108",
+  "source": "https://static-prod.lib.princeton.edu/visual_materials/maps/websites/pacific/magellan/magellan.html",
+  "status": "verified",
+  "note": "Princeton: 'carrying twenty-six tons of cloves in its hold'; 'cloves (381 sacks)'; 'worth more than the cost of the original five-ship armada'; 'the voyage had been profitable'. NatGeo A: 'The 381 sacks of cloves brought back by the Victoria were worth more than all five ships'; 'turned a profit'.",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "Elcano's coat of arms: a globe with 'Primus circumdedisti me', you were the first to encircle me",
+  "units": "109",
+  "source": "https://www.nationalgeographic.com/history/history-magazine/article/this-man-was-actually-first-to-sail-around-the-world",
+  "status": "verified",
+  "note": "NatGeo B: 'presented with a shield on which a globe bore the Latin legend Primus circumdedisti me - You were the first to encircle me.'",
+  "checked": "2026-11-20"
+ },
+ {
+  "claim": "The strait was named for Magellan, and he is the one credited",
+  "units": "110",
+  "source": "https://www.nationalgeographic.com/history/history-magazine/article/240-men-started-magellan-voyage-around-world-only-18-finished-it",
+  "status": "verified",
+  "note": "NatGeo A: 'the strait that Charles V would later name for Magellan'. NatGeo B's title: 'Magellan got the credit, but this man was first to sail around the world'.",
+  "checked": "2026-11-20"
+ }
+]

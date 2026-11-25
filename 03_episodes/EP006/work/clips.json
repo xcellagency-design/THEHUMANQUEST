@@ -1,0 +1,52 @@
+[
+ {
+  "n": 1,
+  "units": [
+   49,
+   53
+  ],
+  "title": "VIKINGS SKATED\nON BONES",
+  "slug": "vikings-skated-on-bones",
+  "cover_unit": 51
+ },
+ {
+  "n": 2,
+  "units": [
+   33,
+   36
+  ],
+  "title": "NO CHIMNEY.\nSCIENTISTS CHECKED.",
+  "slug": "the-air-in-a-viking-house",
+  "cover_unit": 35
+ },
+ {
+  "n": 3,
+  "units": [
+   56,
+   58
+  ],
+  "title": "SKIS OUT\nOF THE ICE",
+  "slug": "skis-out-of-the-ice",
+  "cover_unit": 56
+ },
+ {
+  "n": 4,
+  "units": [
+   87,
+   91
+  ],
+  "title": "ONE SAIL:\nFOUR WOMEN, A YEAR",
+  "slug": "one-sail-four-women-a-year",
+  "cover_unit": 90
+ },
+ {
+  "n": 5,
+  "units": [
+   79,
+   80
+  ],
+  "title": "A RAIDER'S\nYEAR",
+  "slug": "a-viking-raiders-year",
+  "cover_unit": 79
+ }
+]

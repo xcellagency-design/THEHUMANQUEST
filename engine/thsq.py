@@ -1220,3 +1220,260 @@ def worldmap(s, lonc=0.0, latc=8.0, sx=5.1, sy=6.6, land=(214, 220, 178), cx=W/2
         for name, pts in WORLD.items():
             small = len(pts) < 9; s.poly([P(lon+off, lat) for lon, lat in pts], land, INK, max(3, lw*.6) if small else lw)
     return P
+
+# ================= EP006 kit: a Norse farm in winter, about AD 950 (new methods only) =================
+TURF = (118, 150, 98); SNOWC = (244, 247, 251); SNOWD = (214, 224, 236); PINEC = (62, 104, 86); ICEC = (206, 228, 238); ICED = (170, 202, 220); HAYC = (216, 188, 98)
+PLANK = (140, 100, 70); PLANKD = (92, 64, 46); WOOLC = (234, 224, 198); BONEC = (238, 230, 206); AMBER = (226, 150, 50); GLASSG = (110, 170, 160); ANTLER = (200, 176, 140); CODC = (190, 198, 192); CODD = (220, 200, 150)
+NORTH = {
+ "scand": [(5, 58.5), (7, 58), (8.5, 58.2), (10.5, 59.2), (11, 59), (11.3, 58.3), (12, 57), (12.8, 56), (13, 55.4), (14.3, 55.5), (16, 56.2), (16.6, 57.5), (17, 58.7), (18.5, 59.5), (17.2, 60.7), (17.3, 62), (18.5, 63), (20.5, 63.8), (21.5, 65), (22.2, 65.8),
+           (24.5, 65.7), (25.3, 65), (24, 64.2), (21.5, 63), (21.3, 61.5), (21.5, 60.5), (23, 59.9), (25, 60.2), (28, 60.5), (30, 60), (80, 60), (80, 68), (40, 67), (35, 69.2), (31, 70.2), (28, 71), (25.8, 71.1), (22, 70.3), (19, 69.8), (16.5, 68.8), (15, 68.2),
+           (14.5, 67.3), (13, 66.2), (12.2, 65), (11, 64.5), (10, 63.8), (8.5, 63.2), (7, 62.7), (5.3, 62), (5, 61), (5.1, 60), (5.3, 59.2)],
+ "lofoten": [(12.8, 67.9), (13.6, 68.15), (14.6, 68.35), (15.4, 68.6), (14.8, 68.1), (13.5, 67.85)],
+ "europe": [(8.1, 57.1), (10.6, 57.7), (10.3, 56.5), (10.9, 56.3), (10, 55.5), (9.6, 54.9), (10, 54.5), (11, 54), (12.5, 54.3), (14, 54), (18.5, 54.7), (19.5, 54.4), (21, 55.2), (21, 57), (22, 57.6), (24, 57.2), (24.5, 58.3), (23.5, 59.2), (28, 59.5), (30, 59.9), (80, 59.9), (80, 40), (-1.5, 40),
+            (-1.5, 43.5), (-1.2, 46), (-2.5, 47.3), (-4.7, 48.4), (-1.2, 48.6), (-1.8, 49.7), (1.5, 50.1), (1.6, 50.9), (3.2, 51.3), (4, 52), (4.8, 53.2), (7, 53.6), (8.8, 54.3), (8.6, 55.4), (8.2, 56)],
+ "zealand": [(11.2, 55.7), (12.5, 56.1), (12.6, 55.6), (12.2, 54.9), (11.3, 55.2)],
+ "britain": [(-5.7, 50.1), (-3.5, 50.3), (-1, 50.7), (1.3, 51.1), (1.4, 51.4), (.6, 51.5), (1.7, 52.7), (.3, 53), (-.1, 53.7), (-1.2, 54.6), (-1.6, 55.6), (-3, 56), (-2, 57.6), (-4, 57.6), (-3.1, 58.6), (-5, 58.6), (-6.2, 57.3), (-5.5, 56), (-5, 55), (-3.3, 54.9), (-3, 53.5), (-4.5, 53.2), (-4.3, 52.2), (-5.2, 51.8), (-3.2, 51.4), (-4.5, 51)],
+ "ireland": [(-10, 51.6), (-6.3, 52.2), (-6, 53.5), (-5.6, 54.7), (-7.3, 55.3), (-10, 54.2), (-9.5, 53.2), (-10.3, 52.2)],
+ "orkney": [(-3.4, 58.9), (-2.6, 59.05), (-2.8, 59.4), (-3.4, 59.25)], "shetland": [(-1.6, 60), (-1, 60.5), (-1.3, 60.85), (-1.7, 60.35)], "faroe": [(-7.2, 62), (-6.5, 62.25), (-7.1, 62.4)],
+ "iceland": [(-24, 65.5), (-22, 66.4), (-20, 65.8), (-18, 66.2), (-16, 66.5), (-14.5, 65.8), (-13.6, 65), (-15, 64.3), (-18.5, 63.4), (-20.5, 63.6), (-22.7, 63.8), (-22, 64.5), (-24, 64.9)]}
+# Sketch positions (longitude, latitude) for the places named in EP006.
+NORTHPLACES = {"FARM": (10.8, 63.6), "LOFOTEN": (13.9, 68.2), "HAITHABU": (9.6, 54.5), "YORK": (-1.1, 53.96), "ICELAND": (-19, 65), "HRISBRU": (-21.6, 64.2), "ORKNEY": (-3, 59.1), "THANET": (1.35, 51.37), "DENMARK": (9.4, 56.2)}
+
+@_kit
+def northmap(s, lonc=4.0, latc=60.0, sy=38.0, land=(214, 220, 178), cx=W/2, cy=H/2, grid=True, lw=6):
+    """Sketch map of northern Europe (not to scale; modern coastlines, roughly). sy = pixels per degree of latitude; a degree of longitude is drawn half as wide.
+    Returns P(lon, lat) -> screen point."""
+    sx = sy*.5; P = lambda lon, lat: (cx+(lon-lonc)*sx, cy-(lat-latc)*sy)
+    if grid:
+        for lon in range(-40, 61, 10): s.line([P(lon, 80), P(lon, 40)], 2, (176, 204, 214), False)
+        for lat in range(40, 81, 5): s.line([(0, P(0, lat)[1]), (W, P(0, lat)[1])], 2, (176, 204, 214), False)
+    for name, pts in NORTH.items():
+        s.poly([P(lon, lat) for lon, lat in pts], land, INK, max(3, lw*.6) if len(pts) < 9 else lw)
+    a, b = P(30.5, 66.4), P(79, 42); s.rect(a[0], a[1], b[0], b[1], land, None)   # hides the seam where the two land outlines meet in the east
+    return P
+
+@_kit
+def peaks(s, y, x0=0, x1=W, h=260, seed=0, col=(150, 160, 184), snow=True, o=True):
+    """A range of mountains standing on the line y."""
+    n = max(3, int((x1-x0)/230)); pts = [(x0, y)]; tops = []
+    for i in range(n):
+        xa = x0+(x1-x0)*(i+.5)/n+40*math.sin(i*2.3+seed); hh = h*(.55+.45*abs(math.sin(i*1.7+seed*1.3)))
+        pts += [(xa-(x1-x0)/n*.42, y-hh*.28), (xa, y-hh), (xa+(x1-x0)/n*.42, y-hh*.34)]; tops.append((xa, y-hh, hh))
+    pts.append((x1, y)); s.poly(pts, col, INK if o else None, 6)
+    if snow:
+        for xa, ya, hh in tops: s.poly([(xa, ya), (xa+hh*.2, ya+hh*.3), (xa+hh*.06, ya+hh*.24), (xa-hh*.03, ya+hh*.34), (xa-hh*.1, ya+hh*.22), (xa-hh*.2, ya+hh*.3)], SNOWC, INK, 4)
+
+@_kit
+def pine(s, x, y, k=1.0, snow=False, col=PINEC):
+    s.rect(x-9*k, y-50*k, x+9*k, y, TIMBER, INK, max(2, 4*k))
+    for i, (yy, hw) in enumerate(((-40, 74), (-104, 58), (-164, 42))):
+        s.poly([(x-hw*k, y+yy*k), (x, y+(yy-98)*k), (x+hw*k, y+yy*k)], col, INK, max(3, 5*k))
+        if snow: s.poly([(x-hw*.5*k, y+(yy-48)*k), (x, y+(yy-98)*k), (x+hw*.5*k, y+(yy-48)*k), (x+hw*.2*k, y+(yy-58)*k), (x, y+(yy-44)*k), (x-hw*.22*k, y+(yy-58)*k)], SNOWC, None)
+
+@_kit
+def longhouse(s, x, y, w=760, h=260, snow=False, smoke=True, lit=False, door=.24, roof=TURF):
+    """A Viking Age longhouse from outside: low plank walls, a long bowed roof, one door, smoke from a hole in the ridge. (x, y) = middle of the base."""
+    wh = h*.36; rh = h*.64; x0, x1 = x-w/2, x+w/2
+    s.rect(x0, y-wh, x1, y, PLANK, INK, 6)
+    for xx in range(int(x0)+34, int(x1), 34): s.line([(xx, y-wh+4), (xx, y-4)], 3, PLANKD, False)
+    pts = [(x0-26, y-wh+6)]+[(x0+w*q, y-wh-rh*(.5+.5*math.sin(math.pi*q))) for q in (.03, .15, .3, .5, .7, .85, .97)]+[(x1+26, y-wh+6)]
+    s.poly(pts, SNOWC if snow else roof, INK, 6)
+    if snow: s.line([(x0+w*.1, y-wh-rh*.2), (x0+w*.3, y-wh-rh*.5), (x0+w*.6, y-wh-rh*.52), (x0+w*.9, y-wh-rh*.2)], 4, SNOWD, False)
+    else:
+        for i in range(9): q = .08+i*.105; s.line([(x0+w*q, y-wh-rh*(.5+.5*math.sin(math.pi*q))+10), (x0+w*q-10, y-wh-4)], 3, (92, 122, 80), False)
+    if door is not None:
+        dx = x0+w*door; s.rect(dx-34, y-wh+12, dx+34, y, (250, 204, 120) if lit else (70, 50, 38), INK, 5, 4)
+    rx, ry = x, y-wh-rh
+    s.rect(rx-26, ry-6, rx+26, ry+10, (60, 48, 40), INK, 4, 4)
+    if smoke: s.smoke(rx, ry-10)
+    return (rx, ry)
+
+@_kit
+def haycock(s, x, y, k=1.0, col=HAYC):
+    s.poly([(x-96*k, y), (x-78*k, y-74*k), (x-34*k, y-128*k), (x+34*k, y-128*k), (x+78*k, y-74*k), (x+96*k, y)], col, INK, max(3, 6*k))
+    for dx, dy in ((-50, -60), (-10, -96), (34, -70), (0, -34), (56, -30), (-62, -22)): s.line([(x+dx*k, y+dy*k), (x+(dx+16)*k, y+(dy-26)*k)], max(2, 3*k), (170, 140, 60), False)
+
+@_kit
+def pig(s, x, y, k=1.0, flip=False, c=(232, 176, 164)):
+    d = -1 if flip else 1
+    for dx in (-52, -28, 28, 52): s.line([(x+d*dx*k, y-44*k), (x+d*dx*k, y)], 11*k)
+    s.ell(x-92*k, y-124*k, x+84*k, y-30*k, c, INK, 6*k); hx = x+d*96*k
+    s.ell(hx-40*k, y-122*k, hx+40*k, y-46*k, c, INK, 6*k); s.ell(hx+d*30*k-16*k, y-92*k, hx+d*30*k+16*k, y-62*k, (244, 200, 190), INK, 4*k)
+    s.poly([(hx-d*26*k, y-116*k), (hx-d*14*k, y-150*k), (hx+d*2*k, y-118*k)], c, INK, 4*k); s.ell(hx+d*4*k-5*k, y-100*k, hx+d*4*k+5*k, y-90*k, INK, None)
+    s.line([(x-d*90*k, y-88*k), (x-d*110*k, y-100*k), (x-d*104*k, y-78*k), (x-d*122*k, y-84*k)], 5*k)
+
+@_kit
+def cod(s, x, y, k=1.0, dry=False, sw=0.0):
+    """One split, headless cod hanging by its tail from (x, y). sw swings it. dry = stockfish colour."""
+    c = CODD if dry else CODC; ax, ay = x, y+30*k; bx, by = x+sw, y+170*k; L = math.hypot(bx-ax, by-ay); nx, ny = (by-ay)/L, -(bx-ax)/L
+    P = lambda q, w: (ax+(bx-ax)*q+nx*w*k, ay+(by-ay)*q+ny*w*k)
+    s.poly([(x-24*k, y-6*k), (x, y+12*k), (x+24*k, y-6*k), (x+9*k, y+36*k), (x-9*k, y+36*k)], c, INK, max(2, 4*k))
+    s.poly([P(0, 9), P(.35, 22), P(.8, 26), P(1, 20), P(1, -20), P(.8, -26), P(.35, -22), P(0, -9)], c, INK, max(2, 5*k))
+    s.line([P(.2, 0), P(.96, 0)], max(2, 3*k), (150, 156, 150) if not dry else (170, 146, 96), False)
+
+@_kit
+def fishrack(s, x, y, w=700, h=420, n=9, t=0.0, dry=False, rows=2):
+    """A wooden drying rack (two A-frames and poles) hung with cod. (x, y) = middle of the base."""
+    for xx in (x-w/2, x+w/2):
+        s.line([(xx-70, y), (xx, y-h)], 14, TIMBER, False); s.line([(xx+70, y), (xx, y-h)], 14, TIMBER, False)
+    for r in range(rows):
+        yy = y-h+30+r*h*.42; s.line([(x-w/2-40, yy), (x+w/2+40, yy)], 12, TIMBER, False)
+        for i in range(n): xx = x-w/2+40+(w-80)*i/max(1, n-1); s.cod(xx, yy+8, h/520, dry, 9*math.sin(t*1.7+i*.9+r))
+
+@_kit
+def boneskate(s, x, y, k=1.0, flip=False, laces=True):
+    """A bone skate seen from the side; (x, y) = middle of its flat underside. The toe (right unless flip) is trimmed upward."""
+    d = -1 if flip else 1; pts = [(x-d*150*k, y-24*k), (x+d*110*k, y-24*k), (x+d*168*k, y-46*k)]
+    s.line(pts, 58*k, INK, False); s.line(pts, 44*k, BONEC, False)
+    s.ell(x-d*178*k-30*k, y-58*k, x-d*178*k+30*k, y+6*k, BONEC, INK, max(3, 6*k)); s.line([(x-d*150*k, y+3*k), (x+d*110*k, y+3*k)], max(3, 6*k), INK, False)
+    for hx in (-100, 70): s.ell(x+d*hx*k-9*k, y-34*k, x+d*hx*k+9*k, y-16*k, (120, 96, 70), INK, max(2, 3*k))
+    if laces:
+        for hx in (-100, 70): s.line([(x+d*hx*k, y-26*k), (x+d*(hx+20)*k, y-80*k), (x+d*(hx-24)*k, y-104*k)], max(3, 5*k), (120, 84, 58), False)
+
+@_kit
+def ski(s, x0, y0, x1, y1, w=16, col=(176, 132, 86)):
+    """A wooden ski from heel (x0, y0) to toe (x1, y1); the tip turns up."""
+    L = math.hypot(x1-x0, y1-y0); ux, uy = (x1-x0)/L, (y1-y0)/L; tip = (x1+ux*L*.08-uy*L*.05*(1 if ux > 0 else -1), y1+uy*L*.08-abs(ux)*L*.05)
+    s.line([(x0, y0), (x1, y1), tip], w+8, INK, False); s.line([(x0, y0), (x1, y1), tip], w, col, False)
+    mx, my = (x0+x1)/2, (y0+y1)/2; s.line([(mx-ux*L*.06, my-uy*L*.06), (mx+ux*L*.06, my+uy*L*.06)], w*.5, (120, 84, 58), False)
+
+@_kit
+def taflboard(s, x, y, k=1.0, n=9, pieces=True):
+    """A gaming board seen from above, with a few pieces on it (no particular position is shown)."""
+    a = 150*k; s.rect(x-a-16*k, y-a-16*k, x+a+16*k, y+a+16*k, (190, 150, 104), INK, max(3, 6*k), 8*k)
+    for i in range(n+1): q = -a+2*a*i/n; s.line([(x+q, y-a), (x+q, y+a)], max(2, 3*k), PLANKD, False); s.line([(x-a, y+q), (x+a, y+q)], max(2, 3*k), PLANKD, False)
+    if pieces:
+        c = 2*a/n
+        for i, (gx, gy, col) in enumerate(((1, 2, BONEC), (3, 1, BONEC), (4, 3, BONEC), (6, 5, (70, 62, 60)), (2, 6, (70, 62, 60)), (7, 2, BONEC), (5, 7, (70, 62, 60)), (3, 4, BONEC))):
+            px, py = x-a+c*(gx+.5), y-a+c*(gy+.5); s.ell(px-c*.34, py-c*.34, px+c*.34, py+c*.34, col, INK, max(2, 4*k))
+
+@_kit
+def die(s, x, y, k=1.0, n=5, col=BONEC):
+    r = 44*k; s.rect(x-r, y-r, x+r, y+r, col, INK, max(3, 6*k), 10*k)
+    P = {1: [(0, 0)], 2: [(-1, -1), (1, 1)], 3: [(-1, -1), (0, 0), (1, 1)], 4: [(-1, -1), (1, -1), (-1, 1), (1, 1)], 5: [(-1, -1), (1, -1), (0, 0), (-1, 1), (1, 1)], 6: [(-1, -1), (1, -1), (-1, 0), (1, 0), (-1, 1), (1, 1)]}[n]
+    for a, b in P: s.ell(x+a*r*.5-r*.14, y+b*r*.5-r*.14, x+a*r*.5+r*.14, y+b*r*.5+r*.14, INK, None)
+
+@_kit
+def gpiece(s, x, y, k=1.0, col=BONEC):
+    """A domed gaming piece standing on y."""
+    s.d.pieslice([(x-50*k)*S, (y-76*k)*S, (x+50*k)*S, (y+60*k)*S], 180, 360, fill=col, outline=INK, width=int(max(3, 6*k)*S)); s.line([(x-50*k, y-8*k), (x+50*k, y-8*k)], max(3, 6*k), INK, False)
+    s.line([(x-22*k, y-52*k), (x-8*k, y-64*k)], max(2, 5*k), WHITE, False)
+
+@_kit
+def horn(s, x, y, k=1.0, flip=False, col=(214, 196, 150)):
+    """A drinking horn held upright; (x, y) = the middle of its rim."""
+    d = -1 if flip else 1; pts = [(x, y), (x-d*4*k, y+44*k), (x-d*20*k, y+86*k), (x-d*52*k, y+116*k), (x-d*92*k, y+128*k)]
+    for i in range(len(pts)-1):
+        wd = (40-9*i)*k; s.line([pts[i], pts[i+1]], wd+8*k, INK, False)
+    for i in range(len(pts)-1): s.line([pts[i], pts[i+1]], (40-9*i)*k, col, False)
+    s.ell(x-24*k, y-10*k, x+24*k, y+8*k, (236, 200, 110), INK, max(2, 4*k))
+
+@_kit
+def loom(s, x, y, k=1.0, prog=.4, t=0.0, n=13):
+    """A warp-weighted loom leaning against the wall: two uprights, a beam, hanging threads held taut by stone weights, the cloth growing down from the top.
+    (x, y) = middle of its foot. Returns (x of cloth edge, y of the working edge)."""
+    hw = 190*k; top = y-600*k
+    for sgn in (-1, 1): s.line([(x+sgn*hw, y), (x+sgn*hw, top-30*k)], 20*k, INK, False); s.line([(x+sgn*hw, y), (x+sgn*hw, top-30*k)], 12*k, PLANK, False)
+    s.line([(x-hw-40*k, top), (x+hw+40*k, top)], 34*k, INK, False); s.line([(x-hw-40*k, top), (x+hw+40*k, top)], 24*k, PLANK, False)
+    wy = top+14*k+prog*330*k
+    for i in range(n):
+        xx = x-hw+26*k+(2*hw-52*k)*i/(n-1); sw = 3*k*math.sin(t*2+i); by = y-110*k+(i % 2)*16*k
+        s.line([(xx, wy), (xx+sw, by)], max(2, 3*k), (150, 134, 104), False); s.ell(xx+sw-13*k, by, xx+sw+13*k, by+36*k, (150, 146, 140), INK, max(2, 4*k))
+    s.rect(x-hw+18*k, top+14*k, x+hw-18*k, wy, WOOLC, INK, max(3, 5*k))
+    yy = top+34*k
+    while yy < wy-6*k: s.line([(x-hw+26*k, yy), (x+hw-26*k, yy)], max(1, 2*k), (200, 186, 154), False); yy += 16*k
+    s.line([(x-hw-24*k, y-300*k), (x+hw+24*k, y-300*k)], 12*k, INK, False); s.line([(x-hw-24*k, y-300*k), (x+hw+24*k, y-300*k)], 6*k, PLANK, False)
+    return (x+hw-18*k, wy)
+
+@_kit
+def spindle(s, x, y, k=1.0, t=0.0, top=None):
+    """A drop spindle hanging at (x, y) on its thread; top = where the thread comes from. It turns with t."""
+    if top: s.line([top, (x, y-70*k)], max(2, 3*k), WOOLC, False); s.line([top, (x, y-70*k)], max(1, 1.5*k), (150, 134, 104), False)
+    s.line([(x, y-70*k), (x, y+70*k)], 9*k, INK, False); s.line([(x, y-70*k), (x, y+70*k)], 5*k, PLANK, False)
+    s.ell(x-22*k, y-44*k, x+22*k, y+22*k, WOOLC, INK, max(2, 4*k)); s.ell(x-36*k, y+24*k, x+36*k, y+50*k, (150, 146, 140), INK, max(2, 4*k))
+    a = t*9; s.ell(x+26*k*math.cos(a)-5*k, y+37*k-5*k, x+26*k*math.cos(a)+5*k, y+37*k+5*k, INK, None)
+
+@_kit
+def longship(s, x, y, w=700, flip=False, bob=0.0, sail=1.0, oars=0, ghost=False, wind=0.0, mast=True, sailc=WOOLC, hull=None):
+    """A Viking Age ship: a long low hull with a high curled stem and stern, one mast, one square sail made of sewn strips. (x, y) = waterline middle.
+    sail 0..1 = how far the sail is let down from the yard. Plain stems (no carved head). Returns the middle of the sail."""
+    d = -1 if flip else 1; y = y+w*.008*math.sin(bob); hull = hull or (136, 94, 62); u = w
+    H_ = [(-.52, -.23), (-.465, -.10), (-.38, -.055), (-.30, -.045), (.30, -.045), (.38, -.055), (.465, -.10), (.52, -.23), (.50, -.10), (.44, -.01), (.34, .035), (-.34, .035), (-.44, -.01), (-.50, -.10)]
+    pts = [(x+d*a*u, y+b*u) for a, b in H_]
+    if ghost:
+        for a, b in zip(pts, pts[1:]+pts[:1]):
+            n = max(1, int(math.hypot(b[0]-a[0], b[1]-a[1])/26))
+            for j in range(0, n, 2): s.line([(a[0]+(b[0]-a[0])*j/n, a[1]+(b[1]-a[1])*j/n), (a[0]+(b[0]-a[0])*(j+1)/n, a[1]+(b[1]-a[1])*(j+1)/n)], 5, (120, 130, 150), False)
+        return (x, y-.36*u)
+    if mast:
+        s.line([(x, y-.04*u), (x, y-.64*u)], max(6, u*.016), INK, False); s.line([(x, y-.04*u), (x, y-.64*u)], max(3, u*.009), (110, 80, 56), False)
+        yt = y-.60*u; hwid = .27*u
+        if sail > .03:
+            yb = yt+(.47*u)*sail; bl = .03*u*math.sin(wind*1.3)+d*.035*u
+            poly = [(x-hwid, yt), (x+hwid, yt), (x+hwid+bl*.5, (yt+yb)/2), (x+hwid, yb), (x+bl, yb+.02*u*sail), (x-hwid, yb), (x-hwid+bl*.5, (yt+yb)/2)]
+            s.poly(poly, sailc, INK, max(4, u*.008))
+            for i in range(1, 6): xx = x-hwid+2*hwid*i/6; s.line([(xx, yt+6), (xx+bl*.6, yb-4)], max(2, u*.004), (196, 180, 146), False)
+            for sgn in (-1, 1): s.line([(x+sgn*hwid, yb), (x+sgn*.42*u, y-.07*u)], max(2, u*.004), (84, 70, 58), False)
+        else: s.line([(x-hwid, yt+.012*u), (x+hwid, yt+.012*u)], max(10, u*.03), INK, False); s.line([(x-hwid, yt+.012*u), (x+hwid, yt+.012*u)], max(6, u*.02), sailc, False)
+        s.line([(x-hwid-.02*u, yt), (x+hwid+.02*u, yt)], max(6, u*.014), INK, False); s.line([(x-hwid-.02*u, yt), (x+hwid+.02*u, yt)], max(3, u*.007), (110, 80, 56), False)
+        for sgn in (-1, 1): s.line([(x, y-.64*u), (x+sgn*.47*u, y-.11*u)], max(2, u*.004), (84, 70, 58), False)
+    s.poly(pts, hull, INK, max(4, u*.009))
+    for off in (.012, .034): s.line([(x+d*a*u, y+(b+off)*u) for a, b in ((-.47, -.10), (-.38, -.055), (-.30, -.045), (.30, -.045), (.38, -.055), (.47, -.10))], max(2, u*.004), (98, 68, 48), False)
+    for sgn in (-1, 1):
+        cx_, cy_ = x+sgn*.508*u, y-.25*u; r = .028*u; s.ell(cx_-r, cy_-r, cx_+r, cy_+r, hull, INK, max(3, u*.007))
+    for i in range(oars):
+        ox_ = x+(-.26+.52*i/max(1, oars-1))*u; sw = .03*u*math.sin(bob*2.2+i*.0); s.line([(ox_, y-.03*u), (ox_-d*(.05*u)+sw, y+.11*u)], max(3, u*.006), (98, 68, 48), False)
+    return (x, y-.36*u)
+
+@_kit
+def vat(s, x, y, k=1.0, fill=(246, 242, 226)):
+    """A big wooden vat standing on y; the top shows what is in it."""
+    s.poly([(x-150*k, y), (x-170*k, y-220*k), (x+170*k, y-220*k), (x+150*k, y)], PLANK, INK, max(3, 6*k))
+    for i in range(1, 8): xx = x-150*k+300*k*i/8; s.line([(xx, y-6*k), (xx+(xx-x)*.12, y-214*k)], max(2, 3*k), PLANKD, False)
+    for yy in (-60, -160): s.line([(x-(154+(-yy)*.08)*k, y+yy*k), (x+(154+(-yy)*.08)*k, y+yy*k)], max(3, 8*k), (84, 78, 74), False)
+    s.ell(x-170*k, y-250*k, x+170*k, y-190*k, fill, INK, max(3, 6*k))
+
+@_kit
+def rushlamp(s, x, y, k=1.0, t=0.0):
+    """A small open lamp on a stand; (x, y) = its foot."""
+    s.line([(x, y), (x, y-150*k)], 10*k, INK, False); s.line([(x-40*k, y), (x+40*k, y)], 12*k, INK, False)
+    s.d.pieslice([(x-52*k)*S, (y-200*k)*S, (x+52*k)*S, (y-120*k)*S], 0, 180, fill=(120, 116, 112), outline=INK, width=int(max(3, 5*k)*S))
+    fl = 1+.2*math.sin(t*12+x*.03); s.poly([(x-12*k, y-160*k), (x+2*k, y-160*k-58*k*fl), (x+14*k, y-160*k)], MARI, INK, max(2, 3*k))
+
+@_kit
+def sock(s, x, y, k=1.0, col=(214, 186, 150)):
+    """A short wool sock; (x, y) = under the heel."""
+    pts = [(x-60*k, y-210*k), (x+44*k, y-210*k), (x+50*k, y-80*k), (x+170*k, y-58*k), (x+196*k, y-20*k), (x+170*k, y), (x-40*k, y), (x-66*k, y-40*k)]
+    s.poly(pts, col, INK, max(3, 6*k))
+    for i in range(6):
+        yy = y-196*k+i*30*k
+        for j in range(4): s.line([(x-48*k+j*24*k, yy), (x-36*k+j*24*k, yy+10*k)], max(2, 3*k), (176, 140, 104), False)
+    for i in range(4): xx = x+70*k+i*28*k; s.line([(xx, y-52*k+i*4*k), (xx-6*k, y-34*k)], max(2, 3*k), (176, 140, 104), False)
+
+@_kit
+def roundshield(s, x, y, r=70, col=RED):
+    s.ell(x-r, y-r, x+r, y+r, col, INK, max(3, r*.09))
+    for a in (-.5, 0, .5): s.line([(x+a*r, y-r*math.sqrt(1-a*a)+4), (x+a*r, y+r*math.sqrt(1-a*a)-4)], max(2, r*.035), INK, False)
+    s.ell(x-r*.26, y-r*.26, x+r*.26, y+r*.26, (150, 150, 156), INK, max(3, r*.07))
+
+@_kit
+def clothbolt(s, x, y, k=1.0, col=WOOLC, n=4):
+    """A folded length of woollen cloth lying on y."""
+    for i in range(n):
+        yy = y-i*34*k; s.rect(x-120*k, yy-34*k, x+120*k, yy, col, INK, max(3, 5*k), 14*k)
+        for j in range(5): s.line([(x-96*k+j*48*k, yy-28*k), (x-96*k+j*48*k, yy-6*k)], max(1, 2*k), (200, 186, 154), False)
+
+@_kit
+def lyre(s, x, y, k=1.0):
+    """A small lyre held upright; (x, y) = its foot."""
+    s.poly([(x-60*k, y), (x-70*k, y-150*k), (x-50*k, y-250*k), (x+50*k, y-250*k), (x+70*k, y-150*k), (x+60*k, y)], (176, 132, 86), INK, max(3, 6*k))
+    s.rect(x-40*k, y-226*k, x+40*k, y-130*k, None, INK, max(3, 5*k), 16*k); s.rect(x-38*k, y-224*k, x+38*k, y-132*k, (60, 48, 40), None, 0, 14*k)
+    for i in range(5): xx = x-28*k+i*14*k; s.line([(xx, y-240*k), (xx, y-40*k)], max(1, 2*k), PAPER, False)
+
+@_kit
+def snowfall(s, n=70, t=0.0, seed=0, big=5):
+    """Falling snow over the whole frame."""
+    d = getattr(s, "da", s.d)
+    for i in range(n):
+        j = i+seed*17; x = (j*211+int(t*46)+int(34*math.sin(t*.9+j))) % W; y = (j*137+int(t*(110+j % 5*14))) % H; r = big*(.6+(j % 4)*.2)
+        d.ellipse([(x-r)*S, (y-r)*S, (x+r)*S, (y+r)*S], fill=(255, 255, 255, 225) if hasattr(s, "da") else WHITE)

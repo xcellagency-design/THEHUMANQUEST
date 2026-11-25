@@ -1,0 +1,586 @@
+[
+ {
+  "claim": "Plank beds ran along the walls of a Viking Age house; people sat and slept on them. The house was very smoky",
+  "units": "0,31",
+  "source": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/the-people/viking-homes",
+  "status": "verified",
+  "note": "National Museum of Denmark: 'Along the walls there were plank beds, on which the Vikings could sit or sleep.' 'The lack of ventilation meant that there was a great deal of smoke in a Viking house.' The waking scene itself is the invented character's.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "On the shortest day, central Norway at Trondheim's latitude gets about four and a half hours of daylight; the sun sets about 2:30 in the afternoon",
+  "units": "1,46,59",
+  "source": "https://sunrise-sunset.org/no/trondheim",
+  "status": "verified",
+  "note": "sunrise-sunset.org, Trondheim: 'during the winter solstice on December 21, 2026, with a daylight length of 4 hours, 30 minutes'; earliest sunset 'at 2:30 pm'. Life in Norway (https://www.lifeinnorway.net/trondheim-in-the-winter/): 'the sun rises at about 10 and sets at about 2:30PM', 'about 4.5 hours of daylight'. The figure is for the shortest day at Trondheim; the farm is placed at that latitude. Line 1 says 'today' for a December day: true of the days around the solstice only. Clock times are modern. Final script: line 1 says 'Late December' and line 46 'By the solstice'.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "In the old Icelandic calendar the winter half-year is 180 days (summer 184 or 191)",
+  "units": "2,8,45",
+  "source": "https://www2.math.uu.se/~svantejs/papers/calendars/iceland.pdf",
+  "status": "qualified",
+  "note": "Svante Janson, Uppsala University, 'The Icelandic Calendar': 'Note that the summer is 184 or 191 days and the winter is 180.' Qualified because the calendar is Icelandic: Janson says it was 'probably introduced in connection with the establishment in 930 of the Althingi' and that there is 'no documents or other contemporary evidence of the use of the Icelandic calendar before the 12th century'. Its use on a Norwegian farm about 950 is an assumption. Line 2 says 'the old Norse count'; line 11 names the Icelanders. Final script: the hook (line 2) now says 'by the old Icelandic calendar'.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "What the farm slaughtered and stored in autumn had to last the winter",
+  "units": "2",
+  "source": "https://news.web.baylor.edu/news/story/2014/beer-beef-and-politics-findings-viking-archaeological-site-show-power-trumping",
+  "status": "qualified",
+  "note": "Zori via Baylor: 'They had to decide how many to slaughter and store'. National Museum of Denmark: 'the housekeeping needed to be planned and adapted to the different seasons'. The script no longer says 'most' or 'in this house': York Archaeology lists winter foods that were not stored (shellfish), and fish dried outdoors. 'Has to last' is the script's wording.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "The invented character: sixteen winters old, on a farm in central Norway about 950, hoping for a place on a ship",
+  "units": "4,5,97",
+  "source": "(invented)",
+  "status": "qualified",
+  "note": "Made up, and line 5 says so. No source gives an age at which boys joined ships; the script does not claim one.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "The old Icelandic calendar had two seasons, summer and winter",
+  "units": "11",
+  "source": "https://www2.math.uu.se/~svantejs/papers/calendars/iceland.pdf",
+  "status": "verified",
+  "note": "Janson: the year is two halves called misseri, summer and winter. Iceland Monitor (https://icelandmonitor.mbl.is/news/news/2015/10/21/do_you_know_your_old_icelandic_months): 'There are just two seasons in the old Icelandic calendar.' Line 11 attributes it to the Icelanders.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Winter began on a Saturday in October; the last two days of summer were called the winter nights (veturnætur)",
+  "units": "12",
+  "source": "https://www2.math.uu.se/~svantejs/papers/calendars/iceland.pdf",
+  "status": "verified",
+  "note": "Janson quoting Grágás: 'The first day of winter is to be a Saturday.' Table 1: Gormánuður begins Saturday, 11-18 October (Julian), 21-28 October (Gregorian). 'ignoring the last two days, which are called veturnætur'. That those two days were a Thursday and Friday came from a machine summary of the PDF's later pages and is not used. The winter nights are no longer mentioned in the script.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Ages and spans of years were counted in winters",
+  "units": "4,12",
+  "source": "https://www2.math.uu.se/~svantejs/papers/calendars/iceland.pdf",
+  "status": "verified",
+  "note": "Janson: 'the standard way of expressing ages of persons or other periods of years was using \"winters\".'",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Cattle were kept indoors over winter; sheep coped with cold better and could graze outside",
+  "units": "14",
+  "source": "https://news.web.baylor.edu/news/story/2014/beer-beef-and-politics-findings-viking-archaeological-site-show-power-trumping",
+  "status": "verified",
+  "note": "Baylor University on the Hrísbrú excavation, Mosfell valley, Iceland (Davide Zori, Jesse Byock): 'the prized cattle had to be kept indoors in large barns during the winter'; sheep could graze free range and handled cold better. Hay as winter feed: Beth Rogers (https://www.medievalists.net/2019/02/farming-medieval-iceland/), hayfields were 'precious fodder to be used in winter to feed the animals'. Iceland; applied to Norway by analogy. Final script names Iceland in the line.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Each autumn a farm had to decide how many animals to slaughter and store",
+  "units": "15",
+  "source": "https://news.web.baylor.edu/news/story/2014/beer-beef-and-politics-findings-viking-archaeological-site-show-power-trumping",
+  "status": "verified",
+  "note": "Davide Zori, quoted by Baylor: 'They had to decide how many to slaughter and store'. He is an archaeologist who excavated the Hrísbrú farmstead ('built in the late ninth or early 10th century and abandoned by the 11th'). The script paraphrases closely and does not put it in quotation marks on screen.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Too many animals for the hay meant fodder ran out before spring",
+  "units": "16",
+  "source": "https://oldnorse.org/2021/11/29/viking-age-iceland-damp-harvesting/",
+  "status": "qualified",
+  "note": "Follows from Byock: 'there was not enough fodder to keep many of the livestock alive over the winter'. 'Before the grass comes back' is the script's wording.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "After a cold, wet summer there was too little hay and farmers, especially on small farms, culled their herds severely",
+  "units": "17",
+  "source": "https://oldnorse.org/2021/11/29/viking-age-iceland-damp-harvesting/",
+  "status": "qualified",
+  "note": "Jesse Byock, Viking Age Iceland, excerpt on oldnorse.org: 'In a summer too cold and damp for either harvesting or drying hay, there was not enough fodder to keep many of the livestock alive over the winter'; 'had little choice but to severely cull their herds'. Iceland. 'Especially on small farms' is the reader's paraphrase of Byock, not a quoted fragment.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "After such a cull, people may have eaten better that winter than in a normal one",
+  "units": "18",
+  "source": "https://oldnorse.org/2021/11/29/viking-age-iceland-damp-harvesting/",
+  "status": "verified",
+  "note": "Byock: 'People may have eaten better than they would have in a normal winter'. Attributed in line 20 as one scholar's view.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "The danger was a second bad summer, when farmers tried to keep whatever livestock was left",
+  "units": "19",
+  "source": "https://oldnorse.org/2021/11/29/viking-age-iceland-damp-harvesting/",
+  "status": "qualified",
+  "note": "Byock, as read: after a second rainy summer farmers tried to keep whatever livestock was left; 'When facing hunger and starvation, the population had other resources'; 'famines were often followed by high birthrates'. The reader gave the sequence in paraphrase, not one sentence that says a second summer caused famine. Final script says only that the danger is a second bad summer, when farmers are trying to keep whatever animals are left, which is the reader's paraphrase.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Meat and fish were dried, smoked and salted to keep",
+  "units": "20",
+  "source": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/food/meat-and-fish",
+  "status": "verified",
+  "note": "National Museum of Denmark: 'Meat and fish were also dried and salted so that they could be preserved for a long time.' Smoking: York Archaeology (https://research.yorkarchaeology.co.uk/winter-in-jorvik/), winter food included meat and fish smoked or dried earlier in the year.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Sausages were made from offal and blood after the autumn slaughter; butter was heavily salted; dairy fat mattered in winter",
+  "units": "21",
+  "source": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/food/meat-and-fish",
+  "status": "qualified",
+  "note": "National Museum of Denmark: 'The sausages were made after animals were slaughtered in the autumn.' Butter heavily salted. 'These milk products were an invaluable source of fat during the long winters.' Food page (https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/food): 'The Vikings needed all the energy that they could get in the form of fat – especially in winter.' 'Made from offal and blood' and 'butter was heavily salted' are the reader's paraphrases of the museum page; only the autumn-slaughter sentence and the two fat sentences were quoted.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "In Iceland, lacking salt, people used big vats of curdled milk as a preservative",
+  "units": "22",
+  "source": "https://news.web.baylor.edu/news/story/2014/beer-beef-and-politics-findings-viking-archaeological-site-show-power-trumping",
+  "status": "verified",
+  "note": "Zori, via Baylor: 'they had to use big vats of curdled milk as a preservative' because they had no salt.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Stockfish is cod hung on wooden frames and dried by cold air in north Norway (Lofoten)",
+  "units": "23,24",
+  "source": "https://www.cam.ac.uk/research/news/dna-from-viking-cod-bones-suggests-1000-years-of-european-fish-trade",
+  "status": "verified",
+  "note": "University of Cambridge, 7 Aug 2017: 'Stockfish is white fish preserved by the unique climate of north Norway'; 'Cod is traditionally hung out on wooden frames to allow the chill air to dry the fish'. That it was being made in Lofoten about 950 rests on the next row. 'A better trick' is the script's opinion. Final script: 'one that seems to be in use by your day', which rests on the DNA row (bones dated 800 to 1066).",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Some medieval accounts say stockfish was still edible after as much as ten years",
+  "units": "24",
+  "source": "https://www.cam.ac.uk/research/news/dna-from-viking-cod-bones-suggests-1000-years-of-european-fish-trade",
+  "status": "verified",
+  "note": "Cambridge: 'Some medieval accounts suggest stockfish was still edible as much as ten years after preservation.' The script keeps 'some medieval writers say'.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "A 2017 DNA study of five cod bones from Viking Age Haithabu (in modern Germany) matched them to the Arctic stock off Lofoten, over a thousand miles away",
+  "units": "25,26",
+  "source": "https://www.cam.ac.uk/research/news/dna-from-viking-cod-bones-suggests-1000-years-of-european-fish-trade",
+  "status": "verified",
+  "note": "Cambridge: 'a new study published today in the journal PNAS'; 'five cod bones dating from between 800 and 1066 AD found in the mud of the former wharves of Haithabu'; 'genetic signatures seen in the Arctic stock that swim off the coast of Lofoten'; 'over a thousand miles from northern Norway to the Baltic Sea during the Viking era'. First author Bastiaan Star (Oslo), senior author James Barrett (Cambridge). The page says the study cannot tell whether the fish was traded or eaten on the voyage; the script says only where the fish came from. Final script: 'They matched the Arctic cod that swim off Lofoten'. Line 26's joke is about that fish, not the farm's dinner.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Viking Age houses were built of wood with an oblong 'long fireplace' in the middle",
+  "units": "29",
+  "source": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/the-people/viking-homes",
+  "status": "verified",
+  "note": "'Viking houses were built of wood.' 'In the middle of the house was an oblong fireplace – the long fireplace.' 'The longhouses had bowed walls in plan, forming a ship-like outline.' The museum page gives no dimensions, so the script gives none. (Hurstwic and Life in Norway both give 5 to 7 metres wide and 15 to 75 long; not used.)",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "No chimneys and no windows; smoke left through a hole in the roof",
+  "units": "30",
+  "source": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/the-people/viking-homes",
+  "status": "verified",
+  "note": "'Viking houses did not have chimneys or windows.' 'there was a hole in the roof, where the smoke from the fire escaped'. 'Eventually' is a joke.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Animals were stalled at one end of the house if the farm had no stables",
+  "units": "32",
+  "source": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/the-people/viking-homes",
+  "status": "verified",
+  "note": "'At one end of the house the animals were housed in stalls, if there were no stables at the farm.' Rogers on Iceland: 'the whole family – animals included – could try not to freeze together in the winter'. The NPR line about cows as radiators is a guess on that page and is not used.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Over 13 winter weeks in 2011-12, volunteers lived in two reconstructed Viking Age houses in Denmark, cooking and heating with wood fires, while air pollution was measured",
+  "units": "34",
+  "source": "https://read.qxmd.com/read/25065944/household-air-pollution-from-wood-burning-in-two-reconstructed-houses-from-the-danish-viking-age",
+  "status": "qualified",
+  "note": "Christensen and Ryhl-Svendsen, Indoor Air (abstract on QxMD): 'During 13 winter weeks, an experimental archeology project was undertaken'; 'two Danish reconstructed Viking Age houses'. Medievalists.net (https://www.medievalists.net/2015/01/vikings-homes-polluted-researchers-find/): 'During 13 winter weeks between 2011-12'; houses at Moesgard Museum and Bork Viking Harbour. The two pages give different publication years (2014 online, June 2015 issue); the script gives the years of the experiment only. 'Volunteers lived in the houses under Viking-style conditions, cooking and heating by wood fire' is the reader's paraphrase of the abstract. The script says 'the winter of twenty eleven' for a winter the news report dates 2011-12.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Carbon monoxide and fine particles in those houses were well above World Health Organization limits",
+  "units": "35",
+  "source": "https://www.medievalists.net/2015/01/vikings-homes-polluted-researchers-find/",
+  "status": "verified",
+  "note": "Medievalists.net: personal exposure 'a carbon monoxide level of 6.9 parts per million' and 'a fine particulate matter exposure of 0.41 mg/m3', 'significantly higher than World Health Organization (WHO) maximum standards'. Abstract: levels 'were higher than reported from modern studies conducted in dwellings using biomass'. The WHO comparison is in the news report, not in the abstract as read. Final script says 'higher than the limits', not 'well above': the reader gave no WHO figures, and a second reader doubted the size of the carbon monoxide gap. Run B: open the abstract or the WHO guideline before putting any number on screen.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "The study's authors think women and small children probably had the highest exposure",
+  "units": "36,99",
+  "source": "https://www.medievalists.net/2015/01/vikings-homes-polluted-researchers-find/",
+  "status": "verified",
+  "note": "'women and small children in the Viking Age probably received the highest exposures to woodsmoke'. Abstract: 'the exposure to woodsmoke was a contributing factor to health problems'. The script keeps 'probably'.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "The central fire gave most of the indoor light; there were also small lamps and candles",
+  "units": "38",
+  "source": "https://research.yorkarchaeology.co.uk/winter-in-jorvik/",
+  "status": "verified",
+  "note": "York Archaeology, Winter in Jorvik: 'the home’s central fire provided the largest amount of indoor lighting'; rush lamps and wax candles. York is a town in England. Hurstwic: lamps 'filled with fish liver oil'; 'Candles were not unknown, but were expensive and thus infrequently used.'",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Cloaks were of thick piled cloth, often in a double layer",
+  "units": "39",
+  "source": "https://research.yorkarchaeology.co.uk/winter-in-jorvik/",
+  "status": "verified",
+  "note": "'typically made from a piled fabric, often in a double layer.' That clothing was mostly wool is general (the sock and sails rows); York names wool for the sock. Final script no longer says 'You wear wool'.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "A wool sock made by nålebinding was found in Viking Age York; it is the only one found in England",
+  "units": "40",
+  "source": "https://research.yorkarchaeology.co.uk/winter-in-jorvik/",
+  "status": "verified",
+  "note": "'This wool sock has been made using a technique called ‘nålebinding’.' 'this example is the only one to have been discovered in England.' The page gives no date for the object beyond its Viking Age (Jorvik) context.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "The Old Norse poem Hávamál lists a traveller's needs: fire for one numbed with cold to the knee, food and clothing, water, drying and a friendly welcome",
+  "units": "42",
+  "source": "https://sites.pitt.edu/~dash/havamal.html",
+  "status": "verified",
+  "note": "Olive Bray's translation (Viking Club, 1908), on D. L. Ashliman's University of Pittsburgh page. Stanza 3: 'He hath need of fire, who now is come,' 'numbed with cold to the knee;' 'food and clothing the wanderer craves'. Stanza 4: 'He craves for water, who comes for refreshment,' 'drying and friendly bidding,'. The script paraphrases. The page gives no date for the poem; the script calls it Old Norse and does not date it.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Damp was the great enemy of a wooden house because it led to rot",
+  "units": "43",
+  "source": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/the-people/viking-homes",
+  "status": "verified",
+  "note": "'Damp was the great enemy as it led to rotting.' 'Not the cold' is the script's contrast, not the museum's.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "The old Icelandic month beginning in mid-December, Mörsugur, can be read as 'fat-sucker'",
+  "units": "47",
+  "source": "https://icelandmonitor.mbl.is/news/news/2015/10/21/do_you_know_your_old_icelandic_months",
+  "status": "qualified",
+  "note": "Iceland Monitor: the name 'can be interpreted to mean literally \"fat sucker\"'. Janson's Table 1: Mörsugur begins on a Wednesday, 10-17 December (Julian). Qualified: a newspaper gloss of an Icelandic month name; Janson gives other old names for the same month (Jólmánuðr, Hrútmánuðr) and no meanings. Not evidence for Norway about 950; the line says 'the Icelanders'.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Viking Age ice skates were made from the lower leg bones of cows or horses and tied on with leather laces",
+  "units": "49,50",
+  "source": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/the-people/games-and-entertainment",
+  "status": "verified",
+  "note": "National Museum of Denmark: 'These were made from cow or horse lower leg bones, which were tied to the feet with leather laces.' Swedish History Museum (https://historiska.se/en/explore-history/history-hub/viking-age-ice-skates/): 'Bone skates were made from the metatarsal bones of horses or cattle'; it adds that 'fastening the skates wasn’t strictly necessary'.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "The skater did not lift the feet, and pushed along with a pole",
+  "units": "51",
+  "source": "https://historiska.se/en/explore-history/history-hub/viking-age-ice-skates/",
+  "status": "verified",
+  "note": "'since the skater didn’t lift their feet, instead propelling themselves forward with an ice pole'. York Archaeology: 'Poles would have been required to pull the skater along.'",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Pig fat rubbed on the underside reduced friction",
+  "units": "52",
+  "source": "https://historiska.se/en/explore-history/history-hub/viking-age-ice-skates/",
+  "status": "verified",
+  "note": "'Rubbing pig fat on the bottom further reduced friction'; 'Their undersides were flat and polished to maximise speed'.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "More than 40 bone skates were found at Coppergate, York",
+  "units": "53",
+  "source": "https://research.yorkarchaeology.co.uk/winter-in-jorvik/",
+  "status": "verified",
+  "note": "'Over 40 animal bone ice-skates were found at Coppergate.'",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Skates were used for fun and as transport",
+  "units": "54",
+  "source": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/the-people/games-and-entertainment",
+  "status": "verified",
+  "note": "'In the winter the Vikings used ice skates, both for fun and as a means of transport.'",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Where snow arrived early, skis were the better option",
+  "units": "55",
+  "source": "https://historiska.se/en/explore-history/history-hub/viking-age-ice-skates/",
+  "status": "verified",
+  "note": "'further north, snow often arrives early, making skis a better option.'",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "A pair of skis came out of the Digervarden ice patch in Norway, one in 2014 and one in 2021; 187 cm long; dated to about AD 700 or the later 700s",
+  "units": "56,57",
+  "source": "https://sciencenorway.no/archaeology-viking-age-vikings/researchers-found-a-ski-from-the-viking-age-in-2014-a-few-years-later-the-second-ski-in-the-pair-appeared/2105279",
+  "status": "qualified",
+  "note": "Science Norway, 8 Nov 2022: 'The skis are 187 centimetres long and 17 centimetres wide'; 'They were found only five meters apart'; the wearer 'lived in the second half of the 8th century', 'during the run-up to the Viking Age'. Secrets of the Ice (https://secretsoftheice.com/news/2018/10/04/skis/): radiocarbon, 'The ski was from c. AD 700!'. 187 cm is 6 ft 1.6 in. The two pages differ on the date (c. 700, later 700s); the script says 'the seven hundreds', which is 150 to 250 years before 950. They are pre-Viking Age skis and the script does not call them Viking. That the second ski was found in 2021 is the reader's paraphrase of the Science Norway page.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "An archaeologist on the project said they would be called powder boards today",
+  "units": "58",
+  "source": "https://sciencenorway.no/archaeology-viking-age-vikings/researchers-found-a-ski-from-the-viking-age-in-2014-a-few-years-later-the-second-ski-in-the-pair-appeared/2105279",
+  "status": "verified",
+  "note": "Julian Robert Post-Melbye, Museum of Cultural History, University of Oslo: 'They would be called powder boards today, I think'. Reported speech in the script, not a quotation.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Board games including hnefatafl, and dice, were played",
+  "units": "60",
+  "source": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/the-people/games-and-entertainment",
+  "status": "verified",
+  "note": "'Board games and games of dice were played.' 'From written sources we know that the Vikings played \"hnefatafl\" and \"nitavl\" (Nine Men's Morris)'. The script gives no rules: none were in the source.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Gaming pieces survive in stone, bone, glass, antler and amber (also wood)",
+  "units": "61",
+  "source": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/the-people/games-and-entertainment",
+  "status": "verified",
+  "note": "'Preserved gaming pieces and boards show how highly the Vikings valued such activities.' Pieces of stone, wood or bone, plus glass, antler and amber.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "A saga warns against gambling with dice",
+  "units": "62",
+  "source": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/the-people/games-and-entertainment",
+  "status": "qualified",
+  "note": "The museum page cites a saga warning against gambling and dice (reader's paraphrase; the saga's name was not given). The second sentence of line 63 is a joke. The joke was cut.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Storytelling, skaldic poems and music were part of gatherings",
+  "units": "63",
+  "source": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/the-people/games-and-entertainment",
+  "status": "verified",
+  "note": "The museum page names storytelling, skaldic poems and music at festive occasions. It does not say 'every night' or 'in winter'; neither does the script. Final script: 'When there's a feast, you listen.'",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "The sagas were written down in Iceland in the 12th and 13th centuries, and Old Norse texts tie Yule to the supernatural",
+  "units": "64",
+  "source": "https://www.abdn.ac.uk/news/10265/",
+  "status": "qualified",
+  "note": "Dr Hannah Burrows, University of Aberdeen, 22 Dec 2016: 'Old Norse texts also make a firm correlation between yuletide and the supernatural.' Rogers (https://www.medievalists.net/2019/02/farming-medieval-iceland/) on the sagas: 'written in the 12th and 13th centuries'. Final script: 'The stories that got written down, centuries later in Iceland, keep putting their hauntings at Yule.' What was told aloud about 950 cannot be known and the script no longer claims it. 'Keep putting' is the script's wording for 'a firm correlation'.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "In Grettis saga, Glámr is found dead in the snow at Yule and returns to haunt; the hauntings lessen as the days lengthen",
+  "units": "65",
+  "source": "https://sites.nd.edu/manuscript-studies/?p=10926",
+  "status": "verified",
+  "note": "Ashley Castelino, Medieval Institute, University of Notre Dame, 17 Dec 2025: Glámr ate meat on Yule Eve, was found dead in the snow, and rose again to haunt the area. Aberdeen: 'The hauntings lessen as the days grow longer.' Spelled Glam for the voice. In the Aberdeen article the sentence about the hauntings lessening sits in the passage on Glámr and Grettir.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "In Norse myth a winter lasting three years leads up to Ragnarök",
+  "units": "66",
+  "source": "https://www.abdn.ac.uk/news/10265/",
+  "status": "verified",
+  "note": "'a mighty winter lasting three years would lead up to ragnarök.'",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Midwinter (the first day of Þorri) falls at the midpoint of the 180-day winter",
+  "units": "68",
+  "source": "https://www2.math.uu.se/~svantejs/papers/calendars/iceland.pdf",
+  "status": "qualified",
+  "note": "Janson: the first day of Þorri, the fourth of six winter months, is miður vetur (midwinter); Iceland Monitor: twelve 30-day months. Three 30-day months is 90 days, so 'ninety down, ninety to go' is arithmetic on those two statements. Icelandic calendar, with the same caveat as the 180 days. Final script: 'By the Icelandic calendar, the halfway mark', and Yule is placed only 'somewhere in the dark middle of it'.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "The fullest account of pre-Christian Yule is Snorri Sturluson's Heimskringla, written more than two centuries after Hákon; the date of Yule is disputed",
+  "units": "69,70",
+  "source": "https://www.churchtimes.co.uk/articles/2020/18-december/features/features/myths-about-yule-debunked",
+  "status": "verified",
+  "note": "Nick Page, Church Times, 18 Dec 2020: the pagan-festival accounts date from 'around 1200 onwards', almost all in Snorri's Heimskringla; Snorri's jól 'began on midwinter night (12 January)'. Wikiwand's Yule article (https://www.wikiwand.com/en/articles/Yule) puts midwinter night at the solstice and reports Nordberg's full-moon dating as 'not accepted by most Academics'. Hákon 'ruled from 934 to 961' (Wikiwand); 'around the middle of the tenth century' (Notre Dame). The script names no date for Yule and says scholars argue.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Snorri says Yule began on midwinter night and lasted three nights",
+  "units": "71",
+  "source": "https://sites.nd.edu/manuscript-studies/?p=10926",
+  "status": "verified",
+  "note": "Notre Dame, from Hákonar saga góða (Finlay and Faulkes translation): pagan jól began on midwinter night and ran three nights. The toasts (Odin, Njörðr, Freyr) were cut from the script: they rested on Wikiwand's summary only, and a second reader doubted that Snorri ties them to Yule.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Snorri says King Hákon the Good ordered Yule kept at the same time as Christmas",
+  "units": "72",
+  "source": "https://sites.nd.edu/manuscript-studies/?p=10926",
+  "status": "verified",
+  "note": "'observance of Yule should begin at the same time as Christian people observed Christmas' (Finlay and Faulkes, quoted by Notre Dame). Also Britannica (https://www.britannica.com/topic/Yule-festival) and Church Times. Final script: 'a king of about your time'.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "By the same account everyone was to have a measure of ale and celebrate for as long as it lasted, or pay a fine",
+  "units": "73",
+  "source": "https://sites.nd.edu/manuscript-studies/?p=10926",
+  "status": "qualified",
+  "note": "Notre Dame: each person was to have a measure of ale and 'celebrate for as long as the ale lasted', or pay a fine. Britannica: 'keep the holiday while the ale lasted'. Wikiwand's wording is 'ale for the celebration with a measure of grain'; the script follows Notre Dame. Final script: 'everyone had to have ale for it, a set measure', and line 74 says translators differ on whether the measure is the ale or the grain: Notre Dame has a measure of ale, Wikiwand 'ale for the celebration with a measure of grain'. Run B: open the Finlay and Faulkes text (Viking Society, free online) and settle it before the line is voiced.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "By one estimate the measure was about 16 litres",
+  "units": "74",
+  "source": "https://sites.nd.edu/manuscript-studies/?p=10926",
+  "status": "verified",
+  "note": "'16.2 litres, according to one estimate'. The script says 'about sixteen' and 'by one estimate'. 16.2 litres is 4.3 US gallons; 'roughly four gallons'.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "In the same saga, farmers at a Yule feast forced Hákon to eat horse liver",
+  "units": "76",
+  "source": "https://sites.nd.edu/manuscript-studies/?p=10926",
+  "status": "verified",
+  "note": "Notre Dame: at a Yule feast with farmers from Þrándheimr, Hákon was forced to eat horse liver and drank the toasts 'without the sign of the Cross'. The script does not name the district. 'Less popular' is the script's gloss.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Raiders were home in winter: raiding was seasonal",
+  "units": "77,78",
+  "source": "https://www.medievalists.net/2011/09/a-chieftain-in-an-old-norse-text-sveinn-asleifarson-and-the-message-behind-orkneyinga-saga/",
+  "status": "qualified",
+  "note": "A generalisation from the two examples that follow (Svein's year; the Chronicle's note that wintering abroad was new in 851). No source opened states it as a rule for Norway about 950, and from the 850s armies did winter abroad, which line 84 says. Final script: 'raiding can be seasonal work. One saga spells it out', and line 81 says 'Not everyone comes home' before the 851 entry.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Orkneyinga saga describes Svein Asleifarson's year: sowing in spring, a 'spring-trip' plundering, home after midsummer for the harvest, raiding again until the first month of winter had ended",
+  "units": "79,80",
+  "source": "https://www.medievalists.net/2011/09/a-chieftain-in-an-old-norse-text-sveinn-asleifarson-and-the-message-behind-orkneyinga-saga/",
+  "status": "verified",
+  "note": "Ian Beuermann's article on Medievalists.net quotes Orkneyinga saga ch. 105: 'In the spring he had more than enough to occupy him, with a great deal of seed to sow'; 'he would go off plundering in the Hebrides and in Ireland on what he called his \"spring-trip\"'; 'then back home just after mid-summer, where he stayed till the cornfields had been reaped and the grain was safely in'; 'After that he would go off raiding again, and never came back till the first month of winter was ended.' The saga is 'early 13th century'. Svein died in the 1171 attack on Dublin (Orkney News, https://theorkneynews.scot/2021/10/16/svein-asleifarsson-orkneys-last-sea-wolf/), hence 'two centuries after you'. A saga's portrait, not a record. Final script compresses the autumn trip to 'raids again until winter has begun'; the saga's wording is 'till the first month of winter was ended'.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Svein spent winter at home on Gairsay entertaining some eighty men at his own expense",
+  "units": "80",
+  "source": "https://www.medievalists.net/2011/09/a-chieftain-in-an-old-norse-text-sveinn-asleifarson-and-the-message-behind-orkneyinga-saga/",
+  "status": "verified",
+  "note": "'Winter he would spend at home on Gairsay, where he entertained some eighty men at his own expense.'",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "The Anglo-Saxon Chronicle for 851 records that the heathens for the first time stayed over winter",
+  "units": "81",
+  "source": "https://avalon.law.yale.edu/medieval/ang09.asp",
+  "status": "verified",
+  "note": "Yale Avalon Project text: 'The heathens now for the first time remained over winter in the Isle of Thanet.' The 854 entry says the same of Sheppey; from the 860s the entries say the army 'fixed their winter-quarters'. 'The English noticed the pattern' and 'it was worth writing down' are the script's reading. Final script uses it as the exception, a century before the viewer's 950.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Viking Age houses commonly had a loom",
+  "units": "83,84",
+  "source": "https://hurstwic.org/history/articles/daily_living/text/longhouse.htm",
+  "status": "qualified",
+  "note": "Hurstwic lists 'a vertical loom for weaving cloth' as likely furniture; Life in Norway (https://lifeinnorway.net/viking-longhouses): 'Most longhouses would have had a loom of some kind'. Both are secondary pages without citations for this. Science News: Viking pit houses 'had no windows, just a hole in the roof' and 'Those houses were excellent for weaving, actually' (Eva Andersson Strand); in Iceland weaving was done in a separate hut (Scientific American). So the loom may not have stood in the main room. Run B: draw the loom without fixing where it stood; 'walked past it' holds either way.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Making cloth was women's work and went on all year round",
+  "units": "85",
+  "source": "https://www.medievalists.net/2016/03/womens-work-and-family-in-the-viking-age/",
+  "status": "verified",
+  "note": "Susan Abernethy, Medievalists.net, 16 Mar 2016: 'A task women performed year round was the making of cloth.' University of Bergen (https://landslovjubileet.uib.no/en/landevernsbolken/seil): 'Textile production was typically women's work, and women of the coast made sails until the 19th century.' Science News: 'craftspeople, mostly women, toiling with spindles and looms'; 'But men and children were probably involved at times.' NO source opened says spinning or weaving was winter work. Script v1 said it was; v2 does not. Final script: 'It goes on all year round, and it's mostly the women who do it.'",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Thread was spun on spindles and the cloth woven in strips",
+  "units": "88",
+  "source": "https://landslovjubileet.uib.no/en/landevernsbolken/seil",
+  "status": "verified",
+  "note": "'The thread was spun on spindles, and the fabric was woven into strips.' Said of sailcloth.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "A typical levy ship's sail was at least 100 square metres, most of wool",
+  "units": "86,87",
+  "source": "https://landslovjubileet.uib.no/en/landevernsbolken/seil",
+  "status": "qualified",
+  "note": "'A typical levy ship probably had a sail of at least 100 square metres'; most were 'certainly made of wool'. The page is about the levy fleet of the medieval Norwegian law codes and says sails were made locally from the Viking Age on ('there is reason to believe'). The script's 'warship' stands for levy ship. Other sizes read: 90 m2 (Ottar, Viking Ship Museum; Oseberg replica, Medieval.eu), 100 m2 (Lightfoot, Hakai), 120 m2 'one large Viking sail' (Andersson Strand, Science News), about 200 m2 for Roskilde 6 (Medieval.eu). Final script: 'probably more than a thousand square feet' (100 m2 is 1,076 sq ft). The source says 'at least 100 square metres' and 'probably'.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Estimates of the wool for one sail run from 150 to 200 sheep up to about 700",
+  "units": "89",
+  "source": "https://landslovjubileet.uib.no/en/landevernsbolken/seil",
+  "status": "verified",
+  "note": "University of Bergen: 'each sail must have required the wool of 150 to 200 sheep'. Hakai Magazine (https://www.hakaimagazine.com/features/no-wool-no-vikings/, Claire Eamer, 23 Feb 2016), on the weaver Amy Lightfoot's first sail: a 100-square-metre sail 'used two tonnes of fleece, the annual production of about 700 sheep.' The Viking Ship Museum's page on the 90 m2 sail woven for Ottar in 1999 (https://www.vikingeskibsmuseet.dk/en/professions/education/all-about-the-viking-ship/skibets-haandvaerkere/vaeveren) was read only as a machine summary: 'as many as 200' Spelsau sheep. The estimates disagree by a factor of four and the script says so. Final script: 'a year's wool off a hundred and fifty sheep, to seven hundred'.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "One experiment-based estimate: four women working ten-hour days for a full year to spin and weave one large sail",
+  "units": "90,91,98",
+  "source": "https://www.sciencenews.org/article/textile-archaeologists-use-ancient-tools-weave-tapestry-past",
+  "status": "verified",
+  "note": "Science News, Amber Dance, 28 Aug 2019, crediting Eva Andersson Strand (Centre for Textile Research, University of Copenhagen): 'four women, working 10-hour days, a full year to spin and weaving 120 square meters' for 'one large Viking sail'; 'It wouldn't be practical for one woman to spend four years creating a sail on her own.' Agrees with the University of Bergen's 'approximately four years of full-time employment'. Disagrees with Lightfoot in Hakai ('would take two skilled women a year') and with the Ottar page as summarised (7,850 hours of weaving alone, 'the equivalent of 4 ½ years of work for one person'). The script gives one estimate and says it is one. The article was reached through a redirect link returned by the search (sciencenews.org/?p=955292). Final script: 'For one large sail' and 'by that count'.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "The finished sail was impregnated with grease to make it wind- and waterproof",
+  "units": "92",
+  "source": "https://landslovjubileet.uib.no/en/landevernsbolken/seil",
+  "status": "verified",
+  "note": "'Finally, the sail was impregnated with grease to become wind- and waterproof.'",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Lise Bender Jørgensen calculated about 84 years of work to equip a ship the size of Roskilde 6 with a sail and clothing for 100 seafarers; building the ship was 3.4% of the total",
+  "units": "93,94",
+  "source": "https://www.medieval.eu/viking-sails/",
+  "status": "qualified",
+  "note": "Medieval.eu, 'Viking Sails and How to Make Them' (2014), reporting 'New and exciting calculations by Lise Bender Jørgensen' (NTNU; The Introduction of Sails to Scandinavia, 2012): '84 years of work would be needed to outfit a ship the size of Roskilde 6 with clothes for 100 seafarers', including a 200 m2 sail; ship building '3.4 % of the total'. The same site's summary of her paper (https://www.medieval.eu/the-introduction-of-sails-to-viking-scandinavia/) quotes the abstract: 'for a warship with a crew of 65-70 men, more than 1,5tonnes of wool and 50-60 years of labour', figures that include 'sailor's clothing and blankets'; its subtitle says a boat carrying 100 men needed 'nearly 30 times more \"girl-power\" than \"man-power\"'. Qualified: a news site's report; her paper was not opened, and the 84-year figure for the larger ship is the site's use of her method. The script says 'another researcher' and 'about three percent'. Final script: 'One calculation ... comes to eighty-four years of one person's labour' and 'about three percent of the job'; no researcher is named or implied, and blankets are not mentioned.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "By the same calculation each oarsman needed at least one woman in his household working for nearly a whole year",
+  "units": "95",
+  "source": "https://www.medieval.eu/viking-sails/",
+  "status": "qualified",
+  "note": "Medieval.eu: 'each oarsman or warrior to have at least one dedicated woman in his household, working for nearly a whole year'. Same caveat: this may be the site's gloss on her numbers (84 years for 100 men is about ten months each). The script says 'put another way' and does not attribute it to her. Final script: 'By that sum'.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "In Iceland woollen cloth (vaðmál) was used as currency and could pay taxes and tithes; women made all of it",
+  "units": "96",
+  "source": "https://www.scientificamerican.com/article/viking-textiles-show-women-had-tremendous-power/",
+  "status": "verified",
+  "note": "Scientific American on Michèle Hayeur Smith (Brown University), The Valkyries' Loom (2020): 'Iceland continued to use vaðmál as currency and export it until the late 17th century'; 'Vaðmál could be used to pay taxes and tithes'; 'Women made all of the vaðmál.' She is quoted: 'Women were making the money!' The article describes her as an anthropological archaeologist. The evidence is 'from the 1100s into the 17th century', hence 'later' in the line.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "The people who probably breathed the most smoke were the people who made the sails",
+  "units": "99",
+  "source": "https://www.medievalists.net/2015/01/vikings-homes-polluted-researchers-find/",
+  "status": "qualified",
+  "note": "The script's own joining of two sourced statements: women and small children 'probably received the highest exposures to woodsmoke' (Christensen and Ryhl-Svendsen) and 'Textile production was typically women's work' (University of Bergen). No source makes the link, and where weaving was done in a separate hut the smoke may have been less. The line keeps 'probably'. Final script states the two facts side by side: 'The researchers' best guess at who breathed the most of it: the women and the small children. The women made the sail.'",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "In the old Icelandic calendar the first day of summer is always a Thursday in April",
+  "units": "100",
+  "source": "https://www2.math.uu.se/~svantejs/papers/calendars/iceland.pdf",
+  "status": "qualified",
+  "note": "Janson: the First Day of Summer is 'always a Thursday'; Table 1: Harpa begins Thursday, 9-15 April (Julian), 19-25 April (Gregorian). That ships were launched then is the script's picture; Svein's saga has sowing first. Final script: 'First the sowing. Then the ships go down to the water.'",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "The period is called the Viking Age",
+  "units": "9,101,103",
+  "source": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/the-people/viking-homes",
+  "status": "verified",
+  "note": "The museum's own section title. 'Plunder' in line 101 is from Svein's saga ('go off plundering'). 'Nobody is going to call it the Spinning Age' and line 9's tease are the script's joke.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "Summary line: skating and drinking in winter; cloth-making made the summer voyages possible",
+  "units": "102",
+  "source": "(summary of rows above)",
+  "status": "qualified",
+  "note": "Restates the skates, the ale law and the sail figures. Ghost stories were cut from the summary. 'Made the summer possible' is the script's conclusion.",
+  "checked": "2026-11-24"
+ },
+ {
+  "claim": "NOT USED in the script: a fleet-wide figure",
+  "units": "",
+  "source": "https://www.hakaimagazine.com/features/no-wool-no-vikings/",
+  "status": "qualified",
+  "note": "Hakai: researchers at the Viking Ship Museum in Roskilde calculated that by the mid-11th century the fleet carried 'roughly one million square meters of sail, requiring the equivalent of all the wool produced in one year by about two million sheep.' Left out because the page does not say which fleet. Could carry a Short if the museum's own page is opened.",
+  "checked": "2026-11-24"
+ }
+]

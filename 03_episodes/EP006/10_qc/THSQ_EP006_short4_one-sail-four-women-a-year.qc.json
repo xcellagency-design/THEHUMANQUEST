@@ -1,0 +1,31 @@
+{
+ "file": "THSQ_EP006_short4_one-sail-four-women-a-year.mp4",
+ "kind": "short",
+ "status": "warn",
+ "fail": [],
+ "warn": [
+  "1 spoken word(s) after the script ends (next line leaking in)"
+ ],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 24.7,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 24.7,
+  "a_dur": 24.682,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -16.8,
+  "true_peak": -1.1,
+  "speech": {
+   "similarity": 0.941,
+   "extra_words_at_end": 1,
+   "caption_drift_median": 0.186,
+   "caption_drift_p90": 0.439,
+   "heard": "a big warship sale is probably more than a thousand square feet of cloth and most are wool the thread is spun on hand spindles and the cloth is woven in strips how much wool the estimates run from the wool of 150 sheep to a years wool from about 700 how much work one textile researcher working from experiments puts it at four women 10 hours a day for a full year for one large sale"
+  }
+ }
+}

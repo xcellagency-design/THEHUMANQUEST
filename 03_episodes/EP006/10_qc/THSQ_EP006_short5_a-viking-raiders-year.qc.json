@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_EP006_short5_a-viking-raiders-year.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 19.233333,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 19.233333,
+  "a_dur": 19.221,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -17.1,
+  "true_peak": -1.5,
+  "speech": {
+   "similarity": 0.967,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.2,
+   "caption_drift_p90": 0.474,
+   "heard": "its the saga of the orkney earls and the raider is called spain two centuries after you in spring he sows his fields then he goes plundering he calls it his spring trip hes home after midsomer for the harvest raids again until a month into winter and then stays home with some 80 men eating and drinking at his expense"
+  }
+ }
+}

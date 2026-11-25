@@ -44,7 +44,7 @@ def main():
     out = os.path.join(out_dir, f"THSQ_{epid}_{slug}.mp4")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", "segs.txt", "-i", "mix.wav", "-vf", "hqdn3d=2:1.5:3:3",
                     "-c:v", "libx264", "-preset", "medium", "-crf", "23", "-maxrate", f"{kbps}k", "-bufsize", f"{2*kbps}k", "-pix_fmt", "yuv420p",
-                    "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", "48000", "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", out], cwd=work, check=True)
+                    "-af", "loudnorm=I=-16:TP=-2.2:LRA=11", "-ar", "48000", "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", out], cwd=work, check=True)
     if not smoke:
         keep = os.path.join(ROOT, "03_episodes", epid, "work")
         os.makedirs(keep, exist_ok=True)

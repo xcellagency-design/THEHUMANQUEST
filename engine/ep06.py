@@ -514,7 +514,7 @@ def meas(k):
     for i, (x, t) in enumerate(((560, "CARBON\nMONOXIDE"), (1360, "FINE SMOKE\nPARTICLES"))):
         c.line([(x-260, y0), (x+260, y0)], 8, INK, False); c.text(x, y0+84, t, 56)
         for xx in range(int(x-250), int(x+250), 60): c.line([(xx, lim), (xx+34, lim)], 7, RED, False)
-        c.text(x-250, lim-40, "WHO LIMIT", 44, RED, "lm")
+        c.text(x-126, lim-40, "WHO LIMIT", 44, RED, "rm")
         if k-1 >= i: q = app(("bar", i), .7, .1); c.rect(x-110, y0-(y0-lim+70)*q, x+110, y0, (120, 116, 112), INK, 7)
     c.rect(560, 1016, 1360, 1072, EV, None); c.text(960, 1044, "A SKETCH: THE HEIGHTS ARE NOT MEASUREMENTS", 44, (120, 110, 98))
     if k == 2: L(c, "BOTH HIGHER THAN THE WHO'S LIMITS", 250, 960, 62, bg=MARI)

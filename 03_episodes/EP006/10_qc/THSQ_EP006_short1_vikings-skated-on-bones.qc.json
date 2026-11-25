@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_EP006_short1_vikings-skated-on-bones.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 17.7,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 17.7,
+  "a_dur": 17.685,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -16.9,
+  "true_peak": -1.4,
+  "speech": {
+   "similarity": 1.0,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.131,
+   "caption_drift_p90": 0.274,
+   "heard": "you strap bones to your feet ice skates the lower leg bone of a cow or a horse tied on with leather laces you dont lift your feet you stand on the bones and push yourself along with a pole rub pig fat underneath and they run faster at one dig in york archaeologists found more than 40 of them"
+  }
+ }
+}

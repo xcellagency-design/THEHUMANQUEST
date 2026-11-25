@@ -1,0 +1,29 @@
+{
+ "file": "THSQ_EP006_short3_skis-out-of-the-ice.mp4",
+ "kind": "short",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 16.5,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "v_dur": 16.5,
+  "a_dur": 16.49,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -17.2,
+  "true_peak": -1.4,
+  "speech": {
+   "similarity": 0.95,
+   "extra_words_at_end": 0,
+   "caption_drift_median": 0.307,
+   "caption_drift_p90": 0.609,
+   "heard": "a pair of skis melted out of a norwegian ice patch one in 2014 its partner seven years later they are a little over six feet long and they were made in the 700s a couple of centuries before you one of the archaeologists said they be called powder boards today"
+  }
+ }
+}

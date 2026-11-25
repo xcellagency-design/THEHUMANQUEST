@@ -1,0 +1,22 @@
+{
+ "file": "THSQ_EP006_vikings-all-winter.mp4",
+ "kind": "long",
+ "status": "pass",
+ "fail": [],
+ "warn": [],
+ "measured": {
+  "has_video": true,
+  "has_audio": true,
+  "duration": 513.366667,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30.0,
+  "v_dur": 513.366667,
+  "a_dur": 513.354,
+  "black": [],
+  "freeze": [],
+  "silence": [],
+  "lufs": -17.4,
+  "true_peak": -1.6
+ }
+}

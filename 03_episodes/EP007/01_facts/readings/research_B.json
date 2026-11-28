@@ -1,0 +1,741 @@
+[
+  {
+    "claim": "1. Bread price in Berlin over time (official series)",
+    "verdict": "PARTLY",
+    "figures": "Statistisches Reichsamt table 'Brotpreis in Berlin', price of 1 kg rye bread (with wheat flour added), monthly. January values as read from the OCR: 1913 29 Pf; 1914 27; 1915 37; 1916 40; 1917 34; 1918 45 Pf; 1919 53 Pf; 1920 118 Pf; 1921 237 Pf; 1922 390 Pf; 1923 250 (marks). 1923 column as read: Jan 250; Feb 389; Mar 463.6; Apr 474; May 482.5; Jun 1,428; Jul 3,466; Aug 69 (thousand); Sep '1612' (thousand; Bundestag gives 1.5 million, so probably 1,512); Oct '1743' (million; Bundestag gives 174 million, so probably 174.3); Nov 201 (billion); Dec 399 (billion). A separate weekly table (Stichtage) as read: 5 Nov 78; 12 Nov 64; 19 Nov 233; 26 Nov 428; 3 Dec 467; 10 Dec 400; 17 Dec 378; 24 Dec 356; 31 Dec 356 (billion marks; the reader could not confirm which of two columns is bread).",
+    "fragments": [
+      "Preis für 1 kg Roggenbrot (mit Zusatz von Weizenmehl)",
+      "Januar ........ 29 27 37 40 34 45 53 118 237 390 250,0 29",
+      "19. \" 233 640",
+      "26. \" .... 428 1200",
+      "3. Dezember 467 1200"
+    ],
+    "url": "https://www.statistischebibliothek.de/mir/servlets/MCRFileNodeServlet/DEMonografie_derivate_00001667/WiSta-Sonderheft-01.pdf",
+    "source_name": "Statistisches Reichsamt, Zahlen zur Geldentwertung in Deutschland 1914 bis 1923 (Sonderheft 1 zu Wirtschaft und Statistik), Berlin: Reimar Hobbing 1925, tables on pp. 34-35",
+    "read_how": "page text (OCR of a scanned table, garbled; units and columns partly inferred)",
+    "note": "This is the primary source behind the circulating figures. It explains them: 250 = January 1923 monthly average; 201 billion = November 1923 monthly average; 399 billion = December 1923 monthly average; 233 billion = 19 November; 428 billion = 26 November (weekly reference day). The 1923 values from August on and the weekly column assignment are OCR readings and must be checked against the scan before a figure is shown on screen. The values agree with the Bundestag series and with the Historisches Lexikon Bayerns (233 billion on 19 Nov)."
+  },
+  {
+    "claim": "1. Bread price series 1919-1923",
+    "verdict": "FOUND",
+    "figures": "Bread (unit and place NOT stated on the page): Dec 1919 0.80 M; Jan 1923 250 M; Aug 1923 69,000 M; Sep 1.5 million; Oct 174 million; Nov 1923 201 billion.",
+    "fragments": [
+      "So stieg der nominelle Brotpreis, der im Dezember 1919 noch bei 0,80 Mark gelegen hatte, im Laufe des Jahres 1923 in astronomische Höhen:",
+      "Lag er im Januar 1923 bereits bei 250 Mark, stieg er im August auf 69.000 Mark,",
+      "im September auf 1,5 Millionen Mark, im Oktober auf 174 Millionen Mark",
+      "und im November 1923 schließlich auf 201 Milliarden Mark."
+    ],
+    "url": "https://www.bundestag.de/parlament/geschichte/100-jahre-weimar/hyperinflation-970722",
+    "source_name": "Deutscher Bundestag, Wissenschaftliche Dienste (WD 1), 'Hyperinflation in Deutschland 1923', 10/12 Oct 2023",
+    "read_how": "page text",
+    "note": "The page says only 'Brotpreis'; it does not say kilo, loaf, rye or Berlin. The numbers match the Statistisches Reichsamt monthly averages for 1 kg rye bread in Berlin."
+  },
+  {
+    "claim": "1. Bread price, Berlin, dated days in 1923",
+    "verdict": "FOUND",
+    "figures": "1 kg rye bread in Berlin: 163 marks on 3 Jan 1923; 233 billion marks on 19 Nov 1923. 1 kg beef: 1,800 marks on 3 Jan 1923; 4 trillion 800 billion marks on 19 Nov 1923.",
+    "fragments": [
+      "While one kilogram of rye bread cost 163 marks and 1 kilogram of beef 1,800 marks in Berlin on 3 January 1923,",
+      "the corresponding prices were 233 billion marks and 4 trillion 800 billion marks on 19 November 1923."
+    ],
+    "url": "https://www.historisches-lexikon-bayerns.de/Lexikon/EN:Inflation,_1914-1923",
+    "source_name": "Helmut Braun, 'Inflation, 1914-1923', Historisches Lexikon Bayerns (English version)",
+    "read_how": "page text",
+    "note": "English 'trillion' here = 10^12. So the '160 marks in early 1923' figure is the 3 January reference-day price (163) and '250' is the January average."
+  },
+  {
+    "claim": "1. Bread price, August and November 1923 (museum)",
+    "verdict": "PARTLY",
+    "figures": "A kilo of bread 'in Germany': about 69,000 marks in August 1923; over 200 billion in November.",
+    "fragments": [
+      "Verkauf und Reparaturen im Tausch gegen Lebensmittel"
+    ],
+    "url": "https://www.dhm.de/lemo/bestand/objekt/verkauf-im-tausch-gegen-lebensmittel-1923.html",
+    "source_name": "Deutsches Historisches Museum, LeMO object page, photograph Inv. F 85/526",
+    "read_how": "summary only (the reader refused to quote the description; only the title is verbatim)",
+    "note": "Do not rest a line on this page alone; the same two figures are verbatim in the Bundestag text."
+  },
+  {
+    "claim": "1. Bread price, eyewitnesses in Berlin, October-November 1923",
+    "verdict": "FOUND",
+    "figures": "Betty Scholem, Berlin: 15 Oct 1923 a standard loaf 540 million 'today'; 23 Oct 1923 bread 900 million, 2.5 billion, 5.5 billion in three days (dollar 10, 18.5, 40 billion). Käthe Kollwitz, end of Nov 1923: a loaf 140 billion, then put back down to 80 billion.",
+    "fragments": [
+      "Die Brotkarte ist aufgehoben, ein Einheitsbrot heute 540 Millionen, morgen gewiß wieder das doppelte.",
+      "Der Dollar sprang in 3 Tagen so: 10 Milliarden, 18½, 40 Milliarden.",
+      "Das Brot 900 Millionen, 2½ Milliarde, 5½ Milliarde.",
+      "Ein Brot 140 Milliarden!",
+      "Dann wieder runtergesetzt auf 80 Milliarden."
+    ],
+    "url": "https://germanhistorydocs.org/de/die-weimarer-republik-1918-1933/betty-scholem-zur-inflation-oktober-1923.pdf ; https://germanhistorydocs.org/de/die-weimarer-republik-1918-1933/ghdi:document-5412",
+    "source_name": "GHDI (German Historical Institute Washington): Betty Scholem, letters of 15 and 23 Oct 1923 (Mutter und Sohn im Briefwechsel, C.H. Beck 1989, pp. 84-89); Käthe Kollwitz, Die Tagebücher (1989), pp. 543-44, 561-63",
+    "read_how": "page text",
+    "note": "The first three fragments are Scholem, the last two Kollwitz. Kollwitz's 'runtergesetzt' fits the official weekly table, which also falls between 5 and 12 November."
+  },
+  {
+    "claim": "1. Bread price, other figures in circulation",
+    "verdict": "FOUND",
+    "figures": "Commemorative medal (Domäne Dahlem): 1 pound of bread 3 billion on 1 Nov 1923, 260 billion on 1 Dec 1923. De Nederlandsche Bank: a pound of bread 260 billion on 1 Dec 1923. Berliner Zeitung: a roll (Schrippe) 1 million on 1 Oct, 3 billion on 6 Nov; a kilo of rye bread 5.5 billion at the start of the week and 78 billion at its end. Smithsonian: a pound of rye bread more than 100 billion by November 1923.",
+    "fragments": [
+      "So kostete z.B. 1 Pfd. Brot am 1.11. 3 Milliarden und einen Monat später 260 Milliarden Mark.",
+      "a pound of bread cost a whopping 260 billion marks on 1 December 1923.",
+      "eine Schrippe kostet am 1. Oktober eine Million Mark, am 6. November drei Milliarden Mark.",
+      "am Anfang der Woche kostet ein Kilo Roggenbrot 5,5 Milliarden, am Ende 78 Milliarden.",
+      "A pound of rye bread cost more than 100 billion marks by November 1923."
+    ],
+    "url": "https://berlin.museum-digital.de/pdf/object/4137.pdf?lang=en ; https://www.denieuweschatkamer.nl/en/money-collection/extraordinary-money-extraordinary-stories/the-briefcase-with-billions-in-cash/ ; https://www.berliner-zeitung.de/article/weimarer-republik-wie-hyperinflation-und-boersenkrach-berlin-ins-elend-stuerzten-1358082 ; https://www.smithsonianmag.com/history/how-hyperinflation-heralded-the-fall-of-german-democracy-180982204/",
+    "source_name": "Stiftung Domäne Dahlem (medals 'Des Deutschen Volkes Leidensweg', Inv. DD98/932DA); De Nederlandsche Bank, De Nieuwe Schatkamer; Michael Brettin, Berliner Zeitung 15 Nov 2017; Smithsonian Magazine",
+    "read_how": "page text",
+    "note": "Pound versus kilo explains part of the spread. The Berliner Zeitung sentence does not name the week in the fragment I was given (the reader placed it at the end of October / start of November 1923): check before using. 5.5 billion matches Betty Scholem's 23 October figure."
+  },
+  {
+    "claim": "2. Tram ticket in Berlin (single fare), dated",
+    "verdict": "FOUND",
+    "figures": "Berliner Straßenbahn, Einzelfahrschein: 1913 0.10 M; 1 Dec 1922-1 Jan 1923 50 M; 2-16 Jan 70; 17-29 Jan 100; 30 Jan-11 Feb 150; 12-28 Feb 200; March 250; 1 Apr-24 May 300; 25 May-10 Jun 400; 11-24 Jun 600; 25 Jun-1 Jul 1,000; 2-15 Jul 1,500; 16-24 Jul 3,000; 25-31 Jul 6,000; 1-9 Aug 10,000; 10-12 Aug 20,000; 13-19 Aug 50,000; 20-31 Aug 100,000; 1-9 Sep 150,000; 10-13 Sep 350,000; 14-17 Sep 600,000; 18-21 Sep 2 million; 22-27 Sep 3 million; 28 Sep-9 Oct 4.5 million; 10-12 Oct 10 million; 13-16 Oct 20 million; 17-19 Oct 50 million; 20-22 Oct 100 million; 23-24 Oct 200 million; 25-26 Oct 800 million; 27-31 Oct 1.5 billion; 1-2 Nov 2 billion; 3-4 Nov 4 billion; 5-7 Nov 10 billion; 8-11 Nov 15 billion; 12-13 Nov 20 billion; 14-15 Nov 30 billion; 16 Nov 50 billion; 17-19 Nov 70 billion; 20-21 Nov 90 billion; 22 Nov-31 Dec 150 billion (= 15 gold pfennig).",
+    "fragments": [
+      "16. 11.23-16.11.23 50 500 8,33 83,3 10,32 103,2",
+      "17.11.23-19.11.23 70 700 11,67 116,7 9,89 _98,9",
+      "22. 11. 23-30. 11 *)23 150 1500 15,00 150,0 10,66 106,6",
+      "*) Keine Tarifänderung"
+    ],
+    "url": "https://www.statistischebibliothek.de/mir/servlets/MCRFileNodeServlet/DEMonografie_derivate_00001667/WiSta-Sonderheft-01.pdf",
+    "source_name": "Statistisches Reichsamt, Zahlen zur Geldentwertung in Deutschland 1914 bis 1923 (1925), section V.3, p. 37",
+    "read_how": "page text (OCR table; the November/December rows were re-read raw and are legible; some 1920-22 period boundaries garbled)",
+    "note": "Corroborated by an eyewitness: Betty Scholem, 15 Oct 1923, 'Die Lektrische 20 Mill (morgen 50 Millionen!)' (table: 20 million 13-16 Oct, 50 million from 17 Oct). CONTRADICTS the popular price list (Planet Wissen and others) that gives 50 billion for 2 December 1923 and 600 marks for 9 June 1923: the official table has 150 billion from 22 November and 400 marks until 10 June. An unsourced essay (Federal Trust, 'A tram ride in 1923') gives 55,000 marks 'mid-August'; the table has 50,000 on 13-19 August."
+  },
+  {
+    "claim": "2. Postage for a domestic long-distance letter (20 g), dated",
+    "verdict": "FOUND",
+    "figures": "Porto des Fernbriefes (20 g, Inland): 1913 0.10 M; 1 Aug 1916 0.15; 1 Oct 1919 0.20; 6 May 1920 0.40; 1 Apr 1921 0.60; 1 Jan 1922 2; 1 Jul 1922 3; 1 Oct 1922 6; 15 Nov 1922 12; 15 Dec 1922 25; 15 Jan 1923 50; 1 Mar 1923 100; 1 Jul 300; 1 Aug 1,000; 24 Aug 20,000; 1 Sep 75,000; 20 Sep 250,000; 1 Oct 2 million; 10 Oct 5 million; 20 Oct 10 million; 1 Nov 100 million; 5 Nov 1 billion; 12 Nov 10 billion; 1 Dec 1923 100 billion (= 10 gold pfennig).",
+    "fragments": [
+      "Porto des Fernbriefes (20 gr, Inland).",
+      "1. 8. 23-23. 8.23 1 000 10 000 0,12 1,2 0,28 2,8",
+      "5.11.23-11.11.23 1,0 10,0 0,75 7,5 0,66 6,6",
+      "12. 11 23----30. 11. 23 *) 10,0 100,0 1,33 13,3 1,03 10,3",
+      "1.12.23--31.12.23 100,0 1000 10,00 100,0 8,02 80,2",
+      "') Ab 1. 9. 23 in Tausend. - ') Ab 1. 10. 23 in Millionen. - ') Ab 1. 11. 23,"
+    ],
+    "url": "https://www.statistischebibliothek.de/mir/servlets/MCRFileNodeServlet/DEMonografie_derivate_00001667/WiSta-Sonderheft-01.pdf",
+    "source_name": "Statistisches Reichsamt, Zahlen zur Geldentwertung in Deutschland 1914 bis 1923 (1925), section V.4, p. 37",
+    "read_how": "page text (OCR table; rows 1 Aug-31 Dec 1923 re-read raw)",
+    "note": "100 billion marks from 1 December 1923 is confirmed (i.e. AFTER stabilisation, as the paper-mark price of 10 pfennig). The table as read has a single row 12-30 November at 10 billion, with a footnote marker; a local-press article (Schwäbische, 11 Jan 2024) mentions a letter that cost 20 billion, undated, so there may have been steps inside those weeks that the table does not show. Do not say '10 billion until the end of November' without a second source. A stamp-collectors' page confirms the 10-19 Oct 1923 period at 5 million. Betty Scholem's letter of 15 Oct 1923 cost 15 million (probably the foreign rate; she was writing to her son abroad)."
+  },
+  {
+    "claim": "2. One egg, a litre of milk, a kilo of potatoes in Berlin, 9 June and 2 December 1923",
+    "verdict": "FOUND",
+    "figures": "Berlin, 9 June 1923: 1 egg 800 M; 1 litre milk 1,440 M; 1 kg potatoes 5,000 M; tram ride 600 M; dollar 100,000 M. Berlin, 2 Dec 1923: 1 egg 320 billion; 1 litre milk 360 billion; 1 kg potatoes 90 billion; tram ride 50 billion; dollar 4.21 trillion.",
+    "fragments": [
+      "For example, on June 9, 1923, an egg in Berlin cost 800 marks; on December 2, it already cost 320 billion marks.",
+      "Am 9. Juni 1923 kostete in Berlin:",
+      "1 Liter Milch – 1440 Mark",
+      "Am 2. Dezember 1923 kostete in Berlin:",
+      "1 Ei – 320 Milliarden Mark",
+      "Ein Ei kostete 320 Milliarden Mark, ein Kilo Kartoffeln 90 Milliarden und eine Straßenbahnfahrt 50 Milliarden."
+    ],
+    "url": "https://www.uni-wuppertal.de/en/transfer/science-communication/jahr100wissen-/-100-years-ago/2021/emergency-money-one-egg-for-320-billion-marks/ ; https://www.planet-wissen.de/geschichte/deutsche_geschichte/weimarer_republik/pwiediehyperinflationvon100.html ; https://www.berliner-zeitung.de/article/inflation-berlin-1922-1923-irre-preise-hilflose-behoerden-232097",
+    "source_name": "Prof. Hans Frambach (Univ. Wuppertal) interview, 30 Sep 2021; Planet Wissen (WDR), Gregor Delvaux de Fenffe; Armin Fuhrer, Berliner Zeitung 4 Jun 2022",
+    "read_how": "page text",
+    "note": "None of these pages names the original source of the list. The two tram figures in it disagree with the Statistisches Reichsamt table (see tram entry), so treat the whole list as secondary. 2 December 1923 is after the mark was stabilised (20 November): these are the last paper-mark prices, not prices 'at the height of the inflation'."
+  },
+  {
+    "claim": "2. Butter, rice, milk, eggs, meat, shoes: other dated prices",
+    "verdict": "FOUND",
+    "figures": "Butter: a kilo 3,600 M early Jan 1923, 18,000 early April, 72,000 early July (Berliner Zeitung). Kroner, Berliner Illustrirte Zeitung 26 Aug 1923: rice 80,000 marks a pound yesterday, 160,000 today; butter 'instead of 1,600,000 marks, just 1,400,000' (unit not stated). Letter from Berlin 2 Feb 1923: a litre of milk 560 marks. Letter 17 Feb 1923 (dollar at 19,000): meat 15-18 cents a pound; butter etc. 30-35 cents a pound; 1 egg 2 cents; 1 loaf of bread 20 cents; coal 45 cents a hundredweight. Mittagszeitung 17 Feb 1923: shoes 60,000 to 120,000 marks (3.5 to 6.5 dollars); an iron 2-litre cooking pot 30,000 marks.",
+    "fragments": [
+      "Ein Kilo Butter kostet Anfang Januar 3600 Mark, Anfang April 18.000 Mark und Anfang Juli 72.000 Mark",
+      "Rice, 80,000 marks a pound yesterday, costs 160,000 marks today",
+      "Cheaper butter! Instead of 1,600,000 marks, just 1,400,000 marks.",
+      "A liter of milk now costs 560 marks.",
+      "1 egg = 2 cents !!!",
+      "Here, shoes still cost between 60,000 and 120,000 marks or 3½ to 6½ dollars"
+    ],
+    "url": "https://www.berliner-zeitung.de/article/weimarer-republik-wie-hyperinflation-und-boersenkrach-berlin-ins-elend-stuerzten-1358082 ; https://germanhistorydocs.org/en/weimar-germany-1918-1933/friedrich-kroner-overwrought-nerves-1923.pdf ; https://germanhistorydocs.org/en/weimar-germany-1918-1933/ghdi%3Adocument-5414.pdf",
+    "source_name": "Michael Brettin, Berliner Zeitung 15 Nov 2017; Friedrich Kroner, 'Überreizte Nerven', Berliner Illustrirte Zeitung 26 Aug 1923 (trans. Weimar Republic Sourcebook, 1994, pp. 63-64) via GHDI doc. 3841; GHDI doc. 5414, letters of 'Wolfgang' to Edgar Stillman Kelley, 2 and 17 Feb 1923, with a Mittagszeitung clipping of 17 Feb 1923",
+    "read_how": "page text",
+    "note": "Kroner and the February letters are primary sources. The Berliner Zeitung butter figures are unsourced on the page."
+  },
+  {
+    "claim": "2. A glass of beer; a newspaper; a cup of coffee",
+    "verdict": "PARTLY",
+    "figures": "Beer: Smithsonian gives a glass of beer 150 million marks and a pound of potatoes 50 million, with no date in the sentence (context autumn 1923). Earlier: Hemingway at Kehl, Sept 1922, beer 10 marks a stein; Goodman: in 1922 milk went from 7 to 16 marks a litre and beer from 5.6 to 18. Coffee: Victor Klemperer's diary, early August 1923: board showed 6,000 M, waiter asked 12,000. Newspaper: NO dated price found.",
+    "fragments": [
+      "A pound of potatoes and a glass of beer, staples of the German diet,",
+      "came in at 50 million and 150 million marks, respectively.",
+      "Beer was 10 marks a stein, or 1-1/4 cents.",
+      "Milk went from 7 Marks per liter to 16; beer from 5.6 to 18."
+    ],
+    "url": "https://www.smithsonianmag.com/history/how-hyperinflation-heralded-the-fall-of-german-democracy-180982204/ ; https://germanhistorydocs.org/en/weimar-germany-1918-1933/ernest-hemingway-inflation-stories-1922.pdf ; https://www.pbs.org/wgbh/commandingheights/shared/minitext/ess_germanhyperinflation.html",
+    "source_name": "Smithsonian Magazine, 'How Hyperinflation Heralded the Fall of German Democracy'; Ernest Hemingway, Toronto Daily Star 19 Sep 1922 (GHDI); George J.W. Goodman ('Adam Smith'), Paper Money (1981), pp. 57-62, on PBS Commanding Heights",
+    "read_how": "page text",
+    "note": "The Smithsonian beer/potato figures cannot be dated from the page: do not attach a month. 'A wheelbarrow full of money would not even buy a newspaper' (Goodman; repeated by Britannica) is a figure of speech with no price or source behind it. A 2023 working paper (Brunnermeier et al.) says newspaper prices 'were also adjusted at shorter and shorter intervals' but gives no figure in the part read."
+  },
+  {
+    "claim": "3. Wages paid daily; paid in the lunch break; money fetched in handcarts and sacks",
+    "verdict": "FOUND",
+    "figures": "Weekly pay became daily pay, then payment in the lunch break; workers fetched pay with handcarts (Leiterwagen), notes paid out by the sack.",
+    "fragments": [
+      "Firmen gingen von wöchentlicher zu täglicher Lohnzahlung über und weiter zur Zahlung in der Mittagspause.",
+      "Ihren Lohn holten die Arbeiter teilweise mit Leiterwagen vor den Werkstoren ab,",
+      "um die sackweise ausgezahlten Noten zu den nächstgelegenen Läden zu bringen und dort gegen knappe Waren einzutauschen,"
+    ],
+    "url": "https://www.bundestag.de/parlament/geschichte/100-jahre-weimar/hyperinflation-970722",
+    "source_name": "Deutscher Bundestag, Wissenschaftliche Dienste, 'Hyperinflation in Deutschland 1923' (2023)",
+    "read_how": "page text",
+    "note": "This is the best wording found. 'Twice a day' is NOT stated by any source I opened; 'payment in the lunch break' is the documented form. Note 'teilweise' (in some cases)."
+  },
+  {
+    "claim": "3. Wages paid daily; notes collected in bags and suitcases",
+    "verdict": "FOUND",
+    "figures": "",
+    "fragments": [
+      "in many places wages were being paid daily",
+      "People collected notes in bags and suitcases",
+      "crowded into shops to exchange their money for goods",
+      "Oft erfolgten die Lohnzahlungen täglich.",
+      "Geldtransport für Lohnauszahlung, 1923"
+    ],
+    "url": "https://www.bundesbank.de/en/tasks/topics/inflation-lessons-learnt-from-history-666006 ; https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/inflation-1923.html",
+    "source_name": "Deutsche Bundesbank, 'Inflation - lessons learnt from history' (15 Oct 2012); Michael Kunzel, 'Die Inflation', LeMO, Deutsches Historisches Museum (14 Sep 2014)",
+    "read_how": "page text",
+    "note": "First three fragments Bundesbank, last two LeMO (the last is a photo caption). Both say 'in many places' / 'often', not everywhere."
+  },
+  {
+    "claim": "3. Payday scenes: lorry of notes, dash to the shops, relatives waiting to take the money",
+    "verdict": "PARTLY",
+    "figures": "A factory worker: payday every day at 11:00 a.m., a five-ton lorry of paper money in the forecourt, bundles thrown out, a dash to the nearest shop. Teachers paid at 10:00 a.m. brought the money to the playground, where relatives took the bundles and hurried off.",
+    "fragments": [
+      "A factory worker described payday, which was every day at 11:00 a.m.:",
+      "At 11:00 in the morning a siren sounded, and everybody gathered in the factory forecourt,",
+      "where a five-ton lorry was drawn up loaded brimful with paper money.",
+      "They read out names and just threw out bundles of notes.",
+      "As soon as you had caught one you made a dash for the nearest shop",
+      "Teachers, paid at 10:00 a.m., brought their money to the playground,",
+      "where relatives took the bundles and hurried off with them."
+    ],
+    "url": "https://www.pbs.org/wgbh/commandingheights/shared/minitext/ess_germanhyperinflation.html",
+    "source_name": "George J.W. Goodman ('Adam Smith'), Paper Money (1981), pp. 57-62, excerpt on PBS Commanding Heights",
+    "read_how": "page text",
+    "note": "A popular book by a financial journalist; the worker is not named and no source is given on the page. This is the nearest documented wording to 'wives waited at the factory gates': it says RELATIVES of TEACHERS at the PLAYGROUND. 'Wives at the factory gates' and 'workers were given time off to shop' were NOT FOUND in any source I opened."
+  },
+  {
+    "claim": "3. How often wages were really paid (qualification)",
+    "verdict": "CONTRADICTED",
+    "figures": "Kuczynski (1925): wages went from monthly to weekly, then twice a week 'and even oftener'. His Table 49 follows the paydays 'observed by most of the large establishments' 1 Oct-15 Nov 1923: a skilled Berlin chemical worker got 500 million marks on 1 Oct and 'had to live on those 500,000,000 marks four days'. Kroner, 26 Aug 1923: a note 'paid out today as a weekly wage'. Betty Scholem's family print shop, 15 Oct 1923: wages paid on Friday, 'the wage of this week' 8 billion.",
+    "fragments": [
+      "With the depreciation of the money it became necessary to pay wages weekly.",
+      "When the depreciation oontinued, 1t became unavoidable to pay wages twice a week, and even oftener.",
+      "had to live on those 500,000,000 marks four days",
+      "The piece of paper, the spanking brandnew bank note, still moist from the printers, paid out today as a weekly wage",
+      "Der Lohn dieser Woche beträgt vorläufig 8 Milliarden,"
+    ],
+    "url": "https://fraser.stlouisfed.org/title/postwar-labor-conditions-germany-4009/fulltext ; https://germanhistorydocs.org/en/weimar-germany-1918-1933/friedrich-kroner-overwrought-nerves-1923.pdf ; https://germanhistorydocs.org/de/die-weimarer-republik-1918-1933/betty-scholem-zur-inflation-oktober-1923.pdf",
+    "source_name": "R.R. Kuczynski, Postwar Labor Conditions in Germany, US Bureau of Labor Statistics Bulletin 380 (March 1925), pp. ~20 and 125-134; Kroner (1923); Betty Scholem (1923)",
+    "read_how": "page text (Kuczynski is OCR; the misprints are in the scan)",
+    "note": "Daily pay was real 'in many places' but not universal: three primary sources show weekly or twice-weekly pay in Berlin as late as August-November 1923. Say 'in many factories', not 'everyone'."
+  },
+  {
+    "claim": "3. Laundry baskets, wheelbarrows, baskets, briefcases of money",
+    "verdict": "PARTLY",
+    "figures": "",
+    "fragments": [
+      "Das Geld wird in Wäschekörben angekarrt",
+      "Geld wurde in Schubkarren transportiert, Bündel als Heizmaterial zweckentfremdet, die Rückseite als Schmierpapier benutzt.",
+      "Money was transported in wheelbarrows, bundles were misused as heating material,",
+      "bevor das Geld in Waschkörben davongetragen wurde.",
+      "big briefcases like this one were used as wallets.",
+      "grocery shopping with baskets full of money"
+    ],
+    "url": "https://www.planet-wissen.de/geschichte/deutsche_geschichte/weimarer_republik/pwiediehyperinflationvon100.html ; https://www.uni-wuppertal.de/en/transfer/science-communication/jahr100wissen-/-100-years-ago/2021/emergency-money-one-egg-for-320-billion-marks/ ; https://www.tagesspiegel.de/gesellschaft/ein-ei-fur-320000000000-mark-3529597.html ; https://www.denieuweschatkamer.nl/en/money-collection/extraordinary-money-extraordinary-stories/the-briefcase-with-billions-in-cash/ ; https://www.richmondfed.org/publications/research/econ_focus/2014/q1/book_review",
+    "source_name": "Planet Wissen (WDR; photo caption and text); Prof. Hans Frambach, Univ. Wuppertal; Andreas Austilat, Tagesspiegel 17 Nov 2013; De Nederlandsche Bank (a briefcase with over 500 thousand-mark notes in its collection); David A. Price reviewing Frederick Taylor, The Downfall of Money, Richmond Fed Econ Focus 2014",
+    "read_how": "page text",
+    "note": "Laundry baskets rest on a photo caption and a newspaper feature; wheelbarrows on a broadcaster's page and a professor's interview, none with a primary source. The firmly sourced containers are bags, suitcases, sacks and handcarts (Bundesbank, Bundestag). LeMO also mentions pastors holding out a laundry basket for the collection (reader's paraphrase, not verbatim)."
+  },
+  {
+    "claim": "4. Shops: prices changing during the day; opening hours tied to the exchange-rate announcement; closures",
+    "verdict": "PARTLY",
+    "figures": "",
+    "fragments": [
+      "Ladenöffnungszeiten richteten sich nach den Bekanntgabeterminen für aktuelle Wechselkurse.",
+      "Parallel dazu stiegen die Preise nicht nur täglich, sondern stündlich.",
+      "Inflation skyrocketed, reaching its peak in November, when prices often rose several times in a single day",
+      "traders were constantly increasing their prices",
+      "others closed their businesses altogether",
+      "Shops restricted their hours and covered their windows with iron shades.",
+      "Viele Läden bunkerten ihre Bestände und Vorräte",
+      "This is no joke, this is reality, written seriously with a pencil, hung in the shop window and seriously read."
+    ],
+    "url": "https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/inflation-1923.html ; https://www.bpb.de/shop/zeitschriften/apuz/deutschland-1933-2023/517470/1923-als-schluesseljahr-fuer-1933/ ; https://germanhistorydocs.org/en/weimar-germany-1918-1933/ghdi%3Adocument-5414.pdf ; https://www.bundesbank.de/en/tasks/topics/inflation-lessons-learnt-from-history-666006 ; https://www.smithsonianmag.com/history/how-hyperinflation-heralded-the-fall-of-german-democracy-180982204/ ; https://www.planet-wissen.de/geschichte/deutsche_geschichte/weimarer_republik/pwiediehyperinflationvon100.html ; https://alphahistory.com/weimarrepublic/kroner-shopping-hyperinflation-1923/",
+    "source_name": "LeMO (Kunzel); Volker Ullrich, APuZ/bpb 20 Jan 2023; GHDI editors' abstract; Deutsche Bundesbank; Smithsonian Magazine; Planet Wissen; Kroner 1923",
+    "read_how": "page text",
+    "note": "NOT FOUND in any source opened: the word 'multiplier' / 'Schlüsselzahl', a noon announcement of the dollar rate, or shops closing at midday to re-mark prices. The documented wording is the LeMO sentence (opening hours followed the times the exchange rates were announced). Bresciani-Turroni (p. 342, summer 1922) says traders 'adopted the practice of expressing prices in a foreign' currency. A Feb 1923 Berlin newspaper clipping describes shopkeepers pricing off last week's pound rate. A review of Taylor's book says stores 'sought retail clerks with banking experience'."
+  },
+  {
+    "claim": "5. Restaurants and coffee: the price rose while the customer sat there",
+    "verdict": "FOUND",
+    "figures": "Three different versions. (a) Victor Klemperer's diary, early August 1923, a station waiting room: board 6,000 M, waiter asked 12,000; when his wife objected the waiter took 6,000. (b) Goodman 1981: a Freiburg student, menu price 5,000, two cups, bill 14,000. (c) Britannica: 5,000 then 7,000 for the second cup. (d) De Nederlandsche Bank: 'according to some stories' 20,000 marks a cup in Berlin. LeMO: a restaurant bill could double during the meal.",
+    "fragments": [
+      "Die Preistafel zeigte 6.000 M. Das verschwand, während sie trank.",
+      "Beim Kassieren verlangte der Kellner 12.000.",
+      "Dann zahlen Sie 6.000!",
+      "In Restaurants konnte sich die Zeche während der Mahlzeit verdoppeln.",
+      "A student at Freiburg University ordered a cup of coffee at a cafe.",
+      "The price on the menu was 5,000 Marks.",
+      "When the bill came, it was for 14,000 Marks.",
+      "ordering a cup of coffee for 5,000 marks and then a second whose cost had risen to 7,000 marks",
+      "According to some stories, you had to pay twenty thousand marks to get a cup of coffee in Berlin."
+    ],
+    "url": "https://www.bpb.de/shop/zeitschriften/apuz/deutschland-1933-2023/517470/1923-als-schluesseljahr-fuer-1933/ ; https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/inflation-1923.html ; https://www.pbs.org/wgbh/commandingheights/shared/minitext/ess_germanhyperinflation.html ; https://www.britannica.com/event/hyperinflation-in-the-Weimar-Republic ; https://www.denieuweschatkamer.nl/en/money-collection/extraordinary-money-extraordinary-stories/the-briefcase-with-billions-in-cash/",
+    "source_name": "Volker Ullrich quoting Victor Klemperer's diary (APuZ/bpb 2023); LeMO; Goodman, Paper Money (1981) on PBS; Britannica; De Nederlandsche Bank",
+    "read_how": "page text (the date 'early August 1923', the waiting room and that it was Eva Klemperer come from the reader's paraphrase of the same paragraph)",
+    "note": "The '5,000 a cup, 8,000 by the time he finished' wording was NOT FOUND anywhere. The only version resting on a named primary source is Klemperer's (6,000 to 12,000, and the waiter backed down). The Freiburg-student story is unsourced on the PBS page and its figures differ from Britannica's. 'Waiters calling out new prices' NOT FOUND. The bpb page shows no footnote for the Klemperer entry, so the exact diary date is not confirmed."
+  },
+  {
+    "claim": "6. Barter: goods instead of money",
+    "verdict": "FOUND",
+    "figures": "",
+    "fragments": [
+      "sell goods and services only in exchange for food and coal",
+      "Schließlich traten Naturalien (beispielsweise Lebensmittel, Zigaretten, Kohle) als Zahlungsmittel an die Stelle des Bargeldes.",
+      "Verkauf und Reparaturen im Tausch gegen Lebensmittel, 1923",
+      "Bezahlt wurden die Beerdigungen nicht mehr mit Geld, sondern mit Kohle zum Heizen.",
+      "People bought things they didn't need and used them to barter",
+      "a pair of shoes for a shirt, some crockery for coffee.",
+      "um dem Tausch von Ware gegen Ware begegnen zu können.",
+      "Wer etwas zum Tauschen hatte, tauschte."
+    ],
+    "url": "https://www.bundesbank.de/en/tasks/topics/inflation-lessons-learnt-from-history-666006 ; https://www.bpb.de/39531 ; https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/inflation-1923.html ; https://www.berliner-zeitung.de/article/inflation-berlin-1922-1923-irre-preise-hilflose-behoerden-232097 ; https://www.pbs.org/wgbh/commandingheights/shared/minitext/ess_germanhyperinflation.html ; https://bundesbank.de/resource/blob/607868/195d1b540a2053d42fe9f2b735835115/472B63F073F071307366337C94F8C870/das-papiergeld-im-deutschen-reich-data.pdf ; https://www.tagesspiegel.de/gesellschaft/ein-ei-fur-320000000000-mark-3529597.html",
+    "source_name": "Deutsche Bundesbank (2012); Reinhard Sturm, bpb (2011); LeMO photo caption (DHM, Inv. F 85/526); Armin Fuhrer, Berliner Zeitung 2022; Goodman 1981; Deutsche Bundesbank, Das Papiergeld im Deutschen Reich 1871-1948 (1965), p. 83; Tagesspiegel 2013",
+    "read_how": "page text",
+    "note": "Documented in general terms: food, coal, cigarettes; a DHM photograph of a shop selling and repairing in exchange for food; funerals paid in coal (Berliner Zeitung, no source given). NOT FOUND in any source opened: cinemas or theatres taking eggs, butter or briquettes for tickets, or doctors asking for food. The Federal Trust essay ('three lumps of last winter's coal for a loaf of bread', 'two old candles for half a kilo of sausage') is an imagined first-person journey without sources: do not use as fact."
+  },
+  {
+    "claim": "7. Notgeld: who issued it and how much",
+    "verdict": "FOUND",
+    "figures": "LeMO: more than 5,800 towns, municipalities and firms issued their own notes; over 700 trillion (700 x 10^18) marks of Notgeld in all; more than 2,800 kinds of value-stable notes. Bundesbank 1965, from Dr Keller's eight-volume catalogue: 5,849 issuers in the 1923 inflation (towns, districts, municipalities, post, railway, many industrial firms); 562 issuers of value-stable Notgeld; the Reichsbahn alone 114 trillion paper marks; the Bundesbank holds over 60,000 Notgeld notes from this period. Earlier periods: 452 issuers (1914), 1,532, 3,683 (small-change notes 1916-22), 664 (1922). bpb: Notgeld worth 200 trillion (10^18) marks. Feldman's estimate (via a UCL thesis): about half of all paper marks in circulation were Notgeld.",
+    "fragments": [
+      "Deshalb wurden von mehr als 5.800 Städten, Gemeinden und Firmen eigene Notgeldscheine herausgegeben.",
+      "Insgesamt sind über 700 Trillionen Mark (700.000.000.000.000.000.000 M) als Notgeld",
+      "Schließlich kursierten mehr als 2.800 verschiedene wertbeständige Geldscheinsorten in Deutschland.",
+      "5849 Ausgabestellen auf, unter denen neben Städten, Kreisen, Gemeinden, Post und Eisenbahn",
+      "Unseren Katalog dieser Ausgaben könnte man ebenso als Adreßbuch der deutschen Industrie von 1923 benutzen.",
+      "Gemeinden und Großbetriebe gaben zusätzlich „Notgeld“ in Höhe von 200 Trillionen Mark aus.",
+      "Gerald Feldman estimates that around half of all paper marks in circulation were Notgeld."
+    ],
+    "url": "https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/inflation-1923.html ; https://bundesbank.de/resource/blob/607868/195d1b540a2053d42fe9f2b735835115/472B63F073F071307366337C94F8C870/das-papiergeld-im-deutschen-reich-data.pdf ; https://www.bpb.de/39531 ; https://discovery.ucl.ac.uk/10143153/2/Money%2520for%2520Inflation%2520FINAL%2520Library%2520Submission%2520Copy.pdf",
+    "source_name": "LeMO (Kunzel, DHM); Deutsche Bundesbank, Das Papiergeld im Deutschen Reich 1871-1948 (1965), pp. 85-89; Reinhard Sturm, bpb; 'Money for Inflation: The German Notgeld, 1914-1923' (PhD thesis, UCL, c. 2021), p. 16 n. 2 citing Feldman, The Great Disorder, p. 785",
+    "read_how": "page text",
+    "note": "LeMO (700 Trillionen) and bpb (200 Trillionen) give different totals: report both or neither. German 'Trillion' = 10^18, 'Billion' = 10^12. The thesis says 'it is near impossible to find exact numbers for the scale of Notgeld issuance in 1923'."
+  },
+  {
+    "claim": "7. Value-stable Notgeld (wertbeständiges Notgeld)",
+    "verdict": "FOUND",
+    "figures": "LeMO: notes denominated in rye, wheat, wood, tar, coal, sugar, bacon, electricity and gas. Bundesbank 1965: approved value-stable Notgeld had to read 'Mark Gold' or 'Pfennig Gold', up to 4.20 marks (exceptionally 8.40); part of it was denominated in goods instead; approved circulation about 200 million gold marks; total Notgeld in circulation on 15 Nov 1923 about 988 million gold marks. Wirtschaftsdienst, 2 Nov 1923: it had to be covered by deposited Gold Loan and redeemable in Gold Loan; Gold Loan pieces of 1 and 2 dollars.",
+    "fragments": [
+      "Diese Scheine lauteten auf Roggen, Weizen, Holz, Teer, Kohlen, Zucker, Speck, Strom und Gas.",
+      "Ein Teil davon lautete auch nicht, wie vorgeschrieben, auf Gold, sondern auf Sachwerte.",
+      "bis zur Höhe von 4,20 Mark, in Ausnahmefällen bis 8,40 Mark",
+      "teils aber auch auf Gold, Dollar oder Sachwerte,",
+      "Im Endstadium der Inflation bedurfte die Wirtschaft eines wertbeständigen Geldes,"
+    ],
+    "url": "https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/inflation-1923.html ; https://bundesbank.de/resource/blob/607868/195d1b540a2053d42fe9f2b735835115/472B63F073F071307366337C94F8C870/das-papiergeld-im-deutschen-reich-data.pdf ; https://www.wirtschaftsdienst.eu/files/journal-issues/wirtschaftsdienst/Vor100Jahren/1923-11-02-der-zahlungsverkehr-in-deutschland.pdf",
+    "source_name": "LeMO (Kunzel); Deutsche Bundesbank (1965), pp. 43-44, 83, 88-89; 'Der Zahlungsverkehr in Deutschland', Wirtschaftsdienst no. 44, 2 Nov 1923, pp. 1005-1006",
+    "read_how": "page text (the Wirtschaftsdienst article is a poor OCR; only short phrases were verbatim)",
+    "note": "4.20 gold marks = 1 dollar, which is why notes were worth 'one dollar' or fractions of it."
+  },
+  {
+    "claim": "7. Notgeld made of unusual materials",
+    "verdict": "PARTLY",
+    "figures": "Named in sources opened: leather, silk, linen, cardboard, porcelain (and Böttger stoneware), wood, pressed coal, printed aluminium foil, 'metal foil', cloth, ceramic; cut-up playing cards 'in one case' (1914).",
+    "fragments": [
+      "materials such as cutlery, porcelain, cardboard, leather, pressed coal, silk or linen",
+      "the newly founded aluminum rolling mills in Baden-Württemberg produced Notscheine from printed aluminum foil.",
+      "an assortment of materials such as ceramic, wood, cloth, metal foil, cardboard and leather were used.",
+      "The majority of the notes were printed on paper.",
+      "wooden and porcelain coins, notes of silk or leather.",
+      "darunter bereits für andere Zwecke bedruckte Formulare und in einem Fall zerschnittene Spielkarten",
+      "Emergency coins made of “Böttger stoneware” were minted in Saxony for many different German cities and communities.",
+      "made out of silk or leather, intended to advertise local textile and leather industry."
+    ],
+    "url": "https://www.uni-wuppertal.de/en/transfer/science-communication/jahr100wissen-/-100-years-ago/2021/emergency-money-one-egg-for-320-billion-marks/ ; https://www.bankofcanadamuseum.ca/?p=761 ; https://www.the-berliner.com/berlin/object-lesson-notgeld-the-emergency-cash-of-hyperinflation/ ; https://bundesbank.de/resource/blob/607868/195d1b540a2053d42fe9f2b735835115/472B63F073F071307366337C94F8C870/das-papiergeld-im-deutschen-reich-data.pdf ; https://dhm.de/blog/?p=8510 ; https://coinsweekly.com/currency-in-crisis-german-emergency-money-1914-1924/",
+    "source_name": "Prof. Hans Frambach, Univ. Wuppertal (2021); Bank of Canada Museum, Patricia Measures (2014); The Berliner, Peter Matthews (2023); Deutsche Bundesbank (1965), p. 85; Lili Reyels, DHM blog (13 Mar 2024); CoinsWeekly on the British Museum exhibition 'Currency in Crisis' (2019)",
+    "read_how": "page text",
+    "note": "Important dating caution: these special materials mostly belong to the collector period of about 1917-1922, not to the hyperinflation of autumn 1923. DHM: porcelain coins dated 1921, 'all production of emergency money was forbidden' on 17 July 1922; the silk and leather notes 'intended to advertise' local industry; the playing cards are from the first weeks of the war (1914). The 1923 Notgeld was overwhelmingly plain paper, often printed on one side. The British Museum's own exhibition page gave no materials or numbers."
+  },
+  {
+    "claim": "8. Paper money used as wallpaper",
+    "verdict": "FOUND",
+    "figures": "Bundesarchiv Bild 102-00104, photographer Georg Pahl (Aktuelle-Bilder-Centrale), dated 1923. The original caption says ONE-MARK notes, 'much cheaper today than wallpaper'.",
+    "fragments": [
+      "Tapezieren einer Wand mit Ein-Markscheinen welche heute um vieles billiger sind als eine Tapete",
+      "Source: Wallpapering with worthless banknotes, 1923. Photographer: Georg Pahl.",
+      "BA, AktuelleBilder-Centrale, Georg Pahl, image 102-00104, available online on Wikimedia Commons:",
+      "Paper notes became worthless as soon as they were printed."
+    ],
+    "url": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/images/1833/183383.jpg.htm ; https://germanhistorydocs.org/en/weimar-germany-1918-1933/wallpapering-with-worthless-banknotes-1923.pdf",
+    "source_name": "Bundesarchiv original caption (as reproduced on a Wikimedia Commons mirror); GHDI image 4161 (German Historical Institute Washington)",
+    "read_how": "page text (the Bundesarchiv caption was read on a mirror of the Commons file page, not on bundesarchiv.de)",
+    "note": "It is one press photograph by a picture agency, of small old notes, dated only '1923'. It documents that the picture was taken and captioned that way; it does not show that wallpapering with money was a common practice. No source opened says whether it was staged. I found no reliable source stating that this or the other famous photographs were taken after stabilisation, so that caution could not be confirmed or refuted."
+  },
+  {
+    "claim": "8. Paper money burnt in stoves",
+    "verdict": "PARTLY",
+    "figures": "",
+    "fragments": [
+      "Banknotes were worth so little that they were even burned in the stove because they were cheaper than fuel.",
+      "A woman in Berlin burns devalued marks instead of fuel.",
+      "Geld wurde in Schubkarren transportiert, Bündel als Heizmaterial zweckentfremdet, die Rückseite als Schmierpapier benutzt.",
+      "Money was transported in wheelbarrows, bundles were misused as heating material,"
+    ],
+    "url": "https://www.denieuweschatkamer.nl/en/money-collection/extraordinary-money-extraordinary-stories/the-briefcase-with-billions-in-cash/ ; https://www.smithsonianmag.com/history/how-hyperinflation-heralded-the-fall-of-german-democracy-180982204/ ; https://www.planet-wissen.de/geschichte/deutsche_geschichte/weimarer_republik/pwiediehyperinflationvon100.html ; https://www.uni-wuppertal.de/en/transfer/science-communication/jahr100wissen-/-100-years-ago/2021/emergency-money-one-egg-for-320-billion-marks/",
+    "source_name": "De Nederlandsche Bank; Smithsonian Magazine (photo caption, credit Library of Congress Prints and Photographs Division, undated); Planet Wissen; Prof. Hans Frambach",
+    "read_how": "page text",
+    "note": "Stated by a central bank's museum site and shown in a Library of Congress photograph, but none gives a date or a primary account, and none says 'cheaper than firewood or coal' with a figure. Word it as 'there are photographs of people burning bundles of old notes'."
+  },
+  {
+    "claim": "8. Children playing with bundles of notes (building blocks, kites)",
+    "verdict": "PARTLY",
+    "figures": "",
+    "fragments": [
+      "Kinder spielen mit Bündeln von Geldscheinen.",
+      "Das Inflationsgeld wird im wahrsten Sinne des Wortes \"Spielgeld\"",
+      "Children played with bundles of cash in the street",
+      "and even crafted kites out of money."
+    ],
+    "url": "https://www.planet-wissen.de/geschichte/deutsche_geschichte/weimarer_republik/pwiediehyperinflationvon100.html ; https://www.mentalfloss.com/history/hyperinflation-gone-mad-when-german-children-made-kites-money",
+    "source_name": "Planet Wissen (WDR), photo captions without date or archive; Mental Floss, Paul Anthony Jones (22 Dec 2017)",
+    "read_how": "page text",
+    "note": "No museum or archive caption with a date was found for the 'children building with blocks of notes' or the 'kite' photographs: the search returned only stock-agency captions (Alamy, Album), which I did not open and would not trust. Mental Floss sources the children claim to rarehistoricalphotos.com and the kite claim to a 2014 Bloomberg article, not to an archive. A search result title from the Austrian magazine profil dates one such photograph 'um 1922' (search snippet only), i.e. before the hyperinflation peak; the article itself (on the photo historian Anton Holzer) mentions children playing with 'Bergen wertloser Geldbündel'. Treat building blocks as 'photographs show' and drop the kites unless a dated archive caption is found."
+  },
+  {
+    "claim": "8/11. Notes worth less than paper: a million-mark note used as a notepad",
+    "verdict": "FOUND",
+    "figures": "Bundesarchiv Bild 102-00193, October 1923: the back of a one-million-mark note used as a notepad, 'a new pad would cost billions'.",
+    "fragments": [
+      "Ein Million-Markschein als Rechnungsblock.",
+      "Findige Leute benutzen die Rückseite des Einmillionenscheines zum Schreiben; ein neuer Block würde Milliarden kosten."
+    ],
+    "url": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/images/2063/206319.jpg.htm",
+    "source_name": "Bundesarchiv original caption, Bild 102-00193 (Aktuelle-Bilder-Centrale, Georg Pahl collection), as reproduced on a Wikimedia Commons mirror",
+    "read_how": "page text (mirror of the Commons file page)",
+    "note": "This is the best-documented form of 'the money was worth less than the paper it was printed on': a dated agency caption from October 1923. The sentence itself ('worth less than the paper') was NOT FOUND in any authoritative source opened. Many 1923 notes were printed on one side only (Bundesbank captions: 'Rückseite unbedruckt'), which is why the back could be written on."
+  },
+  {
+    "claim": "9. The thief who stole the basket and left the money",
+    "verdict": "PARTLY",
+    "figures": "Reported by the Guardian in early 1923 as 'a current story in Berlin': a woman, a basket, the basket stolen and the money left.",
+    "fragments": [
+      "In early 1923, the *Guardian* reported:",
+      "There is a current story in Berlin of a woman who went shopping with a basket to carry her paper money.",
+      "She put it down for a minute, and on looking round found that the basket had been stolen",
+      "but the paper money left behind!"
+    ],
+    "url": "https://www.econlib.org/hyperinflation-in-germany-1921-1923/",
+    "source_name": "John Phelan, 'Hyperinflation in Germany, 1921-1923', Econlib (9 Nov 2023), quoting the Guardian, early 1923 (no exact date given)",
+    "read_how": "page text (the Guardian article itself was not found or opened)",
+    "note": "The contemporary newspaper itself calls it 'a current story', i.e. a tale going round Berlin, not a reported event, and it was already circulating in EARLY 1923, months before the worst of the inflation. No source opened documents a wheelbarrow or suitcase version or a named victim. Say: 'a story went round Berlin that...'. For real theft LeMO says (reader's paraphrase) that thieves no longer took only purses but searched victims for valuables and even pulled gold teeth; the verbatim opening is 'Kriminelle stahlen nun nicht mehr nur Geldbörsen'."
+  },
+  {
+    "claim": "10. Farmers refused to sell for paper marks",
+    "verdict": "FOUND",
+    "figures": "",
+    "fragments": [
+      "Besonders dringlich wurde die Lösung dieses Problems für die Ernährung der Bevölkerung,",
+      "da die Bauern sich weigerten, Getreide gegen Papiermark zu verkaufen.",
+      "Die Not der breiten Masse des Volkes, die über geeignete Tauschobjekte nicht verfügte,",
+      "wurde ins Unerträgliche gesteigert.",
+      "Infolge der Geldentwertung geriet der wirtschaftliche Austausch im Laufe des Jahres 1923 zunehmend ins Stocken,",
+      "da Landwirte und Händler ihre Waren zurückhielten.",
+      "agricultural producers became increasingly unwilling to exchange their produce for paper money",
+      "farmers refused to sell their produce for worthless money"
+    ],
+    "url": "https://bundesbank.de/resource/blob/607868/195d1b540a2053d42fe9f2b735835115/472B63F073F071307366337C94F8C870/das-papiergeld-im-deutschen-reich-data.pdf ; https://www.bundestag.de/parlament/geschichte/100-jahre-weimar/hyperinflation-970722 ; https://germanhistorydocs.org/en/weimar-germany-1918-1933/friedrich-kroner-overwrought-nerves-1923.pdf ; https://www.britannica.com/event/hyperinflation-in-the-Weimar-Republic",
+    "source_name": "Deutsche Bundesbank, Das Papiergeld im Deutschen Reich 1871-1948 (1965), p. 83; Deutscher Bundestag WD 1 (2023); GHDI editors' abstract to Kroner; Britannica",
+    "read_how": "page text",
+    "note": "The Bundesbank wording is about GRAIN and the last stage of the inflation. Bresciani-Turroni (pp. 336, 345 in the part read) quotes Finance Minister Luther on 'The effective starving of the towns' and says 'the provisioning of towns and industrial centres was seriously menaced'; he notes country people accepted Gold Loan paper. A contemporary article (Wirtschaftsdienst, 2 Nov 1923) speaks of the danger of the market links between town and country breaking down (reader's paraphrase)."
+  },
+  {
+    "claim": "10. Queues, food riots, looting of shops and of the countryside",
+    "verdict": "FOUND",
+    "figures": "Police arrested 571 people for looting shops in Berlin between 3 and 7 November 1923 (Smithsonian). 5/6 November 1923: antisemitic riots in Berlin's Scheunenviertel after a rumour that Jews were manipulating the bread supply (bpb; Berliner Zeitung dates the pogrom 5 November). Betty Scholem, 23 Oct 1923: looting 'flares up here and there, but it is not much'.",
+    "fragments": [
+      "Es kam zu Teuerungsunruhen und Plünderungen im ganzen Land.",
+      "Als der Einzelhandel seine Waren zu horten begann, kam es zu Hungerdemonstrationen und Plünderungen.",
+      "führte das Gerücht, die Brotversorgung werde von Juden manipuliert, am 5./6. November zu antisemitischen Ausschreitungen.",
+      "Vielerorts griffen die notleidenden Menschen zur Selbsthilfe und plünderten Gemüseläden und Bäckereien.",
+      "In one prolonged, notorious instance of the breakdown of order, police arrested 571 people",
+      "for looting shops in Berlin between November 3 and 7.",
+      "The chaos even spread to the countryside, where gangs of heavily armed men and teenagers stormed barns for livestock",
+      "excessive property crimes such as field and forest offences, especially against farmers",
+      "Es flackern da u. dort Plünderungen auf, aber viel ist es nicht,",
+      "An epidemic of fear, naked need: lines of shoppers once more form in front of shops,",
+      "townspeople marched into the countryside to loot the farms"
+    ],
+    "url": "https://www.bundestag.de/parlament/geschichte/100-jahre-weimar/hyperinflation-970722 ; https://www.bpb.de/39531 ; https://www.bpb.de/shop/zeitschriften/apuz/deutschland-1933-2023/517470/1923-als-schluesseljahr-fuer-1933/ ; https://www.smithsonianmag.com/history/how-hyperinflation-heralded-the-fall-of-german-democracy-180982204/ ; https://www.historisches-lexikon-bayerns.de/Lexikon/EN:Inflation,_1914-1923 ; https://germanhistorydocs.org/de/die-weimarer-republik-1918-1933/betty-scholem-zur-inflation-oktober-1923.pdf ; https://alphahistory.com/weimarrepublic/kroner-shopping-hyperinflation-1923/ ; https://www.britannica.com/event/hyperinflation-in-the-Weimar-Republic",
+    "source_name": "Bundestag WD 1; Reinhard Sturm (bpb 2011); Volker Ullrich (APuZ 2023); Smithsonian Magazine (historian Molly Loberg quoted); Helmut Braun (Historisches Lexikon Bayerns); Betty Scholem 23 Oct 1923; Friedrich Kroner 26 Aug 1923; Britannica",
+    "read_how": "page text",
+    "note": "The Smithsonian page shows no author or date, and gives no source for the 571 figure. 'City people going to the countryside to steal or barter for potatoes' is supported only in general terms (field and forest offences; barns stormed; Britannica's sentence). A Bundesarchiv photograph of police guarding a Berlin bakery in 1923 is on annefrank.org (summary only). A Berlin shopping queue photograph (bpk 30014556 / Bundesarchiv 146-1971-109-42) is on GHDI (summary only)."
+  },
+  {
+    "claim": "11. The printing effort: firms, presses, paper mills, numbers of notes",
+    "verdict": "FOUND",
+    "figures": "LeMO: up to 133 outside firms with 1,783 presses worked day and night for the Reichsdruckerei in autumn 1923; paper from 30 paper mills; 29 electroplating works made about 400,000 printing plates. Bundesbank 1965: besides the Reichsdruckerei (at times over 7,500 people in the money department), 84 printers worked directly and 60 more indirectly; over 30 paper mills at full capacity; about 10 billion notes printed with a face value of 3,877 trillion (10^18) marks. Berliner Zeitung: Reichsdruckerei had 12,062 staff in November 1922; 28 kinds of note between 25 July and 26 Oct 1923; over 3.3 billion notes delivered from April 1923 to the end.",
+    "fragments": [
+      "Bis zu 133 Fremdfirmen mit 1.783 Druckmaschinen arbeiteten im Herbst 1923 für die Reichsdruckerei Tag und Nacht.",
+      "Das dafür erforderliche Banknotenpapier wurde von 30 Papierfabriken produziert.",
+      "Außer der Reichsdruckerei, bei der zeitweise mehr als 7 500 Personen allein im Geldbetriebe beschäftigt waren,",
+      "arbeiteten 84 Druckereien unmittelbar, 60 weitere Druckereien mittelbar",
+      "Gedruckt wurden rund 10 Milliarden Geldzeichenstücke im Nennbetrage von 3877 Trillionen Mark",
+      "29 galvanoplastische Anstalten lieferten dazu 400 000 Druckplatten.",
+      "Von April 1923 bis Inflationsende lieferte die Reichsdruckerei an die Reichsbank über 3,3 Milliarden Geldscheine.",
+      "Allein zwischen dem 25. Juli 1923 und dem 26. Oktober 1923 kamen 28 verschiedene Arten heraus,"
+    ],
+    "url": "https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/inflation-1923.html ; https://bundesbank.de/resource/blob/607868/195d1b540a2053d42fe9f2b735835115/472B63F073F071307366337C94F8C870/das-papiergeld-im-deutschen-reich-data.pdf ; https://www.berliner-zeitung.de/article/324175",
+    "source_name": "LeMO (Kunzel); Deutsche Bundesbank (1965), p. 42; Maritta Tkalec, Berliner Zeitung 19 Mar 2023",
+    "read_how": "page text",
+    "note": "LeMO says 133 firms, the Bundesbank 84 + 60 = 144, Econlib '130 other printers' (unsourced): give 'more than 130'. The two sources agree on 30 paper mills and 400,000 plates."
+  },
+  {
+    "claim": "11. Printing could not keep up; transport of notes; planes; counting by weight",
+    "verdict": "PARTLY",
+    "figures": "",
+    "fragments": [
+      "technisch und organisatorisch in geordneter Weise nicht mehr zu befriedigen.",
+      "fiel bei dem ständig sinkenden Kaufwert das zu bewegende Papiergeld in gewaltigen Massen an,",
+      "die zu ernsten Transportproblemen führten.",
+      "The presses of the Reichsbank could not keep up though they ran through the night.",
+      "Aufgrund der kulminierenden Inflation ging man dazu über, Noten einseitig zu bedrucken",
+      "Nun aber musste selbst die Reichsdruckerei das Papier wegen Platzmangels außerhalb des Druckereigeländes lagern",
+      "Im Sommer 1922 sah sich die Reichsdruckerei gezwungen, Banknoten von endloser Papierbahn auf Rotationsmaschinen zu drucken.",
+      "die Hyperinflation lässt die deutsche Währung schneller verfallen als die Geldscheine gedruckt werden können."
+    ],
+    "url": "https://bundesbank.de/resource/blob/607868/195d1b540a2053d42fe9f2b735835115/472B63F073F071307366337C94F8C870/das-papiergeld-im-deutschen-reich-data.pdf ; https://www.pbs.org/wgbh/commandingheights/shared/minitext/ess_germanhyperinflation.html ; https://www.bundestag.de/parlament/geschichte/100-jahre-weimar/hyperinflation-970722 ; https://www.berliner-zeitung.de/article/324175 ; https://www.l-iz.de/bildung/zeitreise/2023/06/zeitreise-ins-jahr-1923-katastrophenjahr-hyperinflation-krisen-krawalle-537659",
+    "source_name": "Deutsche Bundesbank (1965), pp. 41-42; Goodman 1981 (PBS); Bundestag WD 1; Maritta Tkalec, Berliner Zeitung 2023; Marko Hofmann, Leipziger Zeitung 2023",
+    "read_how": "page text",
+    "note": "Documented: demand for notes could no longer be met in an orderly way; 'serious transport problems'; one-sided printing; rotary presses from summer 1922; Kuczynski (1925) says wages were sometimes paid late because 'the Reichsbank was unable to print the necessary notes'. NOT FOUND in any source opened: a paper shortage as such, delivery by aeroplane, lorry or train (only the unsourced factory-lorry story in Goodman), bank staff counting by weight or by the bundle (Frambach says only 'People calculated in bundles instead of bills.'), or the sentence 'worth less than the paper it was printed on'."
+  },
+  {
+    "claim": "12. Wages against prices: documented examples",
+    "verdict": "FOUND",
+    "figures": "Kuczynski (1925): a skilled Berlin chemical worker earned 38.88 marks a week before the war; on 1 Oct 1923 he received 500,000,000 marks, worth 10.16 pre-war marks, and had to live on it four days; real wages 1-4 Oct were 45.7% of pre-war; the billion marks received on 13 Oct 'were worth only 9.2 per cent of his real wages in pre-war times'; workers paid a day later than neighbours 'received real wages perhaps 20 per cent less'. Berlin bricklayers' real wages in the first seven months of 1923: 13 to 32% of pre-war; printers 14 to 40%. LeMO: real wages fell to about 40% of the pre-war level. Bresciani-Turroni: miners 47.7% of the pre-war wage in January 1923; upper-grade officials 44.5% of pre-war salary in September 1923. Berliner Zeitung (Fuhrer): Jan 1913 to Jan 1923 food for a family of five rose 1,366-fold (3,183-fold by February), an unskilled Berlin worker's wage 643-fold, a skilled married state worker's 888-fold. Berliner Zeitung (Brettin): an unemployed person got 21 billion marks for 29 Oct-3 Nov 1923.",
+    "fragments": [
+      "had to live on those 500,000,000 marks four days",
+      "were worth only 9.2 per cent of his real wages in pre-war times",
+      "received real wages perhaps 20 per cent less",
+      "Der Reallohn sank auf ca. 40 Prozent seines Vorkriegsniveaus, weite Teile der deutschen Bevölkerung verarmten.",
+      "the wage received by the workers on a given day was spent on the following days when prices had risen further",
+      "the wages of miners were 47-7 per cent of the pre-war wage in January 1923",
+      "so kletterte der Lohn eines ungelernten Berliner Arbeiters nur um das 643-Fache",
+      "Vom 29. Oktober bis 3. November bekommt ein Arbeitsloser 21 Milliarden Mark"
+    ],
+    "url": "https://fraser.stlouisfed.org/title/postwar-labor-conditions-germany-4009/fulltext ; https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/inflation-1923.html ; https://cdn.mises.org/The Economics of Inflation A Study of Currency Depreciation in Post-War Germany_2.pdf ; https://www.berliner-zeitung.de/article/inflation-berlin-1922-1923-irre-preise-hilflose-behoerden-232097 ; https://www.berliner-zeitung.de/article/weimarer-republik-wie-hyperinflation-und-boersenkrach-berlin-ins-elend-stuerzten-1358082",
+    "source_name": "R.R. Kuczynski, BLS Bulletin 380 (1925), ch. VI, Table 49 (pp. ~125-134); LeMO; Costantino Bresciani-Turroni, The Economics of Inflation (1937), pp. 310-311, 326; Armin Fuhrer and Michael Brettin, Berliner Zeitung",
+    "read_how": "page text (Kuczynski and Bresciani-Turroni are OCR; the percentages for bricklayers and printers were given by the reader partly in its own words around the quoted numbers)",
+    "note": "A 'day's wage in loaves of bread' on a named date was NOT FOUND as such. One can be built from two sourced numbers (500 million marks for four days on 1 Oct 1923; a roll cost 1 million on 1 Oct per Berliner Zeitung), but that arithmetic would be ours, not a source's. Kuczynski's text prints 'October 1 to 4, 1924' at one point, which the reader took for a misprint of 1923: check the scan."
+  },
+  {
+    "claim": "12. Civil servants paid in advance",
+    "verdict": "PARTLY",
+    "figures": "",
+    "fragments": [
+      "the method of payment was also taken into account (advance, supplements, etc.)",
+      "Sebastian Haffners Vater, ein Oberregierungsrat, bekam sein Gehalt monatlich.",
+      "Es gab einen Monat lang kein weiteres Geld.",
+      "His father would rush to purchase a monthly transit pass, then pick up his family for haircuts.",
+      "Whatever money remained he gave to his wife, who bought dry and canned foodstuffs"
+    ],
+    "url": "https://cdn.mises.org/The Economics of Inflation A Study of Currency Depreciation in Post-War Germany_2.pdf ; https://www.tagesspiegel.de/gesellschaft/ein-ei-fur-320000000000-mark-3529597.html ; https://www.smithsonianmag.com/history/how-hyperinflation-heralded-the-fall-of-german-democracy-180982204/",
+    "source_name": "Bresciani-Turroni (1937), p. 326 footnote; Andreas Austilat, Tagesspiegel 2013, and Smithsonian Magazine, both retelling Sebastian Haffner's memoir",
+    "read_how": "page text",
+    "note": "Only a footnote confirms that officials' pay involved advances and supplements. That civil servants were paid quarterly or in advance instalments is NOT stated in plain words by any source opened. What is documented is the opposite hardship: Haffner's father, a senior official, was paid monthly and the family spent the lot on payday (monthly transit pass, haircuts, dry and tinned food)."
+  },
+  {
+    "claim": "13. Rent control: rents fell to almost nothing; who gained and who lost",
+    "verdict": "PARTLY",
+    "figures": "Kuczynski (1925): legal rent was based on the rent of 1 July 1914; rent-restriction laws kept rents (in dollars) to one-tenth in 1921, one-fiftieth in 1922 'and to one one-hundredth or less in 1923'. Reichsmietengesetz 1922 tied increases to the 1914 'peace rent'; tenant protection law passed 1 June 1923, in force 1 October 1923; by August 1923 rents had been raised 'by 2,500 to 40,000 per cent' (Berliner Mieterverein). From 1 April 1924 owners paid a house-rent tax, in Prussia up to 48% of the peace rent.",
+    "fragments": [
+      "The basis for the calculation of the rent is that paid on July 1, 1914",
+      "rent restriction laws kept the rents (calculated in dollars) down to one-tenth in 1921, to one-fiftieth in 1922",
+      "to one-fiftieth in 1922, and to one one-hundredth or less in 1923",
+      "rents were reduced to pitifully small figures",
+      "the person to benefit was not the owner, who was the mortgage holder, but the tenant",
+      "all workers were helped by the virtual confiscation, for the time being, of the property of urban landlords.",
+      "practically all the houses for rent in German cities got out of repair",
+      "Mieterhöhungen wurden gesetzlich an der „Friedensmiete“ von 1914 ausgerichtet.",
+      "Ferner profitierten Mieter und Pächter",
+      "Nach der Inflation waren alle Häuser schuldenfrei."
+    ],
+    "url": "https://fraser.stlouisfed.org/title/postwar-labor-conditions-germany-4009/fulltext ; https://cdn.mises.org/The Economics of Inflation A Study of Currency Depreciation in Post-War Germany_2.pdf ; https://mises.org/online-book/exchange-prices-and-production-hyper-inflation/vii-price-relationships-under-influence-inflation ; https://www.berliner-mieterverein.de/magazin/online/hintergrund/100-jahre-mieterschutzgesetz-sicheres-wohnen-in-unsicheren-zeiten-092320.htm ; https://www.bpb.de/39531",
+    "source_name": "Kuczynski, BLS Bulletin 380 (1925), pp. 40-47; Bresciani-Turroni (1937), p. 320; Frank D. Graham, Exchange, Prices and Production in Hyper-Inflation (1930), ch. VII; Jens Sethmann, Berliner Mieterverein (5 Sep 2023); Reinhard Sturm, bpb",
+    "read_how": "page text",
+    "note": "A figure for rent as a SHARE of the household budget in 1923 was NOT FOUND (Kuczynski gives rents in dollars relative to pre-war; his index table was unreadable). 'Landlords were ruined' needs qualifying: sources agree they lost their rental income (Graham: 'virtual confiscation, for the time being'; Sturm lists 'Vermieter' among those on fixed money incomes), but owners also saw their mortgages wiped out and kept the buildings (Mieterverein: 'Die Immobilienbesitzer profitierten von der Geldentwertung besonders'; Ullrich: 'Eindeutig privilegiert waren hingegen die Sachwertbesitzer'). Holtfrerich (2023) notes rentiers had to let rooms in their rent-controlled flats as furnished lodgings to live."
+  },
+  {
+    "claim": "14. Flight into real values (Flucht in die Sachwerte)",
+    "verdict": "FOUND",
+    "figures": "",
+    "fragments": [
+      "Jedermann versuchte, Bargeld schnellstmöglich in Sachwerte einzutauschen.",
+      "Die Flucht in den Dollar, in Sachwerte und Immobilien beschleunigte sich.",
+      "everyone therefore invested every single received mark in tangible assets as quickly as possible",
+      "Pianos, wrote the British historian Adam Fergusson, were bought even by unmusical families.",
+      "The flight from currency that had begun with the buying of diamonds, gold, country houses, and antiques",
+      "now extended to minor and almost useless items -- bric-a-brac, soap, hairpins.",
+      "As soon as you had caught one you made a dash for the nearest shop",
+      "and bought just anything that was going.",
+      "Immediately after receiving their pay, those who could afford it would buy up long-lasting products",
+      "In Phasen besonders schneller Teuerung kam es zu regelrechten „Kaufpaniken“.",
+      "Man bezahlte seine täglichen Einkäufe, indem man Aktien verkaufte."
+    ],
+    "url": "https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/inflation-1923.html ; https://www.bpb.de/39531 ; https://www.historisches-lexikon-bayerns.de/Lexikon/EN:Inflation,_1914-1923 ; https://www.pbs.org/wgbh/commandingheights/shared/minitext/ess_germanhyperinflation.html ; https://www.the-berliner.com/berlin/object-lesson-notgeld-the-emergency-cash-of-hyperinflation/ ; https://www.bpb.de/shop/zeitschriften/apuz/deutschland-1933-2023/517470/1923-als-schluesseljahr-fuer-1933/ ; https://www.berliner-zeitung.de/article/inflation-berlin-1922-1923-irre-preise-hilflose-behoerden-232097",
+    "source_name": "LeMO (Kunzel); Reinhard Sturm (bpb); Helmut Braun (Historisches Lexikon Bayerns); Goodman 1981 quoting Adam Fergusson (PBS); The Berliner; Volker Ullrich; Sebastian Haffner as quoted by Armin Fuhrer (Berliner Zeitung)",
+    "read_how": "page text",
+    "note": "Pianos, diamonds, soap and hairpins rest on Fergusson as quoted by Goodman (two popular books). Shoes and sewing machines were NOT FOUND. Braun also notes the opposite swings: 'alternating occurrences of \"buying strikes\" and \"buying frenzies\"'. Haffner's father bought a monthly transit pass, haircuts and dry and tinned food on payday (Smithsonian)."
+  },
+  {
+    "claim": "Extra detail A: a Berlin print shop buys dollar bonds on Saturday to pay Friday's wages; a cheque costs more to cash than it is worth",
+    "verdict": "FOUND",
+    "figures": "15 Oct 1923: 1.5 trillion marks of dollar treasury bonds bought on Saturday, to be sold on Thursday to pay the workers; a cheque for 5 million would cost 40 million in fares to cash; a hare for lunch 1.75 billion.",
+    "fragments": [
+      "Um für den nächsten Freitag die Löhne wertbeständig aufzubewahren,",
+      "haben die Jungen am Sonnabend für 1½ Billionen (!!lächerlich!!) Dollarschätze gekauft,",
+      "die dann am Donnerstag wieder verkauft werden, um die Leute zu bezahlen.",
+      "Wenn wir ihn bei der betreffenden Kasse einziehen wollten, kostet er 40 Millionen Fahrgeld!",
+      "sie hatten einen Hasen zu Mittag, für 1 ¾ Milliarden.",
+      "Nun, zum Glück sind wir auch Gelddrucker."
+    ],
+    "url": "https://germanhistorydocs.org/de/die-weimarer-republik-1918-1933/betty-scholem-zur-inflation-oktober-1923.pdf",
+    "source_name": "Betty Scholem to Gershom Scholem, Berlin, 15 and 23 Oct 1923 (GHDI; C.H. Beck 1989, pp. 84-89)",
+    "read_how": "page text",
+    "note": "The Scholem family ran a printing firm in Berlin; 'we are money printers too' (23 Oct) refers to printing notes."
+  },
+  {
+    "claim": "Extra detail B: starvation among pensioners in Berlin, February 1923",
+    "verdict": "FOUND",
+    "figures": "",
+    "fragments": [
+      "In our house, where many old ladies live on small pensions, almost every week someone dies of exhaustion",
+      "starved to death!!!",
+      "Only now the sum is no longer 10 dollars, but only about 3 ½ dollars!!"
+    ],
+    "url": "https://germanhistorydocs.org/en/weimar-germany-1918-1933/ghdi%3Adocument-5414.pdf",
+    "source_name": "Letter of 'Wolfgang', Berlin, 2 Feb 1923, to Edgar Stillman Kelley (Western College Memorial Archives, Oxford, Ohio), GHDI doc. 5414",
+    "read_how": "page text",
+    "note": "A private letter asking an American friend for help: one witness, not a statistic."
+  },
+  {
+    "claim": "Extra detail C: impoverished pensioners sell heirlooms at a market in the Berlin Sportpalast, 1923",
+    "verdict": "FOUND",
+    "figures": "",
+    "fragments": [
+      "Verarmte Kleinrentner verkaufen Familienerbstücke bei einer Ausstellung im Berliner Sportpalast (1923)",
+      "1923 wurde im Berliner Sportpalast zeitweilig ein Markt eingerichtet",
+      "Porzellan, Silber, Möbel, sowie andere Wertgegenstände zum Verkauf"
+    ],
+    "url": "https://germanhistorydocs.org/de/die-weimarer-republik-1918-1933/ghdi:image-4095",
+    "source_name": "GHDI image 4095; Bundesarchiv, Aktuelle-Bilder-Centrale, Georg Pahl, Bild 102-00084",
+    "read_how": "page text",
+    "note": "Bresciani-Turroni (p. 329) describes 'a very great number of little shops which sold furniture, objets d'arts, jewellery, carpets' from families living on the sale of their belongings."
+  },
+  {
+    "claim": "Extra detail D: a child asks 'Mother, is that the dollar?'; 'How is the dollar?' as the daily question",
+    "verdict": "FOUND",
+    "figures": "22 Oct 1923: dollar at 40 billion.",
+    "fragments": [
+      "der Dollar steht auf 40 Milliarden",
+      "Hunger und Ratlosigkeit überall.",
+      "Wie ist der Dollar?",
+      "Mutter, ist das der Dollar?",
+      "Auf den Straßen schwärmen die Arbeitslosen."
+    ],
+    "url": "https://germanhistorydocs.org/de/die-weimarer-republik-1918-1933/ghdi:document-5412",
+    "source_name": "Käthe Kollwitz, diary, Oct-Nov 1923 (Die Tagebücher, 1989), GHDI",
+    "read_how": "page text",
+    "note": "The reader gave the fragments without the full surrounding sentences; re-open before quoting the anecdote in detail."
+  },
+  {
+    "claim": "Extra detail E: the old man who spent his life savings on one ticket",
+    "verdict": "PARTLY",
+    "figures": "Maximilian Bern, Berlin 1923: withdrew savings of 100,000 marks, which bought one subway ticket.",
+    "fragments": [
+      "In 1923, Maximilian Bern withdrew his life savings of 100,000 marks from his bank account in Berlin.",
+      "Thus, Bern took his savings and put it all into buying a subway ticket.",
+      "The old gentleman took a last ride around his city,",
+      "then returned to his apartment to starve and die."
+    ],
+    "url": "https://www.richmondfed.org/publications/research/econ_focus/2014/q1/book_review",
+    "source_name": "David A. Price, review of Frederick Taylor, The Downfall of Money (2013), Econ Focus, Federal Reserve Bank of Richmond, Q1 2014",
+    "read_how": "page text",
+    "note": "A review retelling a story from Taylor's book; Taylor's own source was not seen. Use only with 'the historian Frederick Taylor tells of...', and check the fare against the tram table (a single tram fare passed 100,000 marks on 20 August 1923)."
+  },
+  {
+    "claim": "Extra detail F: shops wanted clerks with banking experience; pay day scramble",
+    "verdict": "FOUND",
+    "figures": "",
+    "fragments": [
+      "when printing presses were turning out currency so fast that stores sought retail clerks with banking experience",
+      "to deal with the constant changes in prices.",
+      "the scramble of workers on payday to buy necessities before prices went up again"
+    ],
+    "url": "https://www.richmondfed.org/publications/research/econ_focus/2014/q1/book_review",
+    "source_name": "David A. Price reviewing Frederick Taylor, Econ Focus, Federal Reserve Bank of Richmond (2014)",
+    "read_how": "page text",
+    "note": "Secondary (a review)."
+  },
+  {
+    "claim": "Extra detail G: who won and who lost; the war debt shrank to pennies",
+    "verdict": "FOUND",
+    "figures": "German war debt of 154 billion marks was worth 15.4 pfennig (Bundesbank; LeMO says 16.4 pfennig).",
+    "fragments": [
+      "the sum of all German war debt, valued at 154 billion Mark, dropped to just 15.4 Pfennig",
+      "auf gerade einmal 16,4 Pfennige",
+      "Ersparnisse wurden völlig entwertet, Spargelder von Generationen vernichtet.",
+      "People who had worked a lifetime found that their pensions would not buy one cup of coffee.",
+      "Wer sich etwa 1921 für ein Haus oder anderen Grundbesitz verschuldet hatte, der war über Nacht seine Schulden los."
+    ],
+    "url": "https://www.bundesbank.de/en/tasks/topics/inflation-lessons-learnt-from-history-666006 ; https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/inflation-1923.html ; https://www.pbs.org/wgbh/commandingheights/shared/minitext/ess_germanhyperinflation.html ; https://www.planet-wissen.de/geschichte/deutsche_geschichte/weimarer_republik/pwiediehyperinflationvon100.html",
+    "source_name": "Deutsche Bundesbank (2012); LeMO; Goodman 1981; Planet Wissen",
+    "read_how": "page text",
+    "note": "Two authoritative sources differ on the pfennig figure (15.4 vs 16.4): give both or say 'about 15 pfennig'."
+  },
+  {
+    "claim": "Extra detail H: a medal struck in 1923 with the food prices on the back",
+    "verdict": "FOUND",
+    "figures": "Three bronze commemorative medals of 1923, 'Des Deutschen Volkes Leidensweg', listing food prices from 1 Nov to 1 Dec 1923; 1 pound of bread 3 billion on 1 Nov, 260 billion a month later.",
+    "fragments": [
+      "Die Rückseiten benennen den drastischen Wertverlust der Mark am Beispiel von Lebensmittelpreisen",
+      "vom 1.11.1923 bis zum 1.12.1923.",
+      "So kostete z.B. 1 Pfd. Brot am 1.11. 3 Milliarden und einen Monat später 260 Milliarden Mark."
+    ],
+    "url": "https://berlin.museum-digital.de/pdf/object/4137.pdf?lang=en",
+    "source_name": "Stiftung Domäne Dahlem - Landgut und Museum, Berlin, Inv. DD98/932DA",
+    "read_how": "page text",
+    "note": "A good on-screen object: a contemporary price list in bronze."
+  },
+  {
+    "claim": "Commonly repeated claims that the sources opened contradict or qualify",
+    "verdict": "CONTRADICTED",
+    "figures": "(1) Tram ride 50 billion on 2 Dec 1923 and 600 marks on 9 June 1923: the Statistisches Reichsamt table has 150 billion from 22 Nov and 400 marks until 10 June. (2) 'Wages were paid daily or twice a day': daily 'in many places' and in the lunch break, but weekly or every few days in several Berlin primary sources of Aug-Nov 1923; 'twice a day' not found. (3) The coffee story exists in at least four versions with different numbers; only Klemperer's is tied to a diary. (4) The thief and the basket: the Guardian called it 'a current story in Berlin' in early 1923. (5) Wallpaper: one agency photograph, of one-mark notes. (6) Notgeld of leather, silk, porcelain: mostly collector issues of 1917-1922, not money of autumn 1923. (7) 'Landlords were ruined': they lost rent income but kept debt-free buildings. (8) Bread at '201 / 233 / 399 / 428 billion': all from one official table, for different dates (Nov average, 19 Nov, Dec average, 26 Nov), per kilo of rye bread in Berlin; '260 billion' is per POUND on 1 Dec. (9) The famous '2 December 1923' price list is from after stabilisation (the mark was fixed on 20 Nov; the Rentenmark was issued from 15 Nov). (10) Total Notgeld: 700 Trillionen (LeMO) versus 200 Trillionen (bpb). (11) 'A wheelbarrow of money would not buy a newspaper': a figure of speech in Goodman and Britannica with no price behind it. (12) Dollar at the peak: Britannica says 'one U.S. dollar was equivalent to 1,000 billion (a trillion) marks' by November 1923; the German official sources say 4.2 trillion (4,200,000,000,000) on 20 November.",
+    "fragments": [
+      "22. 11. 23-30. 11 *)23 150 1500 15,00 150,0 10,66 106,6",
+      "1 Straßenbahnfahrt – 50 Milliarden Mark",
+      "There is a current story in Berlin of a woman who went shopping with a basket to carry her paper money.",
+      "Tapezieren einer Wand mit Ein-Markscheinen welche heute um vieles billiger sind als eine Tapete",
+      "all production of emergency money was forbidden",
+      "Die Immobilienbesitzer profitierten von der Geldentwertung besonders",
+      "wurde ab dem 15. November 1923 ausgegeben."
+    ],
+    "url": "see the entries above for each source",
+    "source_name": "Statistisches Reichsamt (1925); Planet Wissen; Econlib/Guardian; Bundesarchiv caption; DHM blog; Berliner Mieterverein; Bundestag WD 1",
+    "read_how": "page text",
+    "note": "Summary entry; each point is supported by the fragments in the entry for its claim."
+  },
+  {
+    "claim": "Pages that failed or gave only a summary",
+    "verdict": "NOT FOUND",
+    "figures": "",
+    "fragments": [],
+    "url": "",
+    "source_name": "",
+    "read_how": "summary only",
+    "note": "Der Spiegel International, 'Millions, Billions, Trillions': no spiegel.de link was returned by any search (a domain-restricted search was rejected), so it was never opened. alphahistory.com/weimarrepublic/1923-hyperinflation: client error. paperspast.natlib.govt.nz (two 1923 cable reports): bot-protection page only. dhm.de LeMO object pages (inflation-1919-1923; verkauf-im-tausch-gegen-lebensmittel-1923): reader gave a summary, not the text. GHDI image 4093 (Berlin shopping queue) and annefrank.org (police guarding a bakery): summary only. wirtschaftsdienst.eu 2023 'Die Hyperinflation in Deutschland 1923': abstract only. British Museum 'Currency in Crisis' page: opened, but has no figures or materials. Statistisches Jahrbuch pages on digi.bib.uni-mannheim.de: opened, wrong tables. Read only in part: Bresciani-Turroni PDF (characters 0-100,000 and 700,000-800,000 of 1,074,917); Kuczynski BLS Bulletin 380 (0-230,000 and 440,000-540,000 of 734,198); UCL thesis on Notgeld (first 100,000 of 671,286); Bundesbank 'Das Papiergeld im Deutschen Reich' (first 100,000 of 216,867); Brunnermeier et al. working paper (first 100,000). Not located: the Guardian's own 1923 article with the basket story; Feldman, The Great Disorder; Fergusson, When Money Dies (full text)."
+  }
+]

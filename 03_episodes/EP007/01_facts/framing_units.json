@@ -1,0 +1,17 @@
+{
+ "framing_units": [
+  6,
+  7,
+  8,
+  9,
+  10,
+  31,
+  33,
+  34,
+  45,
+  63,
+  64,
+  90
+ ],
+ "note": "Rows with no fact row: the quest log, the quest headings and verdicts, the turn ('Unless you read that last number from the other side') and one joke ('Civilisation holds, at one table'). Row numbers are 0-based rows of EP007_script_v2_final.txt. The promise in 'It's the one you didn't know you were playing' and the verdicts 'complete' and 'failed' are the game's, not claims about 1923."
+}

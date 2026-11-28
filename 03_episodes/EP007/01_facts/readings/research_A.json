@@ -1,0 +1,462 @@
+[
+  {
+    "claim": "1. Pre-war exchange rate: 4.2 marks to the US dollar (1914)",
+    "verdict": "FOUND",
+    "figures": "July 1914 monthly average: 4,20 Mark per dollar",
+    "fragments": ["Kurse und Meßziffern des Dollars in Berlin und der Mark in New York", "(In Monatsdurchschnitten)", "a) Kurs des Dollars"],
+    "url": "https://www.statistischebibliothek.de/mir/servlets/MCRFileNodeServlet/DEMonografie_derivate_00001667/WiSta-Sonderheft-01.pdf",
+    "source_name": "Statistisches Reichsamt, Zahlen zur Geldentwertung in Deutschland 1914 bis 1923 (Sonderhefte zu Wirtschaft und Statistik, Berlin 1925), p. 6, table II.1a",
+    "read_how": "page text (OCR of a scan; table value '1914 Juli 4,20' read from the table by the page reader)",
+    "note": "Primary source. Table values are OCR; headings quoted, the 4,20 is a table cell, not a sentence."
+  },
+  {
+    "claim": "1. Pre-war exchange rate: 4.2 marks to the US dollar (1914)",
+    "verdict": "FOUND",
+    "figures": "about 4.2 to the dollar",
+    "fragments": ["about 4.2 to the dollar"],
+    "url": "https://britannica.com/topic/20th-century-international-relations-2085155/Reparations-security-and-the-German-question",
+    "source_name": "Encyclopaedia Britannica, '20th-century international relations: Reparations, security, and the German question'",
+    "read_how": "page text",
+    "note": "Reader reported this as the prewar rate. Second independent source: boerse.de table row 'Juli | 1914 | 4,2 Mark'."
+  },
+  {
+    "claim": "2. Dollar rate series, MONTHLY AVERAGES (Berlin), marks per dollar",
+    "verdict": "FOUND",
+    "figures": "Monthly averages: Jul 1914 4.20 | Jan 1919 8.20 | Jul 1919 15.08 | Dec 1919 46.77 | Jan 1920 64.80 | Feb 1920 99.11 | Jul 1920 39.48 | Jan 1921 64.91 | Jul 1921 76.67 | Nov 1921 262.96 | Jan 1922 191.81 | Jul 1922 493.22 | Oct 1922 3,180.96 | Dec 1922 7,589.27 | Jan 1923 17,972 | Feb 1923 27,918 | Mar 1923 21,190 | Apr 1923 24,457 | May 1923 47,670 | Jun 1923 109,996 | Jul 1923 353,412 | Aug 1923 4,620,455 | Sep 1923 printed '98 860' (unit footnote: thousands = 98.86 million) | Oct 1923 printed '25 260' (millions = 25.26 billion, short scale) | Nov 1923 printed '2193 600' (millions = 2.19 trillion short scale, MONTHLY AVERAGE) | Dec 1923 printed '4200 000' (millions = 4.2 trillion). 1923 annual average printed '534 914'.",
+    "fragments": ["Kurse und Meßziffern des Dollars in Berlin und der Mark in New York", "(In Monatsdurchschnitten)", "1) In Tausenden. - 1) In Millionen. - 1) Tausendstel. - ') Millionstel.", "August: \"4620 455 1)\"", "September: \"98 860\"", "Oktober: \"•) 25 260\"", "November: \"•) 2193 600\"", "Dezember: \"•) 4200 000\""],
+    "url": "https://www.statistischebibliothek.de/mir/servlets/MCRFileNodeServlet/DEMonografie_derivate_00001667/WiSta-Sonderheft-01.pdf",
+    "source_name": "Statistisches Reichsamt, Zahlen zur Geldentwertung in Deutschland 1914 bis 1923 (1925), p. 6, table II.1a",
+    "read_how": "page text (OCR of scan; table cells)",
+    "note": "ALL ARE MONTHLY AVERAGES. The footnote markers that say which 1923 months are in thousands/millions are garbled in the OCR; the unit assignment for Sep-Dec (thousands for Sep, millions for Oct-Dec) is the reader's and my reading, corroborated by boerse.de (Sep 98,860,000; Oct 25,260,208,000) and by the daily table (20 Nov = 4,200,000 in the 'In Millionen' column). The reader could not align 1921/1922 months other than those listed; do not use other months from this file. No 'early 1920' day rate: Jan 1920 avg 64.80, Feb 1920 avg 99.11 (Bresciani-Turroni: 'In February 1920 the dollar rate was 23-6 times the former parity')."
+  },
+  {
+    "claim": "2. Dollar rate series, DAY RATES (official Berlin quotation), 1923",
+    "verdict": "PARTLY",
+    "figures": "Day rates as read from the raw OCR rows (first column = January; November column headed 'In Millionen'; December 'In Bill.'): 2 Jan 1923 7,260 | 3 Jan 7,525 | 9 Jan 10,000 | 11 Jan 10,450 | 31 Jan 49,000 | 1 Oct 242,000 thousand (=242 million) | 31 Oct 72,500,000 thousand (=72.5 billion) | 1 Nov 130,000 million (=130 billion) | 3 Nov 420,000 million | 9 Nov 630,000 million | 12 Nov 630,000 million | 13 Nov 840,000 million | 14 Nov 1,260,000 million | 15 Nov 2,520,000 million (=2.52 trillion) | 16 and 19 Nov 2,520,000 million | 20 Nov 4,200,000 million (=4.2 trillion) | 22, 26, 30 Nov 4,200,000 million | December 4,2 (Billionen) throughout.",
+    "fragments": ["Kurs und Meßziffern des Dollars an der Berliner Börse nach Tagesnotierungen (Fortsetzung).", "In Tausenden In Millionen In Bill.", "1. 41500 22800 74 750 1100 242 000 130000 4,2 1.", "11. 10 450 21143 40 475 80 750 187 000 66 200 5 060 000 4,2 11.", "13. 10350 27 700 20840 21110 98 750 187 000 3 700 92 400 840 000 4,2 13.", "14. 23 500 20845 21J10 46000 108 000 3 000 90 400 1260 000 4,2 14.", "15. 11875 19500 20875 42 300 107 700 2 700 3 760 000 2520000 4,2 15.", "20. 18 750 23 250 20885 25 550 130_000 284 000 4200 182 000 4200000 4,2 20.", "31. 49 000 69500 1100000 10 300 - 72500 000 4,2 31.", "2. 7 260 39800 22 785 31700 78 250 160 000 320000 320 000 2,"],
+    "url": "https://www.statistischebibliothek.de/mir/servlets/MCRFileNodeServlet/DEMonografie_derivate_00001667/WiSta-Sonderheft-01.pdf",
+    "source_name": "Statistisches Reichsamt, Zahlen zur Geldentwertung in Deutschland 1914 bis 1923 (1925), p. 10, table 2d (1923)",
+    "read_how": "page text (OCR of scan; raw rows, several cells missing per row)",
+    "note": "CAUTION: rows are OCR with missing cells, so month-to-column mapping is INFERRED: I took the first number of a row as January and the last large number before '4,2' as November. The November values 13/14/15/20 Nov are independently confirmed in words by Bresciani-Turroni p. 24 (840 / 1,260 / 2,520 / 4,200 milliards), so those four are safe. The January values (7,260; 10,450; 49,000) and 1 Nov (130 billion) and 31 Oct (72.5 billion) rest on the OCR row only: usable with 'about', or have a human look at the scan p. 10."
+  },
+  {
+    "claim": "2. Dollar rate, November 1923 day rates (official Berlin and unofficial Cologne)",
+    "verdict": "FOUND",
+    "figures": "Official Berlin: 13 Nov 840 milliards; 14 Nov 1,260 milliards; 15 Nov 2,520 milliards; 20 Nov 4,200 milliards (= 4.2 trillion short scale). Cologne (occupied zone, free market): 13 Nov 3,900 milliards; 15 Nov 5,800; 17 Nov 6,700; 20 Nov 11,700 milliards, 'the highest quotation'.",
+    "fragments": ["the dollar was quoted at 3,900 milliard paper marks at Cologne on November 13th, 1923", "the definite fixing of the dollar rate at 4,200 milliards of paper marks closed the story of the depreciation of the mark", "This was the highest quotation"],
+    "url": "https://cdn.mises.org/The Economics of Inflation A Study of Currency Depreciation in Post-War Germany_2.pdf",
+    "source_name": "Costantino Bresciani-Turroni, The Economics of Inflation (English ed. 1937), ch. I, pp. 24 and 38",
+    "read_how": "page text (OCR of scanned book; first 100,000 characters read)",
+    "note": "The daily figures for 13/14/15/17/20 Nov were reported by the reader as a list, only three fragments are verbatim. Book uses British long scale: milliard = 10^9, billion = 10^12, trillion = 10^18. Other fragments from ch. I: 'rose to 3-40 paper marks in July 1919; to io-8 in December of the same year' (value of the GOLD MARK in paper marks, monthly average, i.e. dollar rate / 4.2); 'In February 1920 the dollar rate was 23-6 times the former parity'; 'In May 1921 the dollar rate had risen to 14-83 times that of 1913'."
+  },
+  {
+    "claim": "2. Dollar rate series (popular table, secondary)",
+    "verdict": "PARTLY",
+    "figures": "Jul 1914 4.2 | Jan 1919 8.9 | Jul 1919 14.0 | Jan 1920 64.8 | Jul 1920 39.5 | Jan 1921 64.9 | Jul 1921 76.7 | Jan 1922 191.8 | Jul 1922 493.2 | Jan 1923 17,972 | Jul 1923 353,412 | Aug 1923 4,620,455 | Sep 1923 98,860,000 | Oct 1923 25,260,208,000 | Nov 1923 4,200,000,000,000; 20 Nov 1923 official rate 4.2 Billionen.",
+    "fragments": ["Juli | 1914 | 4,2 Mark", "Januar | 1919 | 8,9 Mark", "Juli | 1919 | 14,0 Mark", "im Januar 1922 kostete ein Dollar schon 191,80 Mark", "Zu diesem Zeitpunkt war der Wechselkurs bereits auf 17.972 Mark je Dollar angewachsen.", "Im Juli 1923 kostete der Dollar bereits 353.412 Mark", "nur einen Monat später 4.620.455 Mark", "September | 1923 | 98.860.000 Mark", "Oktober | 1923 | 25.260.208.000 Mark", "November | 1923 | 4.200.000.000.000 Mark", "wurde am 20. November 1923 ein offizieller Wechselkurs von Papiermark zu Dollar auf eins zu 4,2 Billionen Mark festgelegt."],
+    "url": "https://www.boerse.de/boersenwissen/boersengeschichte/Die-Hyperinflation-in-Deutschland-1923-70",
+    "source_name": "boerse.de, 'Die Hyperinflation in Deutschland (1923)', table 'Dollarnotierung von 1914 bis 1923'",
+    "read_how": "page text",
+    "note": "The page does not say whether figures are averages or day rates. From Jan 1920 on they match the Reichsamt MONTHLY AVERAGES. Two disagreements with the Reichsamt: Jan 1919 (8.9 vs 8.20) and Jul 1919 (14.0 vs 15.08). Its 'November 1923 4,200,000,000,000' is the rate fixed on 20 Nov, not the November average (Reichsamt Nov average 2,193,600 million)."
+  },
+  {
+    "claim": "2. Dollar rate series (Sargent's table, cents per mark, monthly)",
+    "verdict": "FOUND",
+    "figures": "Table G2 'German Exchange Rates, 1914-25', CENTS PER MARK: Jan 1922 .52; Jul 1922 .20; Dec 1922 .01; 1923: Jan .007, Feb .004, Mar .005, Apr .004, May .002, Jun .001, Jul .0003, Aug .0000339, Sep .00000188, Oct .000000068, Nov .000000000043, Dec .0000000000227; Jan 1924 22.6 (rentenmark).",
+    "fragments": ["German Exchange Rates, 1914-25", "Cents per Mark", "prices suddenly stopped rising and the mark stopped depreciating in late November 1923."],
+    "url": "https://www.nber.org/chapters/c11452.pdf",
+    "source_name": "Thomas J. Sargent, 'The Ends of Four Big Inflations' (NBER, in Hall ed., Inflation: Causes and Effects, 1982), Table G2 (source: Young 1925), pp. 76, 83",
+    "read_how": "page text (PDF text; table cells)",
+    "note": "Rounded and in cents per mark, so less convenient than the Reichsamt series; same order of magnitude but not identical once inverted (my arithmetic: Aug 1923 .0000339 cents per mark = about 2.9 million marks per dollar, against the Reichsamt Berlin average of 4,620,455), so it is a different quotation or averaging. Do not convert Sargent's figures for the script; use the Reichsamt marks-per-dollar figures."
+  },
+  {
+    "claim": "2. Dollar rate, other statements",
+    "verdict": "PARTLY",
+    "figures": "Bundestag: Jan 1920 mark at one tenth of Aug 1914 value; July 1923 'eine Million Mark' per dollar; Nov 1923 4,2 Billionen. LeMO: dollar reached 40 Milliarden Mark (autumn 1923). Britannica: 4,000,000 to the dollar in August 1923. EBSCO: 14 marks in 1919, 18,000 in Jan 1923, more than four trillion in Nov 1923.",
+    "fragments": ["Im Januar 1920 wies die Mark gegenüber dem Dollar im Vergleich zum August 1914 nur noch ein Zehntel des Wertes auf.", "Im Juli 1923 musste man schon eine Million Mark für einen einzigen Dollar zahlen.", "Auf dem Höhepunkt der Krise im November 1923 entsprach der Kurs für einen US-Dollar 4,2 Billionen Mark.", "Als der Dollar wenig später einen neuen Höchstkurs von 40 Milliarden Mark erreichte", "The paper mark reached 4,000,000 to the dollar in August", "by January of 1923 it took eighteen thousand marks to purchase a dollar,"],
+    "url": "https://www.bundestag.de/parlament/geschichte/100-jahre-weimar/hyperinflation-970722",
+    "source_name": "Deutscher Bundestag, '100 Jahre Weimar: Hyperinflation' (first three fragments); LeMO inflation-1923 (fourth); Britannica 20th-century international relations (fifth); EBSCO Research Starter 'France occupies the Ruhr', T. T. Lewis (sixth)",
+    "read_how": "page text",
+    "note": "Bundestag's 'eine Million Mark im Juli 1923' is a day rate late in July (Reichsamt July average is 353,412; the OCR daily table shows 1,100,000 on 30/31 July). SEE CONTRADICTION ENTRY: the Bundestag page's 1922 dollar figures (45, 75, 270, 1,807 Mark) are wrong as dollar prices."
+  },
+  {
+    "claim": "3. Ruhr occupied by France and Belgium on 11 January 1923 after Germany was declared in default (which deliveries; how many troops)",
+    "verdict": "FOUND",
+    "figures": "26 Dec 1922: Reparation Commission declares voluntary default in TIMBER deliveries to France during 1922. 9 Jan 1923: default on COAL deliveries during 1922 (Britain voting against). 11 Jan 1923: French and Belgian troops enter Essen and the Ruhr.",
+    "fragments": ["Reparation Commission declares Germany in voluntary default in timber deliveries to France during 1922.", "The Reparation Commission declares Germany in default on coal deliveries during 1922, Great Britain voting in the negative.", "French and Belgium troops with engineers and technical experts enter Iissen and the surrounding Ruhr territory."],
+    "url": "https://digi.econbiz.de/viewer/fulltext/1799045676/12/eng",
+    "source_name": "The Reparation Problem, 1918-1924 (US Government Printing Office, 1924), chronology page",
+    "read_how": "page text (OCR; 'Iissen' = Essen)",
+    "note": "Near-primary chronology. TELEGRAPH POLES: NOT FOUND in any page opened this session (Reparation chronology, Britannica x2, LeMO, KAS, Swarthmore, EBSCO, TheCollector all say timber/wood and coal only). Do not say 'telegraph poles' unless another source is opened."
+  },
+  {
+    "claim": "3. Ruhr occupation: date and trigger (Britannica)",
+    "verdict": "FOUND",
+    "figures": "11 January 1923; default on 1922 timber deliveries",
+    "fragments": ["On January 11, 1923, French and Belgian troops began to occupy the Ruhr.", "When the Reparations Commission declared that Germany had defaulted on its 1922 timber deliveries"],
+    "url": "https://britannica.com/topic/20th-century-international-relations-2085155/Reparations-security-and-the-German-question",
+    "source_name": "Encyclopaedia Britannica, '20th-century international relations'",
+    "read_how": "page text",
+    "note": "Britannica 'Ruhr occupation' topic page instead says 'German deficiencies in the coal and coke deliveries to France required by the reparations agreement after World War I.' and 'the occupation ended in 1925.'"
+  },
+  {
+    "claim": "3. Ruhr occupation: number of troops",
+    "verdict": "FOUND",
+    "figures": "LeMO: about 60,000 soldiers; five French divisions and some Belgian units. KAS/Möller: 60,000 at first, quickly raised to 100,000. EBSCO: two divisions at first, later five divisions 'amounting to seventy-five thousand troops'. TheCollector: five French and one Belgian divisions.",
+    "fragments": ["Mit dem Einmarsch von rund 60.000 Soldaten in das Zentrum der deutschen Schwerindustrie", "den Einmarsch von fünf französischen Divisionen und einigen belgischen Einheiten", "Die alliierte Reparationskommission stellte Ende Dezember 1922 einen geringfügigen Lieferrückstand", "Die zunächst 60 000 Mann starken Armeen wurden schnell auf 100 000 aufgestockt", "Der Einmarsch französischer und belgischer Truppen in das Ruhrgebiet am 11. Januar 1923", "um größere deutsche Holz- und Kohlelieferungen zu erzwingen", "five army divisions (amounting to seventy-five thousand troops).", "On January 11, 1923, five French and one Belgian divisions occupied Germany's Ruhr Basin."],
+    "url": "https://www.dhm.de/lemo/kapitel/weimarer-republik/aussenpolitik/ruhrbesetzung-1923.html",
+    "source_name": "LeMO / Deutsches Historisches Museum, 'Ruhrbesetzung 1923' (Arnulf Scriba, 10 May 2022) = fragments 1-3; Konrad-Adenauer-Stiftung essay by Horst Möller, 9 Jan 2023 (https://www.kas.de/de/web/geschichtsbewusst/essay/-/content/ruhrbesetzung-1923-auftakt-zur-krise) = fragments 4-6; EBSCO Research Starter (T. T. Lewis) = 7; TheCollector (M.-A. Ronchini, 8 Feb 2024) = 8",
+    "read_how": "page text",
+    "note": "Troop numbers differ by source and by date: 60,000 (LeMO, KAS at the start), 75,000 (EBSCO), 100,000 (KAS, after reinforcement). LeMO calls the shortfall 'geringfügig' (minor)."
+  },
+  {
+    "claim": "4. Government called for passive resistance and paid the idle Ruhr by printing money",
+    "verdict": "FOUND",
+    "figures": "Payments to striking workers financed by discounting treasury bills at the Reichsbank (= new notes). July 1923: Reich revenue 3 Billionen, spending 37 Billionen (German Billion = 10^12).",
+    "fragments": ["The German government was determined to fight the French occupation by a policy of passive resistance,", "making direct payments to striking workers which were financed by discounting treasury bills with the Reichsbank.", "The inflation became most severe after the military occupation of the Ruhr by the French in January 1923.", "Auf den Einmarsch reagierte die Reichsregierung mit der Proklamation des passiven Widerstandes,", "Für die finanzielle Unterstützung der Streikenden druckten die Notenpressen immer mehr Geldscheine.", "Im Juli 1923 nahm das Reich 3 Billionen Mark ein und gab 37 Billionen aus.", "Germany had printed large amounts of money to pay companies and workers for nonactivity.", "Berlin supported this passive resistance with unemployment relief"],
+    "url": "https://www.nber.org/chapters/c11452.pdf",
+    "source_name": "Sargent, 'The Ends of Four Big Inflations', Germany section (fragments 1-3; 1 and 2 are one sentence split at the 125-character limit); LeMO inflation-1923 (4-5); KAS/Möller (6); EBSCO/Lewis (7); Britannica (8)",
+    "read_how": "page text",
+    "note": "Date of the proclamation differs: Bundestag says two days after 11 Jan ('die Reichsregierung im Gegenzug zwei Tage später den „passiven Widerstand“ gegen die Besetzung ausrief,'); KAS/Möller says 19 January ('Reichsregierung am 19. Januar mit der Ausrufung des passiven Widerstands'). Safer: 'within days'. Chancellor: Wilhelm Cuno ('Die Reichsregierung unter Wilhelm Cuno ermutigte die Bevölkerung im Ruhrgebiet zu passivem Widerstand.' LeMO)."
+  },
+  {
+    "claim": "4. Passive resistance called off on 26 September 1923 (Chancellor Stresemann)",
+    "verdict": "FOUND",
+    "figures": "26 September 1923, Stresemann",
+    "fragments": ["Am 26. September erklärte der Reichskanzler nach Besprechungen mit allen politischen Parteien", "called off the passive resistance in the Ruhr and Rhineland on September 26,", "The new German prime minister, Gustav Stresemann, announced the official end of resistance on September 26.", "gab die Reichsregierung unter dem neuen Reichskanzler Gustav Stresemann den passiven Widerstand im September 1923 auf.", "finally ended passive resistance in September 1923"],
+    "url": "https://www.kas.de/de/web/geschichtsbewusst/essay/-/content/ruhrbesetzung-1923-auftakt-zur-krise",
+    "source_name": "KAS essay, Horst Möller (1); TheCollector (2); Swarthmore Global Nonviolent Action Database (3); LeMO Ruhrbesetzung (4); Britannica (5)",
+    "read_how": "page text",
+    "note": "Swarthmore page is internally inconsistent (its outcomes box says 'officially abandoned (September 23, 1923)'). Toll per KAS/Möller: '132 Todesopfer' and '150 000 aus dem Ruhrgebiet Ausgewiesene'; LeMO: 'zwischen 120.000 und 150.000 Menschen aus dem Ruhrgebiet' expelled."
+  },
+  {
+    "claim": "5. Causes: war paid for by borrowing instead of taxes",
+    "verdict": "FOUND",
+    "figures": "War loans 97 Mrd. Mark (LeMO). War debt 154 billion Mark (Bundesbank).",
+    "fragments": ["Instead of financing the costs of war through higher taxes, the government borrowed", "The government borrowed increasingly large amounts from the Reichsbank, which put more and more money into circulation.", "This was not matched by growth in the supply of goods in Germany, and huge price increases resulted.", "Deren Finanzierung erfolgte vor allem durch Anleihen (97 Mrd. Mark),", "Letztere waren komplett über Staatsverschuldung finanziert worden.", "Durch Steuererhöhungen hatte das Reich nur die Zinszahlungen auf seine explodierenden Schulden gedeckt.", "Germany borrowed heavily to finance the war planning, like the other combatants, to make the losers pay."],
+    "url": "https://www.bundesbank.de/en/tasks/topics/inflation-lessons-learnt-from-history-666006",
+    "source_name": "Deutsche Bundesbank, 'Inflation - lessons learnt from history' (15 Oct 2012) = 1-3; LeMO inflation-1923 = 4; C.-L. Holtfrerich, 'Die Große Inflation in Deutschland 1914 bis 1923', Wirtschaftsdienst 103 (2023) H.2 pp. 84-89 = 5-6; econlib/EconLog, John Phelan, 9 Nov 2023 = 7",
+    "read_how": "page text",
+    "note": "Three independent authoritative statements. Holtfrerich URL: https://www.wirtschaftsdienst.eu/inhalt/jahr/2023/heft/2/beitrag/die-grosse-inflation-in-deutschland-1914-bis-1923.html"
+  },
+  {
+    "claim": "5. Causes: reparations, 132 billion gold marks set in 1921",
+    "verdict": "FOUND",
+    "figures": "132,000,000,000 gold marks; London, 5 May 1921 (Britannica) / London schedule set 30 April 1921, initial annuity 3 Mrd. Goldmark (Holtfrerich, per reader paraphrase)",
+    "fragments": ["Finally, on May 5, 1921, the London conference presented Berlin with a bill for 132,000,000,000 gold marks", "...im Londoner Zahlungsplan auf 132 Mrd. Goldmark festgelegt", "the Allies finally presented Germany with the bill: 132 billion in gold – inflation proof – marks.", "Zur hohen Staatsverschuldung kamen die aus dem Versailler Vertrag abgeleiteten Reparationsforderungen,"],
+    "url": "https://britannica.com/topic/20th-century-international-relations-2085155/Reparations-security-and-the-German-question",
+    "source_name": "Britannica (1); Holtfrerich, Wirtschaftsdienst 2023 (2); econlib/Phelan (3); LeMO (4)",
+    "read_how": "page text",
+    "note": "Sargent's paper does NOT give the 132 billion figure (only: 'After World War I, Germany owed staggering reparations to the Allied countries.')."
+  },
+  {
+    "claim": "5. Causes: deficits covered by the Reichsbank printing notes",
+    "verdict": "FOUND",
+    "figures": "",
+    "fragments": ["die dafür nötigen Mittel besorgte sich der Staat aber über die (unkontrollierte) Vermehrung des eigenen Papiergeldes.", "Zwar waren die Reparationen in Fremdwährungen oder in Goldmark zu zahlen,", "Zum einen hatte die Reichsregierung inländische Kriegsanleihen in erheblichem Umfang ausgegeben,", "Simultaneously and abruptly three things happened:", "at the end of October 1923, over 99% of outstanding Reichsbank notes had been placed in circulation within the previous 30 days.", "the process of borrowing by way of discounted Treasury bills and thereby increasing the note circulation is to cease."],
+    "url": "https://www.bundestag.de/parlament/geschichte/100-jahre-weimar/hyperinflation-970722",
+    "source_name": "Deutscher Bundestag (1-3); Sargent (4-5; the three things per the reader: government borrowing from the central bank stopped, the budget swung into balance, inflation stopped); The Times as quoted by econlib/Phelan (6)",
+    "read_how": "page text (Sargent's list of the three things is the reader's paraphrase, not a quotation)",
+    "note": "Holtfrerich argues the Ruhr occupation was not where the hyperinflation started: 'war also nicht der Ausgangspunkt der Hyperinflation, im Gegenteil.' Hanke-Krus date the episode from Aug 1922; econlib: 'July 1922 saw prices rise 50%, the generally accepted definition of hyperinflation.'"
+  },
+  {
+    "claim": "6. Printing effort 1923: number of firms, presses, paper mills",
+    "verdict": "FOUND",
+    "figures": "LeMO (DHM): up to 133 outside firms with 1,783 printing machines worked for the Reichsdruckerei day and night in autumn 1923; paper from 30 paper mills. Bundesbank (1965): 84 printing works directly + 60 more indirectly; over 30 paper mills in full operation; Reichsdruckerei at times more than 7,500 people in money production alone; about 10 billion notes printed with face value 3,877 Trillionen Mark.",
+    "fragments": ["Bis zu 133 Fremdfirmen mit 1.783 Druckmaschinen arbeiteten im Herbst 1923 für die Reichsdruckerei Tag und Nacht.", "Das dafür erforderliche Banknotenpapier wurde von 30 Papierfabriken produziert.", "arbeiteten 84 Druckereien unmittelbar, 60 weitere Druckereien mittelbar", "Über 30 Papierfabriken waren in Vollbetrieb für die Papierbeschaffung tätig.", "bei der zeitweise mehr als 7 500 Personen allein im Geldbetriebe beschäftigt waren", "Gedruckt wurden rund 10 Milliarden Geldzeichenstücke im Nennbetrage von 3877 Trillionen Mark.", "die schnelle Umstellung der Druckpressen"],
+    "url": "https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/inflation-1923.html",
+    "source_name": "LeMO / Deutsches Historisches Museum, 'Die Inflation 1923' (fragments 1-2); Deutsche Bundesbank, Das Papiergeld im Deutschen Reich 1871-1948 (Frankfurt, 1965), p. 42 (fragments 3-7) https://bundesbank.de/resource/blob/607868/195d1b540a2053d42fe9f2b735835115/472B63F073F071307366337C94F8C870/das-papiergeld-im-deutschen-reich-data.pdf",
+    "read_how": "page text",
+    "note": "133 firms / 1,783 presses / 30 mills = LeMO. Bundesbank gives 84 + 60 = 144 printing works and 'over 30' paper mills, and no count of presses. Econlib/Phelan: 'Apart from the State Printing Office, 130 other printers were producing marks.' Fragment 6 omits an editorial parenthesis in the original sentence (reader's note). German Trillion = 10^18."
+  },
+  {
+    "claim": "6. '300 paper mills and 150 printing companies with 2,000 presses'",
+    "verdict": "PARTLY",
+    "figures": "Only '300 paper mills' found, traced to a popular book; no page opened gives '150 printing companies with 2,000 presses'.",
+    "fragments": ["During 1923 three hundred paper mills were working flat out printing banknotes.", "On October 25, 1923, the Reichsbank noted that it had that day printed 120,000 trillion marks.", "cited in Paper Money by \"Adam Smith,\" (George J.W. Goodman), Summit Books, 1981, pp. 57‐62."],
+    "url": "https://highered.mheducation.com/sites/dl/free/0077151569/977708/c03f_The_German_hyperinflation.pdf",
+    "source_name": "McGraw-Hill textbook supplement 'The German hyperinflation' (unnamed textbook), citing 'Adam Smith' (G. J. W. Goodman), Paper Money (1981)",
+    "read_how": "page text",
+    "note": "WEAK. The 300/150/2,000 figure contradicts both the Bundesbank ('über 30 Papierfabriken') and the DHM ('30 Papierfabriken', 133 firms, 1,783 presses). Use the DHM or Bundesbank numbers. Wikiwand's Havenstein and German hyperinflation articles, as returned, did not contain the 300/150/2,000 claim. paperspast 1923 newspaper pages (the likely origin, July 1923 cables) were blocked."
+  },
+  {
+    "claim": "6. Highest denomination 100 Billionen Mark; one-sided printing; overprints",
+    "verdict": "FOUND",
+    "figures": "Highest values 1 to 100 Billionen Mark (10^12 to 10^14 = 1 to 100 trillion in English). Backs left blank on several notes; a 1,000-mark note issued only with the overprint 'Eine Milliarde Mark'.",
+    "fragments": ["Die höchsten Werte waren Abschnitte von 1 bis 100 Billionen Mark.", "Rückseite unbedruckt", "nur mit einem Überdruck >>Eine Milliarde Mark << erschien", "Der Druck war meist einseitig, einfarbig und schmucklos.", "Die Papiermark hatte für die ausgegebenen Nominale die Billionengrenze (1.000.000.000.000) überschritten."],
+    "url": "https://bundesbank.de/resource/blob/607868/195d1b540a2053d42fe9f2b735835115/472B63F073F071307366337C94F8C870/das-papiergeld-im-deutschen-reich-data.pdf",
+    "source_name": "Deutsche Bundesbank, Das Papiergeld im Deutschen Reich 1871-1948 (1965), pp. 43, 72-75 (fragments 1-4); DHM collection page 'Reichsbanknote zu 1 Billion Mark' (5) https://www.dhm.de/archiv/sammlungen/kunst2/numismatik/n2000042.html",
+    "read_how": "page text",
+    "note": "'Rückseite unbedruckt' is a caption the reader reports on the 1 Million, 100 Million, 200 Milliarden and 10 Billionen notes. The overprint concerns the 1000-Mark note dated 15 December 1922. Fragment 4 ('meist einseitig') is from the section on emergency money (Notgeld), not Reichsbank notes: keep them apart. British Museum page: not found/opened."
+  },
+  {
+    "claim": "7. Naming: German Billion = English trillion; German Milliarde = English billion",
+    "verdict": "FOUND",
+    "figures": "German Milliarde = 10^9 = English billion; German Billion = 10^12 = English (short-scale) trillion; German Trillion = 10^18 = English quintillion.",
+    "fragments": ["In German, a milliard is equal to a billion in English.", "In German, a billion is equal to 1,000 billion in English.", "That currency was priced at a rate of 1 rentenmark to 1,000,000,000,000 mark and 4.2 to the US dollar.", "Die Papiermark hatte für die ausgegebenen Nominale die Billionengrenze (1.000.000.000.000) überschritten.", "a new currency unit called the Rentenmark was declared equivalent to 1 trillion (1012) paper marks.", "Der Wechselkurs einer Rentenmark war mit einer Billion Papiermark festgelegt worden", "In American and French nomenclature, it is \"quintillion,\"", "in English and German nomenclature one would speak of \"trillion,\""],
+    "url": "https://numismatics.org/times-of-hyperinflation/",
+    "source_name": "American Numismatic Society site, 'Times of Hyperinflation' (1-3; no author shown); DHM object page (4); Sargent (5, '1012' = 10^12 with lost superscript); LeMO Währungsreform (6); T. Polleit, Mises Daily 15 Nov 2023, footnote 2 (7-8)",
+    "read_how": "page text",
+    "note": "Sargent's '1 trillion (10^12) paper marks' and LeMO's 'einer Billion Papiermark' describe the same conversion, which fixes the mapping. Bresciani-Turroni's English edition uses the British long scale (his footnotes: billion = 1,000,000 squared, trillion = 1,000,000 cubed; 'milliard' for 10^9), so his '92-8 trillion' = 92.8 quintillion in modern English. A 1925 US BLS bulletin's '1,512 billion times' is short scale (= 1.5 trillion)."
+  },
+  {
+    "claim": "8. Peak inflation: Hanke & Krus, October 1923, 29,500% a month, prices doubling every 3.70 days",
+    "verdict": "FOUND",
+    "figures": "Germany: start Aug 1922, end Dec 1923, peak month Oct 1923, highest monthly inflation 29,500%, equivalent daily rate 20.9%, doubling time 3.70 days, currency Papiermark, index: wholesale. Rank 5 of 56 (ordered by daily rate). A second German episode (1920) is at rank 52.",
+    "fragments": ["Germany5 Aug. 1922 Dec. 1923 Oct. 1923 29,500% 20.9% 3.70 days Papiermark Wholesale", "THE HYPERINFLATION TABLE", "all 56 episodes of hyperinflation"],
+    "url": "https://www.bcci.bg/resources/files/hanke-krus-hyperinflation-table.pdf",
+    "source_name": "Steve H. Hanke and Nicholas Krus, 'World Hyperinflations', Cato Working Paper no. 8, 15 August 2012: The Hanke-Krus Hyperinflation Table (copy hosted by bcci.bg); 'all 56 episodes' from https://www.cato.org/working-paper/world-hyperinflations.md",
+    "read_how": "page text (PDF table row; the '5' after Germany is a footnote marker fused to the name, and rank 5 is the reader's reading of the row order)",
+    "note": "The Cato page itself only carries the table as an image; the row was read from a PDF copy on a third-party host. Comparison rows read: Hungary Jul 1946 15.0 hours; Zimbabwe mid-Nov 2008 24.7 hours; Yugoslavia Jan 1994 1.41 days. So Germany 1923 is NOT the worst hyperinflation on record. Based on WHOLESALE prices."
+  },
+  {
+    "claim": "8. Other statements of speed at the peak",
+    "verdict": "PARTLY",
+    "figures": "Sargent: over 99% of Reichsbank notes outstanding at end Oct 1923 had been issued in the previous 30 days. Econlib: cost of living +71% between August and September (sic, per the page). LeMO: a restaurant bill could double during the meal. NBB Museum: prices rose by the hour.",
+    "fragments": ["at the end of October 1923, over 99% of outstanding Reichsbank notes had been placed in circulation within the previous 30 days.", "In Restaurants konnte sich die Zeche während der Mahlzeit verdoppeln.", "At the height of the German hyperinflation in 1923, prices even rose by the hour.", "July 1922 saw prices rise 50%, the generally accepted definition of hyperinflation."],
+    "url": "https://www.nber.org/chapters/c11452.pdf",
+    "source_name": "Sargent (1); LeMO inflation-1923 (2); National Bank of Belgium Museum, M. De Grauw, 26 Feb 2021 (3) https://museum.nbb.be/en/node/155; econlib/Phelan (4)",
+    "read_how": "page text",
+    "note": "No second authoritative doubling-time figure found. Computation from the Reichsamt daily dollar rates (mine, not a source): the official dollar rate doubled between 14 Nov (1,260 milliards) and 15 Nov (2,520 milliards), i.e. in one day."
+  },
+  {
+    "claim": "9. Total currency in circulation at the end",
+    "verdict": "FOUND",
+    "figures": "Reichsbank notes: 15 Nov 1923 = 92.8 Trillionen (10^18) paper marks = 92.8 quintillion (Bresciani-Turroni), worth 154.7 million gold marks (Reichsamt; Bundesbank 'knapp 155 Millionen Goldmark'). 30 Nov 1923 = 400.2 million gold marks; 31 Dec 1923 = 496.5 million gold marks (Reichsamt table in Goldmark; at 1 Goldmark = 1 Billion paper marks after 20 Nov that is 400.2 and 496.5 quintillion paper marks: conversion is mine). Notgeld at end 1923: 400 to 500 Trillionen Mark, about as much again as the Reichsbank notes (Bundesbank). Total printed during the inflation: about 10 billion notes, face value 3,877 Trillionen (Bundesbank). Polleit: 400 quintillion in November 1923.",
+    "fragments": ["amounted to 92-8 trillion paper marks (a trillion = i,ooo,ooo3)", "den Wert von knapp 155 Millionen Goldmark.", "auf 400 bis 500 Trillionen Mark und damit auf genauso viel wie der an Reichsbanknoten,", "Gedruckt wurden rund 10 Milliarden Geldzeichenstücke im Nennbetrage von 3877 Trillionen Mark.", "Geldumlauf im Jahre 1923 (Millionen Goldmark).", "reaching 400 quintillion (that is 400 x 1018) in November 1923", "To be sure: It is a \"400\" with 18 zeros: 400,000,000,000,000,000,000.", "The total paper marks increased to 1.2 sextillion"],
+    "url": "https://cdn.mises.org/The Economics of Inflation A Study of Currency Depreciation in Post-War Germany_2.pdf",
+    "source_name": "Bresciani-Turroni p. 23 (1); Bundesbank, Das Papiergeld im Deutschen Reich (1965) pp. 43, 88, 42 (2-4); Statistisches Reichsamt, Zahlen zur Geldentwertung (1925) pp. 48-49 (5, with table cells 15 Nov 154,7 / 30 Nov 400,2 / 31 Dec 496,5 for Reichsbanknoten, total paper money 173,2 / 518,5 / 607,9); T. Polleit, Mises Daily (6-7); Wikiwand 'German hyperinflation' (8, its ref. 24)",
+    "read_how": "page text (OCR; Reichsamt figures are table cells the reader called 'best readings')",
+    "note": "The exact string '400,338,326,350,700,000,000' and '496.5 quintillion' were NOT found verbatim on any page opened; what was found is consistent with them (400.2 on 30 Nov, 496.5 on 31 Dec, in million gold marks = quintillion paper marks). Safe wording: 'about 400 quintillion marks of Reichsbank notes at the end of November, nearly 500 quintillion by the end of December, and as much again in emergency money'. Wikiwand's '1.2 sextillion' may be notes plus Notgeld; source not opened."
+  },
+  {
+    "claim": "10. Rentenbank decree of 15 October 1923",
+    "verdict": "FOUND",
+    "figures": "15 October 1923; capital and reserve 3,200 million Rentenmark",
+    "fragments": ["die am 15. Oktober von der Reichsregierung beschlossene „Verordnung über die Errichtung der Deutschen Rentenbank“.", "Das Kapital und die Grundrücklage der Deutschen Rentenbank betragen 3200 Millionen Rentenmark.", "the establishing of a Rentenbank to take over the note issue functions of the Reichbank.", "Mit der Errichtung einer Deutschen Rentenbank leitete die Reichsregierung Mitte Oktober 1923"],
+    "url": "https://www.bundestag.de/parlament/geschichte/100-jahre-weimar/hyperinflation-970722",
+    "source_name": "Deutscher Bundestag (1); text of the decree, § 2, as reprinted in Bundesbank, Das Papiergeld im Deutschen Reich (2); Sargent (3); LeMO Währungsreform 1923 (4)",
+    "read_how": "page text",
+    "note": ""
+  },
+  {
+    "claim": "10. Rentenmark first issued 15 November 1923; 1 Rentenmark = 1 trillion (10^12) paper marks",
+    "verdict": "FOUND",
+    "figures": "15 November 1923; 1 Rentenmark = 1 Billion (10^12) Papiermark = 1 Goldmark",
+    "fragments": ["Die Rentenbank begann am 15. November 1923 die Rentenmark als neues Zahlungsmittel herauszugeben.", "Der Wechselkurs einer Rentenmark war mit einer Billion Papiermark festgelegt worden", "wurde ab dem 15. November 1923 ausgegeben.", "a new currency unit called the Rentenmark was declared equivalent to 1 trillion (1012) paper marks.", "am 15. November 1923 die Rentenmark eingeführt", "im Verhältnis 1 Billion Mark gleich 1 Rentenmark stabilisiert", "1 Goldmark gleich 1 Billion Papiermark gleich 1 Rentenmark", "The Rentenmark went into circulation on November 15 and the hyperinflation ended surprisingly rapidly.", "Mit der Währungsreform trat am 15. November eine neue Währungsordnung in Kraft, welche die Inflation schlagartig beendete."],
+    "url": "https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/waehrungsreform-1923.html",
+    "source_name": "LeMO Währungsreform 1923 (1-2); Bundestag (3); Sargent (4); Bundesbank 1965 pp. 43, 107 (5-7); econlib/Phelan (8); LeMO inflation-1923 (9)",
+    "read_how": "page text",
+    "note": "Dissenting dates on pages opened: Wikiwand 'German hyperinflation' says 'On 16 November 1923, the new Rentenmark was introduced'; the Statistisches Reichsamt's own preface speaks of 'der Einführung der Rentenmark am 20. November 1923' (the stabilisation day); Spurlock Museum blog says the Rentenmark came in 1924 (wrong). The 1:1 trillion ratio became fixed with the 20 Nov rate, not on 15 Nov: on 15 Nov the official dollar rate was still 2.52 trillion (Bresciani, Reichsamt)."
+  },
+  {
+    "claim": "10. Dollar fixed at 4.2 trillion paper marks on 20 November 1923 (4.2 Rentenmarks = 1 dollar)",
+    "verdict": "FOUND",
+    "figures": "20 November 1923: 4,200 milliards = 4.2 Billionen = 4.2 trillion paper marks per dollar; 4.20 Rentenmark per dollar",
+    "fragments": ["the definite fixing of the dollar rate at 4,200 milliards of paper marks closed the story of the depreciation of the mark", "wurde am 20. November 1923 ein offizieller Wechselkurs von Papiermark zu Dollar auf eins zu 4,2 Billionen Mark festgelegt.", "the Reichsbank, and through foreign exchange market interventions, made 4.2 trillion Papermark equal to one US Dollar.", "ein US-Dollar entsprach 4,20 Rentenmark.", "Der Kurs für einen Dollar wurde auf 4,2 Billionen Papiermark (= 4,20 Rentenmark) festgesetzt.", "20. 18 750 23 250 20885 25 550 130_000 284 000 4200 182 000 4200000 4,2 20."],
+    "url": "https://cdn.mises.org/The Economics of Inflation A Study of Currency Depreciation in Post-War Germany_2.pdf",
+    "source_name": "Bresciani-Turroni pp. 24, 38 (1); boerse.de (2); Polleit, Mises Daily (3); LeMO Währungsreform (4); LeMO inflation-1923 (5); Statistisches Reichsamt daily table row for the 20th (6)",
+    "read_how": "page text",
+    "note": "LeMO inflation-1923 (fragment 5) places the fixing in its paragraph on 15 November, which is loose: the official rate on 15 Nov was 2,520 milliards and reached 4,200 on 20 Nov (Bresciani p. 24; Reichsamt daily table). The pre-war echo (4.20) is confirmed by the Reichsamt footnote 'Ab November Parität 4,20 = 1' (OCR: 'ParltAt')."
+  },
+  {
+    "claim": "10. What the Rentenmark was backed by; issue limit",
+    "verdict": "FOUND",
+    "figures": "A mortgage of 3.2 billion Rentenmark on the land of agriculture, industry and trade (LeMO). Decree: capital and reserve 3,200 million Rentenmark; notes limited to that amount (Bundesbank reprint, reader's paraphrase of § 14). Sargent: total issue limit 3.2 billion, of which at most 1.2 billion to the government.",
+    "fragments": ["wurden der Grundbesitz von Landwirtschaft, Industrie und Gewerbe mit einer Hypothek von 3,2 Milliarden Rentenmark belastet.", "binding limits upon both the total volume of Rentenmarks that could be issued, 3.2 billion marks", "the maximum amount that could be issued to the government, 1.2 billion marks.", "it is difficult to attribute any substantial effects to what was in itself only a cosmetic measure.", "It was backed by land, industrial and residential property mortgaged by the bank.", "wie die Rentenbankscheine, gesetzlich zugelassene Zahlungsmittel"],
+    "url": "https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/waehrungsreform-1923.html",
+    "source_name": "LeMO Währungsreform 1923 (1); Sargent (2-4); American Numismatic Society site (5); Bundesbank 1965 (6)",
+    "read_how": "page text",
+    "note": "Sargent treats the new unit as cosmetic and credits the limits on issue and on lending to the government. Per the Bundesbank volume the Rentenbank notes were 'legally authorised means of payment', not legal tender (reader's gloss: the decree only obliged public cash offices to accept them). Do not say 'backed by gold' (a textbook supplement opened this session wrongly says 'linked to gold')."
+  },
+  {
+    "claim": "10. Hjalmar Schacht named currency commissioner (date)",
+    "verdict": "FOUND",
+    "figures": "Summoned and offered the post at midday on 12 November 1923 (Schacht's own account); Reichsbank president from the end of December 1923",
+    "fragments": ["At midday on November 12th, 1923, the Finance Minister, Dr. Luther, summoned me and informed me of the intention of the Government of the Reich to appoint a special Currency Commissioner", "He accordingly asked me in the name of the Government whether I was prepared to undertake the duty.", "In 1923, as Currency Commissioner, he played a key role in the introduction of the Rentenmark", "he was appointed the new Reichsbank President at the end of December 1923.", "After Reichsbank President Havenstein died suddenly at the end of November 1923"],
+    "url": "https://germanhistorydocs.org/en/weimar-germany-1918-1933/hjalmar-schacht-on-the-stabilization-of-the-mark-1927",
+    "source_name": "German History in Documents and Images (GHDI), 'Hjalmar Schacht on the Stabilization of the Mark (1927)': Schacht, The Stabilization of the Mark (New York: Adelphi, 1927), pp. 90-93, with editorial abstract",
+    "read_how": "page text (fragment 1 is longer than the reader's usual limit and was returned as one sentence; treat the wording as close but check before quoting on screen)",
+    "note": "The page gives the day he was asked (12 Nov), not the formal date of appointment. Safe: 'On 12 November the government asked the banker Hjalmar Schacht to become currency commissioner.' GHDI's 'end of November' for Havenstein's death is loose (20 Nov per NDB)."
+  },
+  {
+    "claim": "10. Reichsbank president Rudolf Havenstein died 20 November 1923",
+    "verdict": "FOUND",
+    "figures": "Died 20 November 1923, Berlin; Reichsbank president 1908-1923",
+    "fragments": ["† (gestorben) 20.11.1923 Berlin.", "1908-23 war H. Präsident der Reichsbank, nach R. Koch und H. von Dechend der 3. seit ihrer Errichtung.", "als Urheber von Rekordleistungen der Notenpresse und Hauptschuldiger an der Inflation von 1918-23 bezeichnet zu werden.", "On 20 November 1923, Havenstein died, all of a sudden, through a heart attack."],
+    "url": "https://www.deutsche-biographie.de/116550295.html",
+    "source_name": "Neue Deutsche Biographie 8 (1969), p. 137, entry Havenstein by Erich Achterberg (1-3); Polleit, Mises Daily (4)",
+    "read_how": "page text",
+    "note": "NDB says opinions are still divided on whether the blame is justified (reader's paraphrase). The same day as the 4.2 trillion fixing. 'Heart attack' rests on the Mises Daily article only."
+  },
+  {
+    "claim": "10. Reichsmark replaced the Rentenmark on 30 August 1924; when old paper marks stopped being legal tender",
+    "verdict": "FOUND",
+    "figures": "Reichsmark: Bank Law of 30 August 1924 (Dawes Plan); 1 Billion (10^12) old marks = 1 Reichsmark. Old mark notes called in by notice of 5 March 1925; lost legal-tender status at the end of 5 June 1925; exchangeable until 5 July 1925.",
+    "fragments": ["Am 30. August 1924 wurde sie im Rahmen des Dawes-Plans von der Reichsmark abgelöst", "Eine Billion Mark bisheriger Ausgabe ist durch eine Reichsmark zu ersetzen.", "Mit dem Ablauf des 5. Juni 1925 verlieren die aufgerufenen Noten ihre Eigenschaft als gesetzliches Zahlungsmittel.", "bis drei Monate nach ihrem Aufruf durch das Reichsbankdirektorium", "Die Banknoten lauten auf Reichsmark."],
+    "url": "https://bundesbank.de/resource/blob/607868/195d1b540a2053d42fe9f2b735835115/472B63F073F071307366337C94F8C870/das-papiergeld-im-deutschen-reich-data.pdf",
+    "source_name": "LeMO Währungsreform 1923 (1); Bundesbank, Das Papiergeld im Deutschen Reich (1965): Bankgesetz § 3 and the call-in notice in the Reichsanzeiger of 5 March 1925 (2-5)",
+    "read_how": "page text (second 100,000-character window of the PDF)",
+    "note": "'Replaced' is loose: the Rentenmark notes kept circulating beside the Reichsmark; LeMO's wording is 'abgelöst'. The 5 July 1925 exchange deadline is the reader's paraphrase."
+  },
+  {
+    "claim": "11. Reichsbank stopped discounting government treasury bills on 15 November 1923",
+    "verdict": "FOUND",
+    "figures": "15 November 1923",
+    "fragments": ["A decree of 15 November 1923 discontinued the discounting of treasury bills by the Reichsbank.", "on that day the discounting of Treasury bills by the Reichsbank ceased", "Then, on 15 November 1923, the Reichsbank was made to stop monetizing government debt and issuing new money.", "the process of borrowing by way of discounted Treasury bills and thereby increasing the note circulation is to cease."],
+    "url": "https://www.nber.org/chapters/c11452.pdf",
+    "source_name": "Sargent, Table G4 footnote, p. 82 (1); Bresciani-Turroni p. 23 (2); Polleit, Mises Daily (3); The Times quoted by econlib/Phelan (4)",
+    "read_how": "page text",
+    "note": "Two independent scholarly sources agree. Note circulation still grew after 15 Nov (154.7 to 496.5 million gold marks by 31 Dec, Reichsamt) because the Reichsbank went on lending to business; only printing for the government stopped. Sargent: 'the substantial growth of central bank note and demand deposit liabilities in the months after the currency was stabilized,'."
+  },
+  {
+    "claim": "12. Beer Hall Putsch, Munich, 8-9 November 1923",
+    "verdict": "FOUND",
+    "figures": "8-9 November 1923; 14 Nazis and 4 policemen killed at the march, 2 more Nazis elsewhere; Hitler sentenced to five years",
+    "fragments": ["On November 8–9, 1923, Hitler and his followers staged a failed attempt to seize control of the Bavarian state.", "abortive attempt by Adolf Hitler and Erich Ludendorff to start an insurrection in Germany", "On November 8, 1923, Hitler and Ludendorff struck in Munich.", "Fourteen Nazis were killed, and four policemen died when the Nazis returned fire.", "The abortive putsch gave Hitler worldwide fame but led him to decide to achieve power by legal means."],
+    "url": "https://encyclopedia.ushmm.org/content/en/article/the-nazi-party-1",
+    "source_name": "United States Holocaust Memorial Museum, Holocaust Encyclopedia, 'The Nazi Party' (1); Encyclopaedia Britannica, 'Beer Hall Putsch' (2-5) https://www.britannica.com/event/Beer-Hall-Putsch",
+    "read_how": "page text",
+    "note": "Fragment 4 as returned reads oddly ('when the Nazis returned fire'); do not quote it, use the counts only. On 9 Nov 1923 the official dollar rate was 630,000 million marks (Reichsamt daily table, OCR row 9: '...1200 000 630 000 9.')."
+  },
+  {
+    "claim": "12. Did the 1923 hyperinflation bring the Nazis to power? Nazi vote 2.6% in 1928",
+    "verdict": "FOUND",
+    "figures": "1928: 2.6% and 12 seats; 1930: 18% and 107 seats; July 1932: 37% and 230 seats; Nov 1932: 33% and 196 seats (USHMM). Galofré-Vilà: no link, over 500 cities, seven federal elections 1924-1933.",
+    "fragments": ["In the 1928 elections for the Reichstag (Germany's parliament), the Nazi Party won only 2.6% of the votes and 12 seats.", "The Nazi Party won 18% of the vote and 107 seats.", "The Party had won 37% of the vote and 230 seats.", "What most contributed to the Nazi Party’s success was Germany’s economic collapse during the Great Depression", "no connection between the traumatic experience of hyperinflation and the electoral success of the Nazis", "No, the 1923 hyperinflation didn't bring Hitler to power; it was the Brüning deflation and depression.", "famously created a political climate amenable to the rise of Adolph Hitler.", "its connection to the events surrounding the Republic's demise and Nazism's triumph are complicated and indirect.", "About half of all Germans think of the Great Depression as a period of high inflation.", "fewer than 5% know that it was, in fact, a period of deflation."],
+    "url": "https://encyclopedia.ushmm.org/content/en/article/the-nazi-party-1",
+    "source_name": "USHMM Holocaust Encyclopedia, 'The Nazi Party' (1-4); Gregori Galofré-Vilà, 'Debunking the idea that interwar hyperinflation in Germany led to the rise of the Nazi party', LSE Research Online record, 2021 (5) https://researchonline.lse.ac.uk/id/eprint/112640 ; LSE Business Review blog post by the same author (6-10) https://blogs.lse.ac.uk/businessreview/?p=39030 : fragment 6 is Paul Krugman as quoted there, 7 is The Economist as quoted there (the view being disputed), 8 is the historian Gerald Feldman as quoted there, 9-10 are from a survey by Haffert et al. as cited there",
+    "read_how": "page text (6-10 are quotations at second hand, via the LSE blog)",
+    "note": "The Economist was NOT found supporting the 'no link' view: in the page opened it is quoted as the source of the popular claim. Safe line: 'In 1928, five years after the inflation, the Nazis won 2.6 per cent. Their rise came in the Depression, a time of falling prices.' Krugman and Feldman wording is second-hand: paraphrase, do not put in quotation marks on screen."
+  },
+  {
+    "claim": "13. Cost-of-living / price index in late 1923 relative to 1913-14",
+    "verdict": "FOUND",
+    "figures": "Reichsamt cost-of-living index (1913/14 = 1): November 1923 average 657 Mrd. (657 billion times); December 1923 1,247 (Mrd.) = about 1.25 trillion times. Bresciani-Turroni: wholesale prices 1,374 milliards on 20 Nov 1923 (dollar index 1,000 milliards); cost of living rose to 1,535 milliards in the following days. BLS/Kuczynski: food cost 1,512 billion times 1913-14 in December 1923. Sargent Table G1 wholesale index: Nov 1923 72,570,000,000,000; Dec 1923 126,160,000,000,000 (base not visible in the text read; if 1913 = 100 as in Young, that is 1.26 trillion times).",
+    "fragments": ["1. Reichsindexziffern der Lebenshaltungskosten Februar 1920 (1913/14=1). Dezember 1923.", "2 643 / 2 854 / 2 954 / 3 816 / 7 650 / 37 651 / 586 045 / 15,0 Mill. / 3657 / 657 Mrd. / 1247.", "In the succeeding days the index of the cost of living rose to 1,535 milliards.", "the total price was 1,512 billion times as high in December, 1923, as in 1913-14.", "German Wholesale Prices, 1914-24"],
+    "url": "https://www.statistischebibliothek.de/mir/servlets/MCRFileNodeServlet/DEMonografie_derivate_00001667/WiSta-Sonderheft-01.pdf",
+    "source_name": "Statistisches Reichsamt, Zahlen zur Geldentwertung (1925), pp. 33-34, table IV.1 (1-2); Bresciani-Turroni p. 38 (3); R. R. Kuczynski, Postwar Labor Conditions in Germany, US BLS Bulletin 380, March 1925 (4) https://fraser.stlouisfed.org/title/postwar-labor-conditions-germany-4009/fulltext ; Sargent Table G1 (5)",
+    "read_how": "page text (OCR; the Reichsamt 1923 row shows only 10-11 values for 12 months and unlabelled months, so only the last two (657 Mrd., 1247) are usable, and the month labels November/December are my inference from position)",
+    "note": "Four sources agree on the order of magnitude: by the end, prices were over a TRILLION times pre-war (short scale). 'A trillion times' is safe; a precise figure should be hedged. The Reichsamt series also suggests Jan 1923 about 1,120 (not read) - do not use monthly values other than the last two. Holtfrerich: wholesale index 6,650 (1913 = 1) in February 1923."
+  },
+  {
+    "claim": "14. Unemployment among trade-union members, late 1923",
+    "verdict": "FOUND",
+    "figures": "Percentage of trade-union members unemployed, 1923: Jan 4.2, Feb 5.2, Mar 5.6, Apr 7.0, May 6.2, Jun 4.1, Jul 3.5, Aug 6.3, Sep 9.9, Oct 19.1, Nov 23.4, Dec 28.2. (1922: Jan 3.3 ... Jun 0.6, Jul 0.6, Dec 2.8.)",
+    "fragments": ["Unemployment", "Reichsarbeitsblatt, March 1st, 1924.", "the unemployment rate reached 19.1 percent in October, 23.4 percent in November, and 28.2 percent in December.", "Unemployment among the unionised workforce rose from 4% in July 1923 to 23% in October.", "1923 was a very bad year for employment and physical production."],
+    "url": "https://cdn.mises.org/The Economics of Inflation A Study of Currency Depreciation in Post-War Germany_2.pdf",
+    "source_name": "Bresciani-Turroni, Appendix Table X 'Unemployment' (unemployed members of trade unions, per cent of membership; source note Reichsarbeitsblatt 1 March 1924) (1-2, values are table cells); Polleit, Mises Daily (3); econlib/Phelan (4); Sargent (5)",
+    "read_how": "page text (OCR table, offset about 960,000-1,060,000 of the PDF text)",
+    "note": "Sargent's paper has NO German unemployment table (reader checked). Econlib's '23% in October' disagrees with Bresciani's table (19.1 in Oct; 23.4 is November). Polleit calls these 'the unemployment rate': they are union members only. Short-time working is not included. Sargent Table G6 (Graham): production per capita 1922 = 86, 1923 = 54, 1924 = 77, 1925 = 90 (base year not read)."
+  },
+  {
+    "claim": "EXTRA 1. The state's war debt was wiped out",
+    "verdict": "FOUND",
+    "figures": "War debt of 154 billion Mark worth 15.4 Pfennig on the day the Rentenmark was introduced",
+    "fragments": ["valued at 154 billion Mark, dropped to just 15.4 Pfennig on the day the Rentenmark was introduced.", "Inflation had almost completely devalued all financial assets and liabilities that had been in Mark.", "Ein noch größerer Profiteur war jedoch der Staat.", "Ersparnisse wurden völlig entwertet, Spargelder von Generationen vernichtet.", "Schulden lösten sich in nichts auf."],
+    "url": "https://www.bundesbank.de/en/tasks/topics/inflation-lessons-learnt-from-history-666006",
+    "source_name": "Deutsche Bundesbank, 'Inflation - lessons learnt from history' (1-2); LeMO inflation-1923 (3-5)",
+    "read_how": "page text",
+    "note": "Arithmetic check: 154 billion marks / 1 trillion = 0.154 Rentenmark = 15.4 Pfennig. The Bundesbank's English 'billion' here = German Milliarden."
+  },
+  {
+    "claim": "EXTRA 2. All Reichsbank notes in circulation on 15 Nov 1923 were worth only about 155 million gold marks",
+    "verdict": "FOUND",
+    "figures": "92.8 quintillion paper marks = just under 155 million gold marks (154.7)",
+    "fragments": ["den Wert von knapp 155 Millionen Goldmark.", "amounted to 92-8 trillion paper marks (a trillion = i,ooo,ooo3)"],
+    "url": "https://bundesbank.de/resource/blob/607868/195d1b540a2053d42fe9f2b735835115/472B63F073F071307366337C94F8C870/das-papiergeld-im-deutschen-reich-data.pdf",
+    "source_name": "Bundesbank, Das Papiergeld im Deutschen Reich (1965), p. 43; Bresciani-Turroni p. 23; Reichsamt p. 48 (154,7)",
+    "read_how": "page text",
+    "note": "The more that was printed, the less the whole stock was worth."
+  },
+  {
+    "claim": "EXTRA 3. Bread prices",
+    "verdict": "FOUND",
+    "figures": "Bundestag: bread 0.80 Mark (Dec 1919), 250 Mark (Jan 1923), 69,000 Mark (Aug 1923), 201 Milliarden Mark (Nov 1923). boerse.de: early Nov 1923 a four-pound loaf 420 Milliarden, a few days earlier 130 Milliarden. NBB Museum: a loaf 140 billion Marks in Nov 1923.",
+    "fragments": ["So stieg der nominelle Brotpreis, der im Dezember 1919 noch bei 0,80 Mark gelegen hatte,", "Lag er im Januar 1923 bereits bei 250 Mark, stieg er im August auf 69.000 Mark,", "im November 1923 schließlich auf 201 Milliarden Mark.", "Anfang November 1923 kostete ein Vierpfund-Brot 420 Milliarden Mark.", "Nur wenige Tage zuvor lag der Preis noch bei 130 Milliarden Mark.", "In November 1923, a loaf of bread changed hands for 140 billion Marks in Germany."],
+    "url": "https://www.bundestag.de/parlament/geschichte/100-jahre-weimar/hyperinflation-970722",
+    "source_name": "Deutscher Bundestag (1-3); boerse.de (4-5); National Bank of Belgium Museum (6)",
+    "read_how": "page text",
+    "note": "Loaf size and city differ between sources (the Bundestag does not state the weight), so the figures do not contradict each other but cannot be merged into one series. Other prices (boerse.de): 'Ein Liter Milch kostete 5,4 Millionen Mark, das Briefporto betrug 2 Millionen Mark.' (October 1923); 'So kostete ein halbes Pfund Butter im Juni 1923 rund 7000 Mark.'"
+  },
+  {
+    "claim": "EXTRA 4. Emergency money (Notgeld)",
+    "verdict": "FOUND",
+    "figures": "More than 5,800 towns, municipalities and firms issued their own emergency notes; Notgeld at end 1923 about 400-500 Trillionen Mark",
+    "fragments": ["Deshalb wurden von mehr als 5.800 Städten, Gemeinden und Firmen eigene Notgeldscheine herausgegeben.", "auf 400 bis 500 Trillionen Mark und damit auf genauso viel wie der an Reichsbanknoten,"],
+    "url": "https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/inflation-1923.html",
+    "source_name": "LeMO inflation-1923 (1); Bundesbank 1965 p. 88 (2)",
+    "read_how": "page text",
+    "note": ""
+  },
+  {
+    "claim": "EXTRA 5. The Cologne free-market rate ran far above the official Berlin rate",
+    "verdict": "FOUND",
+    "figures": "20 Nov 1923: official 4,200 milliards; Cologne 11,700 milliards (nearly three times)",
+    "fragments": ["the dollar was quoted at 3,900 milliard paper marks at Cologne on November 13th, 1923", "This was the highest quotation"],
+    "url": "https://cdn.mises.org/The Economics of Inflation A Study of Currency Depreciation in Post-War Germany_2.pdf",
+    "source_name": "Bresciani-Turroni p. 24",
+    "read_how": "page text (the 11,700 figure is in the reader's list, tied to the fragment 'This was the highest quotation')",
+    "note": "So '4.2 trillion' was the official fixing; in the occupied zone the dollar traded at 11.7 trillion that day."
+  },
+  {
+    "claim": "EXTRA 6. Stabilisation meant sackings",
+    "verdict": "FOUND",
+    "figures": "Personnel decree of 27 October 1923 cut government employees by 25%; the railways discharged 120,000 men during 1923",
+    "fragments": ["by the personnel decree of October 27, 1923, the number of government employees was cut by 25 percent;", "The railways, overstaffed as a result of post-war demobilization, discharged 120,000 men during 1923"],
+    "url": "https://www.nber.org/chapters/c11452.pdf",
+    "source_name": "Sargent, quoting Young (1925)",
+    "read_how": "page text",
+    "note": ""
+  },
+  {
+    "claim": "EXTRA 7. Daily wages and barter",
+    "verdict": "FOUND",
+    "figures": "",
+    "fragments": ["In 1923, during the months of hyperinflation, the value of the German currency fell at such a rate that in many places wages were being paid daily.", "Many began to sell goods and services only in exchange for food and coal.", "People collected notes in bags and suitcases.", "I knew days when I paid 50 000 marks for a newspaper in the morning and 100 000 in the evening"],
+    "url": "https://www.bundesbank.de/en/tasks/topics/inflation-lessons-learnt-from-history-666006",
+    "source_name": "Deutsche Bundesbank (1-3); Stefan Zweig as quoted by the National Bank of Belgium Museum (4)",
+    "read_how": "page text (4 is a quotation at second hand)",
+    "note": "The Zweig line is second-hand and may be about Austria or Germany: check the original before using."
+  },
+  {
+    "claim": "EXTRA 8. Budget gap, July 1923",
+    "verdict": "FOUND",
+    "figures": "Reich income 3 Billionen Mark, spending 37 Billionen Mark (German Billion = 10^12)",
+    "fragments": ["Im Juli 1923 nahm das Reich 3 Billionen Mark ein und gab 37 Billionen aus."],
+    "url": "https://www.kas.de/de/web/geschichtsbewusst/essay/-/content/ruhrbesetzung-1923-auftakt-zur-krise",
+    "source_name": "Horst Möller, KAS essay 'Ruhrbesetzung 1923 - Auftakt zur Krise', 9 Jan 2023",
+    "read_how": "page text",
+    "note": "One source only."
+  },
+  {
+    "claim": "CONTRADICTED: 'A dollar cost 45 marks at the start of 1922 ... 1,807 marks in December 1922' (Bundestag page)",
+    "verdict": "CONTRADICTED",
+    "figures": "Bundestag: early 1922 45 Mark, June 75, August 270, December 1,807 Mark per dollar. Reichsamt monthly averages: Jan 1922 191.81, Dec 1922 7,589.27 marks per dollar.",
+    "fragments": ["Hatte ein Dollar Anfang des Jahres 1922 noch 45 Mark gekostet,", "waren es im Juni schon 75 Mark, im August 270 Mark und im Dezember 1.807 Mark."],
+    "url": "https://www.bundestag.de/parlament/geschichte/100-jahre-weimar/hyperinflation-970722",
+    "source_name": "Deutscher Bundestag vs Statistisches Reichsamt (1925)",
+    "read_how": "page text",
+    "note": "The Bundestag numbers equal the Reichsamt dollar rate divided by 4.2 (191.81/4.2 = 45.7; 7,589.27/4.2 = 1,807), i.e. they are the price of one GOLD MARK or the index of the dollar (1913 = 1), mislabelled as the price of a dollar. The division is my arithmetic. Do not use 45 / 1,807 as dollar prices."
+  },
+  {
+    "claim": "CONTRADICTED / NOT FOUND: default on 'telegraph poles'",
+    "verdict": "NOT FOUND",
+    "figures": "",
+    "fragments": ["Reparation Commission declares Germany in voluntary default in timber deliveries to France during 1922.", "the Reparation Committee determined that Germany had defaulted on its delivery of timber and coal to France"],
+    "url": "https://digi.econbiz.de/viewer/fulltext/1799045676/12/eng",
+    "source_name": "The Reparation Problem 1918-1924 (GPO 1924); TheCollector",
+    "read_how": "page text",
+    "note": "Eight pages on the Ruhr were opened; none mentions telegraph poles. Say 'timber and coal'."
+  },
+  {
+    "claim": "CONTRADICTED: other loose statements met on the pages opened",
+    "verdict": "CONTRADICTED",
+    "figures": "(a) Wikiwand: Rentenmark introduced 16 Nov 1923 (others: 15 Nov). (b) Wikiwand: 'about 90 marks per dollar during the first half of 1921' vs Reichsamt Jan 1921 64.91, Jul 1921 76.67. (c) Wikiwand: 7,400 marks per dollar by Dec 1922 vs Reichsamt Dec 1922 average 7,589.27. (d) Spurlock Museum blog: Rentenmark introduced 'in 1924'. (e) Textbook supplement: Rentenmark 'linked to gold'. (f) Econlib: union unemployment 23% in October (Bresciani: 19.1 Oct, 23.4 Nov). (g) Mises Daily: 'the unemployment rate' for what is union members only; its percentage figures for price and dollar rises are internally inconsistent (reader's warning). (h) Common idea that the Ruhr occupation started the hyperinflation: Holtfrerich says the opposite; Hanke-Krus start the episode in Aug 1922.",
+    "fragments": ["On 16 November 1923, the new Rentenmark was introduced to replace the worthless paper marks issued by the Reichsbank.", "relatively stable at about 90 marks per dollar during the first half of 1921", "the mark falling to 7,400 marks per US dollar by December 1922", "the government replaced the worthless Reichsbank marks with a new currency, the Rentenmark that was linked to gold.", "war also nicht der Ausgangspunkt der Hyperinflation, im Gegenteil."],
+    "url": "https://www.wikiwand.com/en/articles/German_hyperinflation",
+    "source_name": "Wikiwand 'German hyperinflation' (1-3); McGraw-Hill supplement (4); Holtfrerich, Wirtschaftsdienst 2023 (5)",
+    "read_how": "page text",
+    "note": "Also from Wikiwand, usable only as pointers: 'steadily devalued from 4.2 to 7.9 marks per dollar between 1914 and 1918'; '48 paper marks were required to buy a US dollar' (late 1919; Reichsamt Dec 1919 average 46.77); 'the mark stabilized at about 320 marks per dollar' (first half 1922); 'By November 1923, one US dollar was worth 4.2105 trillion German marks'."
+  }
+]

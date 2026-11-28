@@ -1,0 +1,378 @@
+[
+ {
+  "claim": "Price of 1 kg of rye bread in Berlin: 250 marks (January 1923 average), 69,000 (August), about 1.5 million (September), 201 billion (November average); January 1913: 29 pfennigs",
+  "units": "1,4,5,32,47",
+  "source": "https://www.statistischebibliothek.de/mir/servlets/MCRFileNodeServlet/DEMonografie_derivate_00001667/WiSta-Sonderheft-01.pdf",
+  "status": "verified",
+  "note": "Statistisches Reichsamt, 'Zahlen zur Geldentwertung in Deutschland 1914 bis 1923' (Sonderheft 1 zu Wirtschaft und Statistik, 1925), pp. 34-37, table 'Preis für 1 kg Roggenbrot (mit Zusatz von Weizenmehl)', Berlin, read as OCR of a scan: Jan 1913 29 Pf; Jan 1923 250 M; Jun 1,428; Jul 3,466; Aug 69 thousand; Sep about 1.5 million (the OCR returned '1612', which may be 1,612 thousand; the Bundestag page says 1.5 million, so the narration says 'six or seven grams' and gives no September price); Oct about 174 million; Nov 201 billion; Dec 399 billion. The units from August on were partly inferred from the OCR, and are confirmed word for word by the Bundestag research service page (https://www.bundestag.de/parlament/geschichte/100-jahre-weimar/hyperinflation-970722): 'Lag er im Januar 1923 bereits bei 250 Mark, stieg er im August auf 69.000 Mark,' 'im September auf 1,5 Millionen Mark, im Oktober auf 174 Millionen Mark' 'und im November 1923 schließlich auf 201 Milliarden Mark.' German Milliarde = English billion. The Bundestag page says only 'Brotpreis' (no unit, no city); the unit and city are the Reichsamt table's. The narration says 'a kilo of bread'; the bread is rye bread with wheat flour added, Berlin prices: say so in the description. The narration says 'In November it averages': it is the November AVERAGE; the table's weekly figures run from about 78 billion (5 Nov) to 428 billion (26 Nov), read from shaky OCR. 'The monthly bread prices are real. Germany's own statistics office printed them' refers to this 1925 publication and only to the monthly averages, not to Betty Scholem's loaf prices. RUN B: look at the scan of pp. 34-37 before any of these numbers goes on screen.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "June and July 1923 bread price (1,428 and 3,466 marks a kilo, monthly averages), used for 'in June, seven; in July, not quite three'",
+  "units": "47",
+  "source": "https://www.statistischebibliothek.de/mir/servlets/MCRFileNodeServlet/DEMonografie_derivate_00001667/WiSta-Sonderheft-01.pdf",
+  "status": "qualified",
+  "note": "Same Reichsamt table, OCR. These two months are not on the Bundestag page, so they rest on the OCR reading alone. Arithmetic: 10,000 / 1,428 = 7.0 kg; 10,000 / 3,466 = 2.9 kg. RUN B: confirm both cells on the scan.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "The savings book: 10,000 marks saved before the war = about 2,400 dollars at 4.20 marks to the dollar; = about 34,000 kg of rye bread at the January 1913 price; = 40 kg in January 1923; a seventh of a kilo in August 1923; six or seven grams in September; one hundred-millionth of a Rentenmark at a trillion to one",
+  "units": "3,4,32,46,47,86",
+  "source": "(arithmetic on the Reichsamt figures)",
+  "status": "qualified",
+  "note": "The savings book and its 10,000 marks are INVENTED (the narration says so). Everything else is arithmetic on sourced figures: 10,000 / 4.20 = 2,381 dollars; 10,000 / 0.29 = 34,483 kg; 10,000 / 250 = 40 kg; 10,000 / 69,000 = 0.145 kg; 10,000 / 1,500,000 = 6.7 g, or 6.2 g if the September cell is 1,612 thousand (hence 'six or seven grams'); 10,000 / 10^12 = 10^-8, one hundred-millionth of one Rentenmark. The Rentenmark conversion is notional: what a savings book actually received is the 1925 revaluation row. 'A few slices' and 'a crumb' are illustrations of 145 g and 7 g, not sourced. ",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Before the war a dollar cost 4.20 marks",
+  "units": "3,23,84",
+  "source": "https://www.statistischebibliothek.de/mir/servlets/MCRFileNodeServlet/DEMonografie_derivate_00001667/WiSta-Sonderheft-01.pdf",
+  "status": "verified",
+  "note": "Reichsamt table II.1a, July 1914: '4,20'. Britannica (https://britannica.com/topic/20th-century-international-relations-2085155/Reparations-security-and-the-German-question): 'about 4.2 to the dollar'.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Germany financed the war by borrowing rather than taxes; reparations were set at 132 billion gold marks in 1921; the state covered its spending by multiplying its own paper money",
+  "units": "22",
+  "source": "https://www.bundesbank.de/en/tasks/topics/inflation-lessons-learnt-from-history-666006",
+  "status": "verified",
+  "note": "Bundesbank (2012): 'Instead of financing the costs of war through higher taxes, the government borrowed'. LeMO: 'Deren Finanzierung erfolgte vor allem durch Anleihen (97 Mrd. Mark),'. Britannica: 'Finally, on May 5, 1921, the London conference presented Berlin with a bill for 132,000,000,000 gold marks'. Bundestag: 'die dafür nötigen Mittel besorgte sich der Staat aber über die (unkontrollierte) Vermehrung des eigenen Papiergeldes.' The narration says 'mostly by borrowing' (LeMO: 'vor allem') and does not give the 132 billion figure. 'The state, short of funds, multiplied its own paper money' follows the Bundestag sentence ('die dafür nötigen Mittel besorgte sich der Staat'); what 'dafür' refers to was not returned, and no fragment says reparations caused the printing, so the narration calls them 'three steps', a sequence and not a cause. RUN B: re-open the Bundestag page and read the sentence before it. Holtfrerich (Wirtschaftsdienst 2023) says the Ruhr occupation was not the starting point of the hyperinflation; Hanke and Krus date it from August 1922. The script does not say the Ruhr started it.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Dollar rate in Berlin, monthly averages: December 1922 7,589 marks; January 1923 17,972; June 109,996; July 353,412",
+  "units": "23,26",
+  "source": "https://www.statistischebibliothek.de/mir/servlets/MCRFileNodeServlet/DEMonografie_derivate_00001667/WiSta-Sonderheft-01.pdf",
+  "status": "verified",
+  "note": "Reichsamt p. 6, table headed '(In Monatsdurchschnitten)': Dec 1922 7,589.27; Jan 1923 17,972; Jun 109,996; Jul 353,412. All are monthly averages; day rates differed (the Bundestag page has a million marks to the dollar on a day in late July). Rounded in the narration to 'about seven thousand six hundred' and 'three hundred and fifty thousand'; both are called averages. January and June are no longer in the narration.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "11 January 1923: French and Belgian troops occupy the Ruhr, the centre of German heavy industry, to force larger deliveries of timber and coal",
+  "units": "24",
+  "source": "https://www.dhm.de/lemo/kapitel/weimarer-republik/aussenpolitik/ruhrbesetzung-1923.html",
+  "status": "verified",
+  "note": "LeMO: 'Der Einmarsch französischer und belgischer Truppen in das Ruhrgebiet am 11. Januar 1923'; 'in das Zentrum der deutschen Schwerindustrie'; 'um größere deutsche Holz- und Kohlelieferungen zu erzwingen'. Britannica: 'On January 11, 1923, French and Belgian troops began to occupy the Ruhr.' 'The Reparation Problem 1918-1924' (US GPO 1924, https://digi.econbiz.de/viewer/fulltext/1799045676/12/eng): default declared on timber (26 Dec 1922) and coal (9 Jan 1923). Troop numbers differ (60,000 to 100,000) and are not given. 'Telegraph poles' was not found on any page: do not draw or say it.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "The German government called for passive resistance and paid the striking workers, financing this by discounting treasury bills at the Reichsbank (new notes)",
+  "units": "25",
+  "source": "https://www.nber.org/chapters/c11452.pdf",
+  "status": "verified",
+  "note": "Sargent, 'The Ends of Four Big Inflations' (NBER): 'The German government was determined to fight the French occupation by a policy of passive resistance,' 'making direct payments to striking workers which were financed by discounting treasury bills with the Reichsbank.' LeMO: 'Für die finanzielle Unterstützung der Streikenden druckten die Notenpressen immer mehr Geldscheine.' 'Berlin' = the Reich government. 'Government IOUs' is the narration's plain word for treasury bills (kept apart from the 'bill' of the last line). 'Answers with' follows Sargent's 'determined to fight the French occupation by a policy of passive resistance'. Passive resistance was called off on 26 September 1923 (Konrad-Adenauer-Stiftung essay by Horst Möller); the narration does not say so.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Firms moved from weekly to daily wage payment and then to payment in the lunch break; at some factory gates workers fetched their pay with handcarts, the notes paid out by the sack. Daily pay was common but not universal",
+  "units": "0,11,12,13",
+  "source": "https://www.bundestag.de/parlament/geschichte/100-jahre-weimar/hyperinflation-970722",
+  "status": "verified",
+  "note": "Bundestag: 'Firmen gingen von wöchentlicher zu täglicher Lohnzahlung über und weiter zur Zahlung in der Mittagspause.' 'Ihren Lohn holten die Arbeiter teilweise mit Leiterwagen vor den Werkstoren ab,' 'um die sackweise ausgezahlten Noten zu den nächstgelegenen Läden zu bringen'. 'teilweise' = 'at some'. Bundesbank: 'in many places wages were being paid daily'; 'People collected notes in bags and suitcases'. Still weekly for many: Kroner, Berliner Illustrirte Zeitung, 26 Aug 1923 (a note 'paid out today as a weekly wage'); Betty Scholem, 15 Oct 1923 ('this week's pay will be 8 billion'); Kuczynski: 'it became unavoidable to pay wages twice a week, and even oftener'. NOT FOUND: pay twice a day; wives waiting at the factory gates; wheelbarrows or laundry baskets in any source better than a photo caption. A Leiterwagen is a small hand-pulled cart: draw that, not a wheelbarrow. The opening's 'wages in a bag' follows the Bundesbank's 'bags and suitcases' (undated; not said of wages): draw the bag scene in autumn, not January. 'Straight to the nearest shops' is the Bundestag's 'zu den nächstgelegenen Läden'. 'Some are still paid by the week' rests on the two instances named here.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "NOT USED in the final narration (cut after the reader's pass; could carry a Short if the Guardian article itself is opened): the story of the thief who stole the basket and left the money was printed by the Guardian in early 1923 as 'a current story in Berlin'",
+  "units": "",
+  "source": "https://www.econlib.org/hyperinflation-in-germany-1921-1923/",
+  "status": "qualified",
+  "note": "Econlib (John Phelan, 2023): 'In early 1923, the *Guardian* reported:' 'There is a current story in Berlin of a woman who went shopping with a basket to carry her paper money.' 'She put it down for a minute, and on looking round found that the basket had been stolen' 'but the paper money left behind!' The Guardian's own article was NOT opened: this is Econlib's quotation of it, hence qualified. In 1923 the paper was the Manchester Guardian; 'a British newspaper' is safe. Fergusson gives the same story unsourced ('There were stories of shoppers who found that thieves had stolen the baskets and suitcases'). No wheelbarrow version was found in any source. Do not show it as an event: it is a story people told.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Dorothea Günther (born 1914, Berlin) remembered her father, a vocational-school teacher, being paid daily; he came home at midday with a briefcase full of banknotes and her mother ran at once to the grocer, who had often just let down the shutters for the lunch break, which he used to change the price tags",
+  "units": "14,15,16",
+  "source": "https://www.dhm.de/lemo/zeitzeugen/dorothea-guenther-die-inflation-1923.html",
+  "status": "qualified",
+  "note": "LeMO eyewitness page, written June 2010: 'Mein Vater, Gewerbeoberlehrer von Beruf, erhielt in dieser Zeit seine Gehaltszahlung täglich.' 'Wenn er mittags mit einer Aktentasche voller Geldscheine nach Hause kam, lief Mutter sofort zum Kaufmann.' 'Oft kam sie enttäuscht wieder, weil der Ladenbesitzer vor ihrer Nase die Rollläden heruntergelassen hatte: Mittagspause!' 'Die nutzte er dann, um die Preisschilder zu ändern.' Qualified because it is a childhood memory written 87 years later. She was about nine (born 1914; byline 'Dorothea Günther (*1914) aus Berlin, Juni 2010'). The byline gives where she lived in 2010; the page does not say where the family lived in 1923 (relatives in Guben are mentioned), so the narration does not say Berlin and the still must not show a Berlin landmark. Not named in the narration. Re-read on 27 Nov in a second pass. LeMO also says shop hours followed the times exchange rates were announced: 'Ladenöffnungszeiten richteten sich nach den Bekanntgabeterminen für aktuelle Wechselkurse.'",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Sebastian Haffner's memoir: his father, a senior Prussian civil servant, was paid monthly in 1923; on payday a monthly underground ticket, cheques for rent and school fees, the whole family to the barber; next morning up at four or five, by taxi to the wholesale market, the month's salary spent within an hour on giant cheeses, whole hams and potatoes by the hundredweight; then no more money for a month",
+  "units": "17,18,19,20,21,82",
+  "source": "https://s8780aaa251a1bae0.jimcontent.com/download/version/1300558477/module/5044389264/name/Haffner_Geschichte_eines_Deutschen.pdf",
+  "status": "qualified",
+  "note": "Haffner, Geschichte eines Deutschen (DVA 2000), ch. 10, read in a full-text PDF: 'Am 31. oder ersten des Monats bekam mein Vater sein Monatsgehalt,' 'eine Monatskarte für die U–Bahn so schnell wie möglich zu kaufen' 'Dann wurden Schecks für die Miete und das Schulgeld ausgestellt,' 'und am Nachmittag ging die ganze Familie zum Friseur.' 'Was übrig blieb, wurde meiner Mutter ausgehändigt' 'um vier oder fünf Uhr früh auf, und fuhr mit dem Taxi zum Großmarkt.' 'innerhalb einer Stunde wurde das Monatsgehalt eines Oberregierungsrates für unverderbliche Speisen ausgegeben.' 'Riesige Käse, ganze Schinken, Kartoffeln zentnerweise wurden in das Taxi geladen.' 'Es gab einen Monat lang kein weiteres Geld.' Qualified for three reasons: a memoir written about 1939; the PDF notes that part of the text was back-translated from the English edition and it could not be confirmed whether this chapter is in that part; and Haffner says everyone 'except my father' went to the market ('auch das Dienstmädchen, nur nicht mein Vater'), so the still must not show the father at the market. The narration paraphrases and does not quote. 'What's left of the month's salary' follows 'Was übrig blieb'. Haffner is not named: he is 'a senior civil servant's son' here and 'the civil servant's son' again at the Rentenmark. 'Next morning' is not in a fragment, so the narration says 'Then up at four or five'. 'In nineteen twenty-three that isn't panic. That's the correct move' is the script's comment, tied to the year.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Victor Klemperer's diary, early August 1923: his wife Eva ordered a coffee in a station waiting room; the price board said 6,000 marks and vanished while she drank; the waiter asked 12,000; she said it had said 6,000; 'Oh, you were here during the old price? Then pay 6,000!'",
+  "units": "27,28,29,30",
+  "source": "https://www.bpb.de/system/files/dokument_pdf/APuZ_2023-04_online_1.pdf",
+  "status": "qualified",
+  "note": "Volker Ullrich, '1923 als Schlüsseljahr für 1933', APuZ 4/2023 (Bundeszentrale für politische Bildung), quoting Klemperer, Tagebücher 1918-1924, p. 725: 'Die Preistafel zeigte 6000 M. Das verschwand, während sie trank.' 'Beim Kassieren verlangte der Kellner 12000.' 'Sie sagte, es hätte doch vorhin dort 6000 gestanden.' 'Ach, Sie waren schon während des alten Preises hier?' 'Dann zahlen Sie 6000!' Ullrich's lead-in: 'Auf der Rückfahrt von ihrem Urlaub an der Ostsee bestellte seine Frau Eva in einem Wartesaal eine Tasse Kaffee:'. Re-read on 27 Nov in a second pass: Ullrich's lead-in is 'Anfang August hielt der an der Technischen Hochschule in Dresden lehrende Romanist Victor Klemperer' 'eine bezeichnende Episode fest:', and his footnote 9 gives 'Tagebücher 1918–1924, S. 725 (2./3.8.1923)'. He says 'in einem Wartesaal' only: no station, so the narration says 'a waiting room' and the still must not show trains. Qualified because the diary itself was not opened: this is a historian quoting it with page and date. 'The scholar' = Romanist teaching at the technical university in Dresden. The waiter's line in the narration is a translation by this studio; keep it out of quotation marks on screen. Other versions of the coffee story (5,000 then 7,000 or 8,000 or 14,000) are unsourced retellings: not used. Ullrich in the same essay: 'stiegen die Preise nicht nur täglich, sondern stündlich.'",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "In August 1923 Reichsbank president Havenstein stated that the bank was issuing 20,000 milliard (20 trillion) marks of new money daily and would raise this to 46,000 milliard (46 trillion) daily the following week",
+  "units": "35",
+  "source": "https://ia601808.us.archive.org/16/items/fergusson-adam-dugdale-when-money-dies_202012/Fergusson%20Adam%20Dugdale%20-%20When%20Money%20Dies.pdf",
+  "status": "qualified",
+  "note": "Adam Fergusson, When Money Dies (1975), ch. 11, quoting the speech of 17 August 1923 'to a Council of State', 'published immediately afterwards': 'today issues 20,000 milliard marks of new money daily, of which 5,000 milliards are in large denominations.' 'In the next week the bank will have increased this to 46,000 milliards daily,' 'The total issue at present amounts to 63,000 milliards.' 'In a few days we shall therefore be able to issue in one day two-thirds of the total circulation.' 20,000 milliard = 20 trillion in American usage. Qualified: an English rendering in a popular history; no German original was opened; which body the 'Council of State' was is not settled, so the narration says 'by one account' and 'a state council'. Havenstein is not named in the narration.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "NOT USED in the final narration (cut for length; fine for a still or the description): in autumn 1923 up to 133 outside firms with 1,783 printing presses worked day and night for the Reich printing office",
+  "units": "",
+  "source": "https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/inflation-1923.html",
+  "status": "verified",
+  "note": "LeMO (Deutsches Historisches Museum): 'Bis zu 133 Fremdfirmen mit 1.783 Druckmaschinen arbeiteten im Herbst 1923 für die Reichsdruckerei Tag und Nacht.' 'Das dafür erforderliche Banknotenpapier wurde von 30 Papierfabriken produziert.' The Bundesbank's 1965 history gives a different count: '84 Druckereien unmittelbar, 60 weitere Druckereien mittelbar', 'Über 30 Papierfabriken', 'rund 10 Milliarden Geldzeichenstücke'. 'Nearly eighteen hundred presses' rounds 1,783. The '300 paper mills, 150 firms, 2,000 presses' figure found only in a textbook supplement citing a popular book: not used.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Some 1923 notes were printed on one side only; a Bundesarchiv press photograph of October 1923 shows the back of a one-million-mark note used as writing paper, because a new pad would cost billions",
+  "units": "36,37",
+  "source": "https://solarspell-dls.sfis.asu.edu/mea/wikipedia/images/2063/206319.jpg.htm",
+  "status": "qualified",
+  "note": "Bundesarchiv Bild 102-00193, October 1923, original caption read on a mirror of the Wikimedia Commons page: 'Findige Leute benutzen die Rückseite des Einmillionenscheines zum Schreiben; ein neuer Block würde Milliarden kosten.' One-sided printing: Bundesbank 1965 captions 'Rückseite unbedruckt' on the 1 Million, 100 Million, 200 Milliarden and 10 Billionen notes; the Bundestag page also says notes were printed on one side. The narration reports the CAPTION ('The caption of a photograph from October says...'), not what the picture shows; whether people are in the photograph is not known. Qualified: one photograph with an agency caption, read on a mirror site, not on the Bundesarchiv's own page. Bild 102 is the press-photo collection of Georg Pahl's agency (stated by the researcher for the companion wallpaper photo; confirm for this one before writing 'press photograph' on screen).",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Käthe Kollwitz's diary, November 1923: a child on the tram, looking at the telegraph wires, asks 'Mother, is that the dollar?'",
+  "units": "77",
+  "source": "https://germanhistorydocs.org/en/weimar-germany-1918-1933/ghdi:document-5412",
+  "status": "verified",
+  "note": "German History in Documents and Images (GHDI), translation from Kollwitz, Die Tagebücher (1989), pp. 543-44, 561-63: 'Mother, is that the dollar?' Same document, 22 Oct 1923: 'the dollar stands at 40 billion, a general strike has been announced for tomorrow, hunger and confusion everywhere.' End of November: 'Hunger! One loaf of bread costs 140 billion!' Re-read on 27 Nov in a second pass: under the heading '[November 1923]', 'Mrs. Kohlrausch is riding the streetcar with her six-year-old child.' 'Outside, the child sees telegraph wires going up and down.' then the question. So it is a story Kollwitz records about an acquaintance's child, not something she saw: the narration says 'writes down a story from the tram'. The same entry has her grandson asking 'How is the dollar doing?'. The city is not named in the fragment. Supporting, not narrated: Curt Riess (GHDI, 1990: waiting 'each day for the announcement of the new dollar exchange rate') and on Erna von Pustau via Fergusson ('We used to say \"The dollar is going up again\"').",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Ernest Hemingway, Toronto Daily Star, 19 September 1922: at Kehl he changed ten francs (about ninety cents Canadian) for 670 marks, which lasted him and his wife a day of heavy spending with 120 marks left",
+  "units": "38,39",
+  "source": "https://germanhistorydocs.org/en/weimar-germany-1918-1933/ernest-hemingway-inflation-stories-1922",
+  "status": "verified",
+  "note": "GHDI full text, 'Crossing to Germany: A Way to Make Money': 'For ten francs I received 670 marks.' 'Ten francs amounted to about ninety cents in Canadian money.' 'That ninety cents lasted Mrs. Hemingway and me for a day of heavy spending' 'and at the end of the day we had one hundred and twenty marks left!' Also: 'a five-course table d'hôte meal for 120 marks, which amounts to 15 cents in our money'; 'The contents of a pastry shop are swept clean in half an hour.' This is September 1922, a year before the peak: the narration says 'Back in September nineteen twenty-two' and 'wrote about', since 19 September is the publication date. 'A day of heavy spending' is three words of his: fine in narration, keep it out of quotation marks on screen unless the full sentence is shown. 'Foreign money holds' is the script's summary of this one border-town report; 'crossing to the border town of Kehl' follows the article's title and its French visitors coming over to Kehl (no fragment says where he changed the money, and the narration no longer says); the cents are Canadian and the narration says so; Bresciani-Turroni notes that foreign buying of houses peaked in the second half of 1922 and that Berlin in February 1923 was dear for many goods (GHDI letters), so do not show foreigners buying streets of houses.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Everyone tried to exchange cash for real goods as fast as possible (flight into real values)",
+  "units": "40,43",
+  "source": "https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/inflation-1923.html",
+  "status": "verified",
+  "note": "LeMO: 'Jedermann versuchte, Bargeld schnellstmöglich in Sachwerte einzutauschen.' Historisches Lexikon Bayerns: 'everyone therefore invested every single received mark in tangible assets as quickly as possible'. LeMO is the online portal of the Deutsches Historisches Museum (German Historical Museum). 'So that's the answer. Things. Food. Coal. Anything but marks' sums up this row and the next two.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Some traders would sell goods and services only in exchange for food and coal (the sentence itself was cut from the narration for length; it supports the 'Food. Coal.' of the answer line)",
+  "units": "43",
+  "source": "https://www.bundesbank.de/en/tasks/topics/inflation-lessons-learnt-from-history-666006",
+  "status": "verified",
+  "note": "Bundesbank, 'Inflation: lessons learnt from history' (2012): 'sell goods and services only in exchange for food and coal'; also 'traders were constantly increasing their prices', 'others closed their businesses altogether'. bpb (https://www.bpb.de/39531): 'traten Naturalien (beispielsweise Lebensmittel, Zigaretten, Kohle) als Zahlungsmittel an die Stelle des Bargeldes.' DHM photograph F 85/526, caption 'Verkauf und Reparaturen im Tausch gegen Lebensmittel, 1923'. If the sentence is restored, say 'Germany's central bank today, looking back' so that it is not heard as the 1923 Reichsbank; 'traders' is the Bundesbank's word. NOT FOUND: cinemas or theatres taking eggs or coal, doctors paid in food: do not draw them.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "More than 5,800 towns, municipalities and firms issued emergency money (Notgeld); some value-stable notes were denominated in rye, wheat, wood, tar, coal, sugar, bacon, electricity and gas",
+  "units": "41,42",
+  "source": "https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/inflation-1923.html",
+  "status": "verified",
+  "note": "LeMO: 'von mehr als 5.800 Städten, Gemeinden und Firmen'; 'mehr als 2.800 verschiedene wertbeständige Geldscheinsorten'; 'Diese Scheine lauteten auf Roggen, Weizen, Holz, Teer, Kohlen, Zucker, Speck, Strom und Gas.' Bundesbank 1965, pp. 85-89: '5849 Ausgabestellen ... Städten, Kreisen, Gemeinden, Post und Eisenbahn'. The narration follows LeMO's list (towns, municipalities and companies) and says 'issue'. Do NOT draw porcelain, leather or silk money as the money of autumn 1923: the DHM dates those collector issues to 1917-22.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Hanke and Krus: Germany's highest monthly inflation rate was 29,500% in October 1923, a daily rate of 20.9%, prices doubling every 3.70 days (wholesale price index)",
+  "units": "54",
+  "source": "https://www.bcci.bg/resources/files/hanke-krus-hyperinflation-table.pdf",
+  "status": "verified",
+  "note": "Hanke-Krus hyperinflation table (Cato Institute working paper, 2012), row read from a PDF copy: 'Germany5 Aug. 1922 Dec. 1923 Oct. 1923 29,500% 20.9% 3.70 days Papiermark Wholesale'. It is the peak MONTH and it is wholesale prices: the narration says both. Germany is fifth in that table; Hungary in 1946 was far faster. Do not call 1923 the worst inflation in history.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Berlin tram, single fare: 70 marks on 2 January 1923; 1.5 billion marks on 27 October 1923",
+  "units": "59",
+  "source": "https://www.statistischebibliothek.de/mir/servlets/MCRFileNodeServlet/DEMonografie_derivate_00001667/WiSta-Sonderheft-01.pdf",
+  "status": "verified",
+  "note": "Reichsamt (1925), official table of Berlin tram fares, read as OCR (rows came back clean): 2 Jan 1923 70 M; 1 Mar 250; 1 Aug 10,000; 20 Aug 100,000; 18 Sep 2 million; 10 Oct 10 million; 20 Oct 100 million; 27 Oct 1.5 billion; 5 Nov 10 billion; 22 Nov to 31 Dec 150 billion. Betty Scholem, 15 Oct: 'The streetcar fare is 20 million (tomorrow it'll be 50!)', which sits between the table's steps. 27 Oct is the date the 1.5 billion fare began; '70 marks in January' is the fare from 2 January. RUN B: confirm both rows on the scan.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Betty Scholem, Berlin, to her son Gershom: 15 October 1923, a normal loaf costs 540 million, 'tomorrow, surely twice as much'; 23 October, 'Bread: 900 million, 2.5 billion, 5.5 billion.' and 'It's lucky we're in the business of printing money.'",
+  "units": "55,56,57",
+  "source": "https://germanhistorydocs.org/en/weimar-germany-1918-1933/betty-scholem-on-the-inflation-october-1923",
+  "status": "verified",
+  "note": "GHDI, from Betty Scholem / Gershom Scholem, A Life in Letters (trans. Skinner), pp. 125-27. 15 Oct: 'The bread ration card has been done away with, and a normal loaf of bread now costs 540 million;' 'tomorrow, surely twice as much.' 23 Oct: 'It's lucky we're in the business of printing money.' 'In three days the dollar has gone from 10 billion, to 18.5 billion, to 40.' 'Bread: 900 million, 2.5 billion, 5.5 billion.' German original (GHDI): 'ein Einheitsbrot heute 540 Millionen, morgen gewiß wieder das doppelte.' 'Das Brot 900 Millionen, 2½ Milliarde, 5½ Milliarde.' 'Billion' in this translation = German Milliarde = 10^9, as in the narration. The family firm was a printing business ('a printer's wife'). The letter does not say over how many days the three bread prices ran: the narration says 'as it climbs', not 'in three days'. In the letter the printing-money sentence comes before the bread prices, as in the narration. 15 to 23 October = eight days; the narration dates the first letter 'Mid-October'. 'In Berlin' is GHDI's heading for the letters.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Lord D'Abernon, British ambassador in Berlin, 21 October 1923: at 60 milliards to the pound, 'approximately equal to one mark for every second which has elapsed since the birth of Christ'; 25 December 1923: 'queues have disappeared from before the shops of butchers and provision merchants'",
+  "units": "58,85",
+  "source": "https://ia601808.us.archive.org/16/items/fergusson-adam-dugdale-when-money-dies_202012/Fergusson%20Adam%20Dugdale%20-%20When%20Money%20Dies.pdf",
+  "status": "qualified",
+  "note": "Fergusson, When Money Dies, re-read on 27 Nov in a second pass (whole text): 'On October 21, after the mark had moved in three days from the 24 milliards to 80 milliards to the pound, Lord' 'D'Abernon noted with some statistical glee that (at 60 milliards) this was' ''approximately equal to one mark for every second which has elapsed since the birth of Christ'.' And p. 126: 'On Christmas Day 1923, Lord D'Abernon wrote of the 'magical wand of Currency Stability':' 'Animals crowd the abattoirs and queues have disappeared from before the shops of butchers and provision merchants.' Qualified: D'Abernon's own text was not found online; Fergusson says 'noted' and 'wrote', not 'diary', so the narration does not say diary. Sixty milliards is the figure he used for the sum, inside a three-day swing from 24 to 80 milliards to the pound: the narration says 'At sixty billion marks to the pound', not that the pound cost that. 'Two days earlier, as one history quotes him': 21 October, two days before Betty Scholem's letter of 23 October; the Christmas Day line inherits the signal. Check: 1,923 years x 31,557,600 seconds = 60.7 billion (this studio's arithmetic). 60 milliards = 60 billion. 'No overnight miracle': Ullrich, 'Das „Wunder der Rentenmark“ trat nicht über Nacht ein.'; Kessler, 4 Dec 1923: 'Man sieht in den Lebensmittelgeschäften wieder vergnügte Käuferinnen.'",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Farmers refused to sell grain for paper marks; there were hunger demonstrations and looting across the country in autumn 1923",
+  "units": "60",
+  "source": "https://bundesbank.de/resource/blob/607868/195d1b540a2053d42fe9f2b735835115/472B63F073F071307366337C94F8C870/das-papiergeld-im-deutschen-reich-data.pdf",
+  "status": "verified",
+  "note": "Bundesbank, Das Papiergeld im Deutschen Reich 1871-1948 (1965), p. 83: 'da die Bauern sich weigerten, Getreide gegen Papiermark zu verkaufen.' Bundestag: 'da Landwirte und Händler ihre Waren zurückhielten.' 'Es kam zu Teuerungsunruhen und Plünderungen im ganzen Land.' bpb (Sturm): 'kam es zu Hungerdemonstrationen und Plünderungen'. The same bpb page records antisemitic riots in Berlin on 5/6 November 1923, set off by a rumour about bread; the narration does not cover them (see the notes for run B: not enough was read to tell that properly in one line).",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Humour with a basis: people bought anything solid, 'bric-a-brac, soap, hairpins', and pianos 'even by unmusical families'",
+  "units": "44",
+  "source": "https://www.pbs.org/wgbh/commandingheights/shared/minitext/ess_germanhyperinflation.html",
+  "status": "qualified",
+  "note": "George Goodman ('Adam Smith'), Paper Money (1981), excerpt on PBS Commanding Heights: 'Pianos, wrote the British historian Adam Fergusson, were bought even by unmusical families.' 'now extended to minor and almost useless items -- bric-a-brac, soap, hairpins.' Two popular books. In the narration these belong to the invented 'you'.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "In Wasserburg am Inn (Bavaria), at the end of September 1923, the local banks announced in newspaper notices that they would no longer process transactions under 50 million marks",
+  "units": "48",
+  "source": "https://www.wasserburg.de/fileadmin/Dateien/Dateien/Stadtarchiv/Vermittlungsarbeit/2013_nr._1.pdf",
+  "status": "verified",
+  "note": "Stadtarchiv Wasserburg am Inn, 'Archivalie des Monats' 01/2013, re-read on 27 Nov in a second pass: 'Ende September inserierten die Wasserburger Geldinstitute und gaben bekannt,' 'dass sie Umsätze unter 50 Millionen Mark nicht mehr bearbeiten würden.' Source line on the sheet: 'Wasserburger Anzeiger vom 30.09.1923.' One town; a limit on transactions, not a statement about balances: 'Your book says ten thousand' is the comparison, and the still must not show a bank closing the account. The town is not named in the narration. The popular story of a bank returning a customer's savings with a note was found only in weak sources and is not used.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Savings were completely devalued, the savings of generations destroyed",
+  "units": "49",
+  "source": "https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/inflation-1923.html",
+  "status": "verified",
+  "note": "LeMO: 'Ersparnisse wurden völlig entwertet, Spargelder von Generationen vernichtet.' Holtfrerich (Wirtschaftsdienst 2023): 'Die Halter von Geldvermögen in Mark verloren alles'. 'Wiped out' is 'völlig entwertet'; the epilogue gives the fraction restored from 1925.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Walter Levy's father took out a twenty-year life insurance policy in 1903; when it came due he cashed it in and bought a single loaf of bread",
+  "units": "50,51",
+  "source": "https://www.pbs.org/wgbh/commandingheights/shared/minitext/ess_germanhyperinflation.html",
+  "status": "qualified",
+  "note": "Goodman, Paper Money (1981), on PBS, quoting the oil consultant Walter Levy about his father: 'It was a 20-year policy, and when it came due, he cashed it in and bought a single loaf of bread.' Re-read on 27 Nov in a second pass: 'and he had taken out an insurance policy in 1903, and every month he had made the payments faithfully.' One man's recollection in a popular book. Levy is not named in the narration.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "People on fixed incomes fared worst; a Berlin letter of 2 February 1923 says that in the writer's house many old ladies lived on small pensions and 'almost every week someone dies of exhaustion'",
+  "units": "52,53",
+  "source": "https://germanhistorydocs.org/en/weimar-germany-1918-1933/ghdi:document-5414",
+  "status": "verified",
+  "note": "GHDI document 5414, letters from Berlin signed 'Wolfgang', re-read on 27 Nov in a second pass; letter headed 'February 2nd, [19]23': 'In our house, where many old ladies live on small pensions,' 'almost every week someone dies of exhaustion – starved to death!!!' The narration gives the sentence in the translator's words up to 'exhaustion'. Fixed incomes: Bresciani-Turroni p. 320, 'They were reduced to the most abject poverty.'; Smithsonian (2023): 'People on fixed incomes like pensions fared worst and had to sell their belongings for food.' 'Dying of exhaustion' is the letter's phrase. Treat with care on screen: no bodies; a building with fewer lit windows is enough.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Germany's internal war debt of 154 billion marks was worth about 15 pfennigs in 1913 purchasing power on the day the Rentenmark was introduced; the state was the biggest winner",
+  "units": "61,62,65",
+  "source": "https://www.bundesbank.de/en/tasks/topics/inflation-lessons-learnt-from-history-666006",
+  "status": "verified",
+  "note": "Bundesbank: 'the sum of all German war debt, valued at 154 billion Mark,' 'dropped to just 15.4 Pfennig on the day the Rentenmark was introduced.' Historisches Lexikon Bayerns: 'the Reich's total internal war debt of 154 billion marks' 'corresponded to a purchasing power of only 15.4 pfennigs' 'calculated in the purchasing power of the pre-war year 1913.' LeMO prints 164 billion and 16,4 Pfennige: the narration says 'about fifteen'. LeMO: 'Ein noch größerer Profiteur war jedoch der Staat.' HLB: 'the big \"winner\" was the state.' The debt was not legally cancelled: the 1925 law converted old government bonds at 25 marks per 1,000 (see the revaluation row). 'War debt at home' = internal war debt. The narration says only that it 'ends up worth' this and that the state owed it. Fifteen pfennigs = fifteen hundredths of a mark (100 pfennigs to the mark; common knowledge, not in a fragment). On screen write 15.4 PFENNIGS (1913 MONEY), not a coin count.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "The beneficiaries were all borrowers (the state, entrepreneurs, farmers); a pre-war loan based on the gold mark could be repaid in 1923 with the same amount of worthless paper money",
+  "units": "66,67,68",
+  "source": "https://www.historisches-lexikon-bayerns.de/Lexikon/EN:Inflation,_1914-1923",
+  "status": "verified",
+  "note": "Helmut Braun, 'Inflation, 1914-1923', Historisches Lexikon Bayerns (English version): 'The beneficiaries of inflation were all borrowers (the state, entrepreneurs, farmers)'; 'a pre-war loan based on the gold mark could now be repaid in 1923 with the same amount of worthless paper money.' Also: farmers could 'get rid of their mortgages that had often burdened generations'. LeMO: 'Schulden lösten sich in nichts auf.' 'A Bavarian historical encyclopedia' = Historisches Lexikon Bayerns. 'Names who gained: the borrowers' keeps to the sentence, which says the beneficiaries were borrowers, not that every borrower gained. From 1924/25 mortgages were revalued at 15% and then 25% (see the revaluation row); the narration says so in the 'win isn't clean' line.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Hans-Georg von der Osten bought an estate neighbouring his own in Pomerania for 4 million marks with a bank loan and repaid it that autumn with the sale of less than half the crop of one potato field (1922)",
+  "units": "69,70",
+  "source": "https://ia601808.us.archive.org/16/items/fergusson-adam-dugdale-when-money-dies_202012/Fergusson%20Adam%20Dugdale%20-%20When%20Money%20Dies.pdf",
+  "status": "qualified",
+  "note": "Fergusson, When Money Dies: 'with a loan from a friendly banker, he bought an estate neighbouring his own property in Pomerania for 4 million marks' 'He paid the debt in the autumn with the sale of less than half the crop of one of his potato fields.' Re-read on 27 Nov in a second pass (p. 64): 'recollects that in February 1922, with a loan from a friendly banker, he bought an estate' 'neighbouring his own property in Pomerania for 4 million marks (then equivalent to about £4,500).' Qualified: his own recollection, retold in a popular history. Four million marks is the PRICE; the narration says he bought it 'for four million marks, on a bank loan'. 'Early in nineteen twenty-two' = February 1922. Not named in the narration ('One story, as it's told').",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "It became a rule of good management to contract as many debts as possible; the Stinnes concern comprised 1,535 companies with 2,888 plants",
+  "units": "71,72",
+  "source": "https://cdn.mises.org/The Economics of Inflation A Study of Currency Depreciation in Post-War Germany_2.pdf",
+  "status": "verified",
+  "note": "Bresciani-Turroni, The Economics of Inflation, p. 294: 'It became one of the rules of good management to contract as many debts as possible:' 'debts which were repaid later with depreciated currency.' LeMO biography (https://www.dhm.de/lemo/biografie/hugo-stinnes.html): 'Der Stinnes-Konzern umfaßt 1.535 Unternehmen mit 2.888 Betriebsstätten von der Rohstofförderung bis zur Fertigproduktion.'; 'gehört er zu den Hauptprofiteuren der Inflation'; died 10 April 1924; 'Schon bald nach seinem Tod beginnt sein riesiges Firmenimperium zu zerfallen.' The year the 1,535 figure belongs to was not returned: do not put a date beside it. Neue Deutsche Biographie gives a different count ('an mehr als 4000 Unternehmen direkt oder indirekt beteiligt'). The narration gives the sentence as a description of 'those years', not as a rule for today: never clip it without that clause. The narration does not say Stinnes built the group by borrowing (do not draw him borrowing, and do not cut the rule and Stinnes into one Short as a pair): it gives the economist's rule, then the museum's judgement ('Hauptprofiteure'), then the count ('comprised more than fifteen hundred companies'). 'Industrialist' is this script's description of the head of a group running 'von der Rohstofförderung bis zur Fertigproduktion'. No employee number was found: do not state one. 'One economist' is Bresciani-Turroni.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Urban landlords shed mortgage debt but lost heavily through rent control: legal rent was based on the rent of 1 July 1914, and in dollars rents fell to one-hundredth or less in 1923",
+  "units": "73",
+  "source": "https://fraser.stlouisfed.org/title/postwar-labor-conditions-germany-4009/fulltext",
+  "status": "verified",
+  "note": "R. R. Kuczynski, Postwar Labor Conditions in Germany (US Bureau of Labor Statistics Bulletin 380, 1925): 'The basis for the calculation of the rent is that paid on July 1, 1914'; 'to one-fiftieth in 1922, and to one one-hundredth or less in 1923'. Graham, Exchange, Prices and Production in Hyper-Inflation, ch. IX note: 'Urban landlords were heavy losers by reason of the rent limitation laws, though they were partly compensated,' 'in some cases, by the elimination of their mortgage indebtedness.' Bresciani-Turroni p. 320: 'rents were reduced to pitifully small figures'. The narration: 'A law in nineteen twenty-five brings back a quarter of an old mortgage's value' (Bresciani-Turroni: 'The normal rate of revaluation of mortgages was raised to 25 per cent of the original gold value'; see the revaluation row; 'normal rate', with a lower one for hardship) and 'city landlords must take the rent of July nineteen fourteen as their base' (supplements were allowed on that base). 'Next to nothing' = one-hundredth or less, in dollars.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "The depreciation of the mark 'transferred immense sums from creditor to debtor'",
+  "units": "74,89,91",
+  "source": "https://mises.org/online-book/exchange-prices-and-production-hyper-inflation/ix-general-effects-inflation-national-income",
+  "status": "verified",
+  "note": "Exchange, Prices, and Production in Hyper-Inflation: Germany, 1920-1923, ch. IX (catalogued as Frank D. Graham, 1930; the chapter page does not print the author, so the narration says 'one study'): 'The practical nullification of contracts calling for future payment of fixed sums of money, such as occurred' 'in Germany through the all but complete loss of value of the mark, transferred immense sums from creditor to debtor.' A savings-bank depositor is a creditor of the bank. On screen, quotation marks only round the exact words 'immense sums from creditor to debtor'. The last line ('It's worth about an eighth of what it says. The rest is the bill for somebody else's debt. And you paid it') is the script's image for this transfer: 'about an eighth' rests on the 1925 revaluation row, and 'you paid it' means the saver bore the loss, not that any payment was made. Same chapter: it was the middle class 'which bore the brunt of the loss'.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Official dollar rate in Berlin: 840 billion marks on 13 November 1923; 2.52 trillion on 15 November; fixed at 4.2 trillion on 20 November",
+  "units": "75,83",
+  "source": "https://cdn.mises.org/The Economics of Inflation A Study of Currency Depreciation in Post-War Germany_2.pdf",
+  "status": "verified",
+  "note": "Bresciani-Turroni p. 24, in words: 13 Nov 840 milliards; 14 Nov 1,260; 15 Nov 2,520; 20 Nov 4,200 milliards; 'the definite fixing of the dollar rate at 4,200 milliards of paper marks closed the story of the depreciation of the mark'. Confirmed by the Reichsamt daily table (p. 10) and by Ullrich ('am 15. stand er bei 2,52 Billionen'; 'Am 20. November konnte der Kurs des Dollars bei 4,2 Billionen stabilisiert werden.'). His 'milliard' = 10^9: 840 milliards = 840 billion; 4,200 milliards = 4.2 trillion. These are OFFICIAL Berlin rates; on the free market in Cologne the dollar stood at 11,700 milliards on 20 November (Bresciani). 'Two and a half trillion' rounds 2.52.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "The highest banknote denominations were 1 to 100 trillion marks; trade-union unemployment was 23.4% in November 1923",
+  "units": "76",
+  "source": "https://bundesbank.de/resource/blob/607868/195d1b540a2053d42fe9f2b735835115/472B63F073F071307366337C94F8C870/das-papiergeld-im-deutschen-reich-data.pdf",
+  "status": "verified",
+  "note": "Bundesbank 1965, p. 43: 'Die höchsten Werte waren Abschnitte von 1 bis 100 Billionen Mark.' German Billion = 10^12 = English trillion (American Numismatic Society, https://numismatics.org/times-of-hyperinflation/: 'In German, a billion is equal to 1,000 billion in English.'). Unemployment: Bresciani-Turroni, Appendix Table X (source Reichsarbeitsblatt), per cent of union members unemployed 1923: Sep 9.9, Oct 19.1, Nov 23.4, Dec 28.2. 23.4% = 'nearly one in four' and it is union members, as the narration says. The source gives no issue date for the highest notes, so the narration says 'of this inflation' and does not date them; the unemployment figure is November's ('This month'). On screen the note reads '100 BILLIONEN MARK' in German or '100 TRILLION MARKS' in English, never '100 billion'.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "8-9 November 1923: Hitler and his followers staged a failed attempt to seize control of the Bavarian state, in Munich",
+  "units": "78",
+  "source": "https://encyclopedia.ushmm.org/content/en/article/the-nazi-party-1",
+  "status": "verified",
+  "note": "United States Holocaust Memorial Museum, Holocaust Encyclopedia: 'On November 8–9, 1923, Hitler and his followers staged a failed attempt to seize control of the Bavarian state.' Britannica: 'On November 8, 1923, Hitler and Ludendorff struck in Munich.' SENSITIVE: see the notes for run B and the message to the owner. No swastika, no salute, no likeness on screen; a date and a place are enough.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "15 November 1923: the Reichsbank stopped discounting treasury bills for the government; the Rentenbank began issuing the Rentenmark; total issue was limited to 3.2 billion Rentenmarks, of which at most 1.2 billion to the government",
+  "units": "81,82",
+  "source": "https://www.nber.org/chapters/c11452.pdf",
+  "status": "verified",
+  "note": "Sargent, Table G4 note: 'A decree of 15 November 1923 discontinued the discounting of treasury bills by the Reichsbank.' Bresciani-Turroni p. 23: 'on that day the discounting of Treasury bills by the Reichsbank ceased'. LeMO currency-reform page (https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/waehrungsreform-1923.html): 'Die Rentenbank begann am 15. November 1923 die Rentenmark als neues Zahlungsmittel herauszugeben.'; 'wurden der Grundbesitz von Landwirtschaft, Industrie und Gewerbe mit einer Hypothek von 3,2 Milliarden Rentenmark belastet.' Sargent: 'binding limits upon both the total volume of Rentenmarks that could be issued, 3.2 billion marks' 'the maximum amount that could be issued to the government, 1.2 billion marks.' Note circulation of the old Reichsbank still tripled by 31 December, and the new Rentenbank could issue up to 1.2 billion Rentenmarks to the government, so the narration says 'That printing press is closed to the state', not that the state got no new money. Haffner (German text, same caution as above): 'Kleine häßlich grau–grüne Scheine mit dem Schriftzug »eine Rentenmark«.' 'A new bank' = the Deutsche Rentenbank (decree of 15 October 1923).",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "20 November 1923: one Rentenmark = one trillion paper marks; one dollar = 4.20 Rentenmarks, the pre-war parity",
+  "units": "83,84",
+  "source": "https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/waehrungsreform-1923.html",
+  "status": "verified",
+  "note": "LeMO: 'Der Wechselkurs einer Rentenmark war mit einer Billion Papiermark festgelegt worden'; 'ein US-Dollar entsprach 4,20 Rentenmark.' Sargent: '1 trillion (10^12) paper marks'. 10^12 = twelve zeros. The official rate on 15 November was still 2.52 trillion, so the trillion-to-one ratio matches the dollar rate only from the 20th, which is where the narration puts it; LeMO's sentence gives no date for the ratio ('war ... festgelegt worden'). Not in the narration: Reichsbank president Rudolf Havenstein died that same day (Neue Deutsche Biographie: '† 20.11.1923 Berlin'); the Reichsmark replaced the Rentenmark's partner currency on 30 August 1924.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Revaluation law of 16 July 1925: mortgages at 25% of their original gold value, payable from 1 January 1932; old government bonds converted at 25 marks of new security per 1,000; savings-bank deposits at a minimum of 12.5% of the gold-mark amount",
+  "units": "87,88,91",
+  "source": "https://cdn.mises.org/The Economics of Inflation A Study of Currency Depreciation in Post-War Germany_2.pdf",
+  "status": "verified",
+  "note": "Bresciani-Turroni pp. 322-325: 'The normal rate of revaluation of mortgages was raised to 25 per cent of the original gold value'; 'payment ... could be demanded after January 1st, 1932'; 'Old securities were converted, at the rate of a new security of 25 marks, for an old one of 1,000 marks;'. Savings, the floor: Karlsruher Zeitung, 15 July 1925, on the Reichstag vote (https://digital.blb-karlsruhe.de/download/pdf/2009066.pdf): a motion 'der den Aufwertungsmindest ,satz von 12 Proz . auf 25 Proz . erhöhen wollte' was defeated; 'Es bleibt somit bei 12 Proz . für die Sparkassenguthaben.' (the OCR drops the half). The half: Oldenburg law gazette, notice of 15 April 1926 (https://digital.lb-oldenburg.de/download/pdf/1380113.pdf), re-read on 27 Nov in a second pass: 'Die Aufwertung der Sparguthaben erfolgt bei allen öffentlichen oldenburgischen Sparkassen' ... 'zu einem Aufwertungssatz von 12^ v. H. des Goldmarkbetrages' (OCR for 12 1/2; later paragraphs read '12 ^ 2' and '12Vs'), a fixed rate for that state's public savings banks. RUN B: the 12.5 rests on two OCR readings that each lose part of the number; find one clean statement before the figure goes on screen. Rates above the floor: Bresciani mentions later savings rates 'between 17 per cent (Berlin) and 29 per cent (Upper Silesia)', so a Berlin saver may have got more than the narration's 1,250 marks ('at least' covers this). Because neither reading is clean, the narration says 'a floor: about an eighth' and 'at least twelve hundred new marks', true at 12% (1,200) or 12.5% (1,250). 'The nineteen twenty-five law' = the Aufwertungsgesetz of 16 July 1925, which the Oldenburg notice cites for savings and which set the mortgage rate; when it was paid out is not known, so the narration gives no date for the payment. The mortgage and bond rates are no longer in the narration (cut for the ear); they are here for the description and stills.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "Nazi Party: 2.6% of the vote in the 1928 Reichstag election; what most contributed to its success was Germany's economic collapse in the Great Depression, which was a deflation with mass unemployment",
+  "units": "79,80",
+  "source": "https://encyclopedia.ushmm.org/content/en/article/the-nazi-party-1",
+  "status": "verified",
+  "note": "USHMM: 'In the 1928 elections for the Reichstag (Germany's parliament), the Nazi Party won only 2.6% of the votes and 12 seats.' 'What most contributed to the Nazi Party's success was Germany's economic collapse during the Great Depression'. Deflation: Redeker, Haffert and Rommel (Delors Centre, 2019): 'fewer than 1 in 25 Germans are aware that the Great Depression was a period of deflation,'. Galofré-Vilà (LSE, https://researchonline.lse.ac.uk/id/eprint/112640), over 500 cities: 'no connection between the traumatic experience of hyperinflation and the electoral success of the Nazis'. Stefan Zweig, The World of Yesterday (1943), read on archive.org. The narration gives the museum's sentence almost word for word, then in a separate sentence of its own 'A different crisis, and a time of falling prices, not rising ones', resting on the Delors Centre paper's 'period of deflation'. It does not date the Depression (no fragment does). Zweig is named for his own claim: 'Nothing ever embittered the German people so much — it is important to remember this —' 'nothing made them so furious with hate and so ripe for Hitler as the inflation.' Nothing in the narration or on screen may say the inflation played no part: the museum says 'most', not 'only'. 1923 to 1928 = five years; 'Reichstag election' is the museum's. SENSITIVE, as above: the putsch line, the Zweig line and the museum line travel together or not at all; none of them goes in a Short.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "NOT USED in the final narration (cut for length): Haffert, Redeker and Rommel (2021): many Germans do not distinguish between the hyperinflation and the Great Depression but see them as two dimensions of the same crisis",
+  "units": "",
+  "source": "https://econpapers.repec.org/RePEc:bla:ecopol:v:33:y:2021:i:3:p:664-686",
+  "status": "verified",
+  "note": "Abstract of 'Misremembering Weimar: Hyperinflation, the Great Depression, and German collective economic memory', Economics & Politics 33(3), 2021: 'Using original survey data, we show that many Germans do not distinguish between hyperinflation' 'and the Great Depression, but see them as two dimensions of the same crisis.' Only the abstract was read.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "The opening scene: queues formed outside shops in Berlin in 1923, and by autumn prices rose within the day",
+  "units": "0,2",
+  "source": "https://germanhistorydocs.org/en/weimar-germany-1918-1933/friedrich-kroner-overwrought-nerves-1923",
+  "status": "verified",
+  "note": "Friedrich Kroner, 'Overwrought Nerves', Berliner Illustrirte Zeitung, 26 August 1923 (GHDI): 'lines of shoppers once more form in front of shops,'; a new banknote 'shrinks in value on the way to the grocer's shop.'; 'Rice, 80,000 marks a pound yesterday, costs 160,000 marks today'. Ullrich: prices rose 'nicht nur täglich, sondern stündlich'. Morgan Philips Price, Daily Herald, 18 Oct 1923 (GHDI): 'It cost me at ten o'clock this morning so much, and at five o'clock this afternoon so much'. Bundesarchiv Bild 146-1971-109-42 is a 1923 queue at a Berlin food shop. 'By autumn the price at five o'clock is not the price at ten' follows Price's sentence of 18 October. The queue the invented 'you' stands in is a scene, not a documented event; no source says a bakery changed its price while a particular queue waited, and the narration no longer says so.",
+  "checked": "2026-11-27"
+ },
+ {
+  "claim": "On screen only: drawing conventions and names",
+  "units": "",
+  "source": "(drawing conventions)",
+  "status": "qualified",
+  "note": "For run B. The 'you', the savings book, the flat and the queue are invented and the description must say so. Unnamed in the narration but real: Dorothea Günther (the teacher's daughter), Sebastian Haffner (the civil servant's son), Rudolf Havenstein (the central bank's president), Walter Levy's father (the life insurance), 'Wolfgang' (the February letter), Hans-Georg von der Osten (the Pomeranian landowner), Bresciani-Turroni ('one economist'), Frank D. Graham ('one study'; authorship not verified on the page), Lord D'Abernon (the British ambassador), Mrs Kohlrausch's child (Kollwitz's tram story), Wasserburg am Inn (the Bavarian town). If a name goes on screen it must be one of these, spelt as here. German number words: Milliarde = billion, Billion = trillion; every on-screen number must use the same scale as the narration. A corner chip can carry the date and the dollar rate, but only on the dates in the fact table (monthly averages for Dec 1922 and Jul 1923, and Jan and Jun 1923 from the same row though not narrated; 13, 15, 20 Nov); between them let the counter spin without stopping on a figure. The bread counter may show 40 kg (Jan), 7 (Jun), 2.9 (Jul), 0.145 (Aug), '6 or 7 g' (Sep) and nothing else.",
+  "checked": "2026-11-27"
+ }
+]
